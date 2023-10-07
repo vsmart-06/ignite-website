@@ -5,7 +5,7 @@ import "dart:html";
 
 AppBar? getTopBar(BuildContext context) {
   try{
-  if(MediaQuery.of(context).orientation==Orientation.landscape){
+  if(MediaQuery.of(context).orientation==Orientation.landscape) {
     return AppBar(
       automaticallyImplyLeading: false,
       backgroundColor: Colors.grey[900],
@@ -44,8 +44,8 @@ AppBar? getTopBar(BuildContext context) {
                     navPath: "/registrations"
                   ),
                   HeaderButton(
-                    name: "Event",
-                    navPath: "/resources"
+                    name: "Events",
+                    navPath: "/events"
                   ), 
                   HeaderButton(
                     name: "Merchandise",
