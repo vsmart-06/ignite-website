@@ -4,6 +4,10 @@ import 'package:ignite_2023/pages/cultural_page.dart';
 import "package:ignite_2023/pages/events_choice.dart";
 import "package:ignite_2023/pages/sports_page.dart";
 import "package:ignite_2023/pages/event_general.dart";
+import "package:ignite_2023/pages/about_page.dart";
+import "package:ignite_2023/pages/registrations_page.dart";
+import "package:ignite_2023/pages/registrations_cultural.dart";
+import "package:ignite_2023/pages/registrations_sports.dart";
 
 void main() {
   runApp(
@@ -13,7 +17,11 @@ void main() {
         "/": (context) => const Home(),
 
         "/events": (context) => CultSport(),
-        "/about": (context) => CultSport(),
+        "/about": (context) => About(),
+        
+        "/registrations": (context) => RegChoice(),
+        "/sports_registrations": (context) => RegistrationsSports(),
+        "/cultural_registrations": (context) => RegistrationsCultural(),
 
         "/cultural": (context) => Cultural(),
         "/sports": (context) => Sports(),
