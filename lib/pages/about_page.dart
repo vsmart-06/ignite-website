@@ -3,7 +3,7 @@ import "package:flutter/material.dart";
 import "package:google_fonts/google_fonts.dart";
 import "package:ignite_2023/widgets/footer.dart";
 import "package:ignite_2023/widgets/navigation_bar.dart";
-import "package:ignite_2023/widgets/sponsor.dart";
+import 'package:ignite_2023/widgets/item_card.dart';
 
 class About extends StatefulWidget {
   const About({super.key});
@@ -37,9 +37,9 @@ class _AboutState extends State<About> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Sponsor(logo: "https://i.imgur.com/utM2H4D.png", name: "Name", subheader: "Hello World",),
-                    Sponsor(logo: "https://i.imgur.com/utM2H4D.png", name: "Mr. Beast", subheader: "Hello World",),
-                    Sponsor(logo: "https://i.imgur.com/utM2H4D.png", name: "Pizza Hut", subheader: "Hello World",),
+                    ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Name", description: "Hello World",),
+                    ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Mr. Beast", description: "Hello World",),
+                    ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Pizza Hut", description: "Hello World",),
                   ],
                 ),
                 Padding(
@@ -100,11 +100,11 @@ class _AboutState extends State<About> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Sponsor(logo: "https://i.imgur.com/utM2H4D.png", name: "Name", subheader: "Hello World",),
-                    Sponsor(logo: "https://i.imgur.com/utM2H4D.png", name: "Mr. Beast", subheader: "Hello World",),
-                    Sponsor(logo: "https://i.imgur.com/utM2H4D.png", name: "Pizza Hut", subheader: "Hello World",),
-                    Sponsor(logo: "https://i.imgur.com/utM2H4D.png", name: "Pizza Hut", subheader: "Hello World",),
-                    Sponsor(logo: "https://i.imgur.com/utM2H4D.png", name: "Pizza Hut", subheader: "Hello World",),
+                    ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Name", description: "Hello World",),
+                    ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Mr. Beast", description: "Hello World",),
+                    ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Pizza Hut", description: "Hello World",),
+                    ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Pizza Hut", description: "Hello World",),
+                    ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Pizza Hut", description: "Hello World",),
                   ],
                 ),
               ),

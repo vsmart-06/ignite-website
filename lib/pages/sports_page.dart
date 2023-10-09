@@ -52,10 +52,12 @@ class _SportsState extends State<Sports> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
+                              inSite: true,
                               imagePath: 'https://i.imgur.com/utM2H4D.png',
                               websitePath: "/basketball",
                               name: "Basketball"),
                             EventsButton(
+                              inSite: true,
                               imagePath: 'https://i.imgur.com/utM2H4D.png',
                               websitePath: "/football",
                               name: "Football"),
@@ -65,10 +67,12 @@ class _SportsState extends State<Sports> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
+                              inSite: true,
                               imagePath: 'https://i.imgur.com/utM2H4D.png',
                               websitePath: "/hockey",
                               name: "Hockey"),
                             EventsButton(
+                              inSite: true,
                               imagePath: 'https://i.imgur.com/utM2H4D.png',
                               websitePath: "/badminton",
                               name: "Badminton"),
@@ -78,10 +82,12 @@ class _SportsState extends State<Sports> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
+                              inSite: true,
                               imagePath: 'https://i.imgur.com/utM2H4D.png',
                               websitePath: "/tennis",
                               name: "Tennis"),
                             EventsButton(
+                              inSite: true,
                               imagePath: 'https://i.imgur.com/utM2H4D.png',
                               websitePath: "/table_tennis",
                               name: "Table Tennis"),
@@ -91,10 +97,12 @@ class _SportsState extends State<Sports> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
+                              inSite: true,
                               imagePath: 'https://i.imgur.com/utM2H4D.png',
                               websitePath: "/swimming",
                               name: "Swimming"),
                             EventsButton(
+                              inSite: true,
                               imagePath: 'https://i.imgur.com/utM2H4D.png',
                               websitePath: "/relay",
                               name: "Relay"),
@@ -104,10 +112,12 @@ class _SportsState extends State<Sports> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
+                              inSite: true,
                             imagePath: 'https://i.imgur.com/utM2H4D.png',
                             websitePath: "/chess",
                             name: "Chess"),
                             EventsButton(
+                              inSite: true,
                             imagePath: 'https://i.imgur.com/utM2H4D.png',
                             websitePath: "/squash",
                             name: "Squash"),
@@ -117,6 +127,7 @@ class _SportsState extends State<Sports> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
+                              inSite: true,
                             imagePath: 'https://i.imgur.com/utM2H4D.png',
                             websitePath: "/flag_football",
                             name: "Flag Football"),
@@ -166,18 +177,22 @@ class _SportsState extends State<Sports> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           EventsButton(
+                              inSite: true,
                             imagePath: 'https://i.imgur.com/utM2H4D.png',
                             websitePath: "/basketball",
                             name: "Basketball"),
                           EventsButton(
+                              inSite: true,
                             imagePath: 'https://i.imgur.com/utM2H4D.png',
                             websitePath: "/football",
                             name: "Football"),
                           EventsButton(
+                              inSite: true,
                             imagePath: 'https://i.imgur.com/utM2H4D.png',
                             websitePath: "/hockey",
                             name: "Hockey"),
                           EventsButton(
+                              inSite: true,
                             imagePath: 'https://i.imgur.com/utM2H4D.png',
                             websitePath: "/badminton",
                             name: "Badminton"),
@@ -187,19 +202,23 @@ class _SportsState extends State<Sports> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           EventsButton(
+                              inSite: true,
                             imagePath: 'https://i.imgur.com/utM2H4D.png',
                             websitePath: "/tennis",
                             name: "Tennis"),
                           EventsButton(
+                              inSite: true,
                             imagePath: 'https://i.imgur.com/utM2H4D.png',
                             websitePath: "/table_tennis",
                             name: "Table Tennis"
                             ),
                           EventsButton(
+                              inSite: true,
                             imagePath: 'https://i.imgur.com/utM2H4D.png',
                             websitePath: "/swimming",
                             name: "Swimming"),
                           EventsButton(
+                              inSite: true,
                             imagePath: 'https://i.imgur.com/utM2H4D.png',
                             websitePath: "/relay",
                             name: "Relay"),
@@ -209,14 +228,17 @@ class _SportsState extends State<Sports> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           EventsButton(
+                              inSite: true,
                             imagePath: 'https://i.imgur.com/utM2H4D.png',
                             websitePath: "/chess",
                             name: "Chess"),
                           EventsButton(
+                              inSite: true,
                             imagePath: 'https://i.imgur.com/utM2H4D.png',
                             websitePath: "/squash",
                             name: "Squash"),
                           EventsButton(
+                              inSite: true,
                             imagePath: 'https://i.imgur.com/utM2H4D.png',
                             websitePath: "/flag_football",
                             name: "Flag Football"),

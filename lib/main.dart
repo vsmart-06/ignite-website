@@ -8,6 +8,7 @@ import "package:ignite_2023/pages/about_page.dart";
 import "package:ignite_2023/pages/registrations_page.dart";
 import "package:ignite_2023/pages/registrations_cultural.dart";
 import "package:ignite_2023/pages/registrations_sports.dart";
+import "package:ignite_2023/pages/merchandise_page.dart";
 
 void main() {
   runApp(
@@ -17,9 +18,11 @@ void main() {
         "/": (context) => const Home(),
 
         "/events": (context) => CultSport(),
-        "/about": (context) => About(),
+        "/about": (context) => const About(),
         
         "/registrations": (context) => RegChoice(),
+        "/merchandise": (context) => const Merchandise(),
+        
         "/sports_registrations": (context) => RegistrationsSports(),
         "/cultural_registrations": (context) => RegistrationsCultural(),
 

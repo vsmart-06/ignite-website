@@ -2,12 +2,14 @@
 
 import 'package:flutter/material.dart';
 import "package:google_fonts/google_fonts.dart";
+import "dart:html";
 
 class EventsButton extends StatefulWidget {
   final String imagePath;
   final String websitePath;
-  String name;
-  EventsButton({required this.imagePath, required this.websitePath, required this.name});
+  final String name;
+  final bool inSite;
+  EventsButton({required this.imagePath, required this.websitePath, required this.name, required this.inSite});
   @override
   _EventsButtonState createState() => _EventsButtonState();
 }
@@ -44,7 +46,14 @@ class _EventsButtonState extends State<EventsButton> with SingleTickerProviderSt
         color: cardColor.value,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
         child: TextButton(
-          onPressed: () {Navigator.pushNamed(context, widget.websitePath);},
+          onPressed: () {
+            if (widget.inSite) {
+              Navigator.pushNamed(context, widget.websitePath);
+            }
+            else {
+              window.open(widget.websitePath, "External Link");
+            }
+          },
           onHover: (event) {
             hoverAnimation(event);
           },

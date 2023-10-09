@@ -3,24 +3,22 @@
 import "package:flutter/material.dart";
 import "package:google_fonts/google_fonts.dart";
 
-class Sponsor extends StatefulWidget {
+class ItemCard extends StatefulWidget {
   String? logo;
   String? name;
-  String? subheader;
   String? description;
 
-  Sponsor(
+  ItemCard(
       {super.key,
       required this.logo,
       required this.name,
-      this.description,
-      required this.subheader});
+      required this.description});
 
   @override
-  State<Sponsor> createState() => _SponsorState();
+  State<ItemCard> createState() => _ItemCardState();
 }
 
-class _SponsorState extends State<Sponsor> with SingleTickerProviderStateMixin {
+class _ItemCardState extends State<ItemCard> with SingleTickerProviderStateMixin {
 
   late AnimationController animationController;
   late Animation color_animation;
@@ -48,7 +46,7 @@ class _SponsorState extends State<Sponsor> with SingleTickerProviderStateMixin {
     if (hover) {
       animationController.forward();
       cardText = [Text(
-              widget.subheader!,
+              widget.description!,
               style: TextStyle(fontSize: 20, color: Colors.white, fontFamily: fontMain),
             ),];
     }

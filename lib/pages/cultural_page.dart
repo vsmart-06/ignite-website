@@ -58,10 +58,12 @@ class _CulturalState extends State<Cultural> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/battle_of_the_bands",
                                 name: "Battle of\nthe Bands"),
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/karaoke",
                                 name: "Riff Off/\nKaraoke"),
@@ -71,10 +73,12 @@ class _CulturalState extends State<Cultural> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/dance_roulette",
                                 name: "Dance\nRoulette"),
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/silver_screen",
                                 name: "Silver\nScreen"),
@@ -84,10 +88,12 @@ class _CulturalState extends State<Cultural> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/thespian_of_melody",
                                 name: "Thespian of\nMelody"),
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/icons_and_imitations",
                                 name: "Icons and\nImitations"),
@@ -97,10 +103,12 @@ class _CulturalState extends State<Cultural> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/metamorphosis",
                                 name: "Metamorphosis"),
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/kryptos_visos",
                                 name: "Kryptos\nVisos"),
@@ -110,10 +118,12 @@ class _CulturalState extends State<Cultural> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/dyed_in_crimson",
                                 name: "Dyed in\nCrimson"),
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/dealers_choice",
                                 name: "Dealer's\nChoice"),
@@ -123,10 +133,12 @@ class _CulturalState extends State<Cultural> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/shoot_your_shot",
                                 name: "Shoot your\nShot"),
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/respawn",
                                 name: "Respawn"),
@@ -136,6 +148,7 @@ class _CulturalState extends State<Cultural> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/capture_the_flag",
                                 name: "Capture\nThe Flag"),
@@ -182,22 +195,27 @@ class _CulturalState extends State<Cultural> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               EventsButton(
+                              inSite: true,
                                   imagePath: 'https://i.imgur.com/utM2H4D.png',
                                   websitePath: "/battle_of_the_bands",
                                   name: "Battle of\nthe Bands"),
                               EventsButton(
+                              inSite: true,
                                   imagePath: 'https://i.imgur.com/utM2H4D.png',
                                   websitePath: "/karaoke",
                                   name: "Riff Off/\nKaraoke"),
                               EventsButton(
+                              inSite: true,
                                   imagePath: 'https://i.imgur.com/utM2H4D.png',
                                   websitePath: "/dance_roulette",
                                   name: "Dance\nRoulette"),
                               EventsButton(
+                              inSite: true,
                                   imagePath: 'https://i.imgur.com/utM2H4D.png',
                                   websitePath: "/silver_screen",
                                   name: "Silver\nScreen"),
                               EventsButton(
+                              inSite: true,
                                   imagePath: 'https://i.imgur.com/utM2H4D.png',
                                   websitePath: "/thespian_of_melody",
                                   name: "Thespian\nof Melody"),
@@ -208,22 +226,27 @@ class _CulturalState extends State<Cultural> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/icons_and_imitations",
                                 name: "Icons and\nImitations"),
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/metamorphosis",
                                 name: "Metamorphosis"),
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/kryptos_visos",
                                 name: "Kryptos\nVisos"),
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/dyed_in_crimson",
                                 name: "Dyed in\nCrimson"),
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/dealers_choice",
                                 name: "Dealer's\nChoice"),
@@ -233,14 +256,17 @@ class _CulturalState extends State<Cultural> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/shoot_your_shot",
                                 name: "Shoot your\nShot"),
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/respawn",
                                 name: "Respawn"),
                             EventsButton(
+                              inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
                                 websitePath: "/capture_the_flag",
                                 name: "Capture\nThe Flag"),

@@ -51,10 +51,12 @@ class _CultSportState extends State<CultSport> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           EventsButton(
+                              inSite: true,
                             imagePath: 'https://i.imgur.com/utM2H4D.png',
                             websitePath: "/cultural",
                             name: "Cultural"),
                           EventsButton(
+                              inSite: true,
                             imagePath: 'https://i.imgur.com/utM2H4D.png',
                             websitePath: "/sports",
                             name: "Sports"),
