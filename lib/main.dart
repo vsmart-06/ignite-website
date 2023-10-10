@@ -103,7 +103,7 @@ void main() {
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Kryptos Visos",
-            about: "About Me",
+            about: "Mystique meets creativity and imagination as a face is transformed into a colorful canvas over two days. Villains are crucial to a story - for every Batman there is a Joker, for every Jekyll there's a Hyde. Pick up your brushes and palettes and represent these complex, often misunderstood antagonists in round 1. Compete with artists all over Bangalore to make it into round 2, where a new theme and a few surprises are waiting for you.",
             timings: "Now"),
     "/events/cultural/dyed_in_crimson": (context) => EventGeneral(
             eventHeads: const [
