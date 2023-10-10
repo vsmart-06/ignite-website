@@ -33,7 +33,7 @@ class _AboutState extends State<About> {
             controller: scroller,
             child: Column(
               children: [
-                Text("Ignite's Sponsors", style: TextStyle(fontSize: 50, color: Colors.white, fontFamily: fontMain),),
+                Text("IGNITE's Sponsors", style: TextStyle(fontSize: 50, color: Colors.white, fontFamily: fontMain),),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -94,7 +94,7 @@ class _AboutState extends State<About> {
         backgroundColor: Colors.black,
         body: Column(
           children: [
-            Text("Ignite's Sponsors", style: TextStyle(fontSize: 50, color: Colors.white, fontFamily: fontMain),),
+            Text("IGNITE's Sponsors", style: TextStyle(fontSize: 50, color: Colors.white, fontFamily: fontMain),),
             Expanded(
               child: SingleChildScrollView(
                 child: Column(

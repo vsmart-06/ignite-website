@@ -38,7 +38,7 @@ class _CulturalState extends State<Cultural> {
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: Text(
-                  "Events",
+                  "Cultural Events",
                   style: TextStyle(
                       color: Colors.white, fontSize: 35, fontFamily: titleFont),
                 ),
@@ -60,12 +60,12 @@ class _CulturalState extends State<Cultural> {
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/battle_of_the_bands",
+                                websitePath: "/events/cultural/battle_of_the_bands",
                                 name: "Battle of\nthe Bands"),
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/karaoke",
+                                websitePath: "/events/cultural/karaoke",
                                 name: "Riff Off/\nKaraoke"),
                           ],
                         ),
@@ -75,12 +75,12 @@ class _CulturalState extends State<Cultural> {
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/dance_roulette",
+                                websitePath: "/events/cultural/dance_roulette",
                                 name: "Dance\nRoulette"),
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/silver_screen",
+                                websitePath: "/events/cultural/silver_screen",
                                 name: "Silver\nScreen"),
                           ],
                         ),
@@ -90,12 +90,12 @@ class _CulturalState extends State<Cultural> {
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/thespian_of_melody",
+                                websitePath: "/events/cultural/thespian_of_melody",
                                 name: "Thespian of\nMelody"),
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/icons_and_imitations",
+                                websitePath: "/events/cultural/icons_and_imitations",
                                 name: "Icons and\nImitations"),
                           ],
                         ),
@@ -105,12 +105,12 @@ class _CulturalState extends State<Cultural> {
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/metamorphosis",
+                                websitePath: "/events/cultural/metamorphosis",
                                 name: "Metamorphosis"),
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/kryptos_visos",
+                                websitePath: "/events/cultural/kryptos_visos",
                                 name: "Kryptos\nVisos"),
                           ],
                         ),
@@ -120,12 +120,12 @@ class _CulturalState extends State<Cultural> {
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/dyed_in_crimson",
+                                websitePath: "/events/cultural/dyed_in_crimson",
                                 name: "Dyed in\nCrimson"),
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/dealers_choice",
+                                websitePath: "/events/cultural/dealers_choice",
                                 name: "Dealer's\nChoice"),
                           ],
                         ),
@@ -135,12 +135,12 @@ class _CulturalState extends State<Cultural> {
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/shoot_your_shot",
+                                websitePath: "/events/cultural/shoot_your_shot",
                                 name: "Shoot your\nShot"),
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/respawn",
+                                websitePath: "/events/cultural/respawn",
                                 name: "Respawn"),
                           ],
                         ),
@@ -150,7 +150,7 @@ class _CulturalState extends State<Cultural> {
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/capture_the_flag",
+                                websitePath: "/events/cultural/capture_the_flag",
                                 name: "Capture\nThe Flag"),
                           ],
                         )
@@ -174,7 +174,7 @@ class _CulturalState extends State<Cultural> {
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: Text(
-                  "Events",
+                  "Cultural Events",
                   style: TextStyle(
                       color: Colors.white, fontSize: 35, fontFamily: titleFont),
                 ),
@@ -197,27 +197,27 @@ class _CulturalState extends State<Cultural> {
                               EventsButton(
                               inSite: true,
                                   imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                  websitePath: "/battle_of_the_bands",
+                                  websitePath: "/events/cultural/battle_of_the_bands",
                                   name: "Battle of\nthe Bands"),
                               EventsButton(
                               inSite: true,
                                   imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                  websitePath: "/karaoke",
+                                  websitePath: "/events/cultural/karaoke",
                                   name: "Riff Off/\nKaraoke"),
                               EventsButton(
                               inSite: true,
                                   imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                  websitePath: "/dance_roulette",
+                                  websitePath: "/events/cultural/dance_roulette",
                                   name: "Dance\nRoulette"),
                               EventsButton(
                               inSite: true,
                                   imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                  websitePath: "/silver_screen",
+                                  websitePath: "/events/cultural/silver_screen",
                                   name: "Silver\nScreen"),
                               EventsButton(
                               inSite: true,
                                   imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                  websitePath: "/thespian_of_melody",
+                                  websitePath: "/events/cultural/thespian_of_melody",
                                   name: "Thespian\nof Melody"),
                             ],
                           ),
@@ -228,27 +228,27 @@ class _CulturalState extends State<Cultural> {
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/icons_and_imitations",
+                                websitePath: "/events/cultural/icons_and_imitations",
                                 name: "Icons and\nImitations"),
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/metamorphosis",
+                                websitePath: "/events/cultural/metamorphosis",
                                 name: "Metamorphosis"),
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/kryptos_visos",
+                                websitePath: "/events/cultural/kryptos_visos",
                                 name: "Kryptos\nVisos"),
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/dyed_in_crimson",
+                                websitePath: "/events/cultural/dyed_in_crimson",
                                 name: "Dyed in\nCrimson"),
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/dealers_choice",
+                                websitePath: "/events/cultural/dealers_choice",
                                 name: "Dealer's\nChoice"),
                           ],
                         ),
@@ -258,17 +258,17 @@ class _CulturalState extends State<Cultural> {
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/shoot_your_shot",
+                                websitePath: "/events/cultural/shoot_your_shot",
                                 name: "Shoot your\nShot"),
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/respawn",
+                                websitePath: "/events/cultural/respawn",
                                 name: "Respawn"),
                             EventsButton(
                               inSite: true,
                                 imagePath: 'https://i.imgur.com/utM2H4D.png',
-                                websitePath: "/capture_the_flag",
+                                websitePath: "/events/cultural/capture_the_flag",
                                 name: "Capture\nThe Flag"),
                           ],
                         ),

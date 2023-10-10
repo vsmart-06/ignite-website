@@ -70,7 +70,8 @@ class _EventsButtonState extends State<EventsButton> with SingleTickerProviderSt
                   fontSize: 30,
                   color: Colors.white,
                   fontFamily: font
-                )
+                ),
+                textAlign: TextAlign.center,
               )
             ],
           ),

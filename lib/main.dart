@@ -10,52 +10,252 @@ import "package:ignite_2023/pages/registrations_cultural.dart";
 import "package:ignite_2023/pages/registrations_sports.dart";
 import "package:ignite_2023/pages/merchandise_page.dart";
 
+import "package:ignite_2023/dyed_in_crimson_pages/dic_home.dart";
+
 void main() {
-  runApp(
-    MaterialApp(
-      title: "Ignite 2023",
-      routes: {
-        "/": (context) => const Home(),
+  runApp(MaterialApp(title: "IGNITE 2023", routes: {
+    "/": (context) => const Home(),
+    "/events": (context) => CultSport(),
+    "/merchandise": (context) => const Merchandise(),
+    "/registrations": (context) => RegChoice(),
+    "/about": (context) => const About(),
 
-        "/events": (context) => CultSport(),
-        "/about": (context) => const About(),
-        
-        "/registrations": (context) => RegChoice(),
-        "/merchandise": (context) => const Merchandise(),
-        
-        "/sports_registrations": (context) => RegistrationsSports(),
-        "/cultural_registrations": (context) => RegistrationsCultural(),
+    "/events/cultural": (context) => Cultural(),
+    "/events/sports": (context) => Sports(),
 
-        "/cultural": (context) => Cultural(),
-        "/sports": (context) => Sports(),
-        
-        "/battle_of_the_bands": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/karaoke": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/dance_roulette": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/silver_screen": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/thespian_of_melody": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/icons_and_imitations": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/metamorphosis": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/kryptos_visos": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/dyed_in_crimson": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/dealers_choice": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/shoot_your_shot": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/respawn": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/capture_the_flag": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
+    "/registrations/sports": (context) => RegistrationsSports(),
+    "/registrations/cultural": (context) => RegistrationsCultural(),
+    "/events/cultural/dyed_in_crimson/home": (context) => DICHome(),
 
-        
-        "/basketball": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/football": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/hockey": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/badminton": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/tennis": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/table_tennis": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/swimming": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/relay": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/chess": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/squash": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-        "/flag_football": (context) => EventGeneral(eventHeads: ["https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png", "https://i.imgur.com/utM2H4D.png"], logo: "https://i.imgur.com/utM2H4D.png", title: "Title", about: "About Me", timings: "Now"),
-      }
-    )
-  );
+    "/events/cultural/battle_of_the_bands": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/cultural/karaoke": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/cultural/dance_roulette": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/cultural/silver_screen": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/cultural/thespian_of_melody": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/cultural/icons_and_imitations": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/cultural/metamorphosis": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/cultural/kryptos_visos": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/cultural/dyed_in_crimson": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/cultural/dealers_choice": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/cultural/shoot_your_shot": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/cultural/respawn": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/cultural/capture_the_flag": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/sports/basketball": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/sports/football": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/sports/hockey": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/sports/badminton": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/sports/tennis": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/sports/table_tennis": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/sports/relay": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/sports/chess": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/sports/squash": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+    "/events/sports/flag_football": (context) => EventGeneral(
+            eventHeads: const [
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png",
+              "https://i.imgur.com/utM2H4D.png"
+            ],
+            logo: "https://i.imgur.com/utM2H4D.png",
+            title: "Title",
+            about: "About Me",
+            timings: "Now"),
+  }));
 }

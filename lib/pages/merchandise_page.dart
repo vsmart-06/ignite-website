@@ -22,7 +22,7 @@ class _MerchandiseState extends State<Merchandise> {
       backgroundColor: Colors.black,
       body: Column(
         children: [
-          Text("Ignite's Merchandise", style: TextStyle(fontSize: 50, color: Colors.white, fontFamily: fontMain),),
+          Text("IGNITE's Merchandise", style: TextStyle(fontSize: 50, color: Colors.white, fontFamily: fontMain),),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [

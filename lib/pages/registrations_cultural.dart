@@ -38,7 +38,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: Text(
-                  "Events",
+                  "Cultural Registrations",
                   style: TextStyle(
                       color: Colors.white, fontSize: 35, fontFamily: titleFont),
                 ),
@@ -174,7 +174,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: Text(
-                  "Events",
+                  "Cultural Registrations",
                   style: TextStyle(
                       color: Colors.white, fontSize: 35, fontFamily: titleFont),
                 ),

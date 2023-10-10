@@ -132,7 +132,7 @@ class _HomeState extends State<Home> {
                               height: MediaQuery.of(context).size.height*0.4,),
                             ),
                             Text(
-                              "Ignite 2023",
+                              "IGNITE 2023",
                               style: TextStyle(
                                   color: Colors.white,
                                   fontFamily: font,

@@ -34,11 +34,9 @@ AppBar? getTopBar(BuildContext context) {
                     Navigator.popAndPushNamed(context, "/");
                   },
                 ),
-                HeaderButton(name: "Home", navPath: "/"),
-                HeaderButton(name: "Events", navPath: "/events"),
-                HeaderButton(name: "Registrations", navPath: "/registrations"),
-                HeaderButton(name: "Merchandise", navPath: "/merchandise"),
-                HeaderButton(name: "About", navPath: "/about"),
+                HeaderButton(name: "Home", navPath: "/dyed_in_crimson/home"),
+                HeaderButton(name: "Characters", navPath: "/dyed_in_crimson/characters"),
+                HeaderButton(name: "Hourly", navPath: "/dyed_in_crimson/events"),
               ],
             ),
           ),
@@ -92,47 +90,27 @@ Drawer getDrawer(BuildContext context) {
                 TextStyle(color: Colors.white, fontFamily: font, fontSize: 20),
           ),
           onTap: () {
-            Navigator.popAndPushNamed(context, "/");
+            Navigator.popAndPushNamed(context, "/dyed_in_crimson/home");
           },
         ),
         ListTile(
           title: Text(
-            "About",
+            "Characters",
             style:
                 TextStyle(color: Colors.white, fontFamily: font, fontSize: 20),
           ),
           onTap: () {
-            Navigator.popAndPushNamed(context, "/about");
+            Navigator.popAndPushNamed(context, "/dyed_in_crimson/characters");
           },
         ),
         ListTile(
           title: Text(
-            "Events",
+            "Hourly",
             style:
                 TextStyle(color: Colors.white, fontFamily: font, fontSize: 20),
           ),
           onTap: () {
-            Navigator.popAndPushNamed(context, "/events");
-          },
-        ),
-        ListTile(
-          title: Text(
-            "Merchandise",
-            style:
-                TextStyle(color: Colors.white, fontFamily: font, fontSize: 20),
-          ),
-          onTap: () {
-            Navigator.popAndPushNamed(context, "/merchandise");
-          },
-        ),
-        ListTile(
-          title: Text(
-            "Registrations",
-            style:
-                TextStyle(color: Colors.white, fontFamily: font, fontSize: 20),
-          ),
-          onTap: () {
-            Navigator.popAndPushNamed(context, "/registrations");
+            Navigator.popAndPushNamed(context, "/dyed_in_crimson/events");
           },
         ),
         Expanded(
