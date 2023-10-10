@@ -37,9 +37,9 @@ class _AboutState extends State<About> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Name", description: "Hello World",),
-                    ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Mr. Beast", description: "Hello World",),
-                    ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Pizza Hut", description: "Hello World",),
+                    ItemCard(logo: "https://i.imgur.com/tFliPQY.png", name: "Name", description: "Hello World",),
+                    ItemCard(logo: "https://i.imgur.com/tFliPQY.png", name: "Mr. Beast", description: "Hello World",),
+                    ItemCard(logo: "https://i.imgur.com/tFliPQY.png", name: "Pizza Hut", description: "Hello World",),
                   ],
                 ),
                 Padding(
@@ -64,7 +64,7 @@ class _AboutState extends State<About> {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
-                            Image(image: NetworkImage("https://i.imgur.com/utM2H4D.png"), width: MediaQuery.of(context).size.width * 0.3),
+                            Image(image: NetworkImage("https://i.imgur.com/tFliPQY.png"), width: MediaQuery.of(context).size.width * 0.3),
                             Padding(
                               padding: const EdgeInsets.only(left: 20),
                               child: Container(
@@ -100,11 +100,11 @@ class _AboutState extends State<About> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Name", description: "Hello World",),
-                    ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Mr. Beast", description: "Hello World",),
-                    ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Pizza Hut", description: "Hello World",),
-                    ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Pizza Hut", description: "Hello World",),
-                    ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Pizza Hut", description: "Hello World",),
+                    ItemCard(logo: "https://i.imgur.com/tFliPQY.png", name: "Name", description: "Hello World",),
+                    ItemCard(logo: "https://i.imgur.com/tFliPQY.png", name: "Mr. Beast", description: "Hello World",),
+                    ItemCard(logo: "https://i.imgur.com/tFliPQY.png", name: "Pizza Hut", description: "Hello World",),
+                    ItemCard(logo: "https://i.imgur.com/tFliPQY.png", name: "Pizza Hut", description: "Hello World",),
+                    ItemCard(logo: "https://i.imgur.com/tFliPQY.png", name: "Pizza Hut", description: "Hello World",),
                   ],
                 ),
               ),

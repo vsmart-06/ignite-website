@@ -27,16 +27,18 @@ AppBar? getTopBar(BuildContext context) {
                         borderRadius: BorderRadius.circular(0),
                       ))),
                   child: Image(
-                      image: NetworkImage("https://i.imgur.com/utM2H4D.png"),
+                      image: NetworkImage("https://i.imgur.com/tFliPQY.png"),
                       width: 55,
                       height: 55),
                   onPressed: () {
-                    Navigator.popAndPushNamed(context, "/");
+                    Navigator.popAndPushNamed(context, "/dyed_in_crimson/home");
                   },
                 ),
                 HeaderButton(name: "Home", navPath: "/dyed_in_crimson/home"),
-                HeaderButton(name: "Characters", navPath: "/dyed_in_crimson/characters"),
-                HeaderButton(name: "Hourly", navPath: "/dyed_in_crimson/events"),
+                HeaderButton(
+                    name: "Characters", navPath: "/dyed_in_crimson/characters"),
+                HeaderButton(
+                    name: "Hourly", navPath: "/dyed_in_crimson/events"),
               ],
             ),
           ),
@@ -70,7 +72,7 @@ Drawer getDrawer(BuildContext context) {
           child: DrawerHeader(
             child: Row(
               children: [
-                Image(image: NetworkImage("https://i.imgur.com/utM2H4D.png")),
+                Image(image: NetworkImage("https://i.imgur.com/tFliPQY.png")),
                 Text(
                   "IGNITE 2023",
                   style: TextStyle(

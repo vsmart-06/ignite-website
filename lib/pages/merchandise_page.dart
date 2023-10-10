@@ -26,9 +26,9 @@ class _MerchandiseState extends State<Merchandise> {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Cap", description: "Hello World",),
-              ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Hat", description: "Hello World",),
-              ItemCard(logo: "https://i.imgur.com/utM2H4D.png", name: "Shirt", description: "Hello World",),
+              ItemCard(logo: "https://i.imgur.com/tFliPQY.png", name: "Cap", description: "Hello World",),
+              ItemCard(logo: "https://i.imgur.com/tFliPQY.png", name: "Hat", description: "Hello World",),
+              ItemCard(logo: "https://i.imgur.com/tFliPQY.png", name: "Shirt", description: "Hello World",),
             ],
           )
         ],

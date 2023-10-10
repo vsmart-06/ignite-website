@@ -128,7 +128,7 @@ class _HomeState extends State<Home> {
                           children: [
                             Padding(
                               padding: const EdgeInsets.all(30.0),
-                              child: Image.network("https://i.imgur.com/utM2H4D.png",
+                              child: Image.network("https://i.imgur.com/tFliPQY.png",
                               height: MediaQuery.of(context).size.height*0.4,),
                             ),
                             Text(
@@ -303,7 +303,7 @@ class _HomeState extends State<Home> {
                         children: [
                           Container(
                             decoration: BoxDecoration(
-                              image: DecorationImage(image: NetworkImage("https://i.imgur.com/utM2H4D.png"), opacity: 0.4)
+                              image: DecorationImage(image: NetworkImage("https://i.imgur.com/tFliPQY.png"), opacity: 0.4)
                             ),
                             height: scheduleHeight,
                             width: scheduleWidth,
@@ -345,7 +345,7 @@ class _HomeState extends State<Home> {
                           ),
                           Container(
                             decoration: BoxDecoration(
-                              image: DecorationImage(image: NetworkImage("https://i.imgur.com/utM2H4D.png"), opacity: 0.4)
+                              image: DecorationImage(image: NetworkImage("https://i.imgur.com/tFliPQY.png"), opacity: 0.4)
                             ),
                             height: scheduleHeight,
                             width: scheduleWidth,
@@ -471,7 +471,7 @@ class _HomeState extends State<Home> {
                           children: [
                             Padding(
                               padding: const EdgeInsets.all(20.0),
-                              child: Image.network("https://i.imgur.com/utM2H4D.png",
+                              child: Image.network("https://i.imgur.com/tFliPQY.png",
                               height: MediaQuery.of(context).size.height*0.3,),
                             ),
                             Text(
@@ -646,7 +646,7 @@ class _HomeState extends State<Home> {
                         children: [
                           Container(
                             decoration: BoxDecoration(
-                              image: DecorationImage(image: NetworkImage("https://i.imgur.com/utM2H4D.png"))
+                              image: DecorationImage(image: NetworkImage("https://i.imgur.com/tFliPQY.png"))
                             ),
                             height: scheduleHeight!*1.5,
                             width: scheduleWidth,
@@ -698,7 +698,7 @@ class _HomeState extends State<Home> {
                           ),
                           Container(
                             decoration: BoxDecoration(
-                              image: DecorationImage(image: NetworkImage("https://i.imgur.com/utM2H4D.png"))
+                              image: DecorationImage(image: NetworkImage("https://i.imgur.com/tFliPQY.png"))
                             ),
                             height: scheduleHeight!*1.5,
                             width: scheduleWidth,
@@ -766,7 +766,7 @@ class _HomeState extends State<Home> {
                           ),
                           Container(
                             decoration: BoxDecoration(
-                              image: DecorationImage(image: NetworkImage("https://i.imgur.com/utM2H4D.png"))
+                              image: DecorationImage(image: NetworkImage("https://i.imgur.com/tFliPQY.png"))
                             ),
                             height: scheduleHeight!*1.5,
                             width: scheduleWidth,

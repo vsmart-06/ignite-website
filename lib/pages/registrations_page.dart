@@ -52,12 +52,12 @@ class _RegChoiceState extends State<RegChoice> {
                         children: [
                           EventsButton(
                               inSite: true,
-                            imagePath: 'https://i.imgur.com/utM2H4D.png',
+                            imagePath: 'https://i.imgur.com/tFliPQY.png',
                             websitePath: "/registrations/cultural",
                             name: "Cultural"),
                           EventsButton(
                               inSite: true,
-                            imagePath: 'https://i.imgur.com/utM2H4D.png',
+                            imagePath: 'https://i.imgur.com/tFliPQY.png',
                             websitePath: "/registrations/sports",
                             name: "Sports"),
                         ],
