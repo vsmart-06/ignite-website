@@ -162,8 +162,8 @@ void main() {
               "https://i.imgur.com/utM2H4D.png"
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
-            title: "Title",
-            about: "About Me",
+            title: "Basketball",
+            about: "Get ready to dribble, shoot and slam dunk your way into action. Join us for an electrifying basketball event with jaw-dropping plays. It's time to lace up your kicks and embrace the game like never before. Best of luck to all teams!\n\n1. Teams consisting of 8-11 players each\n2. The tournament will adhere to a knockout-style format.\n3. Officiating will be based on FIBA rules.\n4. Boys matches feature 10-minute quarters, while girls' matches consist of 7-minute quarters.",
             timings: "Now"),
     "/events/sports/football": (context) => EventGeneral(
             eventHeads: const [
@@ -172,7 +172,7 @@ void main() {
               "https://i.imgur.com/utM2H4D.png"
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
-            title: "Title",
+            title: "Football",
             about: "About Me",
             timings: "Now"),
     "/events/sports/hockey": (context) => EventGeneral(
@@ -182,7 +182,7 @@ void main() {
               "https://i.imgur.com/utM2H4D.png"
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
-            title: "Title",
+            title: "Hockey",
             about: "About Me",
             timings: "Now"),
     "/events/sports/badminton": (context) => EventGeneral(
@@ -192,8 +192,8 @@ void main() {
               "https://i.imgur.com/utM2H4D.png"
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
-            title: "Title",
-            about: "About Me",
+            title: "Badminton",
+            about: "Allow us to introduce a game of coordination, strength and agility. Badminton is an exciting and fast paced sport characterized by its elegance and precision.The sport requires  quick reflexes and strategic finesse. Welcome to the Ignite 2023 Badminton Tournament, where speed meets strategy, and every rally is a heartbeat.\n• There will be 4 categories - Boys Singles, Girls Singles, Boys Doubles and Girls Doubles.\n• Each team will be allowed to bring 8 students( 2 players for the singles categories, 2 pair of players for the doubles categories and 2 optional subs )\n• This tournament will have 4 brackets, with 3 schools in each bracket. Within the bracket, a Round Robin format will take place, and the winner of the bracket will advance to Semi-finals. If all schools win 1 match, the team with the highest point difference will proceed to the Semi-finals.\n• Each match till the Semi-finals will be a best of 3 games, 11 points. Semi-finals and Finals will be 21 points best of 3. Golden point will be for 11 point matches and deuce for 21 point matches.\n• BWF rules will be followed\n• We will be using AS2 feather shuttles.\n\nEmploy the power in your wrists and the strength of your mind to place the shuttle in the most strategic places possible. Smash your way to glory by joining us at this fun-filled and exciting event!!",
             timings: "Now"),
     "/events/sports/tennis": (context) => EventGeneral(
             eventHeads: const [
@@ -202,8 +202,8 @@ void main() {
               "https://i.imgur.com/utM2H4D.png"
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
-            title: "Title",
-            about: "About Me",
+            title: "Tennis",
+            about: "Welcome to the Tennis Tournament at IGNITE ’23! Where strategy meets stamina, and where you can take significant strides on the staircase to success.\n\nAt this year’s edition, the following format will be adhered to:\n- We will have both boys’ and girls’ tournaments – on hard courts.\n- Each participating team must have 3 or 4 members – 1 or 2 singles players, and a pair of doubles players.\n- The tournaments will be held in a knockout format.\n- For the first round of doubles the team that wins 3 games first shall advance.\n- Likewise, the player that wins 4 games first for singles shall advance.\n- In the semis and finals, it will be a one-set match.\n- All games shall be played according to ATP and WTA rules.\n\nRegister now and grab the opportunity to participate in fast-paced and fun-filled sporting beauty, and experience an intense cross-court adrenaline rush!",
             timings: "Now"),
     "/events/sports/table_tennis": (context) => EventGeneral(
             eventHeads: const [
@@ -212,8 +212,8 @@ void main() {
               "https://i.imgur.com/utM2H4D.png"
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
-            title: "Title",
-            about: "About Me",
+            title: "Table Tennis",
+            about: "“I fear not the man who has practiced 10,000 backhands once, but i do fear a man who has practiced one backhand 10,000 times”-Bruce Lee\n\nJust as Bruce Lee once said,\nIn our sport, it's that one spin, that one smash, that one return perfected over time that can make all the difference. Join us at the upcoming table tennis event. Hone your skills, challenge yourself, and be a part of a community that values precision, dedication, and the beauty of the game.\n\nWe welcome you to the Table Tennis event at Ignite’24, See you at the court….\n\nTeams of 3-4 are eligible to register.\nThe format shall be as follows:\n- Each match shall contain 3 rounds: Singles 1, Singles 2, and Doubles 1, consisting of 11 points each.\n- Teams who win in each round will accumulate points and the team with the highest score after the doubles round wins. They will be qualified for the semi-finals and finals respectively\n- Official ITTF Rules will be followed and decisions of the umpires will be final.\n- The teams will have to come up with their player sequence as to who will play in the singles(2 players) and in the doubles(2 players) rounds respectively.\n- There shall be separate events for boys and girls.",
             timings: "Now"),
     "/events/sports/relay": (context) => EventGeneral(
             eventHeads: const [
@@ -222,8 +222,8 @@ void main() {
               "https://i.imgur.com/utM2H4D.png"
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
-            title: "Title",
-            about: "About Me",
+            title: "Relay",
+            about: "Relay, the essence of teamwork and speed, takes the stage this year at Ignite 2023. We call all athletes to take part in this thrilling competition. Teams will go through heats, before the top teams are selected to move on to the finals. So get ready, every stride and second brings you closer to victory!\n\n- There are two categories: 4 x 100m (boys) | 4 x 100m (girls)\n- Each team should consist of 4 runners with 1-2 optional substitutes\n- There will be two rounds: Heats on day 1 | Finals on day 2\n- The standard world athletics rules will be followed for the relay.\n\nPlease note dropping of the baton during any point of the race will lead to disqualification.",
             timings: "Now"),
     "/events/sports/chess": (context) => EventGeneral(
             eventHeads: const [
@@ -232,8 +232,8 @@ void main() {
               "https://i.imgur.com/utM2H4D.png"
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
-            title: "Title",
-            about: "About Me",
+            title: "Chess",
+            about: "“Chess is a sea in which a gnat may drink and an elephant may swim”\n\nThe nature of chess accommodates players of all skill levels.The  spirit of the game teaches us the virtues of patience, foresight and the art of calculated risk. Pertaining to strategy and driven by the perception of patterns it leaves no room for chance and emphasizes that the game is for everyone, where intelligence and creativity know no bounds.\n\nThe tournament for this year’s edition of Ignite has the following parameters:\n- 9 Rounds\n- Open\n- Swiss Format\n- Time control: 10+5\n- FIDE Regulations\n- Boys & Girls will compete in the same category.",
             timings: "Now"),
     "/events/sports/squash": (context) => EventGeneral(
             eventHeads: const [
@@ -242,8 +242,8 @@ void main() {
               "https://i.imgur.com/utM2H4D.png"
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
-            title: "Title",
-            about: "About Me",
+            title: "Squash",
+            about: "Squash; strategy, agility, and precision. In our tournament, you'll witness teams from diverse backgrounds and skill levels compete head-to-head in an action-packed showdown. Get ready for a heart-pounding experience as we bring together 10 dynamic teams, each composed of 3 to 5 players, with the option of 1 to 2 substitutes. We await to meet you competitive participants!",
             timings: "Now"),
     "/events/sports/flag_football": (context) => EventGeneral(
             eventHeads: const [
@@ -252,8 +252,8 @@ void main() {
               "https://i.imgur.com/utM2H4D.png"
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
-            title: "Title",
-            about: "About Me",
+            title: "Flag Football",
+            about: "2023 event! This event is unlike any other, where the spirit of the game and the love for competition come together in a celebration of athleticism and teamwork. In this spirited event, 10 teams will battle against each other with sheer determination, and only 1 will emerge victorious.\n\nIn this event, each team will:\n- Contain only a Men’s bracket\n- Contain a minimum of 6 players and a maximum of 8 players, with 5 players on the field at all times\n- The tournament will follow a Knock-Out format\n- We will be following the official NFL Flag Football rulebook, with some rules modified towards the benefit of the players\n\nWe hope to see you all there!",
             timings: "Now"),
   }));
 }
