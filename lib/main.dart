@@ -173,7 +173,7 @@ void main() {
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Football",
-            about: "About Me",
+            about: "It's time to lace up and get ready for the fifth edition of Ignite’s football event! This event promises 2 days of action packed, heart-pounding football extravaganza filled with awe-inspiring plays. May the best teams triumph.\n- Boys 11-a-side + 6 substitutes (minimum 15, maximum 17) and Girls 7-a-side + 5 substitutes (minimum 10, maximum 12)\n- Penalty shootouts in case of a draw. 5 for boys, 3 for girls.\n- The competition for both categories will be held on an all knockout format (no group stages)\n- The tournament will be conducted under standard FIFA guidelines.\n- Goalkeepers are required to wear different coloured jerseys.\n- Group stage matches will be 20-5-20 minutes, semi-finals and finals will be 30-5-30 minutes.\n- Further details will be released as the event nears",
             timings: "Now"),
     "/events/sports/hockey": (context) => EventGeneral(
             eventHeads: const [
