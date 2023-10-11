@@ -157,9 +157,9 @@ void main() {
             timings: "Now"),
     "/events/sports/basketball": (context) => EventGeneral(
             eventHeads: const [
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png"
+              "https://i.imgur.com/utM2H4D.png", //Shiven
+              "https://i.imgur.com/utM2H4D.png", //Ashwin
+              "https://i.imgur.com/utM2H4D.png" //Anjini
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Basketball",
@@ -167,29 +167,27 @@ void main() {
             timings: "Now"),
     "/events/sports/football": (context) => EventGeneral(
             eventHeads: const [
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png"
+              "https://i.imgur.com/utM2H4D.png", //Parth
+              "https://i.imgur.com/utM2H4D.png", //Fahim
+              "https://i.imgur.com/utM2H4D.png" //Chaitanya
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Football",
-            about: "It's time to lace up and get ready for the fifth edition of Ignite’s football event! This event promises 2 days of action packed, heart-pounding football extravaganza filled with awe-inspiring plays. May the best teams triumph.\n- Boys 11-a-side + 6 substitutes (minimum 15, maximum 17) and Girls 7-a-side + 5 substitutes (minimum 10, maximum 12)\n- Penalty shootouts in case of a draw. 5 for boys, 3 for girls.\n- The competition for both categories will be held on an all knockout format (no group stages)\n- The tournament will be conducted under standard FIFA guidelines.\n- Goalkeepers are required to wear different coloured jerseys.\n- Group stage matches will be 20-5-20 minutes, semi-finals and finals will be 30-5-30 minutes.\n- Further details will be released as the event nears",
+            about: "It's time to lace up and get ready for the fifth edition of Ignite’s football event! This event promises 2 days of action packed, heart-pounding football extravaganza filled with awe-inspiring plays. May the best teams triumph.\n\nRules for boys football\n- Each team will have exactly 11 players on the pitch at any time, including the goalkeeper\n- A team should have a minimum of 4 and can have a maximum of 6 substitutes\n- The game format for all matches apart from semi-finals and the final is 20-5-20 with 20-minute halves and a 5-minute halftime break\n- Both semi-finals and the final will be played in a 30-10-30 format with 30-minute halves and a 10-minute halftime break\n- The offside rule will be in effect\n- Players will receive yellow and red cards for offences during the match according to the referee\n- The referee’s decision will be the final decision and players cannot argue with the ref\n- In case of a tie in normal time, the game will go to penalties with each team getting 5 kicks\n- If the ball crosses the sideline, only throw-ins are allowed, no kick-ins\n\nRules for girls football\n- Each team will have exactly 7 players on the pitch at any time, including the goalkeeper\n- A team should have a minimum of 3 and can have a maximum of 5 substitutes\n- The game format for all matches apart from semi-finals and the final is 20-5-20 with 20-minute halves and a 5-minute halftime break\n- Both semi-finals and the final will be played in a 30-10-30 format with 30-minute halves and a 10-minute halftime break\n- The offside rule will not be in effect considering the size of the pitch\n- Players will receive yellow and red cards for offences during the match according to the referee\n- The referee’s decision will be the final decision and players cannot argue with the ref\n- In case of a tie in normal time, the game will go to penalties with each team getting 3 kicks\n- If the ball crosses the sideline, only throw-ins are allowed, no kick-ins",
             timings: "Now"),
     "/events/sports/hockey": (context) => EventGeneral(
             eventHeads: const [
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png"
+              "https://i.imgur.com/utM2H4D.png", //Rahul
+              "https://i.imgur.com/utM2H4D.png", //Ashvik
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Hockey",
-            about: "About Me",
+            about: "Prepare to experience the electrifying adrenaline that a field hockey tournament can only provide—the crack of the sticks, the shout of the crowd, and the electrifying action. It's a universe where power and precision coexist, where dexterity and ferocity clash, and where champions are made. This is more than just a competition; it's a journey through the heart of the game. Grab your seats, gather your supporters, and get ready to be enthralled by the exciting drama as heroes emerge, rivalries flare, and the spirit of field hockey assumes a central role.\n\n- Two categories: Boys and Girls\n- 7 players aside\n- A maximum of 4 substitutes\n- Playing time (boys): 7.5 minutes per quarter\n- Playing time (girls): 5 minutes per quarter\n- Rules will follow according to the FIH standards with minor modifications for your collective benefit\n- Group stages open with an eliminator round\n- Top 4 teams will compete in a league round before the finals\n\nIn the inspirational words of Major Dhyan Chand - “Hockey is not just a game, it’s a passion that runs through my veins”. Welcome to the field hockey tournament of a lifetime, the heart of all the excitement!",
             timings: "Now"),
     "/events/sports/badminton": (context) => EventGeneral(
             eventHeads: const [
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png"
+              "https://i.imgur.com/utM2H4D.png", //Vedant
+              "https://i.imgur.com/utM2H4D.png", //Sajeevani
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Badminton",
@@ -197,9 +195,8 @@ void main() {
             timings: "Now"),
     "/events/sports/tennis": (context) => EventGeneral(
             eventHeads: const [
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png"
+              "https://i.imgur.com/utM2H4D.png", //Medha
+              "https://i.imgur.com/utM2H4D.png", //Maadhav
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Tennis",
@@ -207,9 +204,8 @@ void main() {
             timings: "Now"),
     "/events/sports/table_tennis": (context) => EventGeneral(
             eventHeads: const [
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png"
+              "https://i.imgur.com/utM2H4D.png", //Dhanush
+              "https://i.imgur.com/utM2H4D.png", //Harsh
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Table Tennis",
@@ -217,9 +213,8 @@ void main() {
             timings: "Now"),
     "/events/sports/relay": (context) => EventGeneral(
             eventHeads: const [
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png"
+              "https://i.imgur.com/utM2H4D.png", //Ashna
+              "https://i.imgur.com/utM2H4D.png", //Somya
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Relay",
@@ -227,9 +222,8 @@ void main() {
             timings: "Now"),
     "/events/sports/chess": (context) => EventGeneral(
             eventHeads: const [
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png"
+              "https://i.imgur.com/utM2H4D.png", //Adit
+              "https://i.imgur.com/utM2H4D.png", //Shreya
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Chess",
@@ -237,19 +231,17 @@ void main() {
             timings: "Now"),
     "/events/sports/squash": (context) => EventGeneral(
             eventHeads: const [
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png"
+              "https://i.imgur.com/utM2H4D.png", //Alina
+              "https://i.imgur.com/utM2H4D.png", //Ansh
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Squash",
-            about: "Squash; strategy, agility, and precision. In our tournament, you'll witness teams from diverse backgrounds and skill levels compete head-to-head in an action-packed showdown. Get ready for a heart-pounding experience as we bring together 10 dynamic teams, each composed of 3 to 5 players, with the option of 1 to 2 substitutes. We await to meet you competitive participants!",
+            about: "Squash is boxing with racquets; it's the powerful and intimidating game of agility and strategic moves. Take the court by awe and by the strength of your power and resilience during this year's Ignite’23. Which awaits to see each individual in their best form and show us what you have got!\n\n- Two categories: single and doubles ( mixed gender).\n- Each team should have an optional substitute of 1-2 players.\n- Each game for both categories will have a race of 11 points each. Consisting of 2 rounds with a side switch.\n- Each game will be around 20-25 minutes\n- Olympic squash rules will be the judging criteria for the game. If any rules are not precisely followed it will lead to disqualification of the individual from taking part in doubles ( if participating)\n- Further information will be communicated with the players…\n\nRegister now and be a part of a fully fledged and an exciting game day! Hoping to see you all soon at Ignite’23",
             timings: "Now"),
     "/events/sports/flag_football": (context) => EventGeneral(
             eventHeads: const [
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png",
-              "https://i.imgur.com/utM2H4D.png"
+              "https://i.imgur.com/utM2H4D.png", //Rishabh
+              "https://i.imgur.com/utM2H4D.png", //Vikramaditya
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Flag Football",
