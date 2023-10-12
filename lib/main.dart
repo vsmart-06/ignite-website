@@ -39,7 +39,7 @@ void main() {
     "/events/cultural/karaoke": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/DoXOGJU.jpg", "Keerthana Rajesh"],
-              ["https://i.imgur.com/utM2H4D.png", "Harini Shankar"],
+              ["https://i.imgur.com/zxBFVSq.jpg", "Harini Shankar"],
               ["https://i.imgur.com/yKJPgJM.jpg", "Samhita Madakshira"]
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
