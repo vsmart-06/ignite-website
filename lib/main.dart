@@ -159,9 +159,9 @@ void main() {
             location: "Library Exam Hall & 11A & 9F"),
     "/events/cultural/capture_the_flag": (context) => EventGeneral(
             eventHeads: const [
-              ["https://i.imgur.com/8BoIRDZ.jpg", "Resham"],
-              ["https://i.imgur.com/uk8BnX0.jpg", "Aarnav"],
-              ["https://i.imgur.com/objObOS.jpg", "Deepta"]
+              ["https://i.imgur.com/8BoIRDZ.jpg", "Resham Prasad"],
+              ["https://i.imgur.com/uk8BnX0.jpg", "Aarnav Jain"],
+              ["https://i.imgur.com/objObOS.jpg", "Deepta Bhat"]
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Capture the Flag",
