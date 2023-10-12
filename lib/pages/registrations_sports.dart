@@ -40,7 +40,7 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                 child: Text(
                   "Sports Registrations",
                   style: TextStyle(
-                      color: Colors.white, fontSize: 35, fontFamily: titleFont),
+                      color: Colors.white, fontSize: 50, fontFamily: titleFont),
                 ),
               ),
               Expanded(
@@ -59,13 +59,13 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Basketball"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Football"),
@@ -76,13 +76,13 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Hockey"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Badminton"),
@@ -93,13 +93,13 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Tennis"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Table Tennis"),
@@ -110,13 +110,13 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Relay"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Flag Football"),
@@ -127,13 +127,13 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Chess"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Squash"),
@@ -161,7 +161,7 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                 child: Text(
                   "Sports Registrations",
                   style: TextStyle(
-                      color: Colors.white, fontSize: 35, fontFamily: titleFont),
+                      color: Colors.white, fontSize: 50, fontFamily: titleFont),
                 ),
               ),
               Expanded(
@@ -180,31 +180,31 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Basketball"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Football"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Hockey"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Badminton"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Tennis"),
@@ -215,31 +215,31 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Table Tennis"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Relay"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Flag Football"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Chess"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Squash"),

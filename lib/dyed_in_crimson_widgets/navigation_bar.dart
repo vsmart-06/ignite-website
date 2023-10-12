@@ -27,7 +27,7 @@ AppBar? getTopBar(BuildContext context) {
                         borderRadius: BorderRadius.circular(0),
                       ))),
                   child: Image(
-                      image: NetworkImage("https://i.imgur.com/tFliPQY.png"),
+                      image: NetworkImage("https://i.imgur.com/5VuyhL2.png"),
                       width: 55,
                       height: 55),
                   onPressed: () {
@@ -72,7 +72,7 @@ Drawer getDrawer(BuildContext context) {
           child: DrawerHeader(
             child: Row(
               children: [
-                Image(image: NetworkImage("https://i.imgur.com/tFliPQY.png")),
+                Image(image: NetworkImage("https://i.imgur.com/5VuyhL2.png")),
                 Text(
                   "IGNITE 2023",
                   style: TextStyle(

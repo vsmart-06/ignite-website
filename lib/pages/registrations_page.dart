@@ -13,12 +13,21 @@ class _RegChoiceState extends State<RegChoice> {
   String? font = GoogleFonts.roboto().fontFamily;
   String? titleFont = GoogleFonts.ebGaramond().fontFamily;
 
-  List<Color> cardColors = [Colors.black, Colors.black, Colors.black, Colors.black, Colors.black, Colors.black, Colors.black, Colors.black,];
+  List<Color> cardColors = [
+    Colors.black,
+    Colors.black,
+    Colors.black,
+    Colors.black,
+    Colors.black,
+    Colors.black,
+    Colors.black,
+    Colors.black,
+  ];
   ScrollController scroll = ScrollController();
-  
+
   @override
   Widget build(BuildContext context) {
-      return Scaffold(
+    return Scaffold(
       appBar: getTopBar(context),
       drawer: getDrawer(context),
       backgroundColor: Colors.black,
@@ -30,10 +39,7 @@ class _RegChoiceState extends State<RegChoice> {
               child: Text(
                 "Registrations",
                 style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 35,
-                  fontFamily: titleFont
-                ),
+                    color: Colors.white, fontSize: 50, fontFamily: titleFont),
               ),
             ),
             Expanded(
@@ -52,18 +58,19 @@ class _RegChoiceState extends State<RegChoice> {
                         children: [
                           EventsButton(
                               inSite: true,
-                            imagePath: 'https://i.imgur.com/tFliPQY.png',
-                            websitePath: "/registrations/cultural",
-                            name: "Cultural"),
+                              imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                              websitePath: "/registrations/cultural",
+                              name: "Cultural"),
                           EventsButton(
                               inSite: true,
-                            imagePath: 'https://i.imgur.com/tFliPQY.png',
-                            websitePath: "/registrations/sports",
-                            name: "Sports"),
+                              imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                              websitePath: "/registrations/sports",
+                              name: "Sports"),
                         ],
                       ),
                       Padding(padding: EdgeInsets.only(top: 20)),
-                      footer(MediaQuery.of(context).orientation == Orientation.landscape)
+                      footer(MediaQuery.of(context).orientation ==
+                          Orientation.landscape)
                     ],
                   ),
                 ),

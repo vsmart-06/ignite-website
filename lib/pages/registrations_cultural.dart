@@ -40,7 +40,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                 child: Text(
                   "Cultural Registrations",
                   style: TextStyle(
-                      color: Colors.white, fontSize: 35, fontFamily: titleFont),
+                      color: Colors.white, fontSize: 50, fontFamily: titleFont),
                 ),
               ),
               Expanded(
@@ -58,29 +58,33 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/yx3dJZQ.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Battle of\nthe Bands"),
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                                name: "Riff Off/\nKaraoke"),
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                name: "Karaoke"),
                           ],
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Dance\nRoulette"),
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Silver\nScreen"),
                           ],
                         ),
@@ -88,14 +92,16 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Thespian of\nMelody"),
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Icons and\nImitations"),
                           ],
                         ),
@@ -103,14 +109,16 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Metamorphosis"),
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Kryptos\nVisos"),
                           ],
                         ),
@@ -118,14 +126,16 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Dyed in\nCrimson"),
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/GaAC6Sp.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Dealer's\nChoice"),
                           ],
                         ),
@@ -133,14 +143,16 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Shoot your\nShot"),
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Respawn"),
                           ],
                         ),
@@ -148,9 +160,10 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Capture\nThe Flag"),
                           ],
                         )
@@ -176,7 +189,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                 child: Text(
                   "Cultural Registrations",
                   style: TextStyle(
-                      color: Colors.white, fontSize: 35, fontFamily: titleFont),
+                      color: Colors.white, fontSize: 50, fontFamily: titleFont),
                 ),
               ),
               Expanded(
@@ -195,29 +208,34 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               EventsButton(
-                              inSite: false,
-                                  imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                  websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                  inSite: false,
+                                  imagePath: 'https://i.imgur.com/yx3dJZQ.png',
+                                  websitePath:
+                                      "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                   name: "Battle of\nthe Bands"),
                               EventsButton(
-                              inSite: false,
-                                  imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                  websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                                  name: "Riff Off/\nKaraoke"),
+                                  inSite: false,
+                                  imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                  websitePath:
+                                      "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                  name: "Karaoke"),
                               EventsButton(
-                              inSite: false,
-                                  imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                  websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                  inSite: false,
+                                  imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                  websitePath:
+                                      "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                   name: "Dance\nRoulette"),
                               EventsButton(
-                              inSite: false,
-                                  imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                  websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                  inSite: false,
+                                  imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                  websitePath:
+                                      "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                   name: "Silver\nScreen"),
                               EventsButton(
-                              inSite: false,
-                                  imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                  websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                  inSite: false,
+                                  imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                  websitePath:
+                                      "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                   name: "Thespian\nof Melody"),
                             ],
                           ),
@@ -226,29 +244,34 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Icons and\nImitations"),
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Metamorphosis"),
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Kryptos\nVisos"),
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Dyed in\nCrimson"),
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/GaAC6Sp.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Dealer's\nChoice"),
                           ],
                         ),
@@ -256,19 +279,22 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Shoot your\nShot"),
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Respawn"),
                             EventsButton(
-                              inSite: false,
-                                imagePath: 'https://i.imgur.com/tFliPQY.png',
-                                websitePath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                inSite: false,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath:
+                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Capture\nThe Flag"),
                           ],
                         ),

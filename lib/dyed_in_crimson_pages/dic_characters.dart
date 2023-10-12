@@ -30,19 +30,25 @@ class _DICCharactersState extends State<DICCharacters> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               ItemCard(
-                logo: "https://i.imgur.com/tFliPQY.png",
+                logo: "https://i.imgur.com/5VuyhL2.png",
                 name: "Ayaan",
                 description: "Yo",
+                width: 250,
+                height: 350,
               ),
               ItemCard(
-                logo: "https://i.imgur.com/tFliPQY.png",
+                logo: "https://i.imgur.com/5VuyhL2.png",
                 name: "Anish",
                 description: "Wassup",
+                width: 250,
+                height: 350,
               ),
               ItemCard(
-                logo: "https://i.imgur.com/tFliPQY.png",
+                logo: "https://i.imgur.com/5VuyhL2.png",
                 name: "Hari",
                 description: "Bois",
+                width: 250,
+                height: 350,
               ),
             ],
           )

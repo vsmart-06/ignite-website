@@ -6,17 +6,17 @@ import "package:ignite_2023/widgets/footer.dart";
 import "package:ignite_2023/widgets/navigation_bar.dart";
 
 class EventGeneral extends StatefulWidget {
-  List<String>? eventHeads;
+  List<List<String>>? eventHeads;
   String? logo;
   String? title;
-  String? timings;
+  String? location;
   String? about;
   EventGeneral(
       {super.key,
       this.eventHeads,
       this.logo,
       this.title,
-      this.timings,
+      this.location,
       this.about});
 
   @override
@@ -26,55 +26,93 @@ class EventGeneral extends StatefulWidget {
 class _EventGeneralState extends State<EventGeneral> {
   List<Widget> headPictures = [];
   String? fontMain = GoogleFonts.ebGaramond().fontFamily;
+  ScrollController scroller = ScrollController();
 
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
     headPictures = [];
-    for (String url in widget.eventHeads!) {
-      headPictures
-          .add(Image(image: NetworkImage(url), width: 100, height: 100));
+    for (List<String> head in widget.eventHeads!) {
+      headPictures.add(Padding(
+        padding: const EdgeInsets.fromLTRB(0, 0, 0, 10),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            Padding(
+              padding: const EdgeInsets.fromLTRB(0, 0, 20, 0),
+              child:
+                  Image(image: NetworkImage(head[0]), width: 150, height: 150),
+            ),
+            Text(head[1],
+                style: TextStyle(
+                    color: Colors.white, fontSize: 25, fontFamily: fontMain))
+          ],
+        ),
+      ));
     }
   }
 
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
+    double height = MediaQuery.of(context).size.height;
+
     return Scaffold(
       appBar: getTopBar(context),
       drawer: getDrawer(context),
       backgroundColor: Colors.black,
       body: Container(
-        width: MediaQuery.of(context).size.width,
-        height: MediaQuery.of(context).size.height,
+        width: width,
+        height: height,
         decoration: BoxDecoration(
             image: DecorationImage(
-                image: NetworkImage(widget.logo!), opacity: 0.4)),
-        child: Center(
-          child: Column(
-            children: [
-              Text(widget.title!,
-                  style: TextStyle(fontSize: 100, color: Colors.white, fontFamily: fontMain)),
-              Text(widget.timings!,
-                  style: TextStyle(fontSize: 50, color: Colors.white, fontFamily: fontMain)),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: headPictures,
-                  ),
-                  Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
+                image: NetworkImage(widget.logo!), opacity: 0.3)),
+        child: RawScrollbar(
+          thumbColor: Color(0xFF313133),
+          thickness: 10,
+          thumbVisibility: true,
+          trackVisibility: true,
+          controller: scroller,
+          child: SingleChildScrollView(
+            controller: scroller,
+            child: Column(
+              children: [
+                Text(widget.title!,
+                    style: TextStyle(
+                        fontSize: 60,
+                        color: Colors.white,
+                        fontFamily: fontMain)),
+                Text(widget.location!,
+                    style: TextStyle(
+                        fontSize: 35,
+                        color: Colors.white,
+                        fontFamily: fontMain)),
+                Padding(
+                  padding: const EdgeInsets.only(top: 50, bottom: 50),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      Text(widget.about!,
-                          style: TextStyle(fontSize: 50, color: Colors.white, fontFamily: fontMain))
+                      Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: headPictures,
+                      ),
+                      Container(
+                        width: width * 0.5,
+                        child: Text(widget.about!,
+                            style: TextStyle(
+                                fontSize: 25,
+                                color: Colors.white,
+                                fontFamily: fontMain)),
+                      )
                     ],
-                  )
-                ],
-              ),
-              footer(MediaQuery.of(context).orientation == Orientation.landscape)
-            ],
+                  ),
+                ),
+                footer(
+                    MediaQuery.of(context).orientation == Orientation.landscape)
+              ],
+            ),
           ),
         ),
       ),
