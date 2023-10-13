@@ -65,7 +65,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 name: "Battle of\nthe Bands"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/Fcv7aQv.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Karaoke"),
@@ -164,7 +164,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                                name: "Capture\nThe Flag"),
+                                name: "Capture\nthe Flag"),
                           ],
                         )
                       ],
@@ -215,7 +215,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                   name: "Battle of\nthe Bands"),
                               EventsButton(
                                   inSite: false,
-                                  imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                  imagePath: 'https://i.imgur.com/Fcv7aQv.png',
                                   websitePath:
                                       "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                   name: "Karaoke"),
@@ -295,7 +295,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                                name: "Capture\nThe Flag"),
+                                name: "Capture\nthe Flag"),
                           ],
                         ),
                         Padding(padding: EdgeInsets.only(top: 20)),

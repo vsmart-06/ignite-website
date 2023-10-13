@@ -13,114 +13,127 @@ Widget footer(bool landscape) {
     child: Container(
       color: Color(0xFF1D1C1C),
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Padding(
-            padding: const EdgeInsets.fromLTRB(30, 0, 30, 0),
-            child: Image(image: NetworkImage("https://i.imgur.com/5VuyhL2.png"), width: 150, height: 150),
-          ),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+          Row(
             children: [
-              TextButton(
-                onPressed: null,
+              Padding(
+                padding: const EdgeInsets.fromLTRB(30, 0, 30, 0),
                 child: Padding(
-                  padding: EdgeInsets.fromLTRB(0, 20, 0, 0),
-                  child: Text(
-                    "CONTACT US",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontFamily: fontMain,
-                      fontSize: 25
-                    )
-                  ),
+                  padding: const EdgeInsets.fromLTRB(0, 10, 0, 0),
+                  child: Image(image: NetworkImage("https://i.imgur.com/5VuyhL2.png"), width: 150, height: 150),
                 ),
               ),
-              Row(
-                children: [
-                  TextButton(
-                    onPressed: null,
-                    child: Text(
-                      "SOCIALS",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontFamily: fontMain
-                      )
-                    ),
-                  ),
-                  TextButton.icon(
-                    onPressed: () {
-                      window.open("https://www.instagram.com/ignite.gwh/", "Instagram");
-                    },
-                    icon: Image(image: NetworkImage("https://png.pngtree.com/png-clipart/20180626/ourmid/pngtree-instagram-icon-instagram-logo-png-image_3584853.png"), width: 30, height: 30), 
-                    label: Text(
-                      "INSTAGRAM",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontFamily: fontMain
-                      )
-                    ),
-                  )
-                ],
-              ),
-              Row(
-                children: [
-                  TextButton(
-                    onPressed: null,
-                    child: Text(
-                      "LOCATION",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontFamily: fontMain
-                      )
-                    ),
-                  ),
-                  TextButton(
-                    onPressed: () {
-                    window.open("https://goo.gl/maps/DUGyBHCAu287hoAD9", "school");
-                    },
-                    child: Text(
-                      "Greenwood High School Sarjapur",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontFamily: fontMain
-                      )
-                    ),
-                  ),
-                ],
-              ),
-              Row(
+              Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   TextButton(
                     onPressed: null,
-                    child: Text(
-                      "EMAILS",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontFamily: fontMain
-                      )
+                    child: Padding(
+                      padding: EdgeInsets.fromLTRB(0, 20, 0, 0),
+                      child: Text(
+                        "CONTACT US",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontFamily: fontMain,
+                          fontSize: 25
+                        )
+                      ),
                     ),
                   ),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children:[
+                  Row(
+                    children: [
                       TextButton(
-                        onPressed: () {
-                          window.open("mailto:ignite@greenwoodhigh.edu.in", "igniteEmail");
-                        },
+                        onPressed: null,
                         child: Text(
-                          "ignite@greenwoodhigh.edu.in",
+                          "SOCIALS",
                           style: TextStyle(
                             color: Colors.white,
                             fontFamily: fontMain
                           )
                         ),
                       ),
-                    ]
-                  )
+                      TextButton.icon(
+                        onPressed: () {
+                          window.open("https://www.instagram.com/ignite.gwh/", "Instagram");
+                        },
+                        icon: Image(image: NetworkImage("https://png.pngtree.com/png-clipart/20180626/ourmid/pngtree-instagram-icon-instagram-logo-png-image_3584853.png"), width: 30, height: 30), 
+                        label: Text(
+                          "INSTAGRAM",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontFamily: fontMain
+                          )
+                        ),
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      TextButton(
+                        onPressed: null,
+                        child: Text(
+                          "LOCATION",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontFamily: fontMain
+                          )
+                        ),
+                      ),
+                      TextButton(
+                        onPressed: () {
+                        window.open("https://goo.gl/maps/DUGyBHCAu287hoAD9", "school");
+                        },
+                        child: Text(
+                          "Greenwood High School Sarjapur",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontFamily: fontMain
+                          )
+                        ),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      TextButton(
+                        onPressed: null,
+                        child: Text(
+                          "EMAILS",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontFamily: fontMain
+                          )
+                        ),
+                      ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children:[
+                          TextButton(
+                            onPressed: () {
+                              window.open("mailto:ignite@greenwoodhigh.edu.in", "igniteEmail");
+                            },
+                            child: Text(
+                              "ignite@greenwoodhigh.edu.in",
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontFamily: fontMain
+                              )
+                            ),
+                          ),
+                        ]
+                      )
+                    ],
+                  ),
                 ],
               ),
             ],
+          ),
+          Image(
+            image: NetworkImage("https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1484114026/qr6mhllp8hd2amn4awaa.png"),
+            width: 200,
+            height: 200,
           )
         ],
       )

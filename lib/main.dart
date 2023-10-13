@@ -2,13 +2,14 @@ import "package:flutter/material.dart";
 import "package:ignite_2023/pages/home_page.dart";
 import 'package:ignite_2023/pages/cultural_page.dart';
 import "package:ignite_2023/pages/events_choice.dart";
+import "package:ignite_2023/pages/rules_page.dart";
 import "package:ignite_2023/pages/sports_page.dart";
 import "package:ignite_2023/pages/event_general.dart";
 import "package:ignite_2023/pages/about_page.dart";
-import "package:ignite_2023/pages/registrations_page.dart";
+//import "package:ignite_2023/pages/registrations_page.dart";
 import "package:ignite_2023/pages/registrations_cultural.dart";
 import "package:ignite_2023/pages/registrations_sports.dart";
-import "package:ignite_2023/pages/merchandise_page.dart";
+import 'package:ignite_2023/pages/sponsors_page.dart';
 import "package:ignite_2023/dyed_in_crimson_pages/dic_home.dart";
 import "package:ignite_2023/dyed_in_crimson_pages/dic_characters.dart";
 
@@ -16,8 +17,9 @@ void main() {
   runApp(MaterialApp(title: "IGNITE 2023", routes: {
     "/": (context) => const Home(),
     "/events": (context) => CultSport(),
-    "/merchandise": (context) => const Merchandise(),
-    "/registrations": (context) => RegChoice(),
+    "/sponsors": (context) => const Sponsors(),
+    "/registrations": (context) => RegistrationsCultural(),
+    "/rules": (context) => const Rules(),
     "/about": (context) => const About(),
     "/events/cultural": (context) => Cultural(),
     "/events/sports": (context) => Sports(),
@@ -42,7 +44,7 @@ void main() {
               ["https://i.imgur.com/utM2H4D.png", "Harini Shankar"],
               ["https://i.imgur.com/yKJPgJM.jpg", "Samhita Madakshira"]
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/Fcv7aQv.png",
             title: "Karaoke",
             about:
                 "Are you interested in singing for the sake of it? Pitch Perfect is an event centred on karaoke and riff off. Teams will compete to complete the lyrics and  participate in a musical roulette over the course of 2 rounds. Musical talent and the ability to excel with the conditions of each round are prioritised, but moreover, the event aims to spread the harmony and joy of music. Round 1 includes participants engaging in riff off, and Round 2 involves Roulette with a slight twist. Both rounds will be focused on themes, like pop, 90's music and country, to name a few.",
@@ -148,7 +150,7 @@ void main() {
             location: "No Specific Venue"),
     "/events/cultural/respawn": (context) => EventGeneral(
             eventHeads: const [
-              ["https://i.imgur.com/zk0OKgH.jpg", "Neha Kesara"],
+              ["https://i.imgur.com/zk0OKgH.jpg", "Neha Kesarla"],
               ["https://i.imgur.com/ye3IHZh.jpg", "Anish Mamidi"],
               ["https://i.imgur.com/iWQO2VG.png", "Shrest Bhowmick"]
             ],
@@ -171,8 +173,8 @@ void main() {
     "/events/sports/basketball": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/utM2H4D.png", "Shiven Bhaskarabatla"],
-              ["https://i.imgur.com/utM2H4D.png", "Ashwin Ganapathy"],
-              ["https://i.imgur.com/utM2H4D.png", "Anjini Basu"]
+              ["https://i.imgur.com/TYSZxP7.jpg", "Ashwin Ganapathy"],
+              ["https://i.imgur.com/T8uuuFC.jpg", "Anjini Basu"]
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Basketball",
@@ -183,7 +185,7 @@ void main() {
             eventHeads: const [
               ["https://i.imgur.com/utM2H4D.png", "Parth Mehra"],
               ["https://i.imgur.com/utM2H4D.png", "Fahim Bawahir"],
-              ["https://i.imgur.com/utM2H4D.png", "Chaitanya GT"]
+              ["https://i.imgur.com/nXbvbzy.jpg", "Chaitanya GT"]
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Football",
@@ -202,8 +204,9 @@ void main() {
             location: "IB Sports Complex Field"),
     "/events/sports/badminton": (context) => EventGeneral(
             eventHeads: const [
-              ["https://i.imgur.com/utM2H4D.png", "Vedant Chowdhary"],
-              ["https://i.imgur.com/utM2H4D.png", "Sanjeevani Kale"]
+              ["https://i.imgur.com/ZP17LkH.jpg", "Vedant Chowdhary"],
+              ["https://i.imgur.com/KelfCSR.jpg", "Sanjeevani Kale"],
+              ["https://i.imgur.com/7pj0Ls9.jpg", "Nidhi Iyer"]
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Badminton",
@@ -212,8 +215,8 @@ void main() {
             location: "IB Sports Complex Indoor Badminton Court"),
     "/events/sports/tennis": (context) => EventGeneral(
             eventHeads: const [
-              ["https://i.imgur.com/utM2H4D.png", "Medha Varma"],
-              ["https://i.imgur.com/utM2H4D.png", "Maadhav Prem"]
+              ["https://i.imgur.com/1J69SFz.jpg", "Medha Varma"],
+              ["https://i.imgur.com/utM2H4D.png", "Maadhav Prem"],
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Tennis",
@@ -223,7 +226,7 @@ void main() {
     "/events/sports/table_tennis": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/utM2H4D.png", "Dhanush Kilari"],
-              ["https://i.imgur.com/utM2H4D.png", "Harsh Naren"]
+              ["https://i.imgur.com/rjtQiQW.jpg", "Harsh Naren"]
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Table Tennis",
@@ -232,8 +235,8 @@ void main() {
             location: "IB Sports Complex Table Tennis Room"),
     "/events/sports/relay": (context) => EventGeneral(
             eventHeads: const [
-              ["https://i.imgur.com/utM2H4D.png", "Ashna Muktibodh"],
-              ["https://i.imgur.com/utM2H4D.png", "Somya Gupta"]
+              ["https://i.imgur.com/OUNjtTQ.jpg", "Ashna Muktibodh"],
+              ["https://i.imgur.com/g14kLj1.jpg", "Somya Gupta"]
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Relay",
@@ -242,8 +245,8 @@ void main() {
             location: "ICSE Turf"),
     "/events/sports/chess": (context) => EventGeneral(
             eventHeads: const [
-              ["https://i.imgur.com/utM2H4D.png", "Adit Bakshi"],
-              ["https://i.imgur.com/utM2H4D.png", "Shreya Seshadri"]
+              ["https://i.imgur.com/35HeWOx.jpg", "Adit Bakshi"],
+              ["https://i.imgur.com/40vrju7.jpg", "Shreya Seshadri"]
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Chess",
@@ -254,7 +257,7 @@ void main() {
     "/events/sports/squash": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/utM2H4D.png", "Alina Prasad"],
-              ["https://i.imgur.com/utM2H4D.png", "Ansh Jhunjhunwala"]
+              ["https://i.imgur.com/DaHF6ry.jpg", "Ansh Jhunjhunwala"]
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Squash",
@@ -263,7 +266,7 @@ void main() {
             location: "IB Sports Complex Squash Court"),
     "/events/sports/flag_football": (context) => EventGeneral(
             eventHeads: const [
-              ["https://i.imgur.com/utM2H4D.png", "Rishabh Girish"],
+              ["https://i.imgur.com/WnDFVpu.jpg", "Rishabh Girish"],
               ["https://i.imgur.com/utM2H4D.png", "Vikramaditya Rontala"]
             ],
             logo: "https://i.imgur.com/utM2H4D.png",

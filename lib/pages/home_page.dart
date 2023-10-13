@@ -104,190 +104,177 @@ class _HomeState extends State<Home> {
               controller: scroller,
               child: Column(
                 children: [
-                  Container(
-                    decoration: BoxDecoration(
-                        image: DecorationImage(
-                            image: NetworkImage("carousel/image_18.jpg"),
-                            fit: BoxFit.fitWidth,
-                            opacity: 0.4)),
-                    child: Stack(
+                  Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Container(
-                            width: MediaQuery.of(context).size.width,
-                            height: MediaQuery.of(context).size.height,
-                            color: Color(0x55000000)),
-                        Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Padding(
-                                padding: const EdgeInsets.all(30.0),
-                                child: Image.network(
-                                  "https://i.imgur.com/5VuyhL2.png",
-                                  height:
-                                      MediaQuery.of(context).size.height * 0.4,
-                                ),
-                              ),
-                              Text(
-                                "IGNITE 2023",
-                                style: TextStyle(
-                                    color: Colors.white,
-                                    fontFamily: font,
-                                    fontSize: 60,
-                                    fontWeight: FontWeight.bold),
-                                textAlign: TextAlign.center,
-                              ),
-                              /*TextButton(
-                              style: ButtonStyle(
-                                foregroundColor:
-                                    MaterialStateProperty.all<Color>(textcolor),
-                                backgroundColor: MaterialStatePropertyAll<Color>(
-                                    Colors.transparent),
-                              ),
-                              child: Padding(
-                                padding:
-                                    const EdgeInsets.fromLTRB(50, 20, 50, 20),
-                                child: Text(
-                                  "Registrations Open Now",
-                                  style: TextStyle(
-                                    color: textcolor,
-                                    fontFamily: font,
-                                    fontSize: 28,
-                                    fontWeight: FontWeight.bold
-                                  ),
-                                  textAlign: TextAlign.center,
-                                ),
-                              ),
-                              onPressed: () {
-                                Navigator.popAndPushNamed(
-                                    context, "/registrations");
-                              },
-                              onHover: (value) {
-                                if (value) {
-                                  setState(() {
-                                    textcolor = Colors.green;
-                                  });
-                                } else {
-                                  setState(() {
-                                    textcolor = Colors.white;
-                                  });
-                                }
-                              },
+                        Padding(
+                          padding: const EdgeInsets.all(30.0),
+                          child: Image.network(
+                            "https://i.imgur.com/5VuyhL2.png",
+                            height:
+                                MediaQuery.of(context).size.height * 0.4,
+                          ),
+                        ),
+                        Text(
+                          "IGNITE 2023",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontFamily: font,
+                              fontSize: 60,
+                              fontWeight: FontWeight.bold),
+                          textAlign: TextAlign.center,
+                        ),
+                        /*TextButton(
+                        style: ButtonStyle(
+                          foregroundColor:
+                              MaterialStateProperty.all<Color>(textcolor),
+                          backgroundColor: MaterialStatePropertyAll<Color>(
+                              Colors.transparent),
+                        ),
+                        child: Padding(
+                          padding:
+                              const EdgeInsets.fromLTRB(50, 20, 50, 20),
+                          child: Text(
+                            "Registrations Open Now",
+                            style: TextStyle(
+                              color: textcolor,
+                              fontFamily: font,
+                              fontSize: 28,
+                              fontWeight: FontWeight.bold
                             ),
-                            */
-                              Padding(
-                                padding: const EdgeInsets.only(top: 20),
-                                child: Text(
-                                  "The event starts in:",
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontFamily: font,
-                                      fontSize: 30),
-                                ),
-                              ),
-                              Row(
-                                mainAxisAlignment: MainAxisAlignment.center,
+                            textAlign: TextAlign.center,
+                          ),
+                        ),
+                        onPressed: () {
+                          Navigator.popAndPushNamed(
+                              context, "/registrations");
+                        },
+                        onHover: (value) {
+                          if (value) {
+                            setState(() {
+                              textcolor = Colors.green;
+                            });
+                          } else {
+                            setState(() {
+                              textcolor = Colors.white;
+                            });
+                          }
+                        },
+                      ),
+                      */
+                        Padding(
+                          padding: const EdgeInsets.only(top: 20),
+                          child: Text(
+                            "The event starts in:",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontFamily: font,
+                                fontSize: 30),
+                          ),
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+                              child: Column(
                                 children: [
                                   Padding(
-                                    padding: const EdgeInsets.all(10.0),
-                                    child: Column(
-                                      children: [
-                                        Padding(
-                                          padding: const EdgeInsets.all(10.0),
-                                          child: Text(
-                                            time_string[0],
-                                            style: TextStyle(
-                                                color: accentColor,
-                                                fontFamily: fontTime,
-                                                fontSize: 40),
-                                          ),
-                                        ),
-                                        Text("Days",
-                                            style: TextStyle(
-                                                color: Colors.white,
-                                                fontFamily: font,
-                                                fontSize: 20))
-                                      ],
+                                    padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+                                    child: Text(
+                                      time_string[0],
+                                      style: TextStyle(
+                                          color: accentColor,
+                                          fontFamily: fontTime,
+                                          fontSize: 40),
                                     ),
                                   ),
-                                  Padding(
-                                    padding: const EdgeInsets.all(10.0),
-                                    child: Column(
-                                      children: [
-                                        Padding(
-                                          padding: const EdgeInsets.all(10.0),
-                                          child: Text(
-                                            time_string[1],
-                                            style: TextStyle(
-                                                color: accentColor,
-                                                fontFamily: fontTime,
-                                                fontSize: 40),
-                                          ),
-                                        ),
-                                        Text("Hours",
-                                            style: TextStyle(
-                                                color: Colors.white,
-                                                fontFamily: font,
-                                                fontSize: 20))
-                                      ],
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.all(10.0),
-                                    child: Column(
-                                      children: [
-                                        Padding(
-                                          padding: const EdgeInsets.all(10.0),
-                                          child: Text(
-                                            time_string[2],
-                                            style: TextStyle(
-                                                color: accentColor,
-                                                fontFamily: fontTime,
-                                                fontSize: 40),
-                                          ),
-                                        ),
-                                        Text("Minutes",
-                                            style: TextStyle(
-                                                color: Colors.white,
-                                                fontFamily: font,
-                                                fontSize: 20))
-                                      ],
-                                    ),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.all(10.0),
-                                    child: Column(
-                                      children: [
-                                        Padding(
-                                          padding: const EdgeInsets.all(10.0),
-                                          child: Text(
-                                            time_string[3],
-                                            style: TextStyle(
-                                                color: accentColor,
-                                                fontFamily: fontTime,
-                                                fontSize: 40),
-                                          ),
-                                        ),
-                                        Text("Seconds",
-                                            style: TextStyle(
-                                                color: Colors.white,
-                                                fontFamily: font,
-                                                fontSize: 20))
-                                      ],
-                                    ),
-                                  ),
+                                  Text("Days",
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontFamily: font,
+                                          fontSize: 20))
                                 ],
                               ),
-                            ]),
-                      ],
-                    ),
-                  ),
-                  Container(),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+                                    child: Text(
+                                      time_string[1],
+                                      style: TextStyle(
+                                          color: accentColor,
+                                          fontFamily: fontTime,
+                                          fontSize: 40),
+                                    ),
+                                  ),
+                                  Text("Hours",
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontFamily: font,
+                                          fontSize: 20))
+                                ],
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+                                    child: Text(
+                                      time_string[2],
+                                      style: TextStyle(
+                                          color: accentColor,
+                                          fontFamily: fontTime,
+                                          fontSize: 40),
+                                    ),
+                                  ),
+                                  Text("Minutes",
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontFamily: font,
+                                          fontSize: 20))
+                                ],
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+                                    child: Text(
+                                      time_string[3],
+                                      style: TextStyle(
+                                          color: accentColor,
+                                          fontFamily: fontTime,
+                                          fontSize: 40),
+                                    ),
+                                  ),
+                                  Text("Seconds",
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontFamily: font,
+                                          fontSize: 20))
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ]),
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: EdgeInsets.fromLTRB(100, 50, 100, 50),
+                    child: Divider(color: Colors.white, height: 1, thickness: 1)),
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(8, 0, 8, 0),
                     child: Column(
                       children: [
                         Padding(
-                            padding: EdgeInsets.all(20),
+                            padding: EdgeInsets.fromLTRB(0, 0, 0, 20),
                             child: Text("Photo Gallery",
                                 style: TextStyle(
                                     color: Colors.white,

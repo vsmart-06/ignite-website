@@ -20,12 +20,14 @@ class _IFrameState extends State<IFrame> {
 
   @override
   Widget build(BuildContext context) {
+    double height = 0.8*MediaQuery.of(context).size.height;
     iFrame.src = widget.link;
     iFrame.style.border = "none";
+    iFrame.height = "$height";
     // ignore: undefined_prefixed_name
     ui.platformViewRegistry
         .registerViewFactory("iFrame", (int viewId) => iFrame);
     iFrameContainer = HtmlElementView(viewType: "iFrame");
-    return iFrameContainer;
+    return Container(height: height, child: iFrameContainer);
   }
 }

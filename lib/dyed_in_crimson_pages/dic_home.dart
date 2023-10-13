@@ -9,19 +9,32 @@ class DICHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    ScrollController scroller = ScrollController();
+
     return Scaffold(
         appBar: getTopBar(context),
         drawer: PointerInterceptor(child: getDrawer(context)),
         backgroundColor: Colors.black,
-        body: Column(
-          children: [
-            Expanded(
-                child: Padding(
-              padding: const EdgeInsets.all(50.0),
-              child: IFrame(link: "https://www.youtube.com/embed/dQw4w9WgXcQ"),
-            )),
-            footer(MediaQuery.of(context).orientation == Orientation.landscape)
-          ],
+        body: RawScrollbar(
+          thumbColor: Color(0xFF313133),
+          thickness: 10,
+          thumbVisibility: true,
+          trackVisibility: true,
+          controller: scroller,
+          child: SingleChildScrollView(
+            controller: scroller,
+            child: Column(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(50.0),
+                  child:
+                      IFrame(link: "https://www.youtube.com/embed/dQw4w9WgXcQ"),
+                ),
+                footer(
+                    MediaQuery.of(context).orientation == Orientation.landscape)
+              ],
+            ),
+          ),
         ));
   }
 }

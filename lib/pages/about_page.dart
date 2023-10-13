@@ -66,7 +66,7 @@ class _AboutState extends State<About> {
                           height: 350),
                     ],
                   ),
-                  Padding(
+                  /* Padding(
                       padding: EdgeInsets.fromLTRB(100, 20, 100, 20),
                       child: Divider(
                           color: Colors.white, height: 1, thickness: 1)),
@@ -99,7 +99,7 @@ class _AboutState extends State<About> {
                             ),
                           ),
                         ],
-                      )),
+                      )), */
                   footer(MediaQuery.of(context).orientation ==
                       Orientation.landscape)
                 ],

@@ -65,7 +65,7 @@ class _CulturalState extends State<Cultural> {
                                 name: "Battle of\nthe Bands"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/Fcv7aQv.png',
                                 websitePath: "/events/cultural/karaoke",
                                 name: "Karaoke"),
                           ],
@@ -206,7 +206,7 @@ class _CulturalState extends State<Cultural> {
                                   name: "Battle of\nthe Bands"),
                               EventsButton(
                                   inSite: true,
-                                  imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                  imagePath: 'https://i.imgur.com/Fcv7aQv.png',
                                   websitePath: "/events/cultural/karaoke",
                                   name: "Karaoke"),
                               EventsButton(

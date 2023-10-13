@@ -26,10 +26,13 @@ AppBar? getTopBar(BuildContext context) {
                           RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(0),
                       ))),
-                  child: Image(
-                      image: NetworkImage("https://i.imgur.com/5VuyhL2.png"),
-                      width: 55,
-                      height: 55),
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(0, 10, 0, 5),
+                    child: Image(
+                        image: NetworkImage("https://i.imgur.com/5VuyhL2.png"),
+                        width: 70,
+                        height: 70),
+                  ),
                   onPressed: () {
                     Navigator.popAndPushNamed(context, "/");
                   },
@@ -37,8 +40,8 @@ AppBar? getTopBar(BuildContext context) {
                 HeaderButton(name: "Home", navPath: "/"),
                 HeaderButton(name: "Events", navPath: "/events"),
                 HeaderButton(name: "Registrations", navPath: "/registrations"),
-                HeaderButton(name: "Merchandise", navPath: "/merchandise"),
-                HeaderButton(name: "About", navPath: "/about"),
+                HeaderButton(name: "Sponsors", navPath: "/sponsors"),
+                HeaderButton(name: "Rules", navPath: "/rules"),
               ],
             ),
           ),
@@ -97,16 +100,6 @@ Drawer getDrawer(BuildContext context) {
         ),
         ListTile(
           title: Text(
-            "About",
-            style:
-                TextStyle(color: Colors.white, fontFamily: font, fontSize: 20),
-          ),
-          onTap: () {
-            Navigator.popAndPushNamed(context, "/about");
-          },
-        ),
-        ListTile(
-          title: Text(
             "Events",
             style:
                 TextStyle(color: Colors.white, fontFamily: font, fontSize: 20),
@@ -117,22 +110,32 @@ Drawer getDrawer(BuildContext context) {
         ),
         ListTile(
           title: Text(
-            "Merchandise",
-            style:
-                TextStyle(color: Colors.white, fontFamily: font, fontSize: 20),
-          ),
-          onTap: () {
-            Navigator.popAndPushNamed(context, "/merchandise");
-          },
-        ),
-        ListTile(
-          title: Text(
             "Registrations",
             style:
                 TextStyle(color: Colors.white, fontFamily: font, fontSize: 20),
           ),
           onTap: () {
             Navigator.popAndPushNamed(context, "/registrations");
+          },
+        ),
+        ListTile(
+          title: Text(
+            "Sponsors",
+            style:
+                TextStyle(color: Colors.white, fontFamily: font, fontSize: 20),
+          ),
+          onTap: () {
+            Navigator.popAndPushNamed(context, "/sponsors");
+          },
+        ),
+        ListTile(
+          title: Text(
+            "Rules",
+            style:
+                TextStyle(color: Colors.white, fontFamily: font, fontSize: 20),
+          ),
+          onTap: () {
+            Navigator.popAndPushNamed(context, "/rules");
           },
         ),
         Expanded(
