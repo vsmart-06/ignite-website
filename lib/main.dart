@@ -99,7 +99,7 @@ void main() {
               ["https://i.imgur.com/ArWQyzf.jpg", "Yuvika Sherawat"],
               ["https://i.imgur.com/utM2H4D.png", "Shruti Karandikar"]
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/I5yddnf.png",
             title: "Metamorphosis",
             about:
                 "A relay race for your mind where the canvas is your track and the paintbrush is your baton- sounds interesting?\n\nWatch art reshape before your eyes!\n\nEvery stroke builds upon the last and an artist's vision blooms into another's creation, building onto a masterpiece of collaboration. Bring any art mediums to display your skills.  Each participant blends their insight, furnishing a blank canvas into a kaleidoscope of creativity. Show off your artworks in the mini exhibition!",
@@ -143,7 +143,7 @@ void main() {
               ["https://i.imgur.com/wVabaMb.jpg", "Yashaswini Chinta"],
               ["https://i.imgur.com/qU82cFf.jpg", "Nivedhita Kumar"]
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/QHDug4A.png",
             title: "Shoot your Shot",
             about:
                 "Get ready to embark on a visual journey like no other in our photography event! Join us for an immersive experience that celebrates the art of photography and individuality. Showcase your skills across 2 rounds and capture the fleeting and breathtaking moments that make each individual unique. The best photographers will be moving onto round 2 which requires them to take their talents to a whole new level in capturing pictures that relate to a surprise prompt within IGNITE. Whether you're a seasoned pro or a budding enthusiast, this event promises to IGNITE your passion and spark your creativity. Come, be a part of this mesmerising celebration of the art at Shoot Your Shot !!",
@@ -172,7 +172,7 @@ void main() {
             location: "Next to ICSE Turf"),
     "/events/sports/basketball": (context) => EventGeneral(
             eventHeads: const [
-              ["https://i.imgur.com/utM2H4D.png", "Shiven Bhaskarabatla"],
+              ["https://i.imgur.com/bUTIOIP.jpg", "Shiven Bhaskarabatla"],
               ["https://i.imgur.com/TYSZxP7.jpg", "Ashwin Ganapathy"],
               ["https://i.imgur.com/T8uuuFC.jpg", "Anjini Basu"]
             ],
@@ -184,7 +184,7 @@ void main() {
     "/events/sports/football": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/utM2H4D.png", "Parth Mehra"],
-              ["https://i.imgur.com/utM2H4D.png", "Fahim Bawahir"],
+              ["https://i.imgur.com/yICCODo.jpg", "Fahim Bawahir"],
               ["https://i.imgur.com/nXbvbzy.jpg", "Chaitanya GT"]
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
@@ -218,7 +218,7 @@ void main() {
               ["https://i.imgur.com/1J69SFz.jpg", "Medha Varma"],
               ["https://i.imgur.com/utM2H4D.png", "Maadhav Prem"],
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/RpQ95ud.png",
             title: "Tennis",
             about:
                 "Welcome to the Tennis Tournament at IGNITE '23! Where strategy meets stamina, and where you can take significant strides on the staircase to success.\n\nAt this year's edition, the following format will be adhered to:\n- We will have both boys' and girls' tournaments - on hard courts.\n- Each participating team must have 3 or 4 members - 1 or 2 singles players, and a pair of doubles players.\n- The tournaments will be held in a knockout format.\n- For the first round of doubles the team that wins 3 games first shall advance.\n- Likewise, the player that wins 4 games first for singles shall advance.\n- In the semis and finals, it will be a one-set match.\n- All games shall be played according to ATP and WTA rules.\n\nRegister now and grab the opportunity to participate in fast-paced and fun-filled sporting beauty, and experience an intense cross-court adrenaline rush!",
@@ -238,7 +238,7 @@ void main() {
               ["https://i.imgur.com/OUNjtTQ.jpg", "Ashna Muktibodh"],
               ["https://i.imgur.com/g14kLj1.jpg", "Somya Gupta"]
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/eiuGm2o.png",
             title: "Relay",
             about:
                 "Relay, the essence of teamwork and speed, takes the stage this year at Ignite 2023. We call all athletes to take part in this thrilling competition. Teams will go through heats, before the top teams are selected to move on to the finals. So get ready, every stride and second brings you closer to victory!\n\n- There are two categories: 4 x 100m (boys) | 4 x 100m (girls)\n- Each team should consist of 4 runners with 1-2 optional substitutes\n- There will be two rounds: Heats on day 1 | Finals on day 2\n- The standard world athletics rules will be followed for the relay.\n\nPlease note dropping of the baton during any point of the race will lead to disqualification.",
@@ -256,7 +256,7 @@ void main() {
                 "IB Sports Complex Chess Room & IB Sports Complex Dance Room"),
     "/events/sports/squash": (context) => EventGeneral(
             eventHeads: const [
-              ["https://i.imgur.com/utM2H4D.png", "Alina Prasad"],
+              ["https://i.imgur.com/r6oTOzJ.jpg", "Alina Prasad"],
               ["https://i.imgur.com/DaHF6ry.jpg", "Ansh Jhunjhunwala"]
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
@@ -267,7 +267,7 @@ void main() {
     "/events/sports/flag_football": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/WnDFVpu.jpg", "Rishabh Girish"],
-              ["https://i.imgur.com/utM2H4D.png", "Vikramaditya Rontala"]
+              ["https://i.imgur.com/ZuW5GBC.jpg", "Vikramaditya Rontala"]
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Flag Football",
