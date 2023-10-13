@@ -110,7 +110,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/I5yddnf.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Metamorphosis"),
@@ -144,7 +144,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/QHDug4A.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Shoot your\nShot"),
@@ -251,7 +251,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 name: "Icons and\nImitations"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/I5yddnf.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Metamorphosis"),
@@ -280,7 +280,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/QHDug4A.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Shoot your\nShot"),
