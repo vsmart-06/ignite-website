@@ -89,7 +89,7 @@ class _SportsState extends State<Sports> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/RpQ95ud.png',
                                 websitePath: "/events/sports/tennis",
                                 name: "Tennis"),
                             EventsButton(
@@ -104,7 +104,7 @@ class _SportsState extends State<Sports> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/eiuGm2o.png',
                                 websitePath: "/events/sports/relay",
                                 name: "Relay"),
                             EventsButton(
@@ -190,7 +190,7 @@ class _SportsState extends State<Sports> {
                                 name: "Badminton"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/RpQ95ud.png',
                                 websitePath: "/events/sports/tennis",
                                 name: "Tennis"),
                           ],
@@ -205,7 +205,7 @@ class _SportsState extends State<Sports> {
                                 name: "Table Tennis"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/eiuGm2o.png',
                                 websitePath: "/events/sports/relay",
                                 name: "Relay"),
                             EventsButton(
