@@ -107,7 +107,7 @@ class _CulturalState extends State<Cultural> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/I5yddnf.png',
                                 websitePath: "/events/cultural/metamorphosis",
                                 name: "Metamorphosis"),
                             EventsButton(
@@ -137,7 +137,7 @@ class _CulturalState extends State<Cultural> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/QHDug4A.png',
                                 websitePath: "/events/cultural/shoot_your_shot",
                                 name: "Shoot your\nShot"),
                             EventsButton(
@@ -240,7 +240,7 @@ class _CulturalState extends State<Cultural> {
                                 name: "Icons and\nImitations"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/I5yddnf.png',
                                 websitePath: "/events/cultural/metamorphosis",
                                 name: "Metamorphosis"),
                             EventsButton(
@@ -265,7 +265,7 @@ class _CulturalState extends State<Cultural> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/QHDug4A.png',
                                 websitePath: "/events/cultural/shoot_your_shot",
                                 name: "Shoot your\nShot"),
                             EventsButton(
