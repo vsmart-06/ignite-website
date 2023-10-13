@@ -93,7 +93,7 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/RpQ95ud.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Tennis"),
@@ -110,7 +110,7 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/eiuGm2o.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Relay"),
@@ -204,7 +204,7 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                                 name: "Badminton"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/RpQ95ud.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Tennis"),
@@ -221,7 +221,7 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                                 name: "Table Tennis"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/eiuGm2o.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Relay"),
