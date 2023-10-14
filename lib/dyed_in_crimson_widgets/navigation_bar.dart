@@ -26,19 +26,22 @@ AppBar? getTopBar(BuildContext context) {
                           RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(0),
                       ))),
-                  child: Image(
-                      image: NetworkImage("https://i.imgur.com/5VuyhL2.png"),
-                      width: 55,
-                      height: 55),
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(0, 10, 0, 5),
+                    child: Image(
+                        image: NetworkImage("https://i.imgur.com/5VuyhL2.png"),
+                        width: 70,
+                        height: 70),
+                  ),
                   onPressed: () {
-                    Navigator.popAndPushNamed(context, "/dyed_in_crimson/home");
+                    Navigator.pushNamed(context, "/");
                   },
                 ),
                 HeaderButton(name: "Home", navPath: "/dyed_in_crimson/home"),
                 HeaderButton(
                     name: "Characters", navPath: "/dyed_in_crimson/characters"),
                 HeaderButton(
-                    name: "Hourly", navPath: "/dyed_in_crimson/events"),
+                    name: "Hourly", navPath: "/dyed_in_crimson/hourly"),
               ],
             ),
           ),
@@ -112,7 +115,7 @@ Drawer getDrawer(BuildContext context) {
                 TextStyle(color: Colors.white, fontFamily: font, fontSize: 20),
           ),
           onTap: () {
-            Navigator.popAndPushNamed(context, "/dyed_in_crimson/events");
+            Navigator.popAndPushNamed(context, "/dyed_in_crimson/hourly");
           },
         ),
         Expanded(

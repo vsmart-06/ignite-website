@@ -76,13 +76,13 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/6luARcL.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Dance\nRoulette"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/lijkg74.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Silver\nScreen"),
@@ -99,7 +99,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 name: "Thespian of\nMelody"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/Rb9rYm4.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Icons and\nImitations"),
@@ -116,7 +116,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 name: "Metamorphosis"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/Xh3s9WP.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Kryptos\nVisos"),
@@ -127,7 +127,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/X3K5jxY.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Dyed in\nCrimson"),
@@ -150,7 +150,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 name: "Shoot your\nShot"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/c4gjJaW.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Respawn"),
@@ -221,13 +221,13 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                   name: "Karaoke"),
                               EventsButton(
                                   inSite: false,
-                                  imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                  imagePath: 'https://i.imgur.com/6luARcL.png',
                                   websitePath:
                                       "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                   name: "Dance\nRoulette"),
                               EventsButton(
                                   inSite: false,
-                                  imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                  imagePath: 'https://i.imgur.com/lijkg74.png',
                                   websitePath:
                                       "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                   name: "Silver\nScreen"),
@@ -245,7 +245,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/Rb9rYm4.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Icons and\nImitations"),
@@ -258,12 +258,11 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                             EventsButton(
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/5VuyhL2.png',
-                                websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                websitePath: "https://i.imgur.com/Xh3s9WP.png",
                                 name: "Kryptos\nVisos"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/X3K5jxY.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Dyed in\nCrimson"),
@@ -286,7 +285,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 name: "Shoot your\nShot"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/c4gjJaW.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Respawn"),

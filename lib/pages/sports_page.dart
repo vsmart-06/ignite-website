@@ -74,7 +74,7 @@ class _SportsState extends State<Sports> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/tShMoBm.png',
                                 websitePath: "/events/sports/hockey",
                                 name: "Hockey"),
                             EventsButton(
@@ -89,7 +89,7 @@ class _SportsState extends State<Sports> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/RpQ95ud.png',
+                                imagePath: 'https://i.imgur.com/HrQCltb.png',
                                 websitePath: "/events/sports/tennis",
                                 name: "Tennis"),
                             EventsButton(
@@ -180,7 +180,7 @@ class _SportsState extends State<Sports> {
                                 name: "Football"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/tShMoBm.png',
                                 websitePath: "/events/sports/hockey",
                                 name: "Hockey"),
                             EventsButton(
@@ -190,7 +190,7 @@ class _SportsState extends State<Sports> {
                                 name: "Badminton"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/RpQ95ud.png',
+                                imagePath: 'https://i.imgur.com/HrQCltb.png',
                                 websitePath: "/events/sports/tennis",
                                 name: "Tennis"),
                           ],

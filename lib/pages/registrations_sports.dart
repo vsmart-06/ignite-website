@@ -76,7 +76,7 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/tShMoBm.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Hockey"),
@@ -93,7 +93,7 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/RpQ95ud.png',
+                                imagePath: 'https://i.imgur.com/HrQCltb.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Tennis"),
@@ -192,7 +192,7 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                                 name: "Football"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/tShMoBm.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Hockey"),
@@ -204,7 +204,7 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                                 name: "Badminton"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/RpQ95ud.png',
+                                imagePath: 'https://i.imgur.com/HrQCltb.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Tennis"),

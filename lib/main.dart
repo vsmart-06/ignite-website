@@ -12,6 +12,7 @@ import "package:ignite_2023/pages/registrations_sports.dart";
 import 'package:ignite_2023/pages/sponsors_page.dart';
 import "package:ignite_2023/dyed_in_crimson_pages/dic_home.dart";
 import "package:ignite_2023/dyed_in_crimson_pages/dic_characters.dart";
+import "package:ignite_2023/dyed_in_crimson_pages/dic_hourly.dart";
 
 void main() {
   runApp(MaterialApp(title: "IGNITE 2023", routes: {
@@ -27,6 +28,7 @@ void main() {
     "/registrations/cultural": (context) => RegistrationsCultural(),
     "/dyed_in_crimson/home": (context) => DICHome(),
     "/dyed_in_crimson/characters": (context) => DICCharacters(),
+    "/dyed_in_crimson/hourly": (context) => DICHourly(),
     "/events/cultural/battle_of_the_bands": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/lS03T8H.jpg", "Saishruthi Donthula"],
@@ -55,7 +57,7 @@ void main() {
               ["https://i.imgur.com/kAfeRnY.jpg", "Aishwarya Garine"],
               ["https://i.imgur.com/6xmimiP.jpg", "Surabhi Mitra"],
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/6luARcL.png",
             title: "Dance Roulette",
             about:
                 "Witness an electrifying dance event like no other!\n\nRazzMatazz features two rounds of captivating dance performances that will enthral the audience and keep them engaged throughout. Round 1 gives the participants an opportunity to demonstrate their talent and skill. From Hip-hop to Contemporary and Bollywood, this round will showcase a mesmerising display of rhythm and harmony, that will bring the stage alive. Round 2 will bring the competition to a whole new level, where the best dancers from the qualified teams will go head to head in an improv dance battle.",
@@ -66,7 +68,7 @@ void main() {
               ["https://i.imgur.com/UwF7yT5.jpg", "Dhriti Rao"],
               ["https://i.imgur.com/7iQ7dVq.jpg", "Mayaan Hazra"]
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/lijkg74.png",
             title: "Silver Screen",
             about:
                 "Step into the shadowy world of intrigue and deception at Silver Screen, our Film Noir themed festival. Explore the tropes of the timeless classics and modern masterpieces that define this genre, while exploring your own creative direction in the production of your own films.",
@@ -88,7 +90,7 @@ void main() {
               ["https://i.imgur.com/XNk2F6S.png", "Pragati Prabhakar"],
               ["https://i.imgur.com/tqIa4At.jpg", "Tisya Munjal"],
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/Rb9rYm4.png",
             title: "Icons and Imitations",
             about:
                 "Strut the runway starring as the most legendary fashion icons of the 20th and 21st century. Each team will randomly be assigned an icon, from Bowie to Madonna, and must take inspiration for their looks from the fashion idol, with their own personal flair of creativity. The second round will feature outfits from various randomly assigned movies. Break a heel!",
@@ -110,7 +112,7 @@ void main() {
               ["https://i.imgur.com/0ovJqP9.jpg", "Krithika Paruchuri"],
               ["https://i.imgur.com/hawKBo1.jpg", "Trisha Ghosh"]
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/Xh3s9WP.png",
             title: "Kryptos Visos",
             about:
                 "Mystique meets creativity and imagination as a face is transformed into a colorful canvas over two days. Villains are crucial to a story - for every Batman there is a Joker, for every Jekyll there's a Hyde. Pick up your brushes and palettes and represent these complex, often misunderstood antagonists in round 1. Compete with artists all over Bangalore to make it into round 2, where a new theme and a few surprises are waiting for you.",
@@ -121,7 +123,7 @@ void main() {
               ["https://i.imgur.com/uPvKNKg.jpg", "Ayaan Gupta"],
               ["https://i.imgur.com/y0L6iaz.jpg", "Anish Vivek"]
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/Bvm0NHU.png",
             title: "Dyed in Crimson",
             about:
                 "Families shattered. Bloodied hands. A hidden killer.\n\nA murder mystery without compare.\n\nEnter a world filled with secrets, intrigue, and murder galore. As you find yourself in the midst of two feuding families and a murder that threatens their very legacies, you must maneuver around veils of deceit and concealed motives to uncover the one true murderer. Their fate lies in your hands — the last chance to piece together a shattered bloodline.\n\nFind the killer or die trying.",
@@ -154,7 +156,7 @@ void main() {
               ["https://i.imgur.com/ye3IHZh.jpg", "Anish Mamidi"],
               ["https://i.imgur.com/iWQO2VG.png", "Shrest Bhowmick"]
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/c4gjJaW.png",
             title: "Respawn",
             about:
                 "Ignite's most iconic event returns to the grand stage this year. Keeping tradition intact, participants are invited to compete in Fifa 2022 and Clash Royale. Additionally, we will be introducing the ultimate showdown of tactical prowess and teamwork in the form of our 5v5 VALORANT tournament!",
@@ -183,7 +185,7 @@ void main() {
             location: "ICSE Basketball Courts & IB Outdoor Basketball Court"),
     "/events/sports/football": (context) => EventGeneral(
             eventHeads: const [
-              ["https://i.imgur.com/utM2H4D.png", "Parth Mehra"],
+              ["https://i.imgur.com/CsYBNjM.jpg", "Parth Mehra"],
               ["https://i.imgur.com/yICCODo.jpg", "Fahim Bawahir"],
               ["https://i.imgur.com/nXbvbzy.jpg", "Chaitanya GT"]
             ],
@@ -194,10 +196,10 @@ void main() {
             location: "ICSE Turf & IB Sports Complex Field"),
     "/events/sports/hockey": (context) => EventGeneral(
             eventHeads: const [
-              ["https://i.imgur.com/utM2H4D.png", "Rahul Prabhu"],
-              ["https://i.imgur.com/utM2H4D.png", "Ashvik Mishra"]
+              ["https://i.imgur.com/zJFp4P6.jpg", "Rahul Prabhu"],
+              ["https://i.imgur.com/bmxbKjf.jpg", "Ashvik Mishra"]
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/tShMoBm.png",
             title: "Hockey",
             about:
                 "Prepare to experience the electrifying adrenaline that a field hockey tournament can only provide—the crack of the sticks, the shout of the crowd, and the electrifying action. It's a universe where power and precision coexist, where dexterity and ferocity clash, and where champions are made. This is more than just a competition; it's a journey through the heart of the game. Grab your seats, gather your supporters, and get ready to be enthralled by the exciting drama as heroes emerge, rivalries flare, and the spirit of field hockey assumes a central role.\n\n- Two categories: Boys and Girls\n- 7 players aside\n- A maximum of 4 substitutes\n- Playing time (boys): 7.5 minutes per quarter\n- Playing time (girls): 5 minutes per quarter\n- Rules will follow according to the FIH standards with minor modifications for your collective benefit\n- Group stages open with an eliminator round\n- Top 4 teams will compete in a league round before the finals\n\nIn the inspirational words of Major Dhyan Chand - \"Hockey is not just a game, it's a passion that runs through my veins\". Welcome to the field hockey tournament of a lifetime, the heart of all the excitement!",
@@ -216,16 +218,16 @@ void main() {
     "/events/sports/tennis": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/1J69SFz.jpg", "Medha Varma"],
-              ["https://i.imgur.com/utM2H4D.png", "Maadhav Prem"],
+              ["https://i.imgur.com/XnVi6KV.jpg", "Maadhav Prem"],
             ],
-            logo: "https://i.imgur.com/RpQ95ud.png",
+            logo: "https://i.imgur.com/HrQCltb.png",
             title: "Tennis",
             about:
                 "Welcome to the Tennis Tournament at IGNITE '23! Where strategy meets stamina, and where you can take significant strides on the staircase to success.\n\nAt this year's edition, the following format will be adhered to:\n- We will have both boys' and girls' tournaments - on hard courts.\n- Each participating team must have 3 or 4 members - 1 or 2 singles players, and a pair of doubles players.\n- The tournaments will be held in a knockout format.\n- For the first round of doubles the team that wins 3 games first shall advance.\n- Likewise, the player that wins 4 games first for singles shall advance.\n- In the semis and finals, it will be a one-set match.\n- All games shall be played according to ATP and WTA rules.\n\nRegister now and grab the opportunity to participate in fast-paced and fun-filled sporting beauty, and experience an intense cross-court adrenaline rush!",
             location: "IB Tennis Courts near ICSE Turf"),
     "/events/sports/table_tennis": (context) => EventGeneral(
             eventHeads: const [
-              ["https://i.imgur.com/utM2H4D.png", "Dhanush Kilari"],
+              ["https://i.imgur.com/aAfV2xz.jpg", "Dhanush Kilari"],
               ["https://i.imgur.com/rjtQiQW.jpg", "Harsh Naren"]
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
@@ -267,7 +269,7 @@ void main() {
     "/events/sports/flag_football": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/WnDFVpu.jpg", "Rishabh Girish"],
-              ["https://i.imgur.com/ZuW5GBC.jpg", "Vikramaditya Rontala"]
+              ["https://i.imgur.com/P1R8HPI.jpg", "Vikramaditya Rontala"]
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
             title: "Flag Football",

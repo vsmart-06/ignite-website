@@ -48,23 +48,26 @@ class _SponsorsState extends State<Sponsors> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       ItemCard(
-                          logo: "https://i.imgur.com/5VuyhL2.png",
+                          image: "https://i.imgur.com/5VuyhL2.png",
                           name: "Name",
                           description: "Hello World",
                           width: 250,
-                          height: 350),
+                          height: 350,
+                          color: Colors.orange),
                       ItemCard(
-                          logo: "https://i.imgur.com/5VuyhL2.png",
+                          image: "https://i.imgur.com/5VuyhL2.png",
                           name: "Mr. Beast",
                           description: "Hello World",
                           width: 250,
-                          height: 350),
+                          height: 350,
+                          color: Colors.orange),
                       ItemCard(
-                          logo: "https://i.imgur.com/5VuyhL2.png",
+                          image: "https://i.imgur.com/5VuyhL2.png",
                           name: "Pizza Hut",
                           description: "Hello World",
                           width: 250,
-                          height: 350),
+                          height: 350,
+                          color: Colors.orange),
                     ],
                   ),
                 ),
@@ -89,25 +92,28 @@ class _SponsorsState extends State<Sponsors> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       ItemCard(
-                        logo: "https://i.imgur.com/5VuyhL2.png",
+                        image: "https://i.imgur.com/5VuyhL2.png",
                         name: "Cap",
                         description: "Hello World",
                         width: 250,
                         height: 350,
+                        color: Colors.orange
                       ),
                       ItemCard(
-                        logo: "https://i.imgur.com/5VuyhL2.png",
+                        image: "https://i.imgur.com/5VuyhL2.png",
                         name: "Hat",
                         description: "Hello World",
                         width: 250,
                         height: 350,
+                        color: Colors.orange
                       ),
                       ItemCard(
-                        logo: "https://i.imgur.com/5VuyhL2.png",
+                        image: "https://i.imgur.com/5VuyhL2.png",
                         name: "Shirt",
                         description: "Hello World",
                         width: 250,
                         height: 350,
+                        color: Colors.orange
                       ),
                     ],
                   ),

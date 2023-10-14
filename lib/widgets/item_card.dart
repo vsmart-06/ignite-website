@@ -4,19 +4,21 @@ import "package:flutter/material.dart";
 import "package:google_fonts/google_fonts.dart";
 
 class ItemCard extends StatefulWidget {
-  String? logo;
+  String? image;
   String? name;
   String? description;
   double? width;
   double? height;
+  Color? color;
 
   ItemCard(
       {super.key,
-      required this.logo,
+      this.image,
       required this.name,
       required this.description,
       required this.width,
-      required this.height});
+      required this.height,
+      required this.color});
 
   @override
   State<ItemCard> createState() => _ItemCardState();
@@ -37,7 +39,7 @@ class _ItemCardState extends State<ItemCard>
     super.initState();
     animationController =
         AnimationController(vsync: this, duration: Duration(milliseconds: 150));
-    color_animation = ColorTween(begin: Color(0xFF1D1C1C), end: Colors.orange)
+    color_animation = ColorTween(begin: Color(0xFF1D1C1C), end: widget.color!)
         .animate(animationController);
     elevation_animation = Tween<double>(begin: 0, end: 20)
         .chain(CurveTween(curve: Curves.easeInOut))
@@ -46,11 +48,12 @@ class _ItemCardState extends State<ItemCard>
       setState(() {});
     });
     cardText = [
-      Image(image: NetworkImage(widget.logo!), width: 150, height: 150),
+      widget.image != null ? Image(image: NetworkImage(widget.image!), width: 150, height: 150) : Container(),
       Text(
         widget.name!,
         style:
-            TextStyle(fontSize: 40, color: Colors.white, fontFamily: fontMain),
+            TextStyle(fontSize: 35, color: Colors.white, fontFamily: fontMain),
+          textAlign: TextAlign.center,
       ),
     ];
   }
@@ -62,17 +65,19 @@ class _ItemCardState extends State<ItemCard>
         Text(
           widget.description!,
           style: TextStyle(
-              fontSize: 20, color: Colors.white, fontFamily: fontMain),
+              fontSize: 25, color: Colors.white, fontFamily: fontMain),
+          textAlign: TextAlign.center,
         ),
       ];
     } else {
       animationController.reverse();
       cardText = [
-        Image(image: NetworkImage(widget.logo!), width: 150, height: 150),
+        widget.image != null ? Image(image: NetworkImage(widget.image!), width: 150, height: 150) : Container(),
         Text(
           widget.name!,
           style: TextStyle(
-              fontSize: 40, color: Colors.white, fontFamily: fontMain),
+              fontSize: 35, color: Colors.white, fontFamily: fontMain),
+          textAlign: TextAlign.center,
         ),
       ];
     }

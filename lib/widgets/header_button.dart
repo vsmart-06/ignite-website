@@ -38,7 +38,7 @@ class _HeaderButtonState extends State<HeaderButton> {
           fontFamily: fontFamily
         )
       ),
-      onPressed: () {Navigator.popAndPushNamed(context, widget.navPath);},
+      onPressed: () {Navigator.pushNamed(context, widget.navPath);},
       onHover: (value) {
         if (value) {
           setState(() {
