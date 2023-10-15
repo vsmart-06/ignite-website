@@ -19,7 +19,7 @@ class _RulesState extends State<Rules> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: getTopBar(context),
-      drawer: getTopBar(context),
+      drawer: getDrawer(context),
       backgroundColor: Colors.black,
       body: RawScrollbar(
         thumbColor: Color(0xFF313133),
