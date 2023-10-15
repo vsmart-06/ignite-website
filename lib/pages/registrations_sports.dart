@@ -76,13 +76,13 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tShMoBm.png',
+                                imagePath: 'https://i.imgur.com/85etvSD.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Hockey"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/DflBZC9.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Badminton"),
@@ -133,7 +133,7 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                                 name: "Chess"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/lnmXe4T.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Squash"),
@@ -192,13 +192,13 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                                 name: "Football"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/tShMoBm.png',
+                                imagePath: 'https://i.imgur.com/85etvSD.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Hockey"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/DflBZC9.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Badminton"),
@@ -239,7 +239,7 @@ class _RegistrationsSportsState extends State<RegistrationsSports> {
                                 name: "Chess"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/lnmXe4T.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Squash"),

@@ -40,7 +40,7 @@ AppBar? getTopBar(BuildContext context) {
                 HeaderButton(name: "Home", navPath: "/"),
                 HeaderButton(name: "Events", navPath: "/events"),
                 HeaderButton(name: "Registrations", navPath: "/registrations"),
-                HeaderButton(name: "Sponsors", navPath: "/sponsors"),
+                HeaderButton(name: "Merchandise", navPath: "/sponsors"), // TODO Temporary Change
                 HeaderButton(name: "Rules", navPath: "/rules"),
               ],
             ),
@@ -120,7 +120,7 @@ Drawer getDrawer(BuildContext context) {
         ),
         ListTile(
           title: Text(
-            "Sponsors",
+            "Merchandise", // TODO Temporary Change
             style:
                 TextStyle(color: Colors.white, fontFamily: font, fontSize: 20),
           ),

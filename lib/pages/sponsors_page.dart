@@ -31,6 +31,7 @@ class _SponsorsState extends State<Sponsors> {
           controller: scroller,
           child: Column(
             children: [
+              /* Remove Sponsors Until Sponsors Sponsor
               Padding(
                 padding: const EdgeInsets.all(20.0),
                 child: Text(
@@ -75,6 +76,7 @@ class _SponsorsState extends State<Sponsors> {
               Padding(
                   padding: EdgeInsets.fromLTRB(100, 20, 100, 20),
                   child: Divider(color: Colors.white, height: 1, thickness: 1)),
+                  */
               Padding(
                 padding: const EdgeInsets.all(20.0),
                 child: Text(

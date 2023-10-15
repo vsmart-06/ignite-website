@@ -31,9 +31,14 @@ class _HomeState extends State<Home> {
   List<Color> buttonColors = [Colors.black, Colors.black, Colors.black];
   Color textcolor = Colors.white;
   List imageCarousel = [
-    "https://i.imgur.com/5VuyhL2.png",
-    "https://i.imgur.com/yx3dJZQ.png",
-    "https://i.imgur.com/GaAC6Sp.png"
+    "https://i.imgur.com/3wbptnT.jpg",
+    "https://i.imgur.com/CKGZOx3.jpg",
+    "https://i.imgur.com/7mDGjyL.jpg",
+    "https://i.imgur.com/yQBSbPP.jpg",
+    "https://i.imgur.com/Xv21qJX.jpg",
+    "https://i.imgur.com/ldimDic.jpg",
+    "https://i.imgur.com/oDmVvA2.jpg",
+    "https://i.imgur.com/RF8DyDF.jpg"
   ];
   double? scheduleHeight;
   double? scheduleWidth;
@@ -355,7 +360,7 @@ class _HomeState extends State<Home> {
                                 ),
                               ),
                               Text(
-                                "Greenwood High Model United Nations 2023",
+                                "IGNITE 2023",
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontFamily: font,
@@ -363,18 +368,18 @@ class _HomeState extends State<Home> {
                                     fontWeight: FontWeight.bold),
                                 textAlign: TextAlign.center,
                               ),
-                              Padding(
-                                padding:
-                                    const EdgeInsets.fromLTRB(20, 20, 20, 20),
-                                child: Text(
-                                  "25-27 AUGUST 2023",
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontFamily: font,
-                                      fontSize: 28),
-                                  textAlign: TextAlign.center,
-                                ),
-                              ),
+                              // Padding(
+                              //   padding:
+                              //       const EdgeInsets.fromLTRB(20, 20, 20, 20),
+                              //   child: Text(
+                              //     "The event starts in:",
+                              //     style: TextStyle(
+                              //         color: Colors.white,
+                              //         fontFamily: font,
+                              //         fontSize: 28),
+                              //     textAlign: TextAlign.center,
+                              //   ),
+                              // ),
                               /*TextButton(
                               style: ButtonStyle(
                                 foregroundColor:
@@ -416,7 +421,7 @@ class _HomeState extends State<Home> {
                               Padding(
                                 padding: const EdgeInsets.only(top: 20),
                                 child: Text(
-                                  "The conference starts in:",
+                                  "The event starts in:",
                                   style: TextStyle(
                                       color: Colors.white,
                                       fontFamily: font,

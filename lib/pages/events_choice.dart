@@ -58,12 +58,12 @@ class _CultSportState extends State<CultSport> {
                         children: [
                           EventsButton(
                               inSite: true,
-                              imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                              imagePath: 'https://i.imgur.com/kOsxXDR.png',
                               websitePath: "/events/cultural",
                               name: "Cultural"),
                           EventsButton(
                               inSite: true,
-                              imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                              imagePath: 'https://i.imgur.com/eVbCEyT.png',
                               websitePath: "/events/sports",
                               name: "Sports"),
                         ],

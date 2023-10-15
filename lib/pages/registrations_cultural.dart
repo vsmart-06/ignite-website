@@ -1,5 +1,6 @@
 import "package:flutter/material.dart";
 import "package:google_fonts/google_fonts.dart";
+import "package:ignite_2023/pages/respawn_registrations.dart";
 import 'package:ignite_2023/widgets/events_button.dart';
 import "package:ignite_2023/widgets/footer.dart";
 import "package:ignite_2023/widgets/navigation_bar.dart";
@@ -54,6 +55,24 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                     controller: scroll,
                     child: Column(
                       children: [
+                        Container(
+                          width: MediaQuery.of(context).size.width * 0.7,
+                          child: Card(
+                            color: Colors.transparent,
+                            shape: RoundedRectangleBorder(
+                              side: BorderSide(color: Colors.white),
+                              borderRadius: BorderRadius.circular(10)
+                            ),
+                            child: Padding(
+                              padding: const EdgeInsets.all(20.0),
+                              child: Text(
+                                "Note: Each school can send a maximum of 2 teams. If more than 2 teams register, the first 2 teams that submit the form will be taken into account.",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 30, fontFamily: titleFont),
+                              ),
+                            ),
+                          ),
+                        ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
@@ -68,7 +87,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 imagePath: 'https://i.imgur.com/Fcv7aQv.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                                name: "Karaoke"),
+                                name: "Pitch\nPerfect"),
                           ],
                         ),
                         Row(
@@ -79,7 +98,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 imagePath: 'https://i.imgur.com/6luARcL.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                                name: "Dance\nRoulette"),
+                                name: "Razzmatazz"),
                             EventsButton(
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/lijkg74.png',
@@ -99,7 +118,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 name: "Thespian of\nMelody"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/Rb9rYm4.png',
+                                imagePath: 'https://i.imgur.com/bhiMoTF.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Icons and\nImitations"),
@@ -127,12 +146,6 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/X3K5jxY.png',
-                                websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                                name: "Dyed in\nCrimson"),
-                            EventsButton(
-                                inSite: false,
                                 imagePath: 'https://i.imgur.com/GaAC6Sp.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
@@ -149,10 +162,10 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Shoot your\nShot"),
                             EventsButton(
-                                inSite: false,
+                                inSite: true,
                                 imagePath: 'https://i.imgur.com/c4gjJaW.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "/registrations/respawn",
                                 name: "Respawn"),
                           ],
                         ),
@@ -164,7 +177,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                                name: "Capture\nthe Flag"),
+                                name: "Throwback\nTrifecta"),
                           ],
                         )
                       ],
@@ -203,6 +216,24 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                     controller: scroll,
                     child: Column(
                       children: [
+                        Container(
+                          width: MediaQuery.of(context).size.width * 0.7,
+                          child: Card(
+                            color: Colors.transparent,
+                            shape: RoundedRectangleBorder(
+                              side: BorderSide(color: Colors.white),
+                              borderRadius: BorderRadius.circular(10)
+                            ),
+                            child: Padding(
+                              padding: const EdgeInsets.all(20.0),
+                              child: Text(
+                                "Note: Each school can send a maximum of 2 teams. If more than 2 teams register, the first 2 teams that submit the form will be taken into account.",
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 30, fontFamily: titleFont),
+                              ),
+                            ),
+                          ),
+                        ),
                         SingleChildScrollView(
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -218,13 +249,13 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                   imagePath: 'https://i.imgur.com/Fcv7aQv.png',
                                   websitePath:
                                       "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                                  name: "Karaoke"),
+                                  name: "Pitch\nPerfect"),
                               EventsButton(
                                   inSite: false,
                                   imagePath: 'https://i.imgur.com/6luARcL.png',
                                   websitePath:
                                       "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                                  name: "Dance\nRoulette"),
+                                  name: "Razzmatazz"),
                               EventsButton(
                                   inSite: false,
                                   imagePath: 'https://i.imgur.com/lijkg74.png',
@@ -245,7 +276,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/Rb9rYm4.png',
+                                imagePath: 'https://i.imgur.com/bhiMoTF.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Icons and\nImitations"),
@@ -262,39 +293,33 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 name: "Kryptos\nVisos"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/X3K5jxY.png',
-                                websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                                name: "Dyed in\nCrimson"),
-                            EventsButton(
-                                inSite: false,
                                 imagePath: 'https://i.imgur.com/GaAC6Sp.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Dealer's\nChoice"),
-                          ],
-                        ),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
                             EventsButton(
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/QHDug4A.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Shoot your\nShot"),
+                          ],
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
                             EventsButton(
-                                inSite: false,
+                                inSite: true,
                                 imagePath: 'https://i.imgur.com/c4gjJaW.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "/registrations/respawn",
                                 name: "Respawn"),
                             EventsButton(
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                                name: "Capture\nthe Flag"),
+                                name: "Throwback\nTrifecta"),
                           ],
                         ),
                         Padding(padding: EdgeInsets.only(top: 20)),

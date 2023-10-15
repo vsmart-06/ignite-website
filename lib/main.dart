@@ -13,6 +13,7 @@ import 'package:ignite_2023/pages/sponsors_page.dart';
 import "package:ignite_2023/dyed_in_crimson_pages/dic_home.dart";
 import "package:ignite_2023/dyed_in_crimson_pages/dic_characters.dart";
 import "package:ignite_2023/dyed_in_crimson_pages/dic_hourly.dart";
+import 'package:ignite_2023/pages/respawn_registrations.dart';
 
 void main() {
   runApp(MaterialApp(title: "IGNITE 2023", routes: {
@@ -22,10 +23,13 @@ void main() {
     "/registrations": (context) => RegistrationsCultural(),
     "/rules": (context) => const Rules(),
     "/about": (context) => const About(),
+    "/organizing_comittee": (context) => Placeholder(),
+    "/oc": (context) => Placeholder(),
     "/events/cultural": (context) => Cultural(),
     "/events/sports": (context) => Sports(),
     "/registrations/sports": (context) => RegistrationsSports(),
     "/registrations/cultural": (context) => RegistrationsCultural(),
+    "/registrations/respawn": (context) => RespawnRegs(),
     "/dyed_in_crimson/home": (context) => DICHome(),
     "/dyed_in_crimson/characters": (context) => DICCharacters(),
     "/dyed_in_crimson/hourly": (context) => DICHourly(),
@@ -40,25 +44,25 @@ void main() {
             about:
                 "An enthralling, yet ferocious battle between talented young musicians soon begins. Transcendence will put the skill of eager bands to the test, as their performances weave their way through different musical eras that will throw you in otherworldly dimensions.",
             location: "ICSE New Auditorium"),
-    "/events/cultural/karaoke": (context) => EventGeneral(
+    "/events/cultural/pitch_perfect": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/DoXOGJU.jpg", "Keerthana Rajesh"],
               ["https://i.imgur.com/zxBFVSq.jpg", "Harini Shankar"],
               ["https://i.imgur.com/yKJPgJM.jpg", "Samhita Madakshira"]
             ],
             logo: "https://i.imgur.com/Fcv7aQv.png",
-            title: "Karaoke",
+            title: "Pitch Perfect",
             about:
                 "Are you interested in singing for the sake of it? Pitch Perfect is an event centred on karaoke and riff off. Teams will compete to complete the lyrics and  participate in a musical roulette over the course of 2 rounds. Musical talent and the ability to excel with the conditions of each round are prioritised, but moreover, the event aims to spread the harmony and joy of music. Round 1 includes participants engaging in riff off, and Round 2 involves Roulette with a slight twist. Both rounds will be focused on themes, like pop, 90's music and country, to name a few.",
             location: "IPYP AV Room"),
-    "/events/cultural/dance_roulette": (context) => EventGeneral(
+    "/events/cultural/razzmatazz": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/WvN3Sqb.jpg", "Ishani Srivinas"],
               ["https://i.imgur.com/kAfeRnY.jpg", "Aishwarya Garine"],
               ["https://i.imgur.com/6xmimiP.jpg", "Surabhi Mitra"],
             ],
             logo: "https://i.imgur.com/6luARcL.png",
-            title: "Dance Roulette",
+            title: "Razzmatazz",
             about:
                 "Witness an electrifying dance event like no other!\n\nRazzMatazz features two rounds of captivating dance performances that will enthral the audience and keep them engaged throughout. Round 1 gives the participants an opportunity to demonstrate their talent and skill. From Hip-hop to Contemporary and Bollywood, this round will showcase a mesmerising display of rhythm and harmony, that will bring the stage alive. Round 2 will bring the competition to a whole new level, where the best dancers from the qualified teams will go head to head in an improv dance battle.",
             location: "Amphitheatre"),
@@ -90,7 +94,7 @@ void main() {
               ["https://i.imgur.com/XNk2F6S.png", "Pragati Prabhakar"],
               ["https://i.imgur.com/tqIa4At.jpg", "Tisya Munjal"],
             ],
-            logo: "https://i.imgur.com/Rb9rYm4.png",
+            logo: "https://i.imgur.com/bhiMoTF.png",
             title: "Icons and Imitations",
             about:
                 "Strut the runway starring as the most legendary fashion icons of the 20th and 21st century. Each team will randomly be assigned an icon, from Bowie to Madonna, and must take inspiration for their looks from the fashion idol, with their own personal flair of creativity. The second round will feature outfits from various randomly assigned movies. Break a heel!",
@@ -99,7 +103,8 @@ void main() {
             eventHeads: const [
               ["https://i.imgur.com/WsmH49D.jpg", "Ananya Krishna"],
               ["https://i.imgur.com/ArWQyzf.jpg", "Yuvika Sherawat"],
-              ["https://i.imgur.com/utM2H4D.png", "Shruti Karandikar"]
+              ["https://i.imgur.com/utM2H4D.png", "Shruti Karandikar"],
+              ["https://i.imgur.com/mshbLGa.jpg", "Risha Reddy"]
             ],
             logo: "https://i.imgur.com/I5yddnf.png",
             title: "Metamorphosis",
@@ -159,16 +164,16 @@ void main() {
             logo: "https://i.imgur.com/c4gjJaW.png",
             title: "Respawn",
             about:
-                "Ignite's most iconic event returns to the grand stage this year. Keeping tradition intact, participants are invited to compete in Fifa 2022 and Clash Royale. Additionally, we will be introducing the ultimate showdown of tactical prowess and teamwork in the form of our 5v5 VALORANT tournament!",
+                "Ignite's most iconic event returns to the grand stage this year. Keeping tradition intact, participants are invited to compete in Fifa 2022 and Clash Royale. Additionally, we will be introducing the ultimate shutdown of tactical prowess and teamwork in the form of our 3v3 Rocket League tournament and a chance to display mechanical aptitude in our League of Legends 1v1 tournament.",
             location: "Library Exam Hall & 11A & 9F"),
-    "/events/cultural/capture_the_flag": (context) => EventGeneral(
+    "/events/cultural/throwback_trifecta": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/8BoIRDZ.jpg", "Resham Prasad"],
               ["https://i.imgur.com/uk8BnX0.jpg", "Aarnav Jain"],
               ["https://i.imgur.com/objObOS.jpg", "Deepta Bhat"]
             ],
             logo: "https://i.imgur.com/utM2H4D.png",
-            title: "Capture the Flag",
+            title: "Throwback Trifecta",
             about:
                 "Get ready to ignite your passion for a thrilling school event called 'Trinity' at the grandest school fest in town! This extraordinary event promises a day of non-stop excitement and camaraderie, where three exhilarating games - Capture the Flag, Ultimate Frisbee, and Chor-Police - come together to create an unforgettable experience.\n\nPicture yourself sprinting through the field, strategizing to capture the flag, or diving to make that epic Frisbee catch. Feel the adrenaline rush as you chase and strategize in a heart-pounding game of Chor-Police. Trinity isn't just about games; it's about forging friendships, building teamwork, and making memories that will last a lifetime.\n\nDon't miss your chance to be part of this epic showdown. Get ready to unleash your inner champion.",
             location: "Next to ICSE Turf"),
@@ -199,7 +204,7 @@ void main() {
               ["https://i.imgur.com/zJFp4P6.jpg", "Rahul Prabhu"],
               ["https://i.imgur.com/bmxbKjf.jpg", "Ashvik Mishra"]
             ],
-            logo: "https://i.imgur.com/tShMoBm.png",
+            logo: "https://i.imgur.com/85etvSD.png",
             title: "Hockey",
             about:
                 "Prepare to experience the electrifying adrenaline that a field hockey tournament can only provide—the crack of the sticks, the shout of the crowd, and the electrifying action. It's a universe where power and precision coexist, where dexterity and ferocity clash, and where champions are made. This is more than just a competition; it's a journey through the heart of the game. Grab your seats, gather your supporters, and get ready to be enthralled by the exciting drama as heroes emerge, rivalries flare, and the spirit of field hockey assumes a central role.\n\n- Two categories: Boys and Girls\n- 7 players aside\n- A maximum of 4 substitutes\n- Playing time (boys): 7.5 minutes per quarter\n- Playing time (girls): 5 minutes per quarter\n- Rules will follow according to the FIH standards with minor modifications for your collective benefit\n- Group stages open with an eliminator round\n- Top 4 teams will compete in a league round before the finals\n\nIn the inspirational words of Major Dhyan Chand - \"Hockey is not just a game, it's a passion that runs through my veins\". Welcome to the field hockey tournament of a lifetime, the heart of all the excitement!",
@@ -210,7 +215,7 @@ void main() {
               ["https://i.imgur.com/KelfCSR.jpg", "Sanjeevani Kale"],
               ["https://i.imgur.com/7pj0Ls9.jpg", "Nidhi Iyer"]
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/DflBZC9.png",
             title: "Badminton",
             about:
                 "Allow us to introduce a game of coordination, strength and agility. Badminton is an exciting and fast paced sport characterized by its elegance and precision.The sport requires  quick reflexes and strategic finesse. Welcome to the Ignite 2023 Badminton Tournament, where speed meets strategy, and every rally is a heartbeat.\n• There will be 4 categories - Boys Singles, Girls Singles, Boys Doubles and Girls Doubles.\n• Each team will be allowed to bring 8 students( 2 players for the singles categories, 2 pair of players for the doubles categories and 2 optional subs )\n• This tournament will have 4 brackets, with 3 schools in each bracket. Within the bracket, a Round Robin format will take place, and the winner of the bracket will advance to Semi-finals. If all schools win 1 match, the team with the highest point difference will proceed to the Semi-finals.\n• Each match till the Semi-finals will be a best of 3 games, 11 points. Semi-finals and Finals will be 21 points best of 3. Golden point will be for 11 point matches and deuce for 21 point matches.\n• BWF rules will be followed\n• We will be using AS2 feather shuttles.\n\nEmploy the power in your wrists and the strength of your mind to place the shuttle in the most strategic places possible. Smash your way to glory by joining us at this fun-filled and exciting event!!",
@@ -261,7 +266,7 @@ void main() {
               ["https://i.imgur.com/r6oTOzJ.jpg", "Alina Prasad"],
               ["https://i.imgur.com/DaHF6ry.jpg", "Ansh Jhunjhunwala"]
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/lnmXe4T.png",
             title: "Squash",
             about:
                 "Squash is boxing with racquets; it's the powerful and intimidating game of agility and strategic moves. Take the court by awe and by the strength of your power and resilience during this year's Ignite'23. Which awaits to see each individual in their best form and show us what you have got!\n\n- Two categories: single and doubles ( mixed gender).\n- Each team should have an optional substitute of 1-2 players.\n- Each game for both categories will have a race of 11 points each. Consisting of 2 rounds with a side switch.\n- Each game will be around 20-25 minutes\n- Olympic squash rules will be the judging criteria for the game. If any rules are not precisely followed it will lead to disqualification of the individual from taking part in doubles ( if participating)\n- Further information will be communicated with the players…\n\nRegister now and be a part of a fully fledged and an exciting game day! Hoping to see you all soon at Ignite'23",

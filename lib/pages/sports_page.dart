@@ -74,12 +74,12 @@ class _SportsState extends State<Sports> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/tShMoBm.png',
+                                imagePath: 'https://i.imgur.com/85etvSD.png',
                                 websitePath: "/events/sports/hockey",
                                 name: "Hockey"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/DflBZC9.png',
                                 websitePath: "/events/sports/badminton",
                                 name: "Badminton"),
                           ],
@@ -124,7 +124,7 @@ class _SportsState extends State<Sports> {
                                 name: "Chess"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/lnmXe4T.png',
                                 websitePath: "/events/sports/squash",
                                 name: "Squash"),
                           ],
@@ -180,12 +180,12 @@ class _SportsState extends State<Sports> {
                                 name: "Football"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/tShMoBm.png',
+                                imagePath: 'https://i.imgur.com/85etvSD.png',
                                 websitePath: "/events/sports/hockey",
                                 name: "Hockey"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/DflBZC9.png',
                                 websitePath: "/events/sports/badminton",
                                 name: "Badminton"),
                             EventsButton(
@@ -220,7 +220,7 @@ class _SportsState extends State<Sports> {
                                 name: "Chess"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/lnmXe4T.png',
                                 websitePath: "/events/sports/squash",
                                 name: "Squash"),
                           ],
