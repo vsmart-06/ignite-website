@@ -10,9 +10,6 @@ class CultSport extends StatefulWidget {
 }
 
 class _CultSportState extends State<CultSport> {
-  String? font = GoogleFonts.roboto().fontFamily;
-  String? titleFont = GoogleFonts.ebGaramond().fontFamily;
-
   List<Color> cardColors = [
     Colors.black,
     Colors.black,
@@ -27,6 +24,8 @@ class _CultSportState extends State<CultSport> {
 
   @override
   Widget build(BuildContext context) {
+    String? fontMain = GoogleFonts.ebGaramond().fontFamily;
+
     return Scaffold(
       appBar: getTopBar(context),
       drawer: getDrawer(context),
@@ -39,7 +38,7 @@ class _CultSportState extends State<CultSport> {
               child: Text(
                 "Events",
                 style: TextStyle(
-                    color: Colors.white, fontSize: 50, fontFamily: titleFont),
+                    color: Colors.white, fontSize: 50, fontFamily: fontMain),
               ),
             ),
             Expanded(
@@ -52,6 +51,7 @@ class _CultSportState extends State<CultSport> {
                 child: SingleChildScrollView(
                   controller: scroll,
                   child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -68,7 +68,18 @@ class _CultSportState extends State<CultSport> {
                               name: "Sports"),
                         ],
                       ),
-                      Padding(padding: EdgeInsets.only(top: 20)),
+                      Padding(
+                        padding: const EdgeInsets.all(30.0),
+                        child: Text(
+                          "For more details, contact ignitecultural@greenwoodhigh.edu.in or ignitesports@greenwoodhigh.edu.in with your queries!",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontFamily: fontMain,
+                            fontSize: 30,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
                       footer(MediaQuery.of(context).orientation ==
                           Orientation.landscape)
                     ],

@@ -12,7 +12,6 @@ class RegistrationsCultural extends StatefulWidget {
 
 class _RegistrationsCulturalState extends State<RegistrationsCultural> {
   String? font = GoogleFonts.roboto().fontFamily;
-  String? titleFont = GoogleFonts.ebGaramond().fontFamily;
 
   List<Color> cardColors = [
     Colors.black,
@@ -26,8 +25,41 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
   ];
   ScrollController scroll = ScrollController();
 
+  bool isOpen = false;
+
   @override
   Widget build(BuildContext context) {
+    String? fontMain = GoogleFonts.ebGaramond().fontFamily;
+
+    if (!isOpen) {
+      return Scaffold(
+        appBar: getTopBar(context),
+        drawer: getDrawer(context),
+        backgroundColor: Colors.black,
+        body: Column(
+          children: [
+            Expanded(
+              child: Center(
+                child: Padding(
+                  padding: MediaQuery.of(context).orientation == Orientation.landscape ? EdgeInsets.all(150.0) : EdgeInsets.all(30.0),
+                  child: Text(
+                    "Registrations for the cultural events will open on the 17th of October, 2023 (Tuesday).",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontFamily: fontMain,
+                      fontSize: 50
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ),
+            ),
+            footer(MediaQuery.of(context).orientation == Orientation.landscape)
+          ],
+        )
+      );
+    }
+
     if (MediaQuery.of(context).orientation == Orientation.portrait) {
       return Scaffold(
         appBar: getTopBar(context),
@@ -41,7 +73,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                 child: Text(
                   "Cultural Registrations",
                   style: TextStyle(
-                      color: Colors.white, fontSize: 50, fontFamily: titleFont),
+                      color: Colors.white, fontSize: 50, fontFamily: fontMain),
                 ),
               ),
               Expanded(
@@ -68,7 +100,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                               child: Text(
                                 "Note: Each school can send a maximum of 2 teams. If more than 2 teams register, the first 2 teams that submit the form will be taken into account.",
                                 style: TextStyle(
-                                    color: Colors.white, fontSize: 30, fontFamily: titleFont),
+                                    color: Colors.white, fontSize: 30, fontFamily: fontMain),
                               ),
                             ),
                           ),
@@ -80,13 +112,13 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/yx3dJZQ.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "https://forms.gle/ZmcpibSNVLHwc2e4A",
                                 name: "Battle of\nthe Bands"),
                             EventsButton(
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/Fcv7aQv.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "https://forms.gle/Sgt5S4VnRRKzrSDg7",
                                 name: "Pitch\nPerfect"),
                           ],
                         ),
@@ -97,13 +129,13 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/6luARcL.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "https://forms.gle/cXbx7dmTT4cLx5Gn7",
                                 name: "Razzmatazz"),
                             EventsButton(
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/lijkg74.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "https://forms.gle/5nUazpftANVZeChi9",
                                 name: "Silver\nScreen"),
                           ],
                         ),
@@ -114,13 +146,13 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "https://forms.gle/Q3p6LDW4Uj2uyMP4A",
                                 name: "Thespian of\nMelody"),
                             EventsButton(
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/bhiMoTF.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "https://forms.gle/5KdTukPT5AyyfdvH9",
                                 name: "Icons and\nImitations"),
                           ],
                         ),
@@ -131,13 +163,13 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/I5yddnf.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "https://forms.gle/2vwaJKy8msAKtEko9",
                                 name: "Metamorphosis"),
                             EventsButton(
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/Xh3s9WP.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "https://forms.gle/499xw83SSco6XPQh6",
                                 name: "Kryptos\nVisos"),
                           ],
                         ),
@@ -148,13 +180,13 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/GaAC6Sp.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "https://forms.gle/nFdyqZh8exG7989v5",
                                 name: "Dealer's\nChoice"),
                             EventsButton(
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/QHDug4A.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "https://forms.gle/XzAzZfLcdUizpCRq6",
                                 name: "Shoot your\nShot"),
                           ],
                         ),
@@ -171,7 +203,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "https://forms.gle/jehQpmcucD9XvJRPA",
                                 name: "Throwback\nTrifecta"),
                           ],
                         ),
@@ -197,7 +229,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                 child: Text(
                   "Cultural Registrations",
                   style: TextStyle(
-                      color: Colors.white, fontSize: 50, fontFamily: titleFont),
+                      color: Colors.white, fontSize: 50, fontFamily: fontMain),
                 ),
               ),
               Expanded(
@@ -224,7 +256,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                               child: Text(
                                 "Note: Each school can send a maximum of 2 teams. If more than 2 teams register, the first 2 teams that submit the form will be taken into account.",
                                 style: TextStyle(
-                                    color: Colors.white, fontSize: 30, fontFamily: titleFont),
+                                    color: Colors.white, fontSize: 30, fontFamily: fontMain),
                               ),
                             ),
                           ),
@@ -237,31 +269,31 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                   inSite: false,
                                   imagePath: 'https://i.imgur.com/yx3dJZQ.png',
                                   websitePath:
-                                      "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                      "https://forms.gle/ZmcpibSNVLHwc2e4A",
                                   name: "Battle of\nthe Bands"),
                               EventsButton(
                                   inSite: false,
                                   imagePath: 'https://i.imgur.com/Fcv7aQv.png',
                                   websitePath:
-                                      "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                      "https://forms.gle/Sgt5S4VnRRKzrSDg7",
                                   name: "Pitch\nPerfect"),
                               EventsButton(
                                   inSite: false,
                                   imagePath: 'https://i.imgur.com/6luARcL.png',
                                   websitePath:
-                                      "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                      "https://forms.gle/cXbx7dmTT4cLx5Gn7",
                                   name: "Razzmatazz"),
                               EventsButton(
                                   inSite: false,
                                   imagePath: 'https://i.imgur.com/lijkg74.png',
                                   websitePath:
-                                      "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                      "https://forms.gle/5nUazpftANVZeChi9",
                                   name: "Silver\nScreen"),
                               EventsButton(
                                   inSite: false,
                                   imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                   websitePath:
-                                      "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                      "https://forms.gle/Q3p6LDW4Uj2uyMP4A",
                                   name: "Thespian\nof Melody"),
                             ],
                           ),
@@ -273,30 +305,30 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/bhiMoTF.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "https://forms.gle/5KdTukPT5AyyfdvH9",
                                 name: "Icons and\nImitations"),
                             EventsButton(
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/I5yddnf.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "https://forms.gle/2vwaJKy8msAKtEko9",
                                 name: "Metamorphosis"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
-                                websitePath: "https://i.imgur.com/Xh3s9WP.png",
+                                imagePath: 'https://i.imgur.com/Xh3s9WP.png',
+                                websitePath: "https://forms.gle/499xw83SSco6XPQh6",
                                 name: "Kryptos\nVisos"),
                             EventsButton(
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/GaAC6Sp.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "https://forms.gle/nFdyqZh8exG7989v5",
                                 name: "Dealer's\nChoice"),
                             EventsButton(
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/QHDug4A.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "https://forms.gle/XzAzZfLcdUizpCRq6",
                                 name: "Shoot your\nShot"),
                           ],
                         ),
@@ -313,7 +345,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath:
-                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                                    "https://forms.gle/jehQpmcucD9XvJRPA",
                                 name: "Throwback\nTrifecta"),
                           ],
                         ),

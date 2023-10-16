@@ -13,6 +13,7 @@ class EventGeneral extends StatefulWidget {
   String? location;
   String? about;
   String? registrations;
+  bool? inSite;
   EventGeneral(
       {super.key,
       this.eventHeads,
@@ -20,7 +21,8 @@ class EventGeneral extends StatefulWidget {
       this.title,
       this.location,
       this.about,
-      this.registrations});
+      this.registrations,
+      this.inSite});
 
   @override
   State<EventGeneral> createState() => _EventGeneralState();
@@ -30,7 +32,7 @@ class _EventGeneralState extends State<EventGeneral> {
   List<Widget> headPictures = [];
   String? fontMain = GoogleFonts.ebGaramond().fontFamily;
   ScrollController scroller = ScrollController();
-  Color buttonColor = Colors.transparent;
+  Color buttonColor = Colors.black;
 
   @override
   void initState() {
@@ -138,10 +140,10 @@ class _EventGeneralState extends State<EventGeneral> {
                         )
                       ),
                       onHover: (hover) {
-                        hover ? setState(() {buttonColor = Colors.orange;}) : setState(() {buttonColor = Colors.transparent;});
+                        hover ? setState(() {buttonColor = Colors.orange;}) : setState(() {buttonColor = Colors.black;});
                       },
                       onPressed: () {
-                        if (widget.registrations!.startsWith("https")) {
+                        if (!widget.inSite!) {
                           window.open(widget.registrations!, "Registrations");
                         }
                         else {
@@ -229,10 +231,10 @@ class _EventGeneralState extends State<EventGeneral> {
                         )
                       ),
                       onHover: (hover) {
-                        hover ? setState(() {buttonColor = Colors.orange;}) : setState(() {buttonColor = Colors.transparent;});
+                        hover ? setState(() {buttonColor = Colors.orange;}) : setState(() {buttonColor = Colors.black;});
                       },
                       onPressed: () {
-                        if (widget.registrations!.startsWith("https")) {
+                        if (!widget.inSite!) {
                           window.open(widget.registrations!, "Registrations");
                         }
                         else {

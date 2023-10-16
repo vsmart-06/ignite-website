@@ -94,7 +94,7 @@ class _SponsorsState extends State<Sponsors> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       ItemCard(
-                        image: "https://i.imgur.com/5VuyhL2.png",
+                        image: "https://i.imgur.com/kQxGKG1.png",
                         name: "Cap",
                         description: "Hello World",
                         width: 250,
@@ -102,16 +102,16 @@ class _SponsorsState extends State<Sponsors> {
                         color: Colors.orange
                       ),
                       ItemCard(
-                        image: "https://i.imgur.com/5VuyhL2.png",
-                        name: "Hat",
+                        image: "https://i.imgur.com/uhjXqu1.jpg",
+                        name: "Tote Bag",
                         description: "Hello World",
                         width: 250,
                         height: 350,
                         color: Colors.orange
                       ),
                       ItemCard(
-                        image: "https://i.imgur.com/5VuyhL2.png",
-                        name: "Shirt",
+                        image: "https://i.imgur.com/vLVWglU.jpg",
+                        name: "Hoodie",
                         description: "Hello World",
                         width: 250,
                         height: 350,

@@ -26,7 +26,7 @@ class _RespawnWidgetState extends State<RespawnWidget> {
           backgroundColor: MaterialStateProperty.all<Color>(buttonColor),
           side: MaterialStateProperty.all<BorderSide>(BorderSide(color: Colors.white)),
           shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(20))),
-          minimumSize: MaterialStateProperty.all<Size>(Size(MediaQuery.of(context).size.width * 0.3, 125))
+          fixedSize: MaterialStateProperty.all<Size>(Size(MediaQuery.of(context).size.width * 0.3, 125))
         ),
         onPressed: () {
           window.open(widget.link!, "Respawn Registrations");

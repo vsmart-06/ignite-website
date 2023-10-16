@@ -42,9 +42,10 @@ void main() {
             logo: "https://i.imgur.com/yx3dJZQ.png",
             title: "Battle of the Bands",
             about:
-                "An enthralling, yet ferocious battle between talented young musicians soon begins. Transcendence will put the skill of eager bands to the test, as their performances weave their way through different musical eras that will throw you in otherworldly dimensions.",
+                "This event will be a competition held over 2 days (Round 1: Qualifiers and Round 2: Finals) consisting of bands of 3 to 7 musicians. Bands must include students of the same school from 9th to 12th grade. Bands must also have a minimum of 2 different instruments and at least 1 vocalist.\n\nThe Qualifier round will take place on day 1, where bands will be allotted 4 minutes of setting up (tuning, setting up cables, instruments) and maximum 6 minutes of playing time with no limit on the number of songs. In this round a maximum of 10 bands will be allowed to participate in the Qualifiers round. The internal bands will be selected during CCA through live auditions. A video submission will be mandatory for external and internal applicants. This will be sent via mail to all 3 of the event head’s mails’ and will be independent of the registration form. The order of performances will be decided by putting the band names in a random generator. The qualifier round will take 3 and 1⁄2 hours, and will contain a 45 minute lunch break for the judges, participants, heads and volunteers.\n\nAfter the qualifier round, judges will use the Qualifier round criteria table to choose the top 4 bands that qualify for the final round (the qualified bands will be announced shortly after the qualifier round finishes). For the Final round, bands must choose 2 songs of contrasting eras and perform a fusion (e.g. romantic and contemporary).\n\nThe final round of Day 2 will take 1 1⁄2 hours (without breaks). The 4 Bands will have 4 minutes to set up, and 5 minutes to play. Judges will use the Final round criteria table to score each band. The winners of the final event will be announced shortly after the final event finishes.",
             location: "ICSE New Auditorium",
-            registrations: "https://forms.gle/ZmcpibSNVLHwc2e4A",),
+            registrations: "https://forms.gle/ZmcpibSNVLHwc2e4A",
+            inSite: false),
     "/events/cultural/pitch_perfect": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/DoXOGJU.jpg", "Keerthana Rajesh"],
@@ -56,7 +57,8 @@ void main() {
             about:
                 "Are you interested in singing for the sake of it? Pitch Perfect is an event centred on karaoke and riff off. Teams will compete to complete the lyrics and  participate in a musical roulette over the course of 2 rounds. Musical talent and the ability to excel with the conditions of each round are prioritised, but moreover, the event aims to spread the harmony and joy of music. Round 1 includes participants engaging in riff off, and Round 2 involves Roulette with a slight twist. Both rounds will be focused on themes, like pop, 90's music and country, to name a few.",
             location: "IPYP AV Room",
-            registrations: "https://forms.gle/Sgt5S4VnRRKzrSDg7",),
+            registrations: "https://forms.gle/Sgt5S4VnRRKzrSDg7",
+            inSite: false),
     "/events/cultural/razzmatazz": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/WvN3Sqb.jpg", "Ishani Srivinas"],
@@ -68,7 +70,8 @@ void main() {
             about:
                 "Witness an electrifying dance event like no other!\n\nRazzMatazz features two rounds of captivating dance performances that will enthral the audience and keep them engaged throughout. Round 1 gives the participants an opportunity to demonstrate their talent and skill. From Hip-hop to Contemporary and Bollywood, this round will showcase a mesmerising display of rhythm and harmony, that will bring the stage alive. Round 2 will bring the competition to a whole new level, where the best dancers from the qualified teams will go head to head in an improv dance battle.",
             location: "Amphitheatre",
-            registrations: "https://forms.gle/cXbx7dmTT4cLx5Gn7",),
+            registrations: "https://forms.gle/cXbx7dmTT4cLx5Gn7",
+            inSite: false),
     "/events/cultural/silver_screen": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/53ove4U.jpg", "Isha Chawla"],
@@ -78,9 +81,10 @@ void main() {
             logo: "https://i.imgur.com/lijkg74.png",
             title: "Silver Screen",
             about:
-                "Step into the shadowy world of intrigue and deception at Silver Screen, our Film Noir themed festival. Explore the tropes of the timeless classics and modern masterpieces that define this genre, while exploring your own creative direction in the production of your own films.",
+                "Silver Screen is a twist on the original Ignite Film Festival, where participants are asked to produce a film of maximum 10-12 minutes based on the genre “Film Noir.” There will be two rounds, each occurring on one day of Ignite. The first round is simply to present the films each group’s created to the judges. They will be evaluated based on a number of different criteria, and after each group has finished presenting, the judges will announce the three groups with the overall highest score amongst all the judging criteria. Special mention will also be given to groups with the best performance in a specific category. The three groups that move on to the finals on Day 2 will be tasked with filming a 1-2 minute alternate ending to their original submitted piece, filmed on the Greenwood High campus. They’ll be given 2 hours to do this. Based on a separate judging rubric, the final winners will be announced. All sub-categories within the rubric are awarded between 1-5 points, tallying the total possible score to be 100.",
             location: "IB AV Room",
-            registrations: "https://forms.gle/5nUazpftANVZeChi9",),
+            registrations: "https://forms.gle/5nUazpftANVZeChi9",
+            inSite: false),
     "/events/cultural/thespian_of_melody": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/bzkqU5C.jpg", "Khwahish Choudhary"],
@@ -92,7 +96,8 @@ void main() {
             about:
                 "Lyrics, Camera and Action!!\n\nAlways singing dramatically in front of the mirror only to mess up the melody? Well here's your time to shine at one of the most entertaining theatre event. Where you show off your acting skills by enacting the lyrics from your favorite song without having to worry about being out of tune for round 1. Channel your inner drama queen to make it into round 2, where moody emotions are coming your way to twist you and your songs.",
             location: "IB AV Room",
-            registrations: "https://forms.gle/Q3p6LDW4Uj2uyMP4A",),
+            registrations: "https://forms.gle/Q3p6LDW4Uj2uyMP4A",
+            inSite: false),
     "/events/cultural/icons_and_imitations": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/z6do4Xn.jpg", "Veena Karthik"],
@@ -102,9 +107,10 @@ void main() {
             logo: "https://i.imgur.com/bhiMoTF.png",
             title: "Icons and Imitations",
             about:
-                "Strut the runway starring as the most legendary fashion icons of the 20th and 21st century. Each team will randomly be assigned an icon, from Bowie to Madonna, and must take inspiration for their looks from the fashion idol, with their own personal flair of creativity. The second round will feature outfits from various randomly assigned movies. Break a heel!",
+                "Each team must have at least 4 participants. After registration, each team will receive an email assigning them a fashion icon and mentioning any extra details that have not yet been touched upon. They will have to create their own vision of 4 of the icons most legendary and well-known outfits, with a crucial focus on individuality and creativity. The outfits need not be direct recreations, but instead simply inspirations.\n\nBefore the start of the event, the teams will be in a line (in an assigned order) and will have to walk the runway in pairs of two. The teams can choose how they would like to walk and present themselves on the runway. After each team walks, they must explain why they chose the particular outfits. Each team will be allowed to talk for 1 minute only.\n\n7 teams will qualify from the first round to the second round. There are two rounds for the event. The second round will take place on the second day ofIgnite. For the second round, each qualified team will have to pick from a list of movies or television shows (examples: Clueless, Mean Girls, The Devil wears Prada, etc) and will have to present their recreations the next day. Additionally, they will each be assigned a garment (from the sponsor) and will have to try to incorporate it in their outfit. After each team walks, they will have to give a brief explanation to the judges on why they chose a show and its outfits, for 1-2 minutes.The selection of shows and movies will be done in the presence of all the participants, with the order of who can choose first decided based on their points from the first round",
             location: "ICSE New Auditorium",
-            registrations: "https://forms.gle/5KdTukPT5AyyfdvH9",),
+            registrations: "https://forms.gle/5KdTukPT5AyyfdvH9",
+            inSite: false),
     "/events/cultural/metamorphosis": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/WsmH49D.jpg", "Ananya Krishna"],
@@ -115,9 +121,10 @@ void main() {
             logo: "https://i.imgur.com/I5yddnf.png",
             title: "Metamorphosis",
             about:
-                "A relay race for your mind where the canvas is your track and the paintbrush is your baton- sounds interesting?\n\nWatch art reshape before your eyes!\n\nEvery stroke builds upon the last and an artist's vision blooms into another's creation, building onto a masterpiece of collaboration. Bring any art mediums to display your skills.  Each participant blends their insight, furnishing a blank canvas into a kaleidoscope of creativity. Show off your artworks in the mini exhibition!",
+                "A relay race for your mind where the canvas is your track and the paintbrush is your baton- sounds interesting?\n\nWatch art reshape before your eyes!\n\nEvery stroke builds upon the last and an artist's vision blooms into another's creation, building onto a masterpiece of collaboration. Bring any art mediums to display your skills.  Each participant blends their insight, furnishing a blank canvas into a kaleidoscope of creativity. Show off your artworks in the mini exhibition!\n\nSign up as teams of 4.\n\n- Bring any art mediums to display your skills.\n\n- Each team member is allotted 30 mins to work on the canvas\n\n- The canvas is then passed on to the next member to continue\n\n- Once the relay is finished,a mini exhibition will be held where you can show off artwork.",
             location: "Art Block Bottom Floor",
-            registrations: "https://forms.gle/2vwaJKy8msAKtEko9",),
+            registrations: "https://forms.gle/2vwaJKy8msAKtEko9",
+            inSite: false),
     "/events/cultural/kryptos_visos": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/xywvJQe.jpg", "Ananya Vartak"],
@@ -129,7 +136,8 @@ void main() {
             about:
                 "Mystique meets creativity and imagination as a face is transformed into a colorful canvas over two days. Villains are crucial to a story - for every Batman there is a Joker, for every Jekyll there's a Hyde. Pick up your brushes and palettes and represent these complex, often misunderstood antagonists in round 1. Compete with artists all over Bangalore to make it into round 2, where a new theme and a few surprises are waiting for you.",
             location: "Art Block Gallery & Steps",
-            registrations: "https://forms.gle/499xw83SSco6XPQh6",),
+            registrations: "https://forms.gle/499xw83SSco6XPQh6",
+            inSite: false),
     "/events/cultural/dyed_in_crimson": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/uHcV18G.jpg", "Harihar Prasad"],
@@ -152,7 +160,8 @@ void main() {
             about:
                 "Embark on voyage of business brilliance. Are you ready to gamble it all? Join us in this real of cultural showdown of strategy and creativity that test both your skill and luck. Is your business acumen enough? Or will you succumb to the trigger.",
             location: "IPYP AV Room",
-            registrations: "https://forms.gle/nFdyqZh8exG7989v5",),
+            registrations: "https://forms.gle/nFdyqZh8exG7989v5",
+            inSite: false),
     "/events/cultural/shoot_your_shot": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/s8XQnmA.jpg", "Thanvi Krishnamurthy"],
@@ -164,7 +173,8 @@ void main() {
             about:
                 "Get ready to embark on a visual journey like no other in our photography event! Join us for an immersive experience that celebrates the art of photography and individuality. Showcase your skills across 2 rounds and capture the fleeting and breathtaking moments that make each individual unique. The best photographers will be moving onto round 2 which requires them to take their talents to a whole new level in capturing pictures that relate to a surprise prompt within IGNITE. Whether you're a seasoned pro or a budding enthusiast, this event promises to IGNITE your passion and spark your creativity. Come, be a part of this mesmerising celebration of the art at Shoot Your Shot !!",
             location: "No Specific Venue",
-            registrations: "https://forms.gle/XzAzZfLcdUizpCRq6",),
+            registrations: "https://forms.gle/XzAzZfLcdUizpCRq6",
+            inSite: false),
     "/events/cultural/respawn": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/zk0OKgH.jpg", "Neha Kesarla"],
@@ -176,7 +186,8 @@ void main() {
             about:
                 "Ignite's most iconic event returns to the grand stage this year. Keeping tradition intact, participants are invited to compete in Fifa 2022 and Clash Royale. Additionally, we will be introducing the ultimate shutdown of tactical prowess and teamwork in the form of our 3v3 Rocket League tournament and a chance to display mechanical aptitude in our League of Legends 1v1 tournament.",
             location: "Library Exam Hall & 11A & 9F",
-            registrations: "/registrations/respawn",),
+            registrations: "/registrations/respawn",
+            inSite: true),
     "/events/cultural/throwback_trifecta": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/8BoIRDZ.jpg", "Resham Prasad"],
@@ -188,7 +199,8 @@ void main() {
             about:
                 "Get ready to ignite your passion for a thrilling school event called 'Trinity' at the grandest school fest in town! This extraordinary event promises a day of non-stop excitement and camaraderie, where three exhilarating games - Capture the Flag, Ultimate Frisbee, and Chor-Police - come together to create an unforgettable experience.\n\nPicture yourself sprinting through the field, strategizing to capture the flag, or diving to make that epic Frisbee catch. Feel the adrenaline rush as you chase and strategize in a heart-pounding game of Chor-Police. Trinity isn't just about games; it's about forging friendships, building teamwork, and making memories that will last a lifetime.\n\nDon't miss your chance to be part of this epic showdown. Get ready to unleash your inner champion.",
             location: "Next to ICSE Turf",
-            registrations: "https://forms.gle/jehQpmcucD9XvJRPA",),
+            registrations: "https://forms.gle/jehQpmcucD9XvJRPA",
+            inSite: false),
     "/events/sports/basketball": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/bUTIOIP.jpg", "Shiven Bhaskarabatla"],
