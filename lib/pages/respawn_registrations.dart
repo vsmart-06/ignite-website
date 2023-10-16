@@ -1,11 +1,8 @@
 import "package:flutter/material.dart";
 import "package:google_fonts/google_fonts.dart";
-import 'package:ignite_2023/widgets/events_button.dart';
 import "package:ignite_2023/widgets/footer.dart";
 import "package:ignite_2023/widgets/navigation_bar.dart";
 import 'package:ignite_2023/widgets/respawn_widget.dart';
-import "package:google_fonts/google_fonts.dart";
-
 
 class RespawnRegs extends StatelessWidget {
   const RespawnRegs({super.key});
@@ -33,7 +30,13 @@ class RespawnRegs extends StatelessWidget {
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(20.0),
-                    child: Text("Respawn Registrations", style: TextStyle(fontSize: 50, color: Colors.white, fontFamily: fontMain),),
+                    child: Text(
+                      "Respawn Registrations",
+                      style: TextStyle(
+                          fontSize: 50,
+                          color: Colors.white,
+                          fontFamily: fontMain),
+                    ),
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -50,14 +53,15 @@ class RespawnRegs extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       RespawnWidget(
-                          name: "FIFA",
+                          name: "FIFA '22",
                           link: "https://forms.gle/y7AyiQy7rJiqVwsq5"),
                       RespawnWidget(
                           name: "League of Legends",
                           link: "https://forms.gle/ffNJe6be5KGE4DfaA"),
                     ],
                   ),
-                  footer(MediaQuery.of(context).orientation == Orientation.landscape)
+                  footer(MediaQuery.of(context).orientation ==
+                      Orientation.landscape)
                 ],
               ),
             ),
@@ -80,7 +84,14 @@ class RespawnRegs extends StatelessWidget {
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(20.0),
-                    child: Text("Respawn Registrations", style: TextStyle(fontSize: 50, color: Colors.white, fontFamily: fontMain),),
+                    child: Text(
+                      "Respawn Registrations",
+                      style: TextStyle(
+                          fontSize: 50,
+                          color: Colors.white,
+                          fontFamily: fontMain),
+                      textAlign: TextAlign.center,
+                    ),
                   ),
                   RespawnWidget(
                       name: "Rocket League",
@@ -89,12 +100,13 @@ class RespawnRegs extends StatelessWidget {
                       name: "Clash Royale",
                       link: "https://forms.gle/TZfavsMgyuZUJQ2g7"),
                   RespawnWidget(
-                      name: "FIFA",
+                      name: "FIFA '22",
                       link: "https://forms.gle/y7AyiQy7rJiqVwsq5"),
                   RespawnWidget(
                       name: "League of Legends",
                       link: "https://forms.gle/ffNJe6be5KGE4DfaA"),
-                  footer(MediaQuery.of(context).orientation == Orientation.landscape)
+                  footer(MediaQuery.of(context).orientation ==
+                      Orientation.landscape)
                 ],
               ),
             ),

@@ -39,7 +39,7 @@ class DICHome extends StatelessWidget {
                           fontSize: 50)),
                 ),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(50, 20, 50, 20),
+                  padding: const EdgeInsets.fromLTRB(75, 20, 75, 20),
                   child:
                       IFrame(link: "https://www.youtube.com/embed/dQw4w9WgXcQ"),
                 ),
@@ -78,13 +78,31 @@ class DICHome extends StatelessWidget {
                           fontFamily: fontMain,
                           fontSize: 45)),
                 ),
-                ItemCard(name: "What is Dyed in Crimson?", description: "Hello", width: width, height: 150, color: Color(0xFF8b0000),),
+                ItemCard(
+                  name: "What is Dyed in Crimson?",
+                  description: "Hello",
+                  width: width,
+                  height: 150,
+                  color: Color(0xFF8b0000),
+                ),
                 Padding(
                   padding: const EdgeInsets.all(10.0),
-                  child: ItemCard(name: "How do I take part in Dyed in Crimson?", description: "Hello", width: width, height: 150, color: Color(0xFF8b0000)),
+                  child: ItemCard(
+                      name: "How do I take part in Dyed in Crimson?",
+                      description: "Hello",
+                      width: width,
+                      height: 150,
+                      color: Color(0xFF8b0000)),
                 ),
-                ItemCard(name: "What is the prize money for winning Dyed in Crimson?", description: "Hello", width: width, height: 150, color: Color(0xFF8b0000)),
-                footer(MediaQuery.of(context).orientation == Orientation.landscape)
+                ItemCard(
+                    name:
+                        "What is the prize money for winning Dyed in Crimson?",
+                    description: "Hello",
+                    width: width,
+                    height: 150,
+                    color: Color(0xFF8b0000)),
+                footer(
+                    MediaQuery.of(context).orientation == Orientation.landscape)
               ],
             ),
           ),

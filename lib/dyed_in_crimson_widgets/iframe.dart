@@ -20,7 +20,9 @@ class _IFrameState extends State<IFrame> {
 
   @override
   Widget build(BuildContext context) {
-    double height = 0.8*MediaQuery.of(context).size.height;
+    double height = MediaQuery.of(context).orientation == Orientation.landscape
+        ? 0.8 * MediaQuery.of(context).size.height
+        : 0.4 * MediaQuery.of(context).size.height;
     iFrame.src = widget.link;
     iFrame.style.border = "none";
     iFrame.height = "$height";

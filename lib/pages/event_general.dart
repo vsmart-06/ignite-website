@@ -33,6 +33,8 @@ class _EventGeneralState extends State<EventGeneral> {
   String? fontMain = GoogleFonts.ebGaramond().fontFamily;
   ScrollController scroller = ScrollController();
   Color buttonColor = Colors.black;
+  // TODO: When registrations open, change the isOpen variable to true
+  bool isOpen = false;
 
   @override
   void initState() {
@@ -93,7 +95,7 @@ class _EventGeneralState extends State<EventGeneral> {
                             color: Colors.white,
                             fontFamily: fontMain)),
                   ),
-                  Text("Venue: "+widget.location!,
+                  Text("Venue: " + widget.location!,
                       style: TextStyle(
                           fontSize: 35,
                           color: Colors.white,
@@ -120,40 +122,51 @@ class _EventGeneralState extends State<EventGeneral> {
                       ],
                     ),
                   ),
-                  widget.registrations != null ? Padding(
-                    padding: const EdgeInsets.all(10.0),
-                    child: TextButton(
-                      style: ButtonStyle(
-                        backgroundColor: MaterialStateProperty.all<Color>(buttonColor),
-                        side: MaterialStateProperty.all<BorderSide>(BorderSide(color: Colors.white)),
-                        shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(20))),
-                      ),
-                      child: Padding(
-                        padding: EdgeInsets.all(10.0),
-                        child: Text(
-                          "Registrations",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontFamily: fontMain,
-                            fontSize: 30
-                          )
+                  widget.registrations != null && isOpen
+                      ? Padding(
+                          padding: const EdgeInsets.all(10.0),
+                          child: TextButton(
+                              style: ButtonStyle(
+                                backgroundColor:
+                                    MaterialStateProperty.all<Color>(
+                                        buttonColor),
+                                side: MaterialStateProperty.all<BorderSide>(
+                                    BorderSide(color: Colors.white)),
+                                shape: MaterialStateProperty.all<
+                                        RoundedRectangleBorder>(
+                                    RoundedRectangleBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(20))),
+                              ),
+                              child: Padding(
+                                  padding: EdgeInsets.all(10.0),
+                                  child: Text("Registrations",
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontFamily: fontMain,
+                                          fontSize: 30))),
+                              onHover: (hover) {
+                                hover
+                                    ? setState(() {
+                                        buttonColor = Colors.orange;
+                                      })
+                                    : setState(() {
+                                        buttonColor = Colors.black;
+                                      });
+                              },
+                              onPressed: () {
+                                if (!widget.inSite!) {
+                                  window.open(
+                                      widget.registrations!, "Registrations");
+                                } else {
+                                  Navigator.pushNamed(
+                                      context, widget.registrations!);
+                                }
+                              }),
                         )
-                      ),
-                      onHover: (hover) {
-                        hover ? setState(() {buttonColor = Colors.orange;}) : setState(() {buttonColor = Colors.black;});
-                      },
-                      onPressed: () {
-                        if (!widget.inSite!) {
-                          window.open(widget.registrations!, "Registrations");
-                        }
-                        else {
-                          Navigator.pushNamed(context, widget.registrations!);
-                        }
-                      }
-                    ),
-                  ) : Container(),
-                  footer(
-                      MediaQuery.of(context).orientation == Orientation.landscape)
+                      : Container(),
+                  footer(MediaQuery.of(context).orientation ==
+                      Orientation.landscape)
                 ],
               ),
             ),
@@ -186,7 +199,7 @@ class _EventGeneralState extends State<EventGeneral> {
                           fontSize: 60,
                           color: Colors.white,
                           fontFamily: fontMain)),
-                  Text("Venue: "+widget.location!,
+                  Text("Venue: " + widget.location!,
                       style: TextStyle(
                           fontSize: 35,
                           color: Colors.white,
@@ -211,39 +224,51 @@ class _EventGeneralState extends State<EventGeneral> {
                       ],
                     ),
                   ),
-                  widget.registrations != null ? Padding(
-                    padding: const EdgeInsets.all(10.0),
-                    child: TextButton(
-                      style: ButtonStyle(
-                        backgroundColor: MaterialStateProperty.all<Color>(buttonColor),
-                        side: MaterialStateProperty.all<BorderSide>(BorderSide(color: Colors.white)),
-                        shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(20))),
-                      ),
-                      child: Padding(
-                        padding: EdgeInsets.all(10.0),
-                        child: Text(
-                          "Registrations",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontFamily: fontMain,
-                            fontSize: 30
-                          )
+                  widget.registrations != null
+                      ? Padding(
+                          padding: const EdgeInsets.all(10.0),
+                          child: TextButton(
+                              style: ButtonStyle(
+                                backgroundColor:
+                                    MaterialStateProperty.all<Color>(
+                                        buttonColor),
+                                side: MaterialStateProperty.all<BorderSide>(
+                                    BorderSide(color: Colors.white)),
+                                shape: MaterialStateProperty.all<
+                                        RoundedRectangleBorder>(
+                                    RoundedRectangleBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(20))),
+                              ),
+                              child: Padding(
+                                  padding: EdgeInsets.all(10.0),
+                                  child: Text("Registrations",
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontFamily: fontMain,
+                                          fontSize: 30))),
+                              onHover: (hover) {
+                                hover
+                                    ? setState(() {
+                                        buttonColor = Colors.orange;
+                                      })
+                                    : setState(() {
+                                        buttonColor = Colors.black;
+                                      });
+                              },
+                              onPressed: () {
+                                if (!widget.inSite!) {
+                                  window.open(
+                                      widget.registrations!, "Registrations");
+                                } else {
+                                  Navigator.pushNamed(
+                                      context, widget.registrations!);
+                                }
+                              }),
                         )
-                      ),
-                      onHover: (hover) {
-                        hover ? setState(() {buttonColor = Colors.orange;}) : setState(() {buttonColor = Colors.black;});
-                      },
-                      onPressed: () {
-                        if (!widget.inSite!) {
-                          window.open(widget.registrations!, "Registrations");
-                        }
-                        else {
-                          Navigator.pushNamed(context, widget.registrations!);
-                        }
-                      }
-                    ),
-                  ) : Container(),
-                  footer(MediaQuery.of(context).orientation == Orientation.landscape)
+                      : Container(),
+                  footer(MediaQuery.of(context).orientation ==
+                      Orientation.landscape)
                 ],
               ),
             ),

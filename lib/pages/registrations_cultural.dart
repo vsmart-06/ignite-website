@@ -1,6 +1,5 @@
 import "package:flutter/material.dart";
 import "package:google_fonts/google_fonts.dart";
-import "package:ignite_2023/pages/respawn_registrations.dart";
 import 'package:ignite_2023/widgets/events_button.dart';
 import "package:ignite_2023/widgets/footer.dart";
 import "package:ignite_2023/widgets/navigation_bar.dart";
@@ -25,6 +24,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
   ];
   ScrollController scroll = ScrollController();
 
+  // TODO: When registrations open, change the isOpen variable to true
   bool isOpen = false;
 
   @override
@@ -33,31 +33,33 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
 
     if (!isOpen) {
       return Scaffold(
-        appBar: getTopBar(context),
-        drawer: getDrawer(context),
-        backgroundColor: Colors.black,
-        body: Column(
-          children: [
-            Expanded(
-              child: Center(
-                child: Padding(
-                  padding: MediaQuery.of(context).orientation == Orientation.landscape ? EdgeInsets.all(150.0) : EdgeInsets.all(30.0),
-                  child: Text(
-                    "Registrations for the cultural events will open on the 17th of October, 2023 (Tuesday).",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontFamily: fontMain,
-                      fontSize: 50
+          appBar: getTopBar(context),
+          drawer: getDrawer(context),
+          backgroundColor: Colors.black,
+          body: Column(
+            children: [
+              Expanded(
+                child: Center(
+                  child: Padding(
+                    padding: MediaQuery.of(context).orientation ==
+                            Orientation.landscape
+                        ? EdgeInsets.all(150.0)
+                        : EdgeInsets.all(30.0),
+                    child: Text(
+                      "Registrations for the cultural events will open on the 17th of October, 2023 (Tuesday).",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontFamily: fontMain,
+                          fontSize: 50),
+                      textAlign: TextAlign.center,
                     ),
-                    textAlign: TextAlign.center,
                   ),
                 ),
               ),
-            ),
-            footer(MediaQuery.of(context).orientation == Orientation.landscape)
-          ],
-        )
-      );
+              footer(
+                  MediaQuery.of(context).orientation == Orientation.landscape)
+            ],
+          ));
     }
 
     if (MediaQuery.of(context).orientation == Orientation.portrait) {
@@ -92,15 +94,16 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           child: Card(
                             color: Colors.transparent,
                             shape: RoundedRectangleBorder(
-                              side: BorderSide(color: Colors.white),
-                              borderRadius: BorderRadius.circular(10)
-                            ),
+                                side: BorderSide(color: Colors.white),
+                                borderRadius: BorderRadius.circular(10)),
                             child: Padding(
                               padding: const EdgeInsets.all(20.0),
                               child: Text(
                                 "Note: Each school can send a maximum of 2 teams. If more than 2 teams register, the first 2 teams that submit the form will be taken into account.",
                                 style: TextStyle(
-                                    color: Colors.white, fontSize: 30, fontFamily: fontMain),
+                                    color: Colors.white,
+                                    fontSize: 30,
+                                    fontFamily: fontMain),
                               ),
                             ),
                           ),
@@ -184,7 +187,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 name: "Dealer's\nChoice"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/QHDug4A.png',
+                                imagePath: 'https://i.imgur.com/nMTu7YX.png',
                                 websitePath:
                                     "https://forms.gle/XzAzZfLcdUizpCRq6",
                                 name: "Shoot your\nShot"),
@@ -196,8 +199,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                             EventsButton(
                                 inSite: true,
                                 imagePath: 'https://i.imgur.com/c4gjJaW.png',
-                                websitePath:
-                                    "/registrations/respawn",
+                                websitePath: "/registrations/respawn",
                                 name: "Respawn"),
                             EventsButton(
                                 inSite: false,
@@ -248,15 +250,16 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           child: Card(
                             color: Colors.transparent,
                             shape: RoundedRectangleBorder(
-                              side: BorderSide(color: Colors.white),
-                              borderRadius: BorderRadius.circular(10)
-                            ),
+                                side: BorderSide(color: Colors.white),
+                                borderRadius: BorderRadius.circular(10)),
                             child: Padding(
                               padding: const EdgeInsets.all(20.0),
                               child: Text(
                                 "Note: Each school can send a maximum of 2 teams. If more than 2 teams register, the first 2 teams that submit the form will be taken into account.",
                                 style: TextStyle(
-                                    color: Colors.white, fontSize: 30, fontFamily: fontMain),
+                                    color: Colors.white,
+                                    fontSize: 30,
+                                    fontFamily: fontMain),
                               ),
                             ),
                           ),
@@ -316,7 +319,8 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                             EventsButton(
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/Xh3s9WP.png',
-                                websitePath: "https://forms.gle/499xw83SSco6XPQh6",
+                                websitePath:
+                                    "https://forms.gle/499xw83SSco6XPQh6",
                                 name: "Kryptos\nVisos"),
                             EventsButton(
                                 inSite: false,
@@ -326,7 +330,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 name: "Dealer's\nChoice"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/QHDug4A.png',
+                                imagePath: 'https://i.imgur.com/nMTu7YX.png',
                                 websitePath:
                                     "https://forms.gle/XzAzZfLcdUizpCRq6",
                                 name: "Shoot your\nShot"),
@@ -338,8 +342,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                             EventsButton(
                                 inSite: true,
                                 imagePath: 'https://i.imgur.com/c4gjJaW.png',
-                                websitePath:
-                                    "/registrations/respawn",
+                                websitePath: "/registrations/respawn",
                                 name: "Respawn"),
                             EventsButton(
                                 inSite: false,

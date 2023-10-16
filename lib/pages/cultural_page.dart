@@ -137,7 +137,7 @@ class _CulturalState extends State<Cultural> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/QHDug4A.png',
+                                imagePath: 'https://i.imgur.com/nMTu7YX.png',
                                 websitePath: "/events/cultural/shoot_your_shot",
                                 name: "Shoot your\nShot"),
                             EventsButton(
@@ -212,8 +212,7 @@ class _CulturalState extends State<Cultural> {
                               EventsButton(
                                   inSite: true,
                                   imagePath: 'https://i.imgur.com/6luARcL.png',
-                                  websitePath:
-                                      "/events/cultural/razzmatazz",
+                                  websitePath: "/events/cultural/razzmatazz",
                                   name: "Razzmatazz"),
                               EventsButton(
                                   inSite: true,
@@ -265,7 +264,7 @@ class _CulturalState extends State<Cultural> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/QHDug4A.png',
+                                imagePath: 'https://i.imgur.com/nMTu7YX.png',
                                 websitePath: "/events/cultural/shoot_your_shot",
                                 name: "Shoot your\nShot"),
                             EventsButton(

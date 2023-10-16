@@ -3,6 +3,7 @@ import "package:google_fonts/google_fonts.dart";
 import 'package:ignite_2023/widgets/events_button.dart';
 import "package:ignite_2023/widgets/footer.dart";
 import "package:ignite_2023/widgets/navigation_bar.dart";
+import "dart:html";
 
 class CultSport extends StatefulWidget {
   @override
@@ -69,9 +70,9 @@ class _CultSportState extends State<CultSport> {
                         ],
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(30.0),
+                        padding: const EdgeInsets.fromLTRB(30, 30, 30, 20),
                         child: Text(
-                          "For more details, contact ignitecultural@greenwoodhigh.edu.in or ignitesports@greenwoodhigh.edu.in with your queries!",
+                          "For more details, contact the following:",
                           style: TextStyle(
                             color: Colors.white,
                             fontFamily: fontMain,
@@ -80,6 +81,32 @@ class _CultSportState extends State<CultSport> {
                           textAlign: TextAlign.center,
                         ),
                       ),
+                      TextButton(
+                          onPressed: () {
+                            window.open(
+                                "mailto:ignitecultural@greenwoodhigh.edu.in",
+                                "Cultural Mail");
+                          },
+                          child: Text(
+                            "ignitecultural@greenwoodhigh.edu.in",
+                            style: TextStyle(
+                                fontFamily: fontMain,
+                                fontSize: 30,
+                                color: Colors.white),
+                          )),
+                      TextButton(
+                          onPressed: () {
+                            window.open(
+                                "mailto:ignitesports@greenwoodhigh.edu.in",
+                                "Sports Mail");
+                          },
+                          child: Text(
+                            "ignitesports@greenwoodhigh.edu.in",
+                            style: TextStyle(
+                                fontFamily: fontMain,
+                                fontSize: 30,
+                                color: Colors.white),
+                          )),
                       footer(MediaQuery.of(context).orientation ==
                           Orientation.landscape)
                     ],
