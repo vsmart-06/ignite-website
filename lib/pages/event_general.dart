@@ -185,95 +185,102 @@ class _EventGeneralState extends State<EventGeneral> {
           decoration: BoxDecoration(
               image: DecorationImage(
                   image: NetworkImage(widget.logo!), opacity: 0.3)),
-          child: RawScrollbar(
-            thumbColor: Color(0xFF313133),
-            thickness: 10,
-            thumbVisibility: true,
-            trackVisibility: true,
-            controller: scroller,
-            child: SingleChildScrollView(
-              controller: scroller,
-              child: Column(
-                children: [
-                  Text(widget.title!,
-                      style: TextStyle(
-                          fontSize: 60,
-                          color: Colors.white,
-                          fontFamily: fontMain)),
-                  Text("Venue: " + widget.location!,
-                      style: TextStyle(
-                          fontSize: 35,
-                          color: Colors.white,
-                          fontFamily: fontMain),
-                          textAlign: TextAlign.center),
-                  Padding(
-                    padding: const EdgeInsets.only(top: 50, bottom: 50),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
-                        Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: headPictures,
-                        ),
-                        Container(
-                          width: width * 0.8,
-                          child: Text(widget.about!,
-                              style: TextStyle(
-                                  fontSize: 25,
-                                  color: Colors.white,
-                                  fontFamily: fontMain)),
-                        )
-                      ],
-                    ),
-                  ),
-                  widget.registrations != null && isOpen
-                      ? Padding(
-                          padding: const EdgeInsets.all(10.0),
-                          child: TextButton(
-                              style: ButtonStyle(
-                                backgroundColor:
-                                    MaterialStateProperty.all<Color>(
-                                        buttonColor),
-                                side: MaterialStateProperty.all<BorderSide>(
-                                    BorderSide(color: Colors.white)),
-                                shape: MaterialStateProperty.all<
-                                        RoundedRectangleBorder>(
-                                    RoundedRectangleBorder(
-                                        borderRadius:
-                                            BorderRadius.circular(20))),
-                              ),
-                              child: Padding(
-                                  padding: EdgeInsets.all(10.0),
-                                  child: Text("Registrations",
-                                      style: TextStyle(
-                                          color: Colors.white,
-                                          fontFamily: fontMain,
-                                          fontSize: 30))),
-                              onHover: (hover) {
-                                hover
-                                    ? setState(() {
-                                        buttonColor = Colors.orange;
-                                      })
-                                    : setState(() {
-                                        buttonColor = Colors.black;
-                                      });
-                              },
-                              onPressed: () {
-                                if (!widget.inSite!) {
-                                  window.open(
-                                      widget.registrations!, "Registrations");
-                                } else {
-                                  Navigator.pushNamed(
-                                      context, widget.registrations!);
-                                }
-                              }),
-                        )
-                      : Container(),
-                  footer(MediaQuery.of(context).orientation ==
-                      Orientation.landscape)
-                ],
+          child: Stack(
+            children: [
+              Container(
+                color: Color(0x99000000)
               ),
-            ),
+              RawScrollbar(
+                thumbColor: Color(0xFF313133),
+                thickness: 10,
+                thumbVisibility: true,
+                trackVisibility: true,
+                controller: scroller,
+                child: SingleChildScrollView(
+                  controller: scroller,
+                  child: Column(
+                    children: [
+                      Text(widget.title!,
+                          style: TextStyle(
+                              fontSize: 60,
+                              color: Colors.white,
+                              fontFamily: fontMain)),
+                      Text("Venue: " + widget.location!,
+                          style: TextStyle(
+                              fontSize: 35,
+                              color: Colors.white,
+                              fontFamily: fontMain),
+                              textAlign: TextAlign.center),
+                      Padding(
+                        padding: const EdgeInsets.only(top: 50, bottom: 50),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: [
+                            Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: headPictures,
+                            ),
+                            Container(
+                              width: width * 0.8,
+                              child: Text(widget.about!,
+                                  style: TextStyle(
+                                      fontSize: 25,
+                                      color: Colors.white,
+                                      fontFamily: fontMain)),
+                            )
+                          ],
+                        ),
+                      ),
+                      widget.registrations != null && isOpen
+                          ? Padding(
+                              padding: const EdgeInsets.all(10.0),
+                              child: TextButton(
+                                  style: ButtonStyle(
+                                    backgroundColor:
+                                        MaterialStateProperty.all<Color>(
+                                            buttonColor),
+                                    side: MaterialStateProperty.all<BorderSide>(
+                                        BorderSide(color: Colors.white)),
+                                    shape: MaterialStateProperty.all<
+                                            RoundedRectangleBorder>(
+                                        RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(20))),
+                                  ),
+                                  child: Padding(
+                                      padding: EdgeInsets.all(10.0),
+                                      child: Text("Registrations",
+                                          style: TextStyle(
+                                              color: Colors.white,
+                                              fontFamily: fontMain,
+                                              fontSize: 30))),
+                                  onHover: (hover) {
+                                    hover
+                                        ? setState(() {
+                                            buttonColor = Colors.orange;
+                                          })
+                                        : setState(() {
+                                            buttonColor = Colors.black;
+                                          });
+                                  },
+                                  onPressed: () {
+                                    if (!widget.inSite!) {
+                                      window.open(
+                                          widget.registrations!, "Registrations");
+                                    } else {
+                                      Navigator.pushNamed(
+                                          context, widget.registrations!);
+                                    }
+                                  }),
+                            )
+                          : Container(),
+                      footer(MediaQuery.of(context).orientation ==
+                          Orientation.landscape)
+                    ],
+                  ),
+                ),
+              ),
+            ],
           ),
         ),
       );

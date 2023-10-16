@@ -176,7 +176,7 @@ void main() {
     "/events/cultural/respawn": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/zk0OKgH.jpg", "Neha Kesarla"],
-              ["https://i.imgur.com/ye3IHZh.jpg", "Anish Mamidi"],
+              ["https://i.imgur.com/ye3IHZh.jpg", "Aneesh Mamidi"],
               ["https://i.imgur.com/iWQO2VG.png", "Shrest Bhowmick"]
             ],
             logo: "https://i.imgur.com/c4gjJaW.png",
