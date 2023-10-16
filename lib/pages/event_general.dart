@@ -4,6 +4,7 @@ import "package:flutter/material.dart";
 import "package:google_fonts/google_fonts.dart";
 import "package:ignite_2023/widgets/footer.dart";
 import "package:ignite_2023/widgets/navigation_bar.dart";
+import "dart:html";
 
 class EventGeneral extends StatefulWidget {
   List<List<String>>? eventHeads;
@@ -11,13 +12,15 @@ class EventGeneral extends StatefulWidget {
   String? title;
   String? location;
   String? about;
+  String? registrations;
   EventGeneral(
       {super.key,
       this.eventHeads,
       this.logo,
       this.title,
       this.location,
-      this.about});
+      this.about,
+      this.registrations});
 
   @override
   State<EventGeneral> createState() => _EventGeneralState();
@@ -27,6 +30,7 @@ class _EventGeneralState extends State<EventGeneral> {
   List<Widget> headPictures = [];
   String? fontMain = GoogleFonts.ebGaramond().fontFamily;
   ScrollController scroller = ScrollController();
+  Color buttonColor = Colors.transparent;
 
   @override
   void initState() {
@@ -87,7 +91,7 @@ class _EventGeneralState extends State<EventGeneral> {
                             color: Colors.white,
                             fontFamily: fontMain)),
                   ),
-                  Text(widget.location!,
+                  Text("Venue: "+widget.location!,
                       style: TextStyle(
                           fontSize: 35,
                           color: Colors.white,
@@ -112,6 +116,33 @@ class _EventGeneralState extends State<EventGeneral> {
                                   fontFamily: fontMain)),
                         )
                       ],
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(10.0),
+                    child: TextButton(
+                      style: ButtonStyle(
+                        backgroundColor: MaterialStateProperty.all<Color>(buttonColor),
+                        side: MaterialStateProperty.all<BorderSide>(BorderSide(color: Colors.white)),
+                        shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(20))),
+                      ),
+                      child: Padding(
+                        padding: EdgeInsets.all(10.0),
+                        child: Text(
+                          "Registrations",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontFamily: fontMain,
+                            fontSize: 30
+                          )
+                        )
+                      ),
+                      onHover: (hover) {
+                        hover ? setState(() {buttonColor = Colors.orange;}) : setState(() {buttonColor = Colors.transparent;});
+                      },
+                      onPressed: () {
+                        window.open(widget.registrations!, "Registrations");
+                      }
                     ),
                   ),
                   footer(
@@ -148,7 +179,7 @@ class _EventGeneralState extends State<EventGeneral> {
                           fontSize: 60,
                           color: Colors.white,
                           fontFamily: fontMain)),
-                  Text(widget.location!,
+                  Text("Venue: "+widget.location!,
                       style: TextStyle(
                           fontSize: 35,
                           color: Colors.white,
@@ -171,6 +202,33 @@ class _EventGeneralState extends State<EventGeneral> {
                                   fontFamily: fontMain)),
                         )
                       ],
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(10.0),
+                    child: TextButton(
+                      style: ButtonStyle(
+                        backgroundColor: MaterialStateProperty.all<Color>(buttonColor),
+                        side: MaterialStateProperty.all<BorderSide>(BorderSide(color: Colors.white)),
+                        shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(20))),
+                      ),
+                      child: Padding(
+                        padding: EdgeInsets.all(10.0),
+                        child: Text(
+                          "Registrations",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontFamily: fontMain,
+                            fontSize: 30
+                          )
+                        )
+                      ),
+                      onHover: (hover) {
+                        hover ? setState(() {buttonColor = Colors.orange;}) : setState(() {buttonColor = Colors.transparent;});
+                      },
+                      onPressed: () {
+                        window.open(widget.registrations!, "Registrations");
+                      }
                     ),
                   ),
                   footer(MediaQuery.of(context).orientation == Orientation.landscape)
