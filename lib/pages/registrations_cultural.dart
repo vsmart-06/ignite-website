@@ -150,28 +150,23 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Dealer's\nChoice"),
-                          ],
-                        ),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
                             EventsButton(
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/QHDug4A.png',
                                 websitePath:
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Shoot your\nShot"),
+                          ],
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
                             EventsButton(
                                 inSite: true,
                                 imagePath: 'https://i.imgur.com/c4gjJaW.png',
                                 websitePath:
                                     "/registrations/respawn",
                                 name: "Respawn"),
-                          ],
-                        ),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
                             EventsButton(
                                 inSite: false,
                                 imagePath: 'https://i.imgur.com/5VuyhL2.png',
@@ -179,7 +174,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                                 name: "Throwback\nTrifecta"),
                           ],
-                        )
+                        ),
                       ],
                     ),
                   ),
