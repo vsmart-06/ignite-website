@@ -6,19 +6,21 @@ import "package:google_fonts/google_fonts.dart";
 class ItemCard extends StatefulWidget {
   String? image;
   String? name;
-  String? description;
+  String? backside;
   double? width;
   double? height;
   Color? color;
+  bool? back;
 
   ItemCard(
       {super.key,
       this.image,
       required this.name,
-      required this.description,
+      required this.backside,
       required this.width,
       required this.height,
-      required this.color});
+      required this.color,
+      required this.back});
 
   @override
   State<ItemCard> createState() => _ItemCardState();
@@ -49,11 +51,14 @@ class _ItemCardState extends State<ItemCard>
     });
     cardText = [
       widget.image != null ? Image(image: NetworkImage(widget.image!), width: 150, height: 150) : Container(),
-      Text(
-        widget.name!,
-        style:
-            TextStyle(fontSize: 35, color: Colors.white, fontFamily: fontMain),
-          textAlign: TextAlign.center,
+      Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: Text(
+          widget.name!,
+          style:
+              TextStyle(fontSize: 35, color: Colors.white, fontFamily: fontMain),
+            textAlign: TextAlign.center,
+        ),
       ),
     ];
   }
@@ -62,22 +67,25 @@ class _ItemCardState extends State<ItemCard>
     if (hover) {
       animationController.forward();
       cardText = [
-        Text(
-          widget.description!,
+        !widget.back! ? Text(
+          widget.backside!,
           style: TextStyle(
               fontSize: 25, color: Colors.white, fontFamily: fontMain),
           textAlign: TextAlign.center,
-        ),
+        ) : Image(image: NetworkImage(widget.backside!), width: 300, height: 300),
       ];
     } else {
       animationController.reverse();
       cardText = [
         widget.image != null ? Image(image: NetworkImage(widget.image!), width: 150, height: 150) : Container(),
-        Text(
-          widget.name!,
-          style: TextStyle(
-              fontSize: 35, color: Colors.white, fontFamily: fontMain),
-          textAlign: TextAlign.center,
+        Padding(
+          padding: const EdgeInsets.all(10.0),
+          child: Text(
+            widget.name!,
+            style: TextStyle(
+                fontSize: 35, color: Colors.white, fontFamily: fontMain),
+            textAlign: TextAlign.center,
+          ),
         ),
       ];
     }
@@ -115,7 +123,10 @@ class _ItemCardState extends State<ItemCard>
                   Size(widget.width!, widget.height!))),
           child: Padding(
             padding: const EdgeInsets.all(20.0),
-            child: Column(children: cardText),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: cardText
+            ),
           )),
     );
   }

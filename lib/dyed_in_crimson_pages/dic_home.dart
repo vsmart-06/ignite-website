@@ -80,27 +80,31 @@ class DICHome extends StatelessWidget {
                 ),
                 ItemCard(
                   name: "What is Dyed in Crimson?",
-                  description: "Hello",
+                  backside: "Hello",
                   width: width,
                   height: 150,
                   color: Color(0xFF8b0000),
+                  back: false,
                 ),
                 Padding(
                   padding: const EdgeInsets.all(10.0),
                   child: ItemCard(
-                      name: "How do I take part in Dyed in Crimson?",
-                      description: "Hello",
-                      width: width,
-                      height: 150,
-                      color: Color(0xFF8b0000)),
-                ),
-                ItemCard(
-                    name:
-                        "What is the prize money for winning Dyed in Crimson?",
-                    description: "Hello",
+                    name: "How do I take part in Dyed in Crimson?",
+                    backside: "Hello",
                     width: width,
                     height: 150,
-                    color: Color(0xFF8b0000)),
+                    color: Color(0xFF8b0000),
+                    back: false,
+                  ),
+                ),
+                ItemCard(
+                  name: "What is the prize money for winning Dyed in Crimson?",
+                  backside: "Hello",
+                  width: width,
+                  height: 150,
+                  color: Color(0xFF8b0000),
+                  back: false,
+                ),
                 footer(
                     MediaQuery.of(context).orientation == Orientation.landscape)
               ],

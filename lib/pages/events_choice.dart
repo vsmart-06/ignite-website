@@ -93,6 +93,7 @@ class _CultSportState extends State<CultSport> {
                                 fontFamily: fontMain,
                                 fontSize: 30,
                                 color: Colors.white),
+                            textAlign: TextAlign.center,
                           )),
                       TextButton(
                           onPressed: () {
@@ -106,6 +107,7 @@ class _CultSportState extends State<CultSport> {
                                 fontFamily: fontMain,
                                 fontSize: 30,
                                 color: Colors.white),
+                            textAlign: TextAlign.center,
                           )),
                       footer(MediaQuery.of(context).orientation ==
                           Orientation.landscape)

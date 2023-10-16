@@ -99,7 +99,8 @@ class _EventGeneralState extends State<EventGeneral> {
                       style: TextStyle(
                           fontSize: 35,
                           color: Colors.white,
-                          fontFamily: fontMain)),
+                          fontFamily: fontMain),
+                          textAlign: TextAlign.center,),
                   Padding(
                     padding: const EdgeInsets.only(top: 50, bottom: 50),
                     child: Row(
@@ -203,7 +204,8 @@ class _EventGeneralState extends State<EventGeneral> {
                       style: TextStyle(
                           fontSize: 35,
                           color: Colors.white,
-                          fontFamily: fontMain)),
+                          fontFamily: fontMain),
+                          textAlign: TextAlign.center),
                   Padding(
                     padding: const EdgeInsets.only(top: 50, bottom: 50),
                     child: Column(
@@ -224,7 +226,7 @@ class _EventGeneralState extends State<EventGeneral> {
                       ],
                     ),
                   ),
-                  widget.registrations != null
+                  widget.registrations != null && isOpen
                       ? Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: TextButton(

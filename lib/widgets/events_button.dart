@@ -39,7 +39,7 @@ class _EventsButtonState extends State<EventsButton> with SingleTickerProviderSt
 
   @override
   Widget build(BuildContext context) {
-    MediaQuery.of(context).orientation == Orientation.landscape ? size = 0.14 : size = 0.12;
+    MediaQuery.of(context).orientation == Orientation.landscape ? size = 0.14 : size = 0.3;
     return Padding(
       padding: const EdgeInsets.all(10.0),
       child: Card(

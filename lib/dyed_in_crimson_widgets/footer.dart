@@ -21,7 +21,7 @@ Widget footer(bool landscape) {
                 padding: const EdgeInsets.fromLTRB(30, 0, 30, 0),
                 child: Padding(
                   padding: const EdgeInsets.fromLTRB(0, 10, 0, 0),
-                  child: Image(image: NetworkImage("https://i.imgur.com/Bvm0NHU.png"), width: 150, height: 150),
+                  child: Image(image: NetworkImage("https://i.imgur.com/W2EcJsP.png"), width: 150, height: 150),
                 ),
               ),
               Column(

@@ -129,6 +129,16 @@ class _SportsState extends State<Sports> {
                                 name: "Squash"),
                           ],
                         ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            EventsButton(
+                                inSite: true,
+                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                websitePath: "/events/sports/swimming",
+                                name: "Swimming"),
+                          ],
+                        ),
                       ],
                     ),
                   ),
@@ -188,16 +198,16 @@ class _SportsState extends State<Sports> {
                                 imagePath: 'https://i.imgur.com/DflBZC9.png',
                                 websitePath: "/events/sports/badminton",
                                 name: "Badminton"),
-                            EventsButton(
-                                inSite: true,
-                                imagePath: 'https://i.imgur.com/HrQCltb.png',
-                                websitePath: "/events/sports/tennis",
-                                name: "Tennis"),
                           ],
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
+                            EventsButton(
+                                inSite: true,
+                                imagePath: 'https://i.imgur.com/HrQCltb.png',
+                                websitePath: "/events/sports/tennis",
+                                name: "Tennis"),
                             EventsButton(
                                 inSite: true,
                                 imagePath: 'https://i.imgur.com/5VuyhL2.png',
@@ -213,17 +223,27 @@ class _SportsState extends State<Sports> {
                                 imagePath: 'https://i.imgur.com/5VuyhL2.png',
                                 websitePath: "/events/sports/flag_football",
                                 name: "Flag Football"),
-                            EventsButton(
-                                inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
-                                websitePath: "/events/sports/chess",
-                                name: "Chess"),
-                            EventsButton(
-                                inSite: true,
-                                imagePath: 'https://i.imgur.com/lnmXe4T.png',
-                                websitePath: "/events/sports/squash",
-                                name: "Squash"),
                           ],
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            EventsButton(
+                              inSite: true,
+                              imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                              websitePath: "/events/sports/chess",
+                              name: "Chess"),
+                            EventsButton(
+                              inSite: true,
+                              imagePath: 'https://i.imgur.com/lnmXe4T.png',
+                              websitePath: "/events/sports/squash",
+                              name: "Squash"),
+                            EventsButton(
+                              inSite: true,
+                              imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                              websitePath: "/events/sports/swimming",
+                              name: "Swimming"),
+                          ]
                         ),
                         Padding(padding: EdgeInsets.only(top: 20)),
                         footer(MediaQuery.of(context).orientation ==

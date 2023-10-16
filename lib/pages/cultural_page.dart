@@ -90,7 +90,7 @@ class _CulturalState extends State<Cultural> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/qFuYhLe.png',
                                 websitePath:
                                     "/events/cultural/thespian_of_melody",
                                 name: "Thespian of\nMelody"),
@@ -122,7 +122,7 @@ class _CulturalState extends State<Cultural> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/Bvm0NHU.png',
+                                imagePath: 'https://i.imgur.com/W2EcJsP.png',
                                 websitePath: "/events/cultural/dyed_in_crimson",
                                 name: "Dyed in\nCrimson"),
                             EventsButton(
@@ -221,7 +221,7 @@ class _CulturalState extends State<Cultural> {
                                   name: "Silver\nScreen"),
                               EventsButton(
                                   inSite: true,
-                                  imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                  imagePath: 'https://i.imgur.com/qFuYhLe.png',
                                   websitePath:
                                       "/events/cultural/thespian_of_melody",
                                   name: "Thespian\nof Melody"),
@@ -249,7 +249,7 @@ class _CulturalState extends State<Cultural> {
                                 name: "Kryptos\nVisos"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/Bvm0NHU.png',
+                                imagePath: 'https://i.imgur.com/W2EcJsP.png',
                                 websitePath: "/events/cultural/dyed_in_crimson",
                                 name: "Dyed in\nCrimson"),
                             EventsButton(

@@ -147,7 +147,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/qFuYhLe.png',
                                 websitePath:
                                     "https://forms.gle/Q3p6LDW4Uj2uyMP4A",
                                 name: "Thespian of\nMelody"),
@@ -294,7 +294,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                   name: "Silver\nScreen"),
                               EventsButton(
                                   inSite: false,
-                                  imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                  imagePath: 'https://i.imgur.com/qFuYhLe.png',
                                   websitePath:
                                       "https://forms.gle/Q3p6LDW4Uj2uyMP4A",
                                   name: "Thespian\nof Melody"),
