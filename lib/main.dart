@@ -43,7 +43,8 @@ void main() {
             title: "Battle of the Bands",
             about:
                 "An enthralling, yet ferocious battle between talented young musicians soon begins. Transcendence will put the skill of eager bands to the test, as their performances weave their way through different musical eras that will throw you in otherworldly dimensions.",
-            location: "ICSE New Auditorium"),
+            location: "ICSE New Auditorium",
+            registrations: "https://forms.gle/ZmcpibSNVLHwc2e4A",),
     "/events/cultural/pitch_perfect": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/DoXOGJU.jpg", "Keerthana Rajesh"],
@@ -54,7 +55,8 @@ void main() {
             title: "Pitch Perfect",
             about:
                 "Are you interested in singing for the sake of it? Pitch Perfect is an event centred on karaoke and riff off. Teams will compete to complete the lyrics and  participate in a musical roulette over the course of 2 rounds. Musical talent and the ability to excel with the conditions of each round are prioritised, but moreover, the event aims to spread the harmony and joy of music. Round 1 includes participants engaging in riff off, and Round 2 involves Roulette with a slight twist. Both rounds will be focused on themes, like pop, 90's music and country, to name a few.",
-            location: "IPYP AV Room"),
+            location: "IPYP AV Room",
+            registrations: "https://forms.gle/Sgt5S4VnRRKzrSDg7",),
     "/events/cultural/razzmatazz": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/WvN3Sqb.jpg", "Ishani Srivinas"],
@@ -65,7 +67,8 @@ void main() {
             title: "Razzmatazz",
             about:
                 "Witness an electrifying dance event like no other!\n\nRazzMatazz features two rounds of captivating dance performances that will enthral the audience and keep them engaged throughout. Round 1 gives the participants an opportunity to demonstrate their talent and skill. From Hip-hop to Contemporary and Bollywood, this round will showcase a mesmerising display of rhythm and harmony, that will bring the stage alive. Round 2 will bring the competition to a whole new level, where the best dancers from the qualified teams will go head to head in an improv dance battle.",
-            location: "Amphitheatre"),
+            location: "Amphitheatre",
+            registrations: "https://forms.gle/cXbx7dmTT4cLx5Gn7",),
     "/events/cultural/silver_screen": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/53ove4U.jpg", "Isha Chawla"],
@@ -76,7 +79,8 @@ void main() {
             title: "Silver Screen",
             about:
                 "Step into the shadowy world of intrigue and deception at Silver Screen, our Film Noir themed festival. Explore the tropes of the timeless classics and modern masterpieces that define this genre, while exploring your own creative direction in the production of your own films.",
-            location: "IB AV Room"),
+            location: "IB AV Room",
+            registrations: "https://forms.gle/5nUazpftANVZeChi9",),
     "/events/cultural/thespian_of_melody": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/bzkqU5C.jpg", "Khwahish Choudhary"],
@@ -87,7 +91,8 @@ void main() {
             title: "Thespian of Melody",
             about:
                 "Lyrics, Camera and Action!!\n\nAlways singing dramatically in front of the mirror only to mess up the melody? Well here's your time to shine at one of the most entertaining theatre event. Where you show off your acting skills by enacting the lyrics from your favorite song without having to worry about being out of tune for round 1. Channel your inner drama queen to make it into round 2, where moody emotions are coming your way to twist you and your songs.",
-            location: "IB AV Room"),
+            location: "IB AV Room",
+            registrations: "https://forms.gle/Q3p6LDW4Uj2uyMP4A",),
     "/events/cultural/icons_and_imitations": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/z6do4Xn.jpg", "Veena Karthik"],
@@ -98,7 +103,8 @@ void main() {
             title: "Icons and Imitations",
             about:
                 "Strut the runway starring as the most legendary fashion icons of the 20th and 21st century. Each team will randomly be assigned an icon, from Bowie to Madonna, and must take inspiration for their looks from the fashion idol, with their own personal flair of creativity. The second round will feature outfits from various randomly assigned movies. Break a heel!",
-            location: "ICSE New Auditorium"),
+            location: "ICSE New Auditorium",
+            registrations: "https://forms.gle/5KdTukPT5AyyfdvH9",),
     "/events/cultural/metamorphosis": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/WsmH49D.jpg", "Ananya Krishna"],
@@ -110,7 +116,8 @@ void main() {
             title: "Metamorphosis",
             about:
                 "A relay race for your mind where the canvas is your track and the paintbrush is your baton- sounds interesting?\n\nWatch art reshape before your eyes!\n\nEvery stroke builds upon the last and an artist's vision blooms into another's creation, building onto a masterpiece of collaboration. Bring any art mediums to display your skills.  Each participant blends their insight, furnishing a blank canvas into a kaleidoscope of creativity. Show off your artworks in the mini exhibition!",
-            location: "Art Block Bottom Floor"),
+            location: "Art Block Bottom Floor",
+            registrations: "https://forms.gle/2vwaJKy8msAKtEko9",),
     "/events/cultural/kryptos_visos": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/xywvJQe.jpg", "Ananya Vartak"],
@@ -121,7 +128,8 @@ void main() {
             title: "Kryptos Visos",
             about:
                 "Mystique meets creativity and imagination as a face is transformed into a colorful canvas over two days. Villains are crucial to a story - for every Batman there is a Joker, for every Jekyll there's a Hyde. Pick up your brushes and palettes and represent these complex, often misunderstood antagonists in round 1. Compete with artists all over Bangalore to make it into round 2, where a new theme and a few surprises are waiting for you.",
-            location: "Art Block Gallery & Steps"),
+            location: "Art Block Gallery & Steps",
+            registrations: "https://forms.gle/499xw83SSco6XPQh6",),
     "/events/cultural/dyed_in_crimson": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/uHcV18G.jpg", "Harihar Prasad"],
@@ -143,7 +151,8 @@ void main() {
             title: "Dealer's Choice",
             about:
                 "Embark on voyage of business brilliance. Are you ready to gamble it all? Join us in this real of cultural showdown of strategy and creativity that test both your skill and luck. Is your business acumen enough? Or will you succumb to the trigger.",
-            location: "IPYP AV Room"),
+            location: "IPYP AV Room",
+            registrations: "https://forms.gle/nFdyqZh8exG7989v5",),
     "/events/cultural/shoot_your_shot": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/s8XQnmA.jpg", "Thanvi Krishnamurthy"],
@@ -154,7 +163,8 @@ void main() {
             title: "Shoot your Shot",
             about:
                 "Get ready to embark on a visual journey like no other in our photography event! Join us for an immersive experience that celebrates the art of photography and individuality. Showcase your skills across 2 rounds and capture the fleeting and breathtaking moments that make each individual unique. The best photographers will be moving onto round 2 which requires them to take their talents to a whole new level in capturing pictures that relate to a surprise prompt within IGNITE. Whether you're a seasoned pro or a budding enthusiast, this event promises to IGNITE your passion and spark your creativity. Come, be a part of this mesmerising celebration of the art at Shoot Your Shot !!",
-            location: "No Specific Venue"),
+            location: "No Specific Venue",
+            registrations: "https://forms.gle/XzAzZfLcdUizpCRq6",),
     "/events/cultural/respawn": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/zk0OKgH.jpg", "Neha Kesarla"],
@@ -164,8 +174,9 @@ void main() {
             logo: "https://i.imgur.com/c4gjJaW.png",
             title: "Respawn",
             about:
-                "Ignite's most iconic event returns to the grand stage this year. Keeping tradition intact, participants are invited to compete in Fifa 2022 and Clash Royale. Additionally, we will be introducing the ultimate shutdown of tactical prowess and teamwork in the form of our 3v3 Rocket League tournament and a chance to display mechanical aptitude in our League of Legends 1v1 tournament.",
-            location: "Library Exam Hall & 11A & 9F"),
+                "Ignite's most iconic event returns to the grand stage this year. Keeping tradition intact, participants are invited to compete in Fifa 2022 and Clash Royale. Additionally, we will be introducing the ultimate shutdown of tactical prowess and teamwork in the form of our 3v3 Rocket League tournament and a chance to display mechanical aptitude in our League of Legends 1v1 tournament.",
+            location: "Library Exam Hall & 11A & 9F",
+            registrations: "/registrations/respawn",),
     "/events/cultural/throwback_trifecta": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/8BoIRDZ.jpg", "Resham Prasad"],
@@ -176,7 +187,8 @@ void main() {
             title: "Throwback Trifecta",
             about:
                 "Get ready to ignite your passion for a thrilling school event called 'Trinity' at the grandest school fest in town! This extraordinary event promises a day of non-stop excitement and camaraderie, where three exhilarating games - Capture the Flag, Ultimate Frisbee, and Chor-Police - come together to create an unforgettable experience.\n\nPicture yourself sprinting through the field, strategizing to capture the flag, or diving to make that epic Frisbee catch. Feel the adrenaline rush as you chase and strategize in a heart-pounding game of Chor-Police. Trinity isn't just about games; it's about forging friendships, building teamwork, and making memories that will last a lifetime.\n\nDon't miss your chance to be part of this epic showdown. Get ready to unleash your inner champion.",
-            location: "Next to ICSE Turf"),
+            location: "Next to ICSE Turf",
+            registrations: "https://forms.gle/jehQpmcucD9XvJRPA",),
     "/events/sports/basketball": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/bUTIOIP.jpg", "Shiven Bhaskarabatla"],

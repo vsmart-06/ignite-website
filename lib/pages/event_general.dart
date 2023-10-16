@@ -118,7 +118,7 @@ class _EventGeneralState extends State<EventGeneral> {
                       ],
                     ),
                   ),
-                  Padding(
+                  widget.registrations != null ? Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: TextButton(
                       style: ButtonStyle(
@@ -141,10 +141,15 @@ class _EventGeneralState extends State<EventGeneral> {
                         hover ? setState(() {buttonColor = Colors.orange;}) : setState(() {buttonColor = Colors.transparent;});
                       },
                       onPressed: () {
-                        window.open(widget.registrations!, "Registrations");
+                        if (widget.registrations!.startsWith("https")) {
+                          window.open(widget.registrations!, "Registrations");
+                        }
+                        else {
+                          Navigator.pushNamed(context, widget.registrations!);
+                        }
                       }
                     ),
-                  ),
+                  ) : Container(),
                   footer(
                       MediaQuery.of(context).orientation == Orientation.landscape)
                 ],
@@ -204,7 +209,7 @@ class _EventGeneralState extends State<EventGeneral> {
                       ],
                     ),
                   ),
-                  Padding(
+                  widget.registrations != null ? Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: TextButton(
                       style: ButtonStyle(
@@ -227,10 +232,15 @@ class _EventGeneralState extends State<EventGeneral> {
                         hover ? setState(() {buttonColor = Colors.orange;}) : setState(() {buttonColor = Colors.transparent;});
                       },
                       onPressed: () {
-                        window.open(widget.registrations!, "Registrations");
+                        if (widget.registrations!.startsWith("https")) {
+                          window.open(widget.registrations!, "Registrations");
+                        }
+                        else {
+                          Navigator.pushNamed(context, widget.registrations!);
+                        }
                       }
                     ),
-                  ),
+                  ) : Container(),
                   footer(MediaQuery.of(context).orientation == Orientation.landscape)
                 ],
               ),
