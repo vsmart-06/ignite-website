@@ -36,29 +36,37 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
           appBar: getTopBar(context),
           drawer: getDrawer(context),
           backgroundColor: Colors.black,
-          body: Column(
-            children: [
-              Expanded(
-                child: Center(
-                  child: Padding(
-                    padding: MediaQuery.of(context).orientation ==
-                            Orientation.landscape
-                        ? EdgeInsets.all(150.0)
-                        : EdgeInsets.all(30.0),
-                    child: Text(
-                      "Registrations for the cultural events will open on the 17th of October, 2023 (Tuesday).",
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontFamily: fontMain,
-                          fontSize: 50),
-                      textAlign: TextAlign.center,
+          body: RawScrollbar(
+            thumbColor: Color(0xFF313133),
+            thickness: 10,
+            thumbVisibility: true,
+            trackVisibility: true,
+            controller: scroll,
+            child: SingleChildScrollView(
+              controller: scroll,
+              child: Column(
+                children: [
+                  Center(
+                    child: Padding(
+                      padding: MediaQuery.of(context).orientation ==
+                              Orientation.landscape
+                          ? EdgeInsets.all(150.0)
+                          : EdgeInsets.all(30.0),
+                      child: Text(
+                        "Registrations for the cultural events will open on the 17th of October, 2023 (Tuesday).",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontFamily: fontMain,
+                            fontSize: 50),
+                        textAlign: TextAlign.center,
+                      ),
                     ),
                   ),
-                ),
+                  footer(
+                      MediaQuery.of(context).orientation == Orientation.landscape)
+                ],
               ),
-              footer(
-                  MediaQuery.of(context).orientation == Orientation.landscape)
-            ],
+            ),
           ));
     }
 
