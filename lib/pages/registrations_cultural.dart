@@ -53,7 +53,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           ? EdgeInsets.all(150.0)
                           : EdgeInsets.all(30.0),
                       child: Text(
-                        "Registrations for the cultural events will open on the 17th of October, 2023 (Tuesday).",
+                        "Registrations for the cultural events will open on the 18th of October, 2023 (Wednesday).",
                         style: TextStyle(
                             color: Colors.white,
                             fontFamily: fontMain,
