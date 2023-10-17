@@ -66880,7 +66880,7 @@ aa(){return new A.MG(A.Qj().$0().d,A.a([B.h,B.h,B.h,B.h,B.h,B.h,B.h,B.h],t.W),A.
 A.MG.prototype={
 J(a){var s=null,r=A.e4().$0().d,q=A.dJ(a),p=A.dH(a),o=this.f,n=t.w,m=A.ah(a,s,n).w
 m=m.gb4(m)===B.y?new A.al(150,150,150,150):new A.al(30,30,30,30)
-m=A.eB(new A.Q(m,A.a3("Registrations for the cultural events will open on the 17th of October, 2023 (Tuesday).",A.a1(s,s,B.e,s,s,s,s,s,r,s,s,50,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.U),s),s,s)
+m=A.eB(new A.Q(m,A.a3("Registrations for the cultural events will open on the 18th of October, 2023 (Wednesday).",A.a1(s,s,B.e,s,s,s,s,s,r,s,s,50,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.U),s),s,s)
 n=A.ah(a,s,n).w
 return A.cS(q,B.h,A.d_(A.cJ(A.aM(A.a([m,A.ex(n.gb4(n)===B.y)],t.p),B.j,B.o),o,B.M),o,B.L,s,s,A.ch(),B.n,s,s,10,new A.w(4281413939),!0,B.P,!0),p,!1)}}
 A.mV.prototype={
