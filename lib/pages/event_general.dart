@@ -249,7 +249,7 @@ class _EventGeneralState extends State<EventGeneral> {
                                   ),
                                   child: Padding(
                                       padding: EdgeInsets.all(10.0),
-                                      child: Text("Registrations",
+                                      child: Text("Register Now!",
                                           style: TextStyle(
                                               color: Colors.white,
                                               fontFamily: fontMain,
