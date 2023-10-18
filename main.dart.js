@@ -66816,7 +66816,7 @@ r=A.a2(r.e,A.a0(k,k,B.e,k,k,k,k,k,c,k,k,60,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k)
 o=A.a2("Venue: "+l.a.f,A.a0(k,k,B.e,k,k,k,k,k,c,k,k,35,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),B.U)
 n=A.aH(A.a([A.aH(l.d,B.j,B.r),A.bz(k,A.a2(l.a.r,A.a0(k,k,B.e,k,k,k,k,k,c,k,k,25,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k),B.k,k,k,k,k,k,k,k,k,k,h*0.8)],e),B.j,B.cV)
 if(l.a.w!=null&&!0){m=A.h3(k,k,new A.b3(l.r,t.h9),k,k,k,k,k,k,k,k,k,k,k,k,new A.b3(new A.bE(A.fz(20),B.q),t.xx),new A.b3(new A.bC(B.e,1,B.Y,-1),t.e1),k,k,k,k,k)
-m=new A.J(B.w,A.cr(!1,new A.J(new A.aj(10,10,10,10),A.a2("Registrations",A.a0(k,k,B.e,k,k,k,k,k,c,k,k,30,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k),k),B.k,k,k,k,new A.a5V(l),k,new A.a5W(l,a),k,m),k)
+m=new A.J(B.w,A.cr(!1,new A.J(new A.aj(10,10,10,10),A.a2("Register Now!",A.a0(k,k,B.e,k,k,k,k,k,c,k,k,30,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k),k),B.k,k,k,k,new A.a5V(l),k,new A.a5W(l,a),k,m),k)
 c=m}else c=A.bz(k,k,B.k,k,k,k,k,k,k,k,k,k,k)
 i=A.ab(a,k,i).w
 return A.cE(f,B.h,A.bz(k,A.wM(B.du,A.a([p,A.cT(A.cq(A.aH(A.a([r,o,new A.J(B.jL,n,k),c,A.ey(i.gb4(i)===B.y)],e),B.j,B.o),d,B.J),d,B.M,k,k,A.c8(),B.n,k,k,10,new A.w(j),!0,B.O,!0)],e),B.dk),B.k,k,k,new A.cX(k,q,k,k,k,k,B.at),k,g,k,k,k,k,h),s,!1)}}}
