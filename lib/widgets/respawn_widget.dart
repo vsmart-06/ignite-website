@@ -7,7 +7,8 @@ import "dart:html";
 class RespawnWidget extends StatefulWidget {
   String? name;
   String? link;
-  RespawnWidget({super.key, required this.name, required this.link});
+  String? notOpen;
+  RespawnWidget({super.key, required this.name, required this.link, this.notOpen});
 
   @override
   State<RespawnWidget> createState() => _RespawnWidgetState();
@@ -35,9 +36,9 @@ class _RespawnWidgetState extends State<RespawnWidget> {
                           Size(MediaQuery.of(context).size.width * 0.3, 125))
                       : MaterialStateProperty.all<Size>(
                           Size(MediaQuery.of(context).size.width * 0.8, 150))),
-          onPressed: () {
+          onPressed: widget.notOpen == null ? () {
             window.open(widget.link!, "Respawn Registrations");
-          },
+          } : null,
           onHover: (hover) {
             hover
                 ? setState(() {
@@ -47,14 +48,27 @@ class _RespawnWidgetState extends State<RespawnWidget> {
                     buttonColor = Colors.black;
                   });
           },
-          child: Padding(
-            padding: const EdgeInsets.all(20.0),
-            child: Text(
-              widget.name!,
-              style: TextStyle(
-                  color: Colors.white, fontSize: 40, fontFamily: fontMain),
-              textAlign: TextAlign.center,
-            ),
+          child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
+                child: Text(
+                  widget.name!,
+                  style: TextStyle(
+                      color: Colors.white, fontSize: 40, fontFamily: fontMain),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+              widget.notOpen == null ? Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Text(
+                  widget.notOpen!,
+                  style: TextStyle(
+                      color: Colors.white, fontSize: 20, fontFamily: fontMain, fontStyle: FontStyle.italic),
+                  textAlign: TextAlign.center,
+                ),
+              ) : Container(),
+            ],
           )),
     );
   }

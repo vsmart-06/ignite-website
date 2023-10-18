@@ -43,7 +43,8 @@ class RespawnRegs extends StatelessWidget {
                     children: [
                       RespawnWidget(
                           name: "Rocket League",
-                          link: "https://forms.gle/6rRQB7KsY2hyDfeD7"),
+                          link: "https://forms.gle/6rRQB7KsY2hyDfeD7",
+                          notOpen: "Registrations will open soon!"),
                       RespawnWidget(
                           name: "Clash Royale",
                           link: "https://forms.gle/TZfavsMgyuZUJQ2g7"),
