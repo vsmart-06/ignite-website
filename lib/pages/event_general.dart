@@ -93,7 +93,8 @@ class _EventGeneralState extends State<EventGeneral> {
                         style: TextStyle(
                             fontSize: 60,
                             color: Colors.white,
-                            fontFamily: fontMain)),
+                            fontFamily: fontMain),
+                            textAlign: TextAlign.center),
                   ),
                   Text("Venue: " + widget.location!,
                       style: TextStyle(
@@ -204,7 +205,8 @@ class _EventGeneralState extends State<EventGeneral> {
                           style: TextStyle(
                               fontSize: 60,
                               color: Colors.white,
-                              fontFamily: fontMain)),
+                              fontFamily: fontMain),
+                              textAlign: TextAlign.center),
                       Text("Venue: " + widget.location!,
                           style: TextStyle(
                               fontSize: 35,
