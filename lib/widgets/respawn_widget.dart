@@ -33,7 +33,7 @@ class _RespawnWidgetState extends State<RespawnWidget> {
               fixedSize:
                   MediaQuery.of(context).orientation == Orientation.landscape
                       ? MaterialStateProperty.all<Size>(
-                          Size(MediaQuery.of(context).size.width * 0.3, 125))
+                          Size(MediaQuery.of(context).size.width * 0.3, 150))
                       : MaterialStateProperty.all<Size>(
                           Size(MediaQuery.of(context).size.width * 0.8, 150))),
           onPressed: widget.notOpen == null ? () {
@@ -49,9 +49,10 @@ class _RespawnWidgetState extends State<RespawnWidget> {
                   });
           },
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Padding(
-                padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
+                padding: const EdgeInsets.fromLTRB(20, 20, 20, 20),
                 child: Text(
                   widget.name!,
                   style: TextStyle(
@@ -59,12 +60,12 @@ class _RespawnWidgetState extends State<RespawnWidget> {
                   textAlign: TextAlign.center,
                 ),
               ),
-              widget.notOpen == null ? Padding(
-                padding: const EdgeInsets.all(20.0),
+              widget.notOpen != null ? Padding(
+                padding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
                 child: Text(
                   widget.notOpen!,
                   style: TextStyle(
-                      color: Colors.white, fontSize: 20, fontFamily: fontMain, fontStyle: FontStyle.italic),
+                      color: Colors.white, fontSize: 25, fontFamily: fontMain, fontStyle: FontStyle.italic),
                   textAlign: TextAlign.center,
                 ),
               ) : Container(),

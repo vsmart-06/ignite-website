@@ -80,35 +80,39 @@ class RespawnRegs extends StatelessWidget {
             controller: scroller,
             child: SingleChildScrollView(
               controller: scroller,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.all(20.0),
-                    child: Text(
-                      "Respawn Registrations",
-                      style: TextStyle(
-                          fontSize: 50,
-                          color: Colors.white,
-                          fontFamily: fontMain),
-                      textAlign: TextAlign.center,
+              child: Container(
+                width: MediaQuery.of(context).size.width,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(20.0),
+                      child: Text(
+                        "Respawn Registrations",
+                        style: TextStyle(
+                            fontSize: 50,
+                            color: Colors.white,
+                            fontFamily: fontMain),
+                        textAlign: TextAlign.center,
+                      ),
                     ),
-                  ),
-                  RespawnWidget(
-                      name: "Rocket League",
-                      link: "https://forms.gle/6rRQB7KsY2hyDfeD7"),
-                  RespawnWidget(
-                      name: "Clash Royale",
-                      link: "https://forms.gle/TZfavsMgyuZUJQ2g7"),
-                  RespawnWidget(
-                      name: "FIFA '22",
-                      link: "https://forms.gle/y7AyiQy7rJiqVwsq5"),
-                  RespawnWidget(
-                      name: "League of Legends",
-                      link: "https://forms.gle/ffNJe6be5KGE4DfaA"),
-                  footer(MediaQuery.of(context).orientation ==
-                      Orientation.landscape)
-                ],
+                    RespawnWidget(
+                        name: "Rocket League",
+                        link: "https://forms.gle/6rRQB7KsY2hyDfeD7",
+                        notOpen: "Registrations will open soon!"),
+                    RespawnWidget(
+                        name: "Clash Royale",
+                        link: "https://forms.gle/TZfavsMgyuZUJQ2g7"),
+                    RespawnWidget(
+                        name: "FIFA '22",
+                        link: "https://forms.gle/y7AyiQy7rJiqVwsq5"),
+                    RespawnWidget(
+                        name: "League of Legends",
+                        link: "https://forms.gle/ffNJe6be5KGE4DfaA"),
+                    footer(MediaQuery.of(context).orientation ==
+                        Orientation.landscape)
+                  ],
+                ),
               ),
             ),
           ));

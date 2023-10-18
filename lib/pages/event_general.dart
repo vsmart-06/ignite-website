@@ -34,7 +34,7 @@ class _EventGeneralState extends State<EventGeneral> {
   ScrollController scroller = ScrollController();
   Color buttonColor = Colors.black;
   // TODO: When registrations open, change the isOpen variable to true
-  bool isOpen = false;
+  bool isOpen = true;
 
   @override
   void initState() {
@@ -141,7 +141,7 @@ class _EventGeneralState extends State<EventGeneral> {
                               ),
                               child: Padding(
                                   padding: EdgeInsets.all(10.0),
-                                  child: Text("Registrations",
+                                  child: Text("Register Now!",
                                       style: TextStyle(
                                           color: Colors.white,
                                           fontFamily: fontMain,

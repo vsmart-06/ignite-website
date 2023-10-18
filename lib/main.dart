@@ -13,6 +13,7 @@ import 'package:ignite_2023/pages/sponsors_page.dart';
 import "package:ignite_2023/dyed_in_crimson_pages/dic_home.dart";
 import "package:ignite_2023/dyed_in_crimson_pages/dic_characters.dart";
 import "package:ignite_2023/dyed_in_crimson_pages/dic_hourly.dart";
+import "package:ignite_2023/dyed_in_crimson_pages/dic_submissions.dart";
 import 'package:ignite_2023/pages/respawn_registrations.dart';
 
 void main() {
@@ -32,7 +33,8 @@ void main() {
     "/registrations/respawn": (context) => RespawnRegs(),
     "/dyed_in_crimson/home": (context) => DICHome(),
     "/dyed_in_crimson/characters": (context) => DICCharacters(),
-    "/dyed_in_crimson/hourly": (context) => DICHourly(),
+    "/dyed_in_crimson/updates": (context) => DICUpdates(),
+    "/dyed_in_crimson/submissions": (context) => DICSubmissions(),
     "/events/cultural/battle_of_the_bands": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/lS03T8H.jpg", "Saishruthi Donthula"],
@@ -78,7 +80,7 @@ void main() {
               ["https://i.imgur.com/UwF7yT5.jpg", "Dhriti Rao"],
               ["https://i.imgur.com/7iQ7dVq.jpg", "Mayaan Hazra"]
             ],
-            logo: "https://i.imgur.com/lijkg74.png",
+            logo: "https://i.imgur.com/xsVCfTa.png",
             title: "Silver Screen",
             about:
                 "Step into the shadowy world of intrigue and deception at Silver Screen, our Film Noir themed festival. Explore the tropes of the timeless classics and modern masterpieces that define this genre, while exploring your own creative direction in the production of your own films.\n\nRound 1:\nParticipants must film a 10-12 minute short film on this theme using the tropes and characteristics of the genre \"FILM NOIR\".\n\nThese include:\n\nProduction Aspects:\n- Low-Key Lighting: Film Noir employs dramatic, high-contrast lighting with deep shadows to create a moody, ominous atmosphere.\n- Urban Settings: Often set in gritty, crime-ridden urban environments, the genre's visual aesthetics highlight the seedy underbelly of city life.\n- Cinematography: Cinematographers use unconventional camera angles and compositions, such as Dutch angles and chiaroscuro lighting, to evoke a sense of disorientation and tension.\n- Narration: Frequent use of voice-over narration, often by the protagonist, provides insight into their inner thoughts and dilemmas.\n- Costuming: Characters are often dressed in sharp suits and fedoras for men and glamorous dresses for women, reinforcing a sense of style and allure amid the darkness.\n\nPlot Characteristics:\n- Moral Ambiguity: Film Noir often explores morally complex characters, where protagonists may have questionable motives, and villains sometimes exhibit sympathetic qualities.\n- Femme Fatale: A recurring trope is the femme fatale, a seductive and enigmatic woman who ensnares the male protagonist in a web of deceit and danger.\n- Crime and Corruption: Plots frequently revolve around crime, corruption, or illicit activities, with characters caught in a web of conspiracies and double-crosses.\n- Investigation and Mystery: Many Film Noir narratives involve a detective or an ordinary individual caught up in an intricate mystery or investigation, unravelling dark secrets along the way.\n- Dialogue: The genre is known for its sharp, terse, and often cynical dialogue, filled with clever one-liners and witty repartee.\n- Twists and Uncertainty: Plot twists and a pervasive sense of uncertainty keep audiences engaged, as characters and their motivations are frequently revealed in unexpected ways.\n- Narrative Structure: Film Noir often uses non-linear or complex narrative structures, including flashbacks and multiple perspectives, to add depth and intrigue to the story.\n- Social Commentary: The genre often serves as a commentary on societal issues, such as post-war disillusionment, urban decay, and the erosion of traditional values.\n- Soundtrack: Film Noir features distinctive, jazzy or orchestral soundtracks that contribute to the mood and atmosphere of the film.\n- Visual Style: The use of visual metaphors and stark imagery is common in Film Noir, reflecting the inner turmoil and moral conflicts of the characters.\n\nRound 2: The three groups that move \non to the finals on Day 2 will be tasked with filming a 1-2 minute alternate ending to their original submitted piece, which must be filmed on the Greenwood High campus.They'll be given 2 hours to do this. \n\nFor all rounds, they will be judged on Visual Style, Sound and Music, Acting and Performance, Direction and Editing, Writing and Dialogue, Originality and Creativity, Emotional Impact,  Technical Excellence:\n\nRules:\n- 10-12 mins for Round 1 film submission\n- 2 hours for round 2 submission\n- No nudity or lewd scenes \n\n\nTeam Size: 5-8 people",
@@ -114,7 +116,7 @@ void main() {
             eventHeads: const [
               ["https://i.imgur.com/WsmH49D.jpg", "Ananya Krishna"],
               ["https://i.imgur.com/ArWQyzf.jpg", "Yuvika Sherawat"],
-              ["https://i.imgur.com/utM2H4D.png", "Shruti Karandikar"],
+              ["https://i.imgur.com/QbHY0nZ.png", "Suhani Jha"],
             ],
             logo: "https://i.imgur.com/I5yddnf.png",
             title: "Metamorphosis",
@@ -129,7 +131,7 @@ void main() {
               ["https://i.imgur.com/0ovJqP9.jpg", "Krithika Paruchuri"],
               ["https://i.imgur.com/hawKBo1.jpg", "Trisha Gupta"]
             ],
-            logo: "https://i.imgur.com/Xh3s9WP.png",
+            logo: "https://i.imgur.com/t3nTznY.png",
             title: "Kryptos Visos",
             about:
                 "Mystique meets creativity and imagination as a face is transformed into a colorful canvas over two days. Villains are crucial to a story - for every Batman there is a Joker, for every Jekyll there's a Hyde. Pick up your brushes and palettes and represent these complex villains in round 1. Compete with artists all over Bangalore to make it into round 2, where a new theme and a few surprises are waiting for you.\n\nRules:\n- Participants must bring their tools, including but not limited to facepaint, makeup paintbrushes, tissues, etc.\n- All participants must keep their work areas clean. Everything should look as it did before they arrived. If participants choose to wash off their face paint in the washroom, they must ensure it is left clean afterward.\n- No props\n- No gore\n- No sabotaging anyone else's work\n- No extra points will be awarded for costumes or props\n\n\nTeam Size: 2 people",
@@ -151,9 +153,9 @@ void main() {
             eventHeads: const [
               ["https://i.imgur.com/sauO30h.jpg", "Riana Kapoor"],
               ["https://i.imgur.com/SC9M03A.jpg", "Mukul Kumar"],
-              ["https://i.imgur.com/H2pj0vx.jpg", "Atreyi Saha"]
+              ["https://i.imgur.com/6rchotG.jpg", "Atreyi Saha"]
             ],
-            logo: "https://i.imgur.com/GaAC6Sp.png",
+            logo: "https://i.imgur.com/ozRDzqn.png",
             title: "Dealer's Choice",
             about:
                 "Embark on voyage of business brilliance. Are you ready to gamble it all? Join us in this real of cultural showdown of strategy and creativity that test both your skill and luck. Is your business acumen enough? Or will you succumb to the trigger.\n\nRound 1:\nParticipants will be asked to submit an advertisement for any product that they choose (can be fictional) that they build their own business around. They can be as creative as they want with the advertisement i.e., it can be a simple document or a 1-minute video. They will be given 3 minutes total time to present their product and advertisement and have a small question answer session.\n\nRound 2:\nParticipants will have to spilt their team into two different games that will be played simultaneously. The games will be Jeopardy & Price is right\n\nRound 3:\nEach team will be given a crisis situation to respond to based on their product and company they built around it and they will have to respond to it and its consequences. They will be given 10 minutes to come up with a strategic plan and then will have to respond to public and political reactions to the implementation of their plan on the spot.\n\nRules:\n- No AI usage\n- No cross-team collaboration\n- Semi formal dressing\n- Required to bring their laptops and phones\n- We are not liable for the loss of any gadgets\n\n\nTeam Size: 3-4 people",
@@ -179,7 +181,7 @@ void main() {
               ["https://i.imgur.com/ye3IHZh.jpg", "Aneesh Mamidi"],
               ["https://i.imgur.com/iWQO2VG.png", "Shrest Bhowmick"]
             ],
-            logo: "https://i.imgur.com/c4gjJaW.png",
+            logo: "https://i.imgur.com/eUWfCyk.png",
             title: "Respawn",
             about:
                 "IGNITE's most iconic event returns to the grand stage this year. Keeping tradition intact, participants are invited to compete in Fifa 2022 and Clash Royale. Additionally, we will be introducing the ultimate shutdown of tactical prowess and teamwork in the form of our 3v3 Rocket League tournament and a chance to display mechanical aptitude in our League of Legends 1v1 tournament.\n\nRules:\n- All participants should carry necessary equipment themselves. This includes but is not limited to: laptops, phones, laptop chargers, phone chargers, pin converters, mouse, keyboards, batteries, controllers etc.\n- All participants are responsible for the safety of their belongings\n\n\nTeam Size: Individual/3 people",
@@ -192,7 +194,7 @@ void main() {
               ["https://i.imgur.com/uk8BnX0.jpg", "Aarnav Jain"],
               ["https://i.imgur.com/objObOS.jpg", "Deepta Bhat"]
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/7Us373q.png",
             title: "Throwback Trifecta",
             about:
                 "Brace yourself for a triple dose of adrenaline-pumping fun with Capture the Flag, Ultimate Frisbee, and Chor-Police. It's the ultimate showdown where excitement reigns supreme - don't miss out on this action-packed thrill ride. Picture yourself sprinting through the field, strategizing to capture the flag, or diving to make that epic Frisbee catch. Feel the adrenaline rush as you chase and strategize in a heart-pounding game of Chor-Police. Throwback Trifecta isn't just about games; it's about forging friendships, building teamwork, and making memories that will last a lifetime.\n\nRound 1:\nTo begin, 2 games of Capture The Flag will be held (Game A & Game B). For Game A, one large team of 8 is formed by combining 2 teams, this is repeated to form another combined team of 8. So for Game A and B, it's 8v8, Game B having the same format as Game A. The losers of Game A & Game B will be eliminated. 16 people advance to round 2.\n\nRound 2:\nThe game of Ultimate Frisbee will have only 1 game played. Which will be 8v8. Losers will be eliminated. The winners of this game will further advance to The Final game in round 3.\n\nRound 3:\nThe Final game of Chor-Police will conclude with the winning team of 4 participants. This game will be 4v4. The winning team will be the one who wins the Best Of 3 Games in Chor-Police, granting us the Throwback Trifecta Champions.\n\n\nTeam Size: 4 people",
@@ -205,7 +207,7 @@ void main() {
               ["https://i.imgur.com/TYSZxP7.jpg", "Ashwin Ganapathy"],
               ["https://i.imgur.com/T8uuuFC.jpg", "Anjini Basu"]
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/myq8aq1.png",
             title: "Basketball",
             about:
                 "Get ready to dribble, shoot and slam dunk your way into action. Join us for an electrifying basketball event with jaw-dropping plays. It's time to lace up your kicks and embrace the game like never before. Best of luck to all teams!\n\n1. Teams consisting of 8-11 players each\n2. The tournament will adhere to a knockout-style format.\n3. Officiating will be based on FIBA rules.\n4. Boys matches feature 10-minute quarters, while girls' matches consist of 7-minute quarters.",
@@ -216,7 +218,7 @@ void main() {
               ["https://i.imgur.com/yICCODo.jpg", "Fahim Bawahir"],
               ["https://i.imgur.com/nXbvbzy.jpg", "Chaitanya GT"]
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/vro8CWT.png",
             title: "Football",
             about:
                 "It's time to lace up and get ready for the fifth edition of IGNITE's football event! This event promises 2 days of action packed, heart-pounding football extravaganza filled with awe-inspiring plays. May the best teams triumph.\n\nCategory specific rules\n- Boys: 11 players on the pitch; minimum 1, maximum 5 substitutes.\n- Girls: 7 players on the pitch; minimum 1, maximum 4 substitutes.\n- For the boys category the offside rule will be in effect. For the girls category the offside rule will not be in effect\n- For the boys category in case of a tie in normal time, the game will go to penalties with each team getting 5 kicks.\n- For the girls category in case of a tie in normal time, the game will go to penalties with each team getting 3 kicks.\n\nCommon rules (for both girls and boys):\n- The game format for all group stage matches is 20-5-20. Both semi-finals and the final will be played in a 30-10-30 format.\n- Players will receive yellow and red cards during the match at the discretion of the referee. The referee's decision will be the final decision and players cannot argue with the referee.\n- If the ball crosses the sideline, only throw-ins are allowed, no kick-ins",
@@ -256,7 +258,7 @@ void main() {
               ["https://i.imgur.com/aAfV2xz.jpg", "Dhanush Kilari"],
               ["https://i.imgur.com/rjtQiQW.jpg", "Harsh Naren"]
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/GOO5D5g.png",
             title: "Table Tennis",
             about:
                 "\"I fear not the man who has practiced 10,000 backhands once, but i do fear a man who has practiced one backhand 10,000 times\" - Bruce Lee\n\nIn our sport, it's that one spin, that one smash, that one return perfected over time that can make all the difference. We welcome you to the Table Tennis event at IGNITE'24, See you at the court…\n\nFormat:\n- There will be 3 rounds,(qualifiers,semi finals,finals)\n- 10 teams will compete against each other in round 1. 5 teams will be qualified to compete in round 2. The finals will have a secret format which will be revealed before the match begins, the last 2 standing teams will compete to win.\n- Each round will have matches. Matches will have 2 levels: Singles, Doubles (11 points each)\n- Reverse singles (tiebreaker) will happen if points are tied.\n- Team with the highest score after each level  will proceed to move on to further levels and win at finals.\n- Official ITTF Rules will be followed and decision of the umpires will be final. \n- The teams will have to come up with their player sequence to play in singles and doubles.\n- There shall be separate events for boys and girls.",
@@ -266,7 +268,7 @@ void main() {
               ["https://i.imgur.com/OUNjtTQ.jpg", "Ashna Muktibodh"],
               ["https://i.imgur.com/g14kLj1.jpg", "Somya Gupta"]
             ],
-            logo: "https://i.imgur.com/eiuGm2o.png",
+            logo: "https://i.imgur.com/vPCf5Fl.png",
             title: "Relay",
             about:
                 "Relay, the essence of teamwork and speed, takes the stage this year at IGNITE 2023. We call all athletes to take part in this thrilling competition. Teams will go through heats, before the top teams are selected to move on to the finals. So get ready, every stride and second brings you closer to victory!\n\n- There are two categories: 4 x 100m (boys) | 4 x 100m (girls)\n- Each team should consist of 4 runners with 1 optional substitute.\n- There will be two rounds: Heats on day 1 | Finals on day 2\n- The standard world athletics rules will be followed for the relay.\n\nPlease note dropping of the baton during any point of the race will lead to disqualification.",
@@ -307,7 +309,7 @@ void main() {
               ["https://i.imgur.com/WnDFVpu.jpg", "Rishabh Girish"],
               ["https://i.imgur.com/P1R8HPI.jpg", "Vikramaditya Rontala"]
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/rZLYerc.png",
             title: "Flag Football",
             about:
                 "Get ready for a thrilling event of non-stop action and sportsmanship at the Ignite Flag Football 2023 event! This event is unlike any other, where the spirit of the game and the love for competition come together in a celebration of athleticism and teamwork. In this spirited event, 10 teams will battle against each other with sheer determination, and only 1 will emerge victorious.\n\nIn this event, each team will:\n- Contain only a men's bracket\n- Contain a minimum of 6 players and a maximum of 8 players, with 5 players on the field at all times\n- The tournament will follow a Knock-Out format\n- We will be following the official NFL Flag Football rulebook, with some rules modified towards the benefit of the players\n\nWe hope to see you all there!",

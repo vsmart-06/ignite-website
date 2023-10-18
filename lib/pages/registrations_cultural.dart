@@ -25,7 +25,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
   ScrollController scroll = ScrollController();
 
   // TODO: When registrations open, change the isOpen variable to true
-  bool isOpen = false;
+  bool isOpen = true;
 
   @override
   Widget build(BuildContext context) {
@@ -144,7 +144,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 name: "Razzmatazz"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/lijkg74.png',
+                                imagePath: 'https://i.imgur.com/xsVCfTa.png',
                                 websitePath:
                                     "https://forms.gle/5nUazpftANVZeChi9",
                                 name: "Silver\nScreen"),
@@ -178,7 +178,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 name: "Metamorphosis"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/Xh3s9WP.png',
+                                imagePath: 'https://i.imgur.com/t3nTznY.png',
                                 websitePath:
                                     "https://forms.gle/499xw83SSco6XPQh6",
                                 name: "Kryptos\nVisos"),
@@ -189,7 +189,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           children: [
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/GaAC6Sp.png',
+                                imagePath: 'https://i.imgur.com/ozRDzqn.png',
                                 websitePath:
                                     "https://forms.gle/nFdyqZh8exG7989v5",
                                 name: "Dealer's\nChoice"),
@@ -206,12 +206,12 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/c4gjJaW.png',
+                                imagePath: 'https://i.imgur.com/eUWfCyk.png',
                                 websitePath: "/registrations/respawn",
                                 name: "Respawn"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/7Us373q.png',
                                 websitePath:
                                     "https://forms.gle/jehQpmcucD9XvJRPA",
                                 name: "Throwback\nTrifecta"),
@@ -296,7 +296,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                   name: "Razzmatazz"),
                               EventsButton(
                                   inSite: false,
-                                  imagePath: 'https://i.imgur.com/lijkg74.png',
+                                  imagePath: 'https://i.imgur.com/xsVCfTa.png',
                                   websitePath:
                                       "https://forms.gle/5nUazpftANVZeChi9",
                                   name: "Silver\nScreen"),
@@ -326,13 +326,13 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                                 name: "Metamorphosis"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/Xh3s9WP.png',
+                                imagePath: 'https://i.imgur.com/t3nTznY.png',
                                 websitePath:
                                     "https://forms.gle/499xw83SSco6XPQh6",
                                 name: "Kryptos\nVisos"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/GaAC6Sp.png',
+                                imagePath: 'https://i.imgur.com/ozRDzqn.png',
                                 websitePath:
                                     "https://forms.gle/nFdyqZh8exG7989v5",
                                 name: "Dealer's\nChoice"),
@@ -349,12 +349,12 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/c4gjJaW.png',
+                                imagePath: 'https://i.imgur.com/eUWfCyk.png',
                                 websitePath: "/registrations/respawn",
                                 name: "Respawn"),
                             EventsButton(
                                 inSite: false,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/7Us373q.png',
                                 websitePath:
                                     "https://forms.gle/jehQpmcucD9XvJRPA",
                                 name: "Throwback\nTrifecta"),

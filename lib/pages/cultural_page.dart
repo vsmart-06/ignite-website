@@ -80,7 +80,7 @@ class _CulturalState extends State<Cultural> {
                                 name: "Razzmatazz"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/lijkg74.png',
+                                imagePath: 'https://i.imgur.com/xsVCfTa.png',
                                 websitePath: "/events/cultural/silver_screen",
                                 name: "Silver\nScreen"),
                           ],
@@ -112,7 +112,7 @@ class _CulturalState extends State<Cultural> {
                                 name: "Metamorphosis"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/Xh3s9WP.png',
+                                imagePath: 'https://i.imgur.com/t3nTznY.png',
                                 websitePath: "/events/cultural/kryptos_visos",
                                 name: "Kryptos\nVisos"),
                           ],
@@ -127,7 +127,7 @@ class _CulturalState extends State<Cultural> {
                                 name: "Dyed in\nCrimson"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/GaAC6Sp.png',
+                                imagePath: 'https://i.imgur.com/ozRDzqn.png',
                                 websitePath: "/events/cultural/dealers_choice",
                                 name: "Dealer's\nChoice"),
                           ],
@@ -142,7 +142,7 @@ class _CulturalState extends State<Cultural> {
                                 name: "Shoot your\nShot"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/c4gjJaW.png',
+                                imagePath: 'https://i.imgur.com/eUWfCyk.png',
                                 websitePath: "/events/cultural/respawn",
                                 name: "Respawn"),
                           ],
@@ -152,7 +152,7 @@ class _CulturalState extends State<Cultural> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/7Us373q.png',
                                 websitePath:
                                     "/events/cultural/throwback_trifecta",
                                 name: "Throwback\nTrifecta"),
@@ -216,7 +216,7 @@ class _CulturalState extends State<Cultural> {
                                   name: "Razzmatazz"),
                               EventsButton(
                                   inSite: true,
-                                  imagePath: 'https://i.imgur.com/lijkg74.png',
+                                  imagePath: 'https://i.imgur.com/xsVCfTa.png',
                                   websitePath: "/events/cultural/silver_screen",
                                   name: "Silver\nScreen"),
                               EventsButton(
@@ -244,7 +244,7 @@ class _CulturalState extends State<Cultural> {
                                 name: "Metamorphosis"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/Xh3s9WP.png',
+                                imagePath: 'https://i.imgur.com/t3nTznY.png',
                                 websitePath: "/events/cultural/kryptos_visos",
                                 name: "Kryptos\nVisos"),
                             EventsButton(
@@ -254,7 +254,7 @@ class _CulturalState extends State<Cultural> {
                                 name: "Dyed in\nCrimson"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/GaAC6Sp.png',
+                                imagePath: 'https://i.imgur.com/ozRDzqn.png',
                                 websitePath: "/events/cultural/dealers_choice",
                                 name: "Dealer's\nChoice"),
                           ],
@@ -269,12 +269,12 @@ class _CulturalState extends State<Cultural> {
                                 name: "Shoot your\nShot"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/c4gjJaW.png',
+                                imagePath: 'https://i.imgur.com/eUWfCyk.png',
                                 websitePath: "/events/cultural/respawn",
                                 name: "Respawn"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/7Us373q.png',
                                 websitePath:
                                     "/events/cultural/throwback_trifecta",
                                 name: "Throwback\nTrifecta"),

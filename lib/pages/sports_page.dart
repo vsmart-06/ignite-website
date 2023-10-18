@@ -59,12 +59,12 @@ class _SportsState extends State<Sports> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/myq8aq1.png',
                                 websitePath: "/events/sports/basketball",
                                 name: "Basketball"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/vro8CWT.png',
                                 websitePath: "/events/sports/football",
                                 name: "Football"),
                           ],
@@ -94,7 +94,7 @@ class _SportsState extends State<Sports> {
                                 name: "Tennis"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/GOO5D5g.png',
                                 websitePath: "/events/sports/table_tennis",
                                 name: "Table Tennis"),
                           ],
@@ -104,12 +104,12 @@ class _SportsState extends State<Sports> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/eiuGm2o.png',
+                                imagePath: 'https://i.imgur.com/vPCf5Fl.png',
                                 websitePath: "/events/sports/relay",
                                 name: "Relay"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/rZLYerc.png',
                                 websitePath: "/events/sports/flag_football",
                                 name: "Flag Football"),
                           ],
@@ -180,12 +180,12 @@ class _SportsState extends State<Sports> {
                           children: [
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/myq8aq1.png',
                                 websitePath: "/events/sports/basketball",
                                 name: "Basketball"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/vro8CWT.png',
                                 websitePath: "/events/sports/football",
                                 name: "Football"),
                             EventsButton(
@@ -210,17 +210,17 @@ class _SportsState extends State<Sports> {
                                 name: "Tennis"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/GOO5D5g.png',
                                 websitePath: "/events/sports/table_tennis",
                                 name: "Table Tennis"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/eiuGm2o.png',
+                                imagePath: 'https://i.imgur.com/vPCf5Fl.png',
                                 websitePath: "/events/sports/relay",
                                 name: "Relay"),
                             EventsButton(
                                 inSite: true,
-                                imagePath: 'https://i.imgur.com/5VuyhL2.png',
+                                imagePath: 'https://i.imgur.com/rZLYerc.png',
                                 websitePath: "/events/sports/flag_football",
                                 name: "Flag Football"),
                           ],
