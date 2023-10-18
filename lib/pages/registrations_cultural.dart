@@ -84,6 +84,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                   "Cultural Registrations",
                   style: TextStyle(
                       color: Colors.white, fontSize: 50, fontFamily: fontMain),
+                  textAlign: TextAlign.center
                 ),
               ),
               Expanded(
@@ -240,6 +241,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                   "Cultural Registrations",
                   style: TextStyle(
                       color: Colors.white, fontSize: 50, fontFamily: fontMain),
+                  textAlign: TextAlign.center
                 ),
               ),
               Expanded(
