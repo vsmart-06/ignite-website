@@ -7446,7 +7446,7 @@ j=1}else j=3
 q.a=k+n
 s+=j
 r=s
-p=!0}else if(o<127&&(B.Cp[o>>>4]&1<<(o&15))!==0){if(p&&65<=o&&90>=o){if(q==null)q=new A.c_("")
+p=!0}else if(o<127&&(B.Co[o>>>4]&1<<(o&15))!==0){if(p&&65<=o&&90>=o){if(q==null)q=new A.c_("")
 if(r<s){q.a+=B.d.ab(a,r,s)
 r=s}p=!1}++s}else if(o<=93&&(B.ki[o>>>4]&1<<(o&15))!==0)A.ra(a,s,"Invalid character")
 else{if((o&64512)===55296&&s+1<c){i=a.charCodeAt(s+1)
@@ -7476,7 +7476,7 @@ if(a==="https")return"https"
 if(a==="package")return"package"
 return a},
 aky(a,b,c){if(a==null)return""
-return A.zU(a,b,c,B.BN,!1,!1)},
+return A.zU(a,b,c,B.BO,!1,!1)},
 akw(a,b,c,d,e,f){var s,r=e==="file",q=r||f
 if(a==null)return r?"/":""
 else s=A.zU(a,b,c,B.kh,!0,!0)
@@ -8291,7 +8291,7 @@ if(r==null)r=3
 s=b==null?null:b.a
 r=A.Q(r,s==null?3:s,c)
 r.toString
-return B.BO[A.lw(B.c.ba(r),0,8)]},
+return B.BP[A.lw(B.c.ba(r),0,8)]},
 ajy(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1){return $.aa().J8(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1)},
 aej(a,b,c,d,e,f,g,h,i,j,k,l){return $.aa().J4(a,b,c,d,e,f,g,h,i,j,k,l)},
 abR(a,b){var s=0,r=A.W(t.H)
@@ -18415,7 +18415,7 @@ q=b.as
 if(a.as!==q)return q?-1:1
 return 0},
 aqZ(a,b){var s=A.ad(b).h("ag<1,dy>")
-return A.aqm(!0,A.an(new A.ag(b,new A.TT(),s),!0,s.h("bd.E")),a,B.Cu,!0,B.yM,null)},
+return A.aqm(!0,A.an(new A.ag(b,new A.TT(),s),!0,s.h("bd.E")),a,B.Ct,!0,B.yM,null)},
 aqX(a){a.by()
 a.aO(A.am1())},
 tM(a){var s=a.a,r=s instanceof A.oE?s:null
@@ -22945,7 +22945,7 @@ n=A.an(new A.b1(p,l),!0,l.h("j.E"))
 new A.bh(n,new A.Wn(q),A.ad(n).h("bh<1>")).P(0,m.gZ0())
 new A.bh(q,new A.Wo(m),A.ad(q).h("bh<1>")).P(0,r)}},
 N9(a){var s,r,q,p,o,n,m,l,k=A.hx().b-1
-if(k===0)return B.Cq
+if(k===0)return B.Cp
 s=A.a([],t.jT)
 r=t.t
 q=new A.kM(A.a([],r),!1)
@@ -24237,7 +24237,7 @@ pR(){var s=this.Q
 s===$&&A.b()
 return s},
 pS(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.Cz
+if(a<0||b<0)return B.Cy
 s=this.a
 s===$&&A.b()
 s=s.a
@@ -24255,7 +24255,7 @@ l.push(new A.dY(n[0],n[1],n[2],n[3],B.kg[m]))}return l},
 eL(a){var s,r=this.a
 r===$&&A.b()
 r=r.a.getGlyphPositionAtCoordinate(a.a,a.b)
-s=B.C1[B.c.T(r.affinity.value)]
+s=B.C2[B.c.T(r.affinity.value)]
 return new A.bA(B.c.T(r.pos),s)},
 v4(a){var s,r
 switch(a.b.a){case 0:s=a.a-1
@@ -30146,7 +30146,7 @@ if(r.z!==B.jX){r.z=B.jX
 r.FJ()}}return r.w.a.NQ(a)},
 FJ(){var s,r
 for(s=this.as,r=0;r<s.length;++r)s[r].$1(this.z)},
-NP(a){if(B.b.u(B.Ck,a))return this.z===B.c0
+NP(a){if(B.b.u(B.Cj,a))return this.z===B.c0
 return!1},
 a6Q(a){var s,r,q,p,o,n,m,l,k,j,i=this,h=null
 if(!i.x){i.w.a.l()
@@ -42205,7 +42205,7 @@ SF(a){var s,r=this,q=null,p=r.a,o=p.f
 p=p.CW
 s=r.gXv()
 r.a.toString
-return new A.xk(q,q,q,new A.a7l(),q,q,q,q,q,q,o,q,q,B.Cw,r.gXD(),p,q,B.Jv,B.ee,q,s,q,q,B.ke,!1,!1,!1,!1,r.gXf(),!0,q,q,q,new A.j7(r,t.bT))},
+return new A.xk(q,q,q,new A.a7l(),q,q,q,q,q,q,o,q,q,B.Cv,r.gXD(),p,q,B.Jv,B.ee,q,s,q,q,B.ke,!1,!1,!1,!1,r.gXf(),!0,q,q,q,new A.j7(r,t.bT))},
 J(a){var s,r=null,q=A.u1(!1,!1,this.SF(a),r,r,r,r,!0,r,r,new A.a7m(),r,r,r)
 this.a.toString
 s=this.d
@@ -42455,7 +42455,7 @@ A.qs.prototype={
 F(){return"_CornerId."+this.b}}
 A.jL.prototype={}
 A.p9.prototype={
-i2(){var s,r,q=this,p=A.ax1(B.C2,new A.Y3(q,q.b.gaB().a7(0,q.a.gaB()))),o=q.a
+i2(){var s,r,q=this,p=A.ax1(B.C3,new A.Y3(q,q.b.gaB().a7(0,q.a.gaB()))),o=q.a
 o.toString
 s=p.a
 o=q.lc(o,s)
@@ -48862,7 +48862,7 @@ r=A.an(new A.ag(s,new A.a3b(p),r),!1,r.h("bd.E"))}return r},
 eL(a){var s=this.b
 return s.a.a.eL(a.a7(0,s.ghF()))},
 t2(){var s,r,q=this.b,p=q.ghF()
-if(!isFinite(p.a)||!isFinite(p.b))return B.Ct
+if(!isFinite(p.a)||!isFinite(p.b))return B.Cs
 s=q.e
 if(s==null){s=q.a.a.t2()
 q.e=s}if(p.k(0,B.l))r=s
@@ -54675,7 +54675,7 @@ break
 case 1:return A.U(q,r)}})
 return A.V($async$wK,r)},
 UK(a,b){var s,r,q,p
-if(a===b)return B.Cr
+if(a===b)return B.Cq
 if(a===B.f6&&b===B.dv)return B.Be
 s=A.a([],t.QP)
 if(a==null)s.push(b)
@@ -55829,7 +55829,7 @@ A.jr.prototype={}
 A.FJ.prototype={
 io(a,b,c){var s,r,q,p,o,n=$.aJ.ai$.f.c
 if(n==null||n.e==null)return!1
-for(s=t.vz,r=0;r<2;++r){q=B.C3[r]
+for(s=t.vz,r=0;r<2;++r){q=B.C4[r]
 p=n.e
 p.toString
 o=A.add(p,q,s)
@@ -58996,7 +58996,7 @@ A.kp.prototype={
 k(a,b){if(b==null)return!1
 if(J.O(b)!==A.v(this))return!1
 return b instanceof A.kp&&b.a===this.a&&b.d===this.d&&A.dj(null,null)},
-gt(a){return A.N(this.a,"MaterialIcons",null,this.d,A.c7(B.Cy),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gt(a){return A.N(this.a,"MaterialIcons",null,this.d,A.c7(B.Cx),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 i(a){return"IconData(U+"+B.d.mr(B.i.hM(this.a,16).toUpperCase(),5,"0")+")"}}
 A.mm.prototype={
 bD(a){return!this.w.k(0,a.w)}}
@@ -59781,7 +59781,7 @@ b=s?d:b.ax
 if(b==null)b=B.hm
 c.gjU()
 c.gjU()
-f=new A.uV(a0,a,r,q,m,p,o,n,g===!0,l,k,h,j,i,b,new A.Cr(d),B.Cv)
+f=new A.uV(a0,a,r,q,m,p,o,n,g===!0,l,k,h,j,i,b,new A.Cr(d),B.Cu)
 if(!f.k(0,e.e))e.aj(new A.a7D(e,f))},
 Jk(){this.nF()},
 Jm(){if(this.d==null)this.nF()},
@@ -60053,7 +60053,7 @@ m.d=new A.bU(null,t.ku)
 B.b.L(m.e,s.Ma(null,m))
 m.a.toString
 r=0
-for(;!1;++r){q=B.Cx[r]
+for(;!1;++r){q=B.Cw[r]
 p=m.c
 p.toString
 p=q.yG(p)
@@ -65340,7 +65340,7 @@ p.rA()
 return s.ar()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gwM(),p=0;p<s.length;s.length===r||(0,A.G)(s),++p)J.ap3(s[p],q)
-o.b=B.Cs
+o.b=B.Cr
 o.y=!1
 o.dF()},
 ea(a,b){return a.lP(b)},
@@ -66690,19 +66690,19 @@ A.ac6.prototype={
 $1(a){return A.cH("Witness an electrifying dance event like no other!\nRazzmatazz features two rounds of captivating dance performances that will enthral the audience and keep them engaged throughout.\n\nRound 1 : Dance Battle\n- Each team will have to perform a dance routine of 1 minute and 30 seconds. \n- Participating teams will have the freedom to perform Hip-Hop, Contemporary and/or Bollywood.\n- Only 4 Teams will qualify to the final round. \n\nRound 2 : Improv Showdown\n- Out of the qualified teams, 2 teams will go against each other at a time.\n- Each team has to choose 4 members, who will go head to head in the dance battle.\n- They will get 3 minutes for the improv battle.\n\nRules:\n- No provocative dances/songs \n- Adhere to the timing given, with respect to each round \n- Participants will not be allowed to use the internet or refer to any choreographed dance for round 2. \n- Songs should not contain any vulgar language (Use clean versions of songs)\n- Costumes have to be appropriate. (No shorts, no sleeveless tops, no crop tops)\n- Props will not be provided, each team is responsible for their own.\n- The same team member cannot be repeated (Round 2)\n\n\nTeam Size: 4-8 people",B.AJ,!1,"Amphitheatre","https://i.imgur.com/6luARcL.png","https://forms.gle/cXbx7dmTT4cLx5Gn7","Razzmatazz")},
 $S:3}
 A.ac7.prototype={
-$1(a){return A.cH("Step into the shadowy world of intrigue and deception at Silver Screen, our Film Noir themed festival. Explore the tropes of the timeless classics and modern masterpieces that define this genre, while exploring your own creative direction in the production of your own films.\n\nRound 1:\nParticipants must film a 10-12 minute short film on this theme using the tropes and characteristics of the genre \"FILM NOIR\".\n\nThese include:\n\nProduction Aspects:\n- Low-Key Lighting: Film Noir employs dramatic, high-contrast lighting with deep shadows to create a moody, ominous atmosphere.\n- Urban Settings: Often set in gritty, crime-ridden urban environments, the genre's visual aesthetics highlight the seedy underbelly of city life.\n- Cinematography: Cinematographers use unconventional camera angles and compositions, such as Dutch angles and chiaroscuro lighting, to evoke a sense of disorientation and tension.\n- Narration: Frequent use of voice-over narration, often by the protagonist, provides insight into their inner thoughts and dilemmas.\n- Costuming: Characters are often dressed in sharp suits and fedoras for men and glamorous dresses for women, reinforcing a sense of style and allure amid the darkness.\n\nPlot Characteristics:\n- Moral Ambiguity: Film Noir often explores morally complex characters, where protagonists may have questionable motives, and villains sometimes exhibit sympathetic qualities.\n- Femme Fatale: A recurring trope is the femme fatale, a seductive and enigmatic woman who ensnares the male protagonist in a web of deceit and danger.\n- Crime and Corruption: Plots frequently revolve around crime, corruption, or illicit activities, with characters caught in a web of conspiracies and double-crosses.\n- Investigation and Mystery: Many Film Noir narratives involve a detective or an ordinary individual caught up in an intricate mystery or investigation, unravelling dark secrets along the way.\n- Dialogue: The genre is known for its sharp, terse, and often cynical dialogue, filled with clever one-liners and witty repartee.\n- Twists and Uncertainty: Plot twists and a pervasive sense of uncertainty keep audiences engaged, as characters and their motivations are frequently revealed in unexpected ways.\n- Narrative Structure: Film Noir often uses non-linear or complex narrative structures, including flashbacks and multiple perspectives, to add depth and intrigue to the story.\n- Social Commentary: The genre often serves as a commentary on societal issues, such as post-war disillusionment, urban decay, and the erosion of traditional values.\n- Soundtrack: Film Noir features distinctive, jazzy or orchestral soundtracks that contribute to the mood and atmosphere of the film.\n- Visual Style: The use of visual metaphors and stark imagery is common in Film Noir, reflecting the inner turmoil and moral conflicts of the characters.\n\nRound 2: The three groups that move \non to the finals on Day 2 will be tasked with filming a 1-2 minute alternate ending to their original submitted piece, which must be filmed on the Greenwood High campus.They'll be given 2 hours to do this. \n\nFor all rounds, they will be judged on Visual Style, Sound and Music, Acting and Performance, Direction and Editing, Writing and Dialogue, Originality and Creativity, Emotional Impact,  Technical Excellence:\n\nRules:\n- 10-12 mins for Round 1 film submission\n- 2 hours for round 2 submission\n- No nudity or lewd scenes \n\n\nTeam Size: 5-8 people",B.Cc,!1,"IB AV Room","https://i.imgur.com/xsVCfTa.png","https://forms.gle/5nUazpftANVZeChi9","Silver Screen")},
+$1(a){return A.cH("Step into the shadowy world of intrigue and deception at Silver Screen, our Film Noir themed festival. Explore the tropes of the timeless classics and modern masterpieces that define this genre, while exploring your own creative direction in the production of your own films.\n\nRound 1:\nParticipants must film a 10-12 minute short film on this theme using the tropes and characteristics of the genre \"FILM NOIR\".\n\nThese include:\n\nProduction Aspects:\n- Low-Key Lighting: Film Noir employs dramatic, high-contrast lighting with deep shadows to create a moody, ominous atmosphere.\n- Urban Settings: Often set in gritty, crime-ridden urban environments, the genre's visual aesthetics highlight the seedy underbelly of city life.\n- Cinematography: Cinematographers use unconventional camera angles and compositions, such as Dutch angles and chiaroscuro lighting, to evoke a sense of disorientation and tension.\n- Narration: Frequent use of voice-over narration, often by the protagonist, provides insight into their inner thoughts and dilemmas.\n- Costuming: Characters are often dressed in sharp suits and fedoras for men and glamorous dresses for women, reinforcing a sense of style and allure amid the darkness.\n\nPlot Characteristics:\n- Moral Ambiguity: Film Noir often explores morally complex characters, where protagonists may have questionable motives, and villains sometimes exhibit sympathetic qualities.\n- Femme Fatale: A recurring trope is the femme fatale, a seductive and enigmatic woman who ensnares the male protagonist in a web of deceit and danger.\n- Crime and Corruption: Plots frequently revolve around crime, corruption, or illicit activities, with characters caught in a web of conspiracies and double-crosses.\n- Investigation and Mystery: Many Film Noir narratives involve a detective or an ordinary individual caught up in an intricate mystery or investigation, unravelling dark secrets along the way.\n- Dialogue: The genre is known for its sharp, terse, and often cynical dialogue, filled with clever one-liners and witty repartee.\n- Twists and Uncertainty: Plot twists and a pervasive sense of uncertainty keep audiences engaged, as characters and their motivations are frequently revealed in unexpected ways.\n- Narrative Structure: Film Noir often uses non-linear or complex narrative structures, including flashbacks and multiple perspectives, to add depth and intrigue to the story.\n- Social Commentary: The genre often serves as a commentary on societal issues, such as post-war disillusionment, urban decay, and the erosion of traditional values.\n- Soundtrack: Film Noir features distinctive, jazzy or orchestral soundtracks that contribute to the mood and atmosphere of the film.\n- Visual Style: The use of visual metaphors and stark imagery is common in Film Noir, reflecting the inner turmoil and moral conflicts of the characters.\n\nRound 2: The three groups that move \non to the finals on Day 2 will be tasked with filming a 1-2 minute alternate ending to their original submitted piece, which must be filmed on the Greenwood High campus.They'll be given 2 hours to do this. \n\nFor all rounds, they will be judged on Visual Style, Sound and Music, Acting and Performance, Direction and Editing, Writing and Dialogue, Originality and Creativity, Emotional Impact,  Technical Excellence:\n\nRules:\n- 10-12 mins for Round 1 film submission\n- 2 hours for round 2 submission\n- No nudity or lewd scenes \n\n\nTeam Size: 5-8 people",B.CN,!1,"IB AV Room","https://i.imgur.com/xsVCfTa.png","https://forms.gle/5nUazpftANVZeChi9","Silver Screen")},
 $S:3}
 A.ac8.prototype={
 $1(a){return A.cH("\"Friends, Romans, countrymen, lend me your ears. You come to act a song not to sing it. Let words do what songs can't.\"\n\nWill you be able to toss out the tunes from your favourite song and only use lyrics to portray the emotions engraved?\n\nAlways singing dramatically in front of the mirror only to mess up the melody? Well here's your time to shine at one of the most entertaining theatre event. Where you show off your acting skills by enacting the lyrics from your favorite song without having to worry about being out of tune for round 1. Channel your inner drama queen to make it into round 2, where moody emotions are coming your way to twist you and your songs\n\nRound 1: Participants must act out a song of their choice within 4 minutes.\nRound 2: participants will have to perform the same song they did in round 1 but in a different emotion (which will be randomly given) and will have to perform within 4 minutes.\n\nRules:\n1) No offensive language\n2) A trigger warning must be given (if any)\n3) Suitable and appropriate costume\n4) No filming performance/people without consent\n5) No food and drinks inside the space\n6) No disruptive behaviour (negative language, derogation)\n7) Staff and logistics are not responsible for participant's items\n8) Lighting script and prop list must be sent out early\n\n\nTeam Size: 2-4 people (not all of the team members have to perform on stage, some can be helping backstage. however, there will be logistics members on the day of the event to help you around with your performance if needed)",B.Af,!1,"Art Block Multipurpose Hall","https://i.imgur.com/qFuYhLe.png","https://forms.gle/Q3p6LDW4Uj2uyMP4A","Thespian of Melody")},
 $S:3}
 A.ac9.prototype={
-$1(a){return A.cH("Strut the runway starring as the most legendary fashion icons of the 20th and 21st century. Each team will randomly be assigned an icon, from Bowie to Madonna, and must take inspiration for their looks from the fashion idol, with their own personal flair of creativity. The second round will feature outfits from various randomly assigned movies. Break a heel!\n\nRound 1: \nEach team of 4-6 people will be randomly assigned a fashion icon from the 20th or 21st century upon registration (through your registration confirmation email). You must recreate their most iconic looks (which looks you pick is your choice). Please note that it is not necessary to create the look exactly, we are looking for outfits that are inspired by them with your own touch of creativity\n\nRound 2: \nAfter elimination there will be a second round on the next day. Based on the points from the first round, teams will be able to choose one of the following movies for their recreations:\nGrease (1978)\nJodha Akbar (2013)\nAlice in Wonderland (2010)\nAladdin (2019)\nStar Wars (2002 to 2008)\nCleopatra (1963)\nThe Great Gatsby (2013)\nYou will also be given a location to get ready in prior to the start of the event. Good luck!\n\nRules: \n- Do not wear overly revealing clothes like cropped tops.\n- Avoid Sheer or see-through materials.\n- Do not wear excessively short skirts or dresses.\n\n\nTeam Size: 4-6 people",B.CF,!1,"ICSE New Auditorium","https://i.imgur.com/bhiMoTF.png","https://forms.gle/5KdTukPT5AyyfdvH9","Icons and Imitations")},
+$1(a){return A.cH("Strut the runway starring as the most legendary fashion icons of the 20th and 21st century. Each team will randomly be assigned an icon, from Bowie to Madonna, and must take inspiration for their looks from the fashion idol, with their own personal flair of creativity. The second round will feature outfits from various randomly assigned movies. Break a heel!\n\nRound 1: \nEach team of 4-6 people will be randomly assigned a fashion icon from the 20th or 21st century upon registration (through your registration confirmation email). You must recreate their most iconic looks (which looks you pick is your choice). Please note that it is not necessary to create the look exactly, we are looking for outfits that are inspired by them with your own touch of creativity\n\nRound 2: \nAfter elimination there will be a second round on the next day. Based on the points from the first round, teams will be able to choose one of the following movies for their recreations:\nGrease (1978)\nJodha Akbar (2013)\nAlice in Wonderland (2010)\nAladdin (2019)\nStar Wars (2002 to 2008)\nCleopatra (1963)\nThe Great Gatsby (2013)\nYou will also be given a location to get ready in prior to the start of the event. Good luck!\n\nRules: \n- Do not wear overly revealing clothes like cropped tops.\n- Avoid Sheer or see-through materials.\n- Do not wear excessively short skirts or dresses.\n\n\nTeam Size: 4-6 people",B.CE,!1,"ICSE New Auditorium","https://i.imgur.com/bhiMoTF.png","https://forms.gle/5KdTukPT5AyyfdvH9","Icons and Imitations")},
 $S:3}
 A.aca.prototype={
-$1(a){return A.cH("A relay race for your mind where the canvas is your track and the paintbrush is your baton- sounds interesting? \n\nWatch art reshape before your eyes!\n\nEvery stroke builds upon the last and an artist's vision blooms into another's creation, building onto a masterpiece of collaboration. Bring any art mediums to display your skills. Each participant blends their insight, furnishing a blank canvas into a kaleidoscope of creativity. Show off your artworks in the mini exhibition!\n\n- Bring any art mediums to display your skills.\n- Each team member is allotted 30 mins to work on the canvas\n- The canvas is then passed on to the next member to continue\n- Once the relay is finished,a mini exhibition will be held where you can show off artwork.\n\nRound 1: The topic is only told to the starting member of each team. They have 3 minutes to ideate and 30 minutes to start off the artwork.\n\nRound 2, 3 and 4: 3 minutes is given to pass on the theme and art idea to the next teammate. They are given another 30 minutes to work on the piece.\n\nFinal round: One the piece is complete, the team can discuss the progress of the painting and get ready to present it to the judges.\n- A mini exhibition will take place and the judges (as well as other teams) can look at the pieces to be judged.\n\nRules: \n- All artwork is on A3 size paper provided at the event. The participants have to bring their own art supplies.\n- Any medium/mix of mediums can be used (pencil, charcoal, pastels, watercolour acrylics, etc.).\n-The participants who have completed the work cannot discuss with the remaining team members.\n\n\nTeam Size: 4 people",B.CD,!1,"Art Block Bottom Floor","https://i.imgur.com/I5yddnf.png","https://forms.gle/2vwaJKy8msAKtEko9","Metamorphosis")},
+$1(a){return A.cH("A relay race for your mind where the canvas is your track and the paintbrush is your baton- sounds interesting? \n\nWatch art reshape before your eyes!\n\nEvery stroke builds upon the last and an artist's vision blooms into another's creation, building onto a masterpiece of collaboration. Bring any art mediums to display your skills. Each participant blends their insight, furnishing a blank canvas into a kaleidoscope of creativity. Show off your artworks in the mini exhibition!\n\n- Bring any art mediums to display your skills.\n- Each team member is allotted 30 mins to work on the canvas\n- The canvas is then passed on to the next member to continue\n- Once the relay is finished,a mini exhibition will be held where you can show off artwork.\n\nRound 1: The topic is only told to the starting member of each team. They have 3 minutes to ideate and 30 minutes to start off the artwork.\n\nRound 2, 3 and 4: 3 minutes is given to pass on the theme and art idea to the next teammate. They are given another 30 minutes to work on the piece.\n\nFinal round: One the piece is complete, the team can discuss the progress of the painting and get ready to present it to the judges.\n- A mini exhibition will take place and the judges (as well as other teams) can look at the pieces to be judged.\n\nRules: \n- All artwork is on A3 size paper provided at the event. The participants have to bring their own art supplies.\n- Any medium/mix of mediums can be used (pencil, charcoal, pastels, watercolour acrylics, etc.).\n-The participants who have completed the work cannot discuss with the remaining team members.\n\n\nTeam Size: 4 people",B.CC,!1,"Art Block Bottom Floor","https://i.imgur.com/I5yddnf.png","https://forms.gle/2vwaJKy8msAKtEko9","Metamorphosis")},
 $S:3}
 A.acb.prototype={
-$1(a){return A.cH("Mystique meets creativity and imagination as a face is transformed into a colorful canvas over two days. Villains are crucial to a story - for every Batman there is a Joker, for every Jekyll there's a Hyde. Pick up your brushes and palettes and represent these complex villains in round 1. Compete with artists all over Bangalore to make it into round 2, where a new theme and a few surprises are waiting for you.\n\nRules:\n- Participants must bring their tools, including but not limited to facepaint, makeup paintbrushes, tissues, etc.\n- All participants must keep their work areas clean. Everything should look as it did before they arrived. If participants choose to wash off their face paint in the washroom, they must ensure it is left clean afterward.\n- No props\n- No gore\n- No sabotaging anyone else's work\n- No extra points will be awarded for costumes or props\n\n\nTeam Size: 2 people",B.Co,!1,"Art Block Gallery & Steps","https://i.imgur.com/t3nTznY.png","https://forms.gle/499xw83SSco6XPQh6","Kryptos Visos")},
+$1(a){return A.cH("Mystique meets creativity and imagination as a face is transformed into a colorful canvas over two days. Villains are crucial to a story - for every Batman there is a Joker, for every Jekyll there's a Hyde. Pick up your brushes and palettes and represent these complex villains in round 1. Compete with artists all over Bangalore to make it into round 2, where a new theme and a few surprises are waiting for you.\n\nRules:\n- Participants must bring their tools, including but not limited to facepaint, makeup paintbrushes, tissues, etc.\n- All participants must keep their work areas clean. Everything should look as it did before they arrived. If participants choose to wash off their face paint in the washroom, they must ensure it is left clean afterward.\n- No props\n- No gore\n- No sabotaging anyone else's work\n- No extra points will be awarded for costumes or props\n\n\nTeam Size: 2 people",B.Cn,!1,"Art Block Gallery & Steps","https://i.imgur.com/t3nTznY.png","https://forms.gle/499xw83SSco6XPQh6","Kryptos Visos")},
 $S:3}
 A.acc.prototype={
 $1(a){return A.cH("Families shattered. Bloodied hands. A hidden killer.\n\nA murder mystery without compare.\n\nEnter a world filled with secrets, intrigue, and murder galore. As you find yourself in the midst of two feuding families and a murder that threatens their very legacies, you must maneuver around veils of deceit and concealed motives to uncover the one true murderer. Their fate lies in your hands - the last chance to piece together a shattered bloodline.\n\nFind the killer or die trying.\n\n\nWalk in registrations only!!!\n\n\nTeam Size: Individual",B.B9,null,"Booth on the Left of the IB Entrance","https://i.imgur.com/W2EcJsP.png",null,"Dyed in Crimson")},
@@ -66714,10 +66714,10 @@ A.ace.prototype={
 $1(a){return A.cH("Get ready to embark on a visual journey like no other in our photography event! Join us for an immersive experience that celebrates the art of photography and individuality. Showcase your skills across 2 rounds and capture the fleeting and breathtaking moments that make each individual unique. The best photographers will be moving onto round 2 which requires them to take their talents to a whole new level in capturing pictures that relate to a surprise prompt within IGNITE. Whether you're a seasoned pro or a budding enthusiast, this event promises to IGNITE your passion and spark your creativity. Come, be a part of this mesmerising celebration of the art at Shoot Your Shot !!\n\nRound 1:\nAll participants will be allowed to freely photograph on day 1 of IGNITE throughout the whole venue. They are asked to photograph up to 3 portraits of people from the event who stand out to them personally.\n\nRound 2:\nOn day 2, the qualifiers from round 1 will be given a surprise prompt in which they must submit one photo to the judges. Winners of this round will also be judged on their ability to portray this emotion to an audience through their portrait.\n\nRules:\n1. Participants are to ensure they inform the person they are taking a photo of and make sure they have consent. We will provide them a piece of paper to take down their name and/or phone number as well a space for their signature to confirm their consent has been taken.\n2. Participants are only allowed to photograph within the venue of IGNITE, strictly no photos from outside of the campus\n3. All participants are to submit their photos by 6 pm latest on a google drive and form that will be sent out a day before the event.\n4. Strictly no use of editing/photoshop software allowed, only post processing of images is allowed\n5. Use of phones or polaroid cameras are NOT allowed to take the pics, they have to be captured on a digital camera or DSLR\n6. Any participant caught taking indecent, incriminating or inappropriate pictures, will be immediately disqualified from the event and face disciplinary action.\n\n\nTeam Size: Individual",B.BC,!1,"No Specific Venue","https://i.imgur.com/nMTu7YX.png","https://forms.gle/XzAzZfLcdUizpCRq6","Shoot your Shot")},
 $S:3}
 A.acf.prototype={
-$1(a){return A.cH("IGNITE's most iconic event returns to the grand stage this year. Keeping tradition intact, participants are invited to compete in FIFA 2022 and Clash Royale. Additionally, we will be introducing the ultimate shutdown of tactical prowess and teamwork in the form of our 3v3 Rocket League tournament and a chance to display mechanical aptitude in our League of Legends 1v1 tournament.\n\nRules:\n- All participants should carry necessary equipment themselves. This includes but is not limited to: laptops, phones, laptop chargers, phone chargers, pin converters, mouse, keyboards, batteries, controllers etc.\n- All participants are responsible for the safety of their belongings\n- FIFA is controller only (Xbox/Playstation)\n- Rocket League is PC only\n\n\nTeam Size: Individual/3 people",B.CN,!0,"Library Exam Hall & 11A & 9F","https://i.imgur.com/eUWfCyk.png","/registrations/respawn","Respawn")},
+$1(a){return A.cH("IGNITE's most iconic event returns to the grand stage this year. Keeping tradition intact, participants are invited to compete in FIFA 2022 and Clash Royale. Additionally, we will be introducing the ultimate shutdown of tactical prowess and teamwork in the form of our 3v3 Rocket League tournament and a chance to display mechanical aptitude in our League of Legends 1v1 tournament.\n\nRules:\n- All participants should carry necessary equipment themselves. This includes but is not limited to: laptops, phones, laptop chargers, phone chargers, pin converters, mouse, keyboards, batteries, controllers etc.\n- All participants are responsible for the safety of their belongings\n- FIFA is controller only (Xbox/Playstation)\n- Rocket League is PC only\n\n\nTeam Size: Individual/3 people",B.CM,!0,"Library Exam Hall & 11A & 9F","https://i.imgur.com/eUWfCyk.png","/registrations/respawn","Respawn")},
 $S:3}
 A.ach.prototype={
-$1(a){return A.cH("Brace yourself for a triple dose of adrenaline-pumping fun with Capture the Flag, Ultimate Frisbee, and Chor-Police. It's the ultimate showdown where excitement reigns supreme - don't miss out on this action-packed thrill ride. Picture yourself sprinting through the field, strategizing to capture the flag, or diving to make that epic Frisbee catch. Feel the adrenaline rush as you chase and strategize in a heart-pounding game of Chor-Police. Throwback Trifecta isn't just about games; it's about forging friendships, building teamwork, and making memories that will last a lifetime.\n\nRound 1:\nTo begin, 2 games of Capture The Flag will be held (Game A & Game B). For Game A, one large team of 8 is formed by combining 2 teams, this is repeated to form another combined team of 8. So for Game A and B, it's 8v8, Game B having the same format as Game A. The losers of Game A & Game B will be eliminated. 16 people advance to round 2.\n\nRound 2:\nThe game of Ultimate Frisbee will have only 1 game played. Which will be 8v8. Losers will be eliminated. The winners of this game will further advance to The Final game in round 3.\n\nRound 3:\nThe Final game of Chor-Police will conclude with the winning team of 4 participants. This game will be 4v4. The winning team will be the one who wins the Best Of 3 Games in Chor-Police, granting us the Throwback Trifecta Champions.\n\n\nTeam Size: 4 people",B.Cn,!1,"Next to ICSE Turf","https://i.imgur.com/7Us373q.png","https://forms.gle/jehQpmcucD9XvJRPA","Throwback Trifecta")},
+$1(a){return A.cH("Brace yourself for a triple dose of adrenaline-pumping fun with Capture the Flag, Ultimate Frisbee, and Chor-Police. It's the ultimate showdown where excitement reigns supreme - don't miss out on this action-packed thrill ride. Picture yourself sprinting through the field, strategizing to capture the flag, or diving to make that epic Frisbee catch. Feel the adrenaline rush as you chase and strategize in a heart-pounding game of Chor-Police. Throwback Trifecta isn't just about games; it's about forging friendships, building teamwork, and making memories that will last a lifetime.\n\nRound 1:\nTo begin, 2 games of Capture The Flag will be held (Game A & Game B). For Game A, one large team of 8 is formed by combining 2 teams, this is repeated to form another combined team of 8. So for Game A and B, it's 8v8, Game B having the same format as Game A. The losers of Game A & Game B will be eliminated. 16 people advance to round 2.\n\nRound 2:\nThe game of Ultimate Frisbee will have only 1 game played. Which will be 8v8. Losers will be eliminated. The winners of this game will further advance to The Final game in round 3.\n\nRound 3:\nThe Final game of Chor-Police will conclude with the winning team of 4 participants. This game will be 4v4. The winning team will be the one who wins the Best Of 3 Games in Chor-Police, granting us the Throwback Trifecta Champions.\n\n\nTeam Size: 4 people",B.Cm,!1,"Next to ICSE Turf","https://i.imgur.com/7Us373q.png","https://forms.gle/jehQpmcucD9XvJRPA","Throwback Trifecta")},
 $S:3}
 A.aci.prototype={
 $1(a){return A.cH("Get ready to dribble, shoot and slam dunk your way into action. Join us for an electrifying basketball event with jaw-dropping plays. It's time to lace up your kicks and embrace the game like never before. Best of luck to all teams!\n\n1. Teams consisting of 8-11 players each\n2. The tournament will adhere to a knockout-style format.\n3. Officiating will be based on FIBA rules.\n4. Boys matches feature 10-minute quarters, while girls' matches consist of 7-minute quarters.",B.Bd,null,"ICSE Basketball Courts & IB Outdoor Basketball Court","https://i.imgur.com/myq8aq1.png",null,"Basketball")},
@@ -66726,7 +66726,7 @@ A.acj.prototype={
 $1(a){return A.cH("It's time to lace up and get ready for the fifth edition of IGNITE's football event! This event promises 2 days of action packed, heart-pounding football extravaganza filled with awe-inspiring plays. May the best teams triumph.\n\nCategory specific rules\n- Boys: 11 players on the pitch; minimum 1, maximum 5 substitutes.\n- Girls: 7 players on the pitch; minimum 1, maximum 4 substitutes.\n- For the boys category the offside rule will be in effect. For the girls category the offside rule will not be in effect\n- For the boys category in case of a tie in normal time, the game will go to penalties with each team getting 5 kicks.\n- For the girls category in case of a tie in normal time, the game will go to penalties with each team getting 3 kicks.\n\nCommon rules (for both girls and boys):\n- The game format for all group stage matches is 20-5-20. Both semi-finals and the final will be played in a 30-10-30 format.\n- Players will receive yellow and red cards during the match at the discretion of the referee. The referee's decision will be the final decision and players cannot argue with the referee.\n- If the ball crosses the sideline, only throw-ins are allowed, no kick-ins",B.Cg,null,"ICSE Turf & IB Sports Complex Field","https://i.imgur.com/vro8CWT.png",null,"Football")},
 $S:3}
 A.ack.prototype={
-$1(a){return A.cH("Prepare to experience the electrifying adrenaline that a hockey tournament can only provide\u2014the crack of the sticks, the shout of the crowd, and the electrifying action. It's a universe where power and precision coexist, where dexterity and ferocity clash, and where champions are made. This is more than just a competition; it's a journey through the heart of the game. Grab your seats, gather your supporters, and get ready to be enthralled by the exciting drama as heroes emerge, rivalries flare, and the spirit of hockey assumes a central role.\n\n- Two categories: Boys and Girls\n- 7 players aside\n- A maximum of 3 substitutes\n- Playing time (boys): 7.5 minutes per quarter\n- Playing time (girls): 5 minutes per quarter\n- Rules will follow according to the FIH standards with minor modifications for your collective benefit\n- Group stages open with an eliminator round\n- Top 4 teams will compete in a league round before the finals\n\nIn the inspirational words of Major Dhyan Chand - \"Hockey is not just a game, it's a passion that runs through my veins\". Welcome to the hockey tournament of a lifetime, the heart of all the excitement!",B.C8,null,"IB Sports Complex Field","https://i.imgur.com/85etvSD.png",null,"Hockey")},
+$1(a){return A.cH("Prepare to experience the electrifying adrenaline that a hockey tournament can only provide\u2014the crack of the sticks, the shout of the crowd, and the electrifying action. It's a universe where power and precision coexist, where dexterity and ferocity clash, and where champions are made. This is more than just a competition; it's a journey through the heart of the game. Grab your seats, gather your supporters, and get ready to be enthralled by the exciting drama as heroes emerge, rivalries flare, and the spirit of hockey assumes a central role.\n\n- Two categories: Boys and Girls\n- 7 players aside\n- A maximum of 3 substitutes\n- Playing time (boys): 7.5 minutes per quarter\n- Playing time (girls): 5 minutes per quarter\n- Rules will follow according to the FIH standards with minor modifications for your collective benefit\n- Group stages open with an eliminator round\n- Top 4 teams will compete in a league round before the finals\n\nIn the inspirational words of Major Dhyan Chand - \"Hockey is not just a game, it's a passion that runs through my veins\". Welcome to the hockey tournament of a lifetime, the heart of all the excitement!",B.C9,null,"IB Sports Complex Field","https://i.imgur.com/85etvSD.png",null,"Hockey")},
 $S:3}
 A.acl.prototype={
 $1(a){return A.cH("Allow us to introduce a game of coordination, strength and agility. Badminton is an exciting and fast paced sport characterized by its elegance and precision.The sport requires  quick reflexes and strategic finesse. Welcome to the IGNITE 2023 Badminton Tournament, where speed meets strategy, and every rally is a heartbeat.\n\n- There will be 4 categories - Boys Singles, Girls Singles, Boys Doubles and Girls Doubles. \n- Teams will be allowed to bring 8 students maximum. (2 players for the singles categories, 2 pairs of players for the doubles categories and 2 optional subs)\n- The tournament will follow a knockout format (One loss elimination)\n- Each match till the Semi-finals will be a best of 3 games, 15 points. Semi-finals and Finals will be 21 points best of 3. Golden point will be for 15 point matches and deuce for 21 point matches.\n- BWF rules will be followed\n- We will be using AS2 feather shuttles. Employ the power in your wrists and the strength of your mind to place the shuttle in the most strategic places possible. Smash your way to glory by joining us at this fun-filled and exciting event!!",B.Bz,null,"IB Sports Complex Indoor Badminton Court","https://i.imgur.com/DflBZC9.png",null,"Badminton")},
@@ -66735,16 +66735,16 @@ A.acm.prototype={
 $1(a){return A.cH("Welcome to the Tennis Tournament at IGNITE '23! Where strategy meets stamina, and where you can take significant strides on the staircase to success.\n\nAt this year's edition, the following format will be adhered to:\n- We will have both boys' and girls' tournaments - on hard courts.\n- Each participating team may have:\n\t- 3-4 members for only boys/girls - 1 player from the singles category, 2 players from the doubles category, and 1 optional substitute.\n\t- 6-8 members for both boys and girls - 1 boy and 1 girl from the singles category, 2 boys and 2 girls from the doubles category, and 1-2 optional substitutes.\n- The tournaments will be held in a knockout format.\n- For the first round of doubles the team that wins 3 games first shall advance.\n- Likewise, the player that wins 4 games first for singles shall advance.\n- In the semis and finals, it will be a one-set match.\n- All games shall be played according to ATP and WTA rules.\n\nRegister now and grab the opportunity to participate in fast-paced and fun-filled sporting beauty, and experience an intense cross-court adrenaline rush!",B.AT,null,"IB Tennis Courts near ICSE Turf","https://i.imgur.com/HrQCltb.png",null,"Tennis")},
 $S:3}
 A.acn.prototype={
-$1(a){return A.cH("\"I fear not the man who has practiced 10,000 backhands once, but i do fear a man who has practiced one backhand 10,000 times\" - Bruce Lee\n\nIn our sport, it's that one spin, that one smash, that one return perfected over time that can make all the difference. We welcome you to the Table Tennis event at IGNITE'24, See you at the court\u2026\n\nFormat:\n- There will be 3 rounds,(qualifiers,semi finals,finals)\n- 10 teams will compete against each other in round 1. 5 teams will be qualified to compete in round 2. The finals will have a secret format which will be revealed before the match begins, the last 2 standing teams will compete to win.\n- Each round will have matches. Matches will have 2 levels: Singles, Doubles (11 points each)\n- Reverse singles (tiebreaker) will happen if points are tied.\n- Team with the highest score after each level  will proceed to move on to further levels and win at finals.\n- Official ITTF Rules will be followed and decision of the umpires will be final. \n- The teams will have to come up with their player sequence to play in singles and doubles.\n- There shall be separate events for boys and girls.",B.BQ,null,"IB Sports Complex Table Tennis Room","https://i.imgur.com/GOO5D5g.png",null,"Table Tennis")},
+$1(a){return A.cH("\"I fear not the man who has practiced 10,000 backhands once, but i do fear a man who has practiced one backhand 10,000 times\" - Bruce Lee\n\nIn our sport, it's that one spin, that one smash, that one return perfected over time that can make all the difference. We welcome you to the Table Tennis event at IGNITE'24, See you at the court\u2026\n\nFormat:\n- There will be 3 rounds,(qualifiers,semi finals,finals)\n- 10 teams will compete against each other in round 1. 5 teams will be qualified to compete in round 2. The finals will have a secret format which will be revealed before the match begins, the last 2 standing teams will compete to win.\n- Each round will have matches. Matches will have 2 levels: Singles, Doubles (11 points each)\n- Reverse singles (tiebreaker) will happen if points are tied.\n- Team with the highest score after each level  will proceed to move on to further levels and win at finals.\n- Official ITTF Rules will be followed and decision of the umpires will be final. \n- The teams will have to come up with their player sequence to play in singles and doubles.\n- There shall be separate events for boys and girls.",B.BR,null,"IB Sports Complex Table Tennis Room","https://i.imgur.com/GOO5D5g.png",null,"Table Tennis")},
 $S:3}
 A.aco.prototype={
 $1(a){return A.cH("Relay, the essence of teamwork and speed, takes the stage this year at IGNITE 2023. We call all athletes to take part in this thrilling competition. Teams will go through heats, before the top teams are selected to move on to the finals. So get ready, every stride and second brings you closer to victory!\n\n- There are two categories: 4 x 100m (boys) | 4 x 100m (girls)\n- Each team should consist of 4 runners with 1 optional substitute.\n- There will be two rounds: Heats on day 1 | Finals on day 2\n- The standard world athletics rules will be followed for the relay.\n\nPlease note dropping of the baton during any point of the race will lead to disqualification.",B.Al,null,"ICSE Turf","https://i.imgur.com/vPCf5Fl.png",null,"Relay")},
 $S:3}
 A.acp.prototype={
-$1(a){return A.cH('"Chess is a sea in which a gnat may drink and an elephant may swim"\n\nThe nature of chess accommodates players of all skill levels.The  spirit of the game teaches us the virtues of patience, foresight and the art of calculated risk. Pertaining to strategy and driven by the perception of patterns it leaves no room for chance and emphasizes that the game is for everyone, where intelligence and creativity know no bounds.\n\nThe tournament for this year\'s edition of IGNITE has the following parameters: \n- 6 Rounds\n- Open \n- Swiss Format\n- Time control: 10+5\n- FIDE Regulations \n- Boys & Girls will compete in the same category.\n- Each school will be allowed to bring 4 players maximum, but they will play individually, not as a team.',B.CZ,null,"IB Sports Complex Chess Room & IB Sports Complex Dance Room","https://i.imgur.com/utM2H4D.png",null,"Chess")},
+$1(a){return A.cH('"Chess is a sea in which a gnat may drink and an elephant may swim"\n\nThe nature of chess accommodates players of all skill levels.The  spirit of the game teaches us the virtues of patience, foresight and the art of calculated risk. Pertaining to strategy and driven by the perception of patterns it leaves no room for chance and emphasizes that the game is for everyone, where intelligence and creativity know no bounds.\n\nThe tournament for this year\'s edition of IGNITE has the following parameters: \n- 6 Rounds\n- Open \n- Swiss Format\n- Time control: 10+5\n- FIDE Regulations \n- Boys & Girls will compete in the same category.\n- Each school will be allowed to bring 4 players maximum, but they will play individually, not as a team.',B.CZ,null,"IB Sports Complex Chess Room & IB Sports Complex Dance Room","https://i.imgur.com/mdC64lY.png",null,"Chess")},
 $S:3}
 A.acq.prototype={
-$1(a){return A.cH("In the world of competitive swimming, athletes must master various strokes, each with its unique style and demands. Swimming, in all its forms, is a testament to the ability of the swimmers, and their synchrony with the water.\n\nEach team can have a minimum of 4 participants and a maximum of 6 participants.\n\nThe events conducted are: \n- 25 meter race for both boys and girls in the following categories: Breaststroke, butterfly, backstroke and freestyle. \n- The 50 meters individual boys and girls freestyle race. \n- Relay and medley will also be conducted. \n- A randomly chosen interactive game for the swimming event to conclude.\n\nPlease be aware that we will strictly be following FINA rules.",B.C5,null,"Swimming Pool near ICSE Turf","https://i.imgur.com/5VuyhL2.png",null,"Swimming")},
+$1(a){return A.cH("In the world of competitive swimming, athletes must master various strokes, each with its unique style and demands. Swimming, in all its forms, is a testament to the ability of the swimmers, and their synchrony with the water.\n\nEach team can have a minimum of 4 participants and a maximum of 6 participants.\n\nThe events conducted are: \n- 25 meter race for both boys and girls in the following categories: Breaststroke, butterfly, backstroke and freestyle. \n- The 50 meters individual boys and girls freestyle race. \n- Relay and medley will also be conducted. \n- A randomly chosen interactive game for the swimming event to conclude.\n\nPlease be aware that we will strictly be following FINA rules.",B.C6,null,"Swimming Pool near ICSE Turf","https://i.imgur.com/KfIJPdE.png",null,"Swimming")},
 $S:3}
 A.acs.prototype={
 $1(a){return A.cH("Squash is boxing with racquets; it's the powerful and intimidating game of agility and strategic moves. Take the court by awe and by the strength of your power and resilience during this year's Ignite'23. Which awaits to see each individual in their best form and show us what you have got!\n\n- One category: Singles (mixed gender). \n- Schools are allowed to send up to 3 participants, but the participants will play as individual players, not as a team. \n- Every game will have a race of 11 points each. Consisting of 2 rounds with a side switch.  \n- Each game will be around 20-25 minutes\n- Olympic squash rules will be the judging criteria for the game. If any rules are not precisely followed it will lead to disqualification.\n- Further information will be communicated with the players. \n\nRegister now and be a part of a fully fledged and an exciting game day! Hoping to see you all soon at Ignite'23.",B.D5,null,"IB Sports Complex Squash Court","https://i.imgur.com/lnmXe4T.png",null,"Squash")},
@@ -70068,7 +70068,7 @@ B.W=new A.a3U()
 B.bX=new A.a3Y()
 B.C=new A.B(0,0,0,0)
 B.dn=new A.I7(0,0,0,0)
-B.Cv=A.a(s([]),A.al("x<aA8>"))
+B.Cu=A.a(s([]),A.al("x<aA8>"))
 B.ja=new A.I6()
 B.ct=new A.Il()
 B.cu=new A.Im()
@@ -70434,17 +70434,17 @@ B.Ac=new A.E8(1,"drawer")
 B.Ad=new A.p3(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Ae=new A.XO(1,"titleHeight")
 B.Da=A.a(s(["https://i.imgur.com/DoXOGJU.jpg","Keerthana Rajesh"]),t.s)
-B.BP=A.a(s(["https://i.imgur.com/zxBFVSq.jpg","Harini Shankar"]),t.s)
+B.BQ=A.a(s(["https://i.imgur.com/zxBFVSq.jpg","Harini Shankar"]),t.s)
 B.Aj=A.a(s(["https://i.imgur.com/yKJPgJM.jpg","Samhita Madakshira"]),t.s)
-B.Ag=A.a(s([B.Da,B.BP,B.Aj]),t.E)
-B.C6=A.a(s(["https://i.imgur.com/bzkqU5C.jpg","Khwahish Choudhary"]),t.s)
+B.Ag=A.a(s([B.Da,B.BQ,B.Aj]),t.E)
+B.C7=A.a(s(["https://i.imgur.com/bzkqU5C.jpg","Khwahish Choudhary"]),t.s)
 B.Am=A.a(s(["https://i.imgur.com/wioimZB.jpg","Annvi Gaur"]),t.s)
 B.AO=A.a(s(["https://i.imgur.com/f3QIMGQ.jpg","Pracheeta R"]),t.s)
-B.Af=A.a(s([B.C6,B.Am,B.AO]),t.E)
+B.Af=A.a(s([B.C7,B.Am,B.AO]),t.E)
 B.Ai=A.a(s([0,1]),t.up)
 B.By=A.a(s(["https://i.imgur.com/OUNjtTQ.jpg","Ashna Muktibodh"]),t.s)
-B.CM=A.a(s(["https://i.imgur.com/g14kLj1.jpg","Somya Gupta"]),t.s)
-B.Al=A.a(s([B.By,B.CM]),t.E)
+B.CL=A.a(s(["https://i.imgur.com/g14kLj1.jpg","Somya Gupta"]),t.s)
+B.Al=A.a(s([B.By,B.CL]),t.E)
 B.D4=A.a(s(["https://i.imgur.com/WvN3Sqb.jpg","Ishani Srivinas"]),t.s)
 B.AN=A.a(s(["https://i.imgur.com/kAfeRnY.jpg","Aishwarya Garine"]),t.s)
 B.D_=A.a(s(["https://i.imgur.com/6xmimiP.jpg","Surabhi Mitra"]),t.s)
@@ -70464,23 +70464,23 @@ B.zP=new A.jb(B.B3,"image/bmp")
 B.AR=A.a(s([B.zN,B.zR,B.zS,B.zO,B.zQ,B.zP]),A.al("x<jb>"))
 B.AS=A.a(s([4,9,14,19]),t.t)
 B.AF=A.a(s(["https://i.imgur.com/1J69SFz.jpg","Medha Varma"]),t.s)
-B.BU=A.a(s(["https://i.imgur.com/XnVi6KV.jpg","Maadhav Prem"]),t.s)
-B.AT=A.a(s([B.AF,B.BU]),t.E)
+B.BV=A.a(s(["https://i.imgur.com/XnVi6KV.jpg","Maadhav Prem"]),t.s)
+B.AT=A.a(s([B.AF,B.BV]),t.E)
 B.fV=A.a(s([0,0,65498,45055,65535,34815,65534,18431]),t.t)
 B.xI=new A.oa(0,"auto")
 B.xJ=new A.oa(1,"full")
 B.xK=new A.oa(2,"chromium")
 B.B4=A.a(s([B.xI,B.xJ,B.xK]),A.al("x<oa>"))
 B.kd=A.a(s([B.fJ,B.dS,B.cH,B.dV,B.dZ,B.c3,B.kc,B.fU,B.az,B.e_,B.bD,B.cE,B.cF,B.dT,B.cG,B.fK,B.bl,B.fL,B.fM,B.ka,B.ay,B.dU,B.cI,B.cJ,B.fN,B.fO,B.fP,B.fQ,B.kb,B.fR,B.fS,B.dW,B.cK,B.cL,B.fT,B.dX,B.dY]),A.al("x<bk>"))
-B.BT=A.a(s(["https://i.imgur.com/uHcV18G.jpg","Harihar Prasad"]),t.s)
+B.BU=A.a(s(["https://i.imgur.com/uHcV18G.jpg","Harihar Prasad"]),t.s)
 B.Ao=A.a(s(["https://i.imgur.com/uPvKNKg.jpg","Ayaan Gupta"]),t.s)
 B.D8=A.a(s(["https://i.imgur.com/y0L6iaz.jpg","Anish Vivek"]),t.s)
-B.B9=A.a(s([B.BT,B.Ao,B.D8]),t.E)
+B.B9=A.a(s([B.BU,B.Ao,B.D8]),t.E)
 B.e0=A.a(s([B.dv,B.f5,B.is,B.it,B.f6]),t.QP)
 B.B2=A.a(s(["https://i.imgur.com/bUTIOIP.jpg","Shiven Bhaskarabatla"]),t.s)
-B.C7=A.a(s(["https://i.imgur.com/TYSZxP7.jpg","Ashwin Ganapathy"]),t.s)
+B.C8=A.a(s(["https://i.imgur.com/TYSZxP7.jpg","Ashwin Ganapathy"]),t.s)
 B.Aq=A.a(s(["https://i.imgur.com/T8uuuFC.jpg","Anjini Basu"]),t.s)
-B.Bd=A.a(s([B.B2,B.C7,B.Aq]),t.E)
+B.Bd=A.a(s([B.B2,B.C8,B.Aq]),t.E)
 B.Be=A.a(s([B.dv]),t.QP)
 B.Bf=A.a(s([B.f7,B.f8]),A.al("x<rN>"))
 B.Bg=A.a(s([0,4,12,1,5,13,3,7,15]),t.t)
@@ -70488,29 +70488,29 @@ B.Bh=A.a(s(["pointerdown","pointermove","pointerleave","pointerup","pointercance
 B.Br=A.a(s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298]),t.t)
 B.Bt=A.a(s([0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0]),t.up)
 B.B8=A.a(s(["https://i.imgur.com/ZP17LkH.jpg","Vedant Chowdhary"]),t.s)
-B.BR=A.a(s(["https://i.imgur.com/KelfCSR.jpg","Sanjeevani Kale"]),t.s)
-B.Bz=A.a(s([B.B8,B.BR]),t.E)
+B.BS=A.a(s(["https://i.imgur.com/KelfCSR.jpg","Sanjeevani Kale"]),t.s)
+B.Bz=A.a(s([B.B8,B.BS]),t.E)
 B.Cd=A.a(s(["https://i.imgur.com/sauO30h.jpg","Riana Kapoor"]),t.s)
-B.Ca=A.a(s(["https://i.imgur.com/SC9M03A.jpg","Mukul Kumar"]),t.s)
+B.Cb=A.a(s(["https://i.imgur.com/SC9M03A.jpg","Mukul Kumar"]),t.s)
 B.CY=A.a(s(["https://i.imgur.com/6rchotG.jpg","Atreyi Saha"]),t.s)
-B.BA=A.a(s([B.Cd,B.Ca,B.CY]),t.E)
+B.BA=A.a(s([B.Cd,B.Cb,B.CY]),t.E)
 B.B6=A.a(s(["https://i.imgur.com/s8XQnmA.jpg","Thanvi Krishnamurthy"]),t.s)
-B.Cb=A.a(s(["https://i.imgur.com/wVabaMb.jpg","Yashaswini Chinta"]),t.s)
+B.Cc=A.a(s(["https://i.imgur.com/wVabaMb.jpg","Yashaswini Chinta"]),t.s)
 B.An=A.a(s(["https://i.imgur.com/qU82cFf.jpg","Nivedhita Kumar"]),t.s)
-B.BC=A.a(s([B.B6,B.Cb,B.An]),t.E)
+B.BC=A.a(s([B.B6,B.Cc,B.An]),t.E)
 B.Dh=new A.ih("en","US")
 B.ke=A.a(s([B.Dh]),t.ss)
 B.e1=A.a(s([0,0,24576,1023,65534,34815,65534,18431]),t.t)
 B.kf=A.a(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
-B.BN=A.a(s([0,0,32722,12287,65534,34815,65534,18431]),t.t)
+B.BO=A.a(s([0,0,32722,12287,65534,34815,65534,18431]),t.t)
 B.jT=new A.ee(1)
-B.BO=A.a(s([B.c_,B.jT,B.dK,B.y,B.ao,B.dL,B.aQ,B.dM,B.cA]),A.al("x<ee>"))
+B.BP=A.a(s([B.c_,B.jT,B.dK,B.y,B.ao,B.dL,B.aQ,B.dM,B.cA]),A.al("x<ee>"))
 B.Bq=A.a(s(["https://i.imgur.com/aAfV2xz.jpg","Dhanush Kilari"]),t.s)
-B.C4=A.a(s(["https://i.imgur.com/rjtQiQW.jpg","Harsh Naren"]),t.s)
-B.BQ=A.a(s([B.Bq,B.C4]),t.E)
+B.C5=A.a(s(["https://i.imgur.com/rjtQiQW.jpg","Harsh Naren"]),t.s)
+B.BR=A.a(s([B.Bq,B.C5]),t.E)
 B.as=new A.wZ(0,"upstream")
 B.K=new A.wZ(1,"downstream")
-B.C1=A.a(s([B.as,B.K]),A.al("x<wZ>"))
+B.C2=A.a(s([B.as,B.K]),A.al("x<wZ>"))
 B.V=new A.iz(0,"rtl")
 B.w=new A.iz(1,"ltr")
 B.kg=A.a(s([B.V,B.w]),A.al("x<iz>"))
@@ -70522,69 +70522,69 @@ B.vB=new A.qs(1,"topRight")
 B.vC=new A.qs(2,"bottomLeft")
 B.NF=new A.jL(B.vB,B.vC)
 B.NG=new A.jL(B.vC,B.vB)
-B.C2=A.a(s([B.NE,B.NH,B.NF,B.NG]),A.al("x<jL>"))
+B.C3=A.a(s([B.NE,B.NH,B.NF,B.NG]),A.al("x<jL>"))
 B.wr=new A.nX()
 B.hG=new A.GJ(1,"page")
 B.hH=new A.ek(B.P,B.hG)
-B.C3=A.a(s([B.wr,B.hH]),A.al("x<aS>"))
+B.C4=A.a(s([B.wr,B.hH]),A.al("x<aS>"))
 B.Bc=A.a(s(["https://i.imgur.com/7pj0Ls9.jpg","Nidhi Iyer"]),t.s)
-B.Cj=A.a(s(["https://i.imgur.com/mshbLGa.jpg","Risha Reddy"]),t.s)
-B.C5=A.a(s([B.Bc,B.Cj]),t.E)
+B.Ci=A.a(s(["https://i.imgur.com/mshbLGa.jpg","Risha Reddy"]),t.s)
+B.C6=A.a(s([B.Bc,B.Ci]),t.E)
 B.kh=A.a(s([0,0,65490,12287,65535,34815,65534,18431]),t.t)
 B.Cf=A.a(s(["https://i.imgur.com/zJFp4P6.jpg","Rahul Prabhu"]),t.s)
 B.Bx=A.a(s(["https://i.imgur.com/bmxbKjf.jpg","Ashvik Mishra"]),t.s)
-B.C8=A.a(s([B.Cf,B.Bx]),t.E)
-B.C9=A.a(s(["https://i.imgur.com/53ove4U.jpg","Isha Chawla"]),t.s)
-B.D3=A.a(s(["https://i.imgur.com/UwF7yT5.jpg","Dhriti Rao"]),t.s)
-B.Ci=A.a(s(["https://i.imgur.com/7iQ7dVq.jpg","Mayaan Hazra"]),t.s)
-B.Cc=A.a(s([B.C9,B.D3,B.Ci]),t.E)
+B.C9=A.a(s([B.Cf,B.Bx]),t.E)
 B.ki=A.a(s([0,0,32776,33792,1,10240,0,0]),t.t)
-B.Cm=A.a(s(["https://i.imgur.com/CsYBNjM.jpg","Parth Mehra"]),t.s)
+B.Cl=A.a(s(["https://i.imgur.com/CsYBNjM.jpg","Parth Mehra"]),t.s)
 B.Bk=A.a(s(["https://i.imgur.com/yICCODo.jpg","Fahim Bawahir"]),t.s)
-B.CL=A.a(s(["https://i.imgur.com/nXbvbzy.jpg","Chaitanya GT"]),t.s)
-B.Cg=A.a(s([B.Cm,B.Bk,B.CL]),t.E)
-B.Ck=A.a(s(["click","scroll"]),t.s)
+B.CK=A.a(s(["https://i.imgur.com/nXbvbzy.jpg","Chaitanya GT"]),t.s)
+B.Cg=A.a(s([B.Cl,B.Bk,B.CK]),t.E)
+B.Cj=A.a(s(["click","scroll"]),t.s)
 B.B5=A.a(s(["https://i.imgur.com/8BoIRDZ.jpg","Resham Prasad"]),t.s)
 B.Ap=A.a(s(["https://i.imgur.com/uk8BnX0.jpg","Aarnav Jain"]),t.s)
 B.Ba=A.a(s(["https://i.imgur.com/objObOS.jpg","Deepta Bhat"]),t.s)
-B.Cn=A.a(s([B.B5,B.Ap,B.Ba]),t.E)
+B.Cm=A.a(s([B.B5,B.Ap,B.Ba]),t.E)
 B.Bv=A.a(s(["https://i.imgur.com/xywvJQe.jpg","Ananya Vartak"]),t.s)
 B.D7=A.a(s(["https://i.imgur.com/0ovJqP9.jpg","Krithika Paruchuri"]),t.s)
 B.BB=A.a(s(["https://i.imgur.com/hawKBo1.jpg","Trisha Gupta"]),t.s)
-B.Co=A.a(s([B.Bv,B.D7,B.BB]),t.E)
-B.Cp=A.a(s([0,0,32754,11263,65534,34815,65534,18431]),t.t)
-B.Cr=A.a(s([]),t.QP)
+B.Cn=A.a(s([B.Bv,B.D7,B.BB]),t.E)
+B.Co=A.a(s([0,0,32754,11263,65534,34815,65534,18431]),t.t)
+B.Cq=A.a(s([]),t.QP)
 B.kl=A.a(s([]),A.al("x<azS>"))
-B.Cu=A.a(s([]),t.F)
-B.Ct=A.a(s([]),t.ER)
+B.Ct=A.a(s([]),t.F)
+B.Cs=A.a(s([]),t.ER)
 B.OB=A.a(s([]),t.ss)
-B.Cw=A.a(s([]),t.tc)
+B.Cv=A.a(s([]),t.tc)
 B.e2=A.a(s([]),t.V)
 B.km=A.a(s([]),t.fy)
-B.Cq=A.a(s([]),t.jT)
-B.Cx=A.a(s([]),A.al("x<aei<@>>"))
+B.Cp=A.a(s([]),t.jT)
+B.Cw=A.a(s([]),A.al("x<aei<@>>"))
 B.fX=A.a(s([]),t.AO)
-B.Cs=A.a(s([]),t.D1)
+B.Cr=A.a(s([]),t.D1)
 B.fW=A.a(s([]),t.c)
 B.kk=A.a(s([]),t.s)
 B.a9=A.a(s([]),t.oU)
-B.Cz=A.a(s([]),t.l)
+B.Cy=A.a(s([]),t.l)
 B.OC=A.a(s([]),t.p)
 B.cM=A.a(s([]),t.t)
 B.kj=A.a(s([]),t.ee)
-B.Cy=A.a(s([]),A.al("x<q?>"))
-B.BV=A.a(s(["https://i.imgur.com/WsmH49D.jpg","Ananya Krishna"]),t.s)
+B.Cx=A.a(s([]),A.al("x<q?>"))
+B.BW=A.a(s(["https://i.imgur.com/WsmH49D.jpg","Ananya Krishna"]),t.s)
 B.Bb=A.a(s(["https://i.imgur.com/ArWQyzf.jpg","Yuvika Sherawat"]),t.s)
 B.B1=A.a(s(["https://i.imgur.com/QbHY0nZ.png","Suhani Jha"]),t.s)
-B.CD=A.a(s([B.BV,B.Bb,B.B1]),t.E)
+B.CC=A.a(s([B.BW,B.Bb,B.B1]),t.E)
 B.D9=A.a(s(["https://i.imgur.com/z6do4Xn.jpg","Veena Karthik"]),t.s)
 B.Bp=A.a(s(["https://i.imgur.com/XNk2F6S.png","Pragati Prabhakar"]),t.s)
 B.CW=A.a(s(["https://i.imgur.com/tqIa4At.jpg","Tisya Munjal"]),t.s)
-B.CF=A.a(s([B.D9,B.Bp,B.CW]),t.E)
+B.CE=A.a(s([B.D9,B.Bp,B.CW]),t.E)
 B.Bw=A.a(s(["https://i.imgur.com/zk0OKgH.jpg","Neha Kesarla"]),t.s)
-B.BM=A.a(s(["https://i.imgur.com/ye3IHZh.jpg","Aneesh Mamidi"]),t.s)
+B.BN=A.a(s(["https://i.imgur.com/ye3IHZh.jpg","Aneesh Mamidi"]),t.s)
 B.BL=A.a(s(["https://i.imgur.com/iWQO2VG.png","Shrest Bhowmick"]),t.s)
-B.CN=A.a(s([B.Bw,B.BM,B.BL]),t.E)
+B.CM=A.a(s([B.Bw,B.BN,B.BL]),t.E)
+B.Ca=A.a(s(["https://i.imgur.com/53ove4U.jpg","Isha Chawla"]),t.s)
+B.D3=A.a(s(["https://i.imgur.com/UwF7yT5.jpg","Dhriti Rao"]),t.s)
+B.BM=A.a(s(["https://i.imgur.com/7iQ7dVq.jpg","Maayaan Hazra"]),t.s)
+B.CN=A.a(s([B.Ca,B.D3,B.BM]),t.E)
 B.eF=new A.hy(0,"left")
 B.hU=new A.hy(1,"right")
 B.T=new A.hy(2,"center")
@@ -70592,9 +70592,9 @@ B.ci=new A.hy(3,"justify")
 B.bq=new A.hy(4,"start")
 B.hV=new A.hy(5,"end")
 B.CO=A.a(s([B.eF,B.hU,B.T,B.ci,B.bq,B.hV]),A.al("x<hy>"))
-B.CK=A.a(s(["https://i.imgur.com/WnDFVpu.jpg","Rishabh Girish"]),t.s)
-B.BS=A.a(s(["https://i.imgur.com/P1R8HPI.jpg","Vikramaditya Rontala"]),t.s)
-B.CP=A.a(s([B.CK,B.BS]),t.E)
+B.CJ=A.a(s(["https://i.imgur.com/WnDFVpu.jpg","Rishabh Girish"]),t.s)
+B.BT=A.a(s(["https://i.imgur.com/P1R8HPI.jpg","Vikramaditya Rontala"]),t.s)
+B.CP=A.a(s([B.CJ,B.BT]),t.E)
 B.e3=A.a(s([0,0,65490,45055,65535,34815,65534,18431]),t.t)
 B.cX=new A.fc(0,"controlModifier")
 B.cY=new A.fc(1,"shiftModifier")
@@ -70610,9 +70610,9 @@ B.B7=A.a(s(["https://i.imgur.com/35HeWOx.jpg","Adit Bakshi"]),t.s)
 B.CX=A.a(s(["https://i.imgur.com/40vrju7.jpg","Shreya Seshadri"]),t.s)
 B.CZ=A.a(s([B.B7,B.CX]),t.E)
 B.D1=A.a(s(["https://i.imgur.com/lS03T8H.jpg","Saishruthi Donthula"]),t.s)
-B.CE=A.a(s(["https://i.imgur.com/CXnUPKa.jpg","Rishikesh Madhuvairy"]),t.s)
+B.CD=A.a(s(["https://i.imgur.com/CXnUPKa.jpg","Rishikesh Madhuvairy"]),t.s)
 B.Ch=A.a(s(["https://i.imgur.com/NZSlmx9.jpg","Prachi Pandit"]),t.s)
-B.D0=A.a(s([B.D1,B.CE,B.Ch]),t.E)
+B.D0=A.a(s([B.D1,B.CD,B.Ch]),t.E)
 B.cf=new A.d2(1,"fuchsia")
 B.cg=new A.d2(3,"linux")
 B.ch=new A.d2(5,"windows")
@@ -71504,24 +71504,24 @@ B.BJ=A.a(s([B.p6,null,null,B.hb]),t.L)
 B.BK=A.a(s([B.p7,null,null,B.hc]),t.L)
 B.Dd=A.a(s([B.p8,null,null,B.hd]),t.L)
 B.De=A.a(s([B.p9,null,null,B.he]),t.L)
-B.CG=A.a(s([B.cT,B.cT,B.ea,null]),t.L)
+B.CF=A.a(s([B.cT,B.cT,B.ea,null]),t.L)
 B.Df=A.a(s([B.e6,null,B.e6,null]),t.L)
-B.BW=A.a(s([B.aS,null,null,B.h7]),t.L)
-B.BX=A.a(s([B.aG,null,null,B.h9]),t.L)
-B.BY=A.a(s([B.aH,null,null,B.hb]),t.L)
-B.Cl=A.a(s([B.aT,null,null,B.hd]),t.L)
-B.CA=A.a(s([B.h1,null,null,B.ha]),t.L)
-B.CH=A.a(s([B.cS,B.cS,B.e9,null]),t.L)
+B.BX=A.a(s([B.aS,null,null,B.h7]),t.L)
+B.BY=A.a(s([B.aG,null,null,B.h9]),t.L)
+B.BZ=A.a(s([B.aH,null,null,B.hb]),t.L)
+B.Ck=A.a(s([B.aT,null,null,B.hd]),t.L)
+B.Cz=A.a(s([B.h1,null,null,B.ha]),t.L)
+B.CG=A.a(s([B.cS,B.cS,B.e9,null]),t.L)
 B.Bu=A.a(s([B.ap,null,null,B.h4]),t.L)
-B.BZ=A.a(s([B.bE,null,null,B.h6]),t.L)
+B.C_=A.a(s([B.bE,null,null,B.h6]),t.L)
 B.CV=A.a(s([B.e5,null,null,B.h3]),t.L)
-B.C_=A.a(s([B.bF,null,null,B.hc]),t.L)
-B.CB=A.a(s([B.h2,null,null,B.h5]),t.L)
-B.CI=A.a(s([B.cU,B.cU,B.eb,null]),t.L)
-B.C0=A.a(s([B.cQ,null,null,B.h8]),t.L)
-B.CC=A.a(s([B.cR,null,null,B.he]),t.L)
-B.CJ=A.a(s([B.bG,B.bG,B.c4,null]),t.L)
-B.F4=new A.cj(["*",B.CQ,"+",B.CR,"-",B.CS,".",B.CT,"/",B.CU,"0",B.BD,"1",B.BE,"2",B.BF,"3",B.BG,"4",B.BH,"5",B.BI,"6",B.BJ,"7",B.BK,"8",B.Dd,"9",B.De,"Alt",B.CG,"AltGraph",B.Df,"ArrowDown",B.BW,"ArrowLeft",B.BX,"ArrowRight",B.BY,"ArrowUp",B.Cl,"Clear",B.CA,"Control",B.CH,"Delete",B.Bu,"End",B.BZ,"Enter",B.CV,"Home",B.C_,"Insert",B.CB,"Meta",B.CI,"PageDown",B.C0,"PageUp",B.CC,"Shift",B.CJ],A.al("cj<q,A<f?>>"))
+B.C0=A.a(s([B.bF,null,null,B.hc]),t.L)
+B.CA=A.a(s([B.h2,null,null,B.h5]),t.L)
+B.CH=A.a(s([B.cU,B.cU,B.eb,null]),t.L)
+B.C1=A.a(s([B.cQ,null,null,B.h8]),t.L)
+B.CB=A.a(s([B.cR,null,null,B.he]),t.L)
+B.CI=A.a(s([B.bG,B.bG,B.c4,null]),t.L)
+B.F4=new A.cj(["*",B.CQ,"+",B.CR,"-",B.CS,".",B.CT,"/",B.CU,"0",B.BD,"1",B.BE,"2",B.BF,"3",B.BG,"4",B.BH,"5",B.BI,"6",B.BJ,"7",B.BK,"8",B.Dd,"9",B.De,"Alt",B.CF,"AltGraph",B.Df,"ArrowDown",B.BX,"ArrowLeft",B.BY,"ArrowRight",B.BZ,"ArrowUp",B.Ck,"Clear",B.Cz,"Control",B.CG,"Delete",B.Bu,"End",B.C_,"Enter",B.CV,"Home",B.C0,"Insert",B.CA,"Meta",B.CH,"PageDown",B.C1,"PageUp",B.CB,"Shift",B.CI],A.al("cj<q,A<f?>>"))
 B.F5=new A.uS(null,null,null,null,null,null,null,null)
 B.y7=new A.w(4284790262)
 B.y5=new A.w(4282557941)
