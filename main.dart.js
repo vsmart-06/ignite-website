@@ -66543,7 +66543,7 @@ J(a2){var s,r,q,p,o,n,m,l,k,j,i,h=null,g=4287299584,f=A.dX(),e=A.dR().$0().d,d=t
 a1=a1.gb4(a1)===B.A?0.8*A.a9(a2,h,d).w.a.b:0.4*A.a9(a2,h,d).w.a.b
 s=A.lW(B.e,1,1)
 r=A.a1("Rules",A.a0(h,h,B.e,h,h,h,h,h,e,h,h,45,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h)
-q=A.a1("\u2192 Participants have to register individually\n            \u2192 Participants are not to tamper with on site evidence\n            \u2192 Participants may not leak evidence to other participants",A.a0(h,h,B.e,h,h,h,h,h,e,h,h,25,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),B.ci)
+q=A.a1("\u2192 Participants have to register individually\n\u2192 Participants are not to tamper with on site evidence\n\u2192 Participants may not leak evidence to other participants",A.a0(h,h,B.e,h,h,h,h,h,e,h,h,25,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),B.ci)
 p=A.lW(B.e,1,1)
 o=A.a1("FAQs",A.a0(h,h,B.e,h,h,h,h,h,e,h,h,45,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h)
 n=A.aL(!1,"Dyed in Crimson is a murder mystery event wherein participants must explore the entirety of the GWH campus looking for clues. At the end, they will collate all the information they have found to try and unravel who the true culprit of the crime is.",new A.w(g),300,h,"What is Dyed in Crimson?",c)
@@ -67055,17 +67055,17 @@ return A.cE(b,B.h,A.cT(A.cq(A.aH(A.a([new A.C(B.a8,r,n),new A.C(B.r,a1,n),q,p,o,
 A.ng.prototype={
 aa(){return new A.NZ(A.Qp().$0().d,A.dR().$0().d,A.a([B.h,B.h,B.h,B.h,B.h,B.h,B.h,B.h],t.W),A.dX(),B.m)}}
 A.NZ.prototype={
-J(c0){var s,r,q,p,o=null,n="Sports Events",m=4281413939,l="https://i.imgur.com/myq8aq1.png",k="/events/sports/basketball",j="Basketball",i="https://i.imgur.com/vro8CWT.png",h="/events/sports/football",g="Football",f="https://i.imgur.com/85etvSD.png",e="/events/sports/hockey",d="https://i.imgur.com/DflBZC9.png",c="/events/sports/badminton",b="Badminton",a="https://i.imgur.com/HrQCltb.png",a0="/events/sports/tennis",a1="https://i.imgur.com/GOO5D5g.png",a2="/events/sports/table_tennis",a3="Table Tennis",a4="https://i.imgur.com/vPCf5Fl.png",a5="/events/sports/relay",a6="https://i.imgur.com/rZLYerc.png",a7="/events/sports/flag_football",a8="Flag Football",a9="https://i.imgur.com/5VuyhL2.png",b0="/events/sports/chess",b1="https://i.imgur.com/lnmXe4T.png",b2="/events/sports/squash",b3="/events/sports/swimming",b4="Swimming",b5=t.w,b6=A.a9(c0,o,b5).w,b7=t.p,b8=this.e,b9=this.r
-if(b6.gb4(b6)===B.bn){b5=A.dv(c0)
-b6=A.du(c0)
-return A.cE(b5,B.h,A.e9(A.aH(A.a([new A.C(B.r,A.a1(n,A.a0(o,o,B.e,o,o,o,o,o,b8,o,o,50,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o),o),A.f2(A.cT(A.cq(A.aH(A.a([A.aE(A.a([new A.a4(l,k,j,!0,o),new A.a4(i,h,g,!0,o)],b7),B.j,B.t,B.p),A.aE(A.a([new A.a4(f,e,"Hockey",!0,o),new A.a4(d,c,b,!0,o)],b7),B.j,B.t,B.p),A.aE(A.a([new A.a4(a,a0,"Tennis",!0,o),new A.a4(a1,a2,a3,!0,o)],b7),B.j,B.t,B.p),A.aE(A.a([new A.a4(a4,a5,"Relay",!0,o),new A.a4(a6,a7,a8,!0,o)],b7),B.j,B.t,B.p),A.aE(A.a([new A.a4(a9,b0,"Chess",!0,o),new A.a4(b1,b2,"Squash",!0,o)],b7),B.j,B.t,B.p),A.aE(A.a([new A.a4(a9,b3,b4,!0,o)],b7),B.j,B.t,B.p)],b7),B.j,B.o),b9,B.L),b9,B.O,o,o,A.c8(),B.n,o,o,10,new A.w(m),!0,B.Q,!0))],b7),B.j,B.o),o,o),b6,!1)}else{b6=A.dv(c0)
-s=A.du(c0)
-b8=A.a1(n,A.a0(o,o,B.e,o,o,o,o,o,b8,o,o,50,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o)
-r=A.aE(A.a([new A.a4(l,k,j,!0,o),new A.a4(i,h,g,!0,o),new A.a4(f,e,"Hockey",!0,o),new A.a4(d,c,b,!0,o)],b7),B.j,B.t,B.p)
-q=A.aE(A.a([new A.a4(a,a0,"Tennis",!0,o),new A.a4(a1,a2,a3,!0,o),new A.a4(a4,a5,"Relay",!0,o),new A.a4(a6,a7,a8,!0,o)],b7),B.j,B.t,B.p)
-p=A.aE(A.a([new A.a4(a9,b0,"Chess",!0,o),new A.a4(b1,b2,"Squash",!0,o),new A.a4(a9,b3,b4,!0,o)],b7),B.j,B.t,B.p)
-b5=A.a9(c0,o,b5).w
-return A.cE(b6,B.h,A.e9(A.aH(A.a([new A.C(B.r,b8,o),A.f2(A.cT(A.cq(A.aH(A.a([r,q,p,new A.C(new A.ab(0,20,0,0),o,o),A.ey(b5.gb4(b5)===B.A)],b7),B.j,B.o),b9,B.L),b9,B.O,o,o,A.c8(),B.n,o,o,10,new A.w(m),!0,B.Q,!0))],b7),B.j,B.o),o,o),s,!1)}}}
+J(c1){var s,r,q,p,o=null,n="Sports Events",m=4281413939,l="https://i.imgur.com/myq8aq1.png",k="/events/sports/basketball",j="Basketball",i="https://i.imgur.com/vro8CWT.png",h="/events/sports/football",g="Football",f="https://i.imgur.com/85etvSD.png",e="/events/sports/hockey",d="https://i.imgur.com/DflBZC9.png",c="/events/sports/badminton",b="Badminton",a="https://i.imgur.com/HrQCltb.png",a0="/events/sports/tennis",a1="https://i.imgur.com/GOO5D5g.png",a2="/events/sports/table_tennis",a3="Table Tennis",a4="https://i.imgur.com/vPCf5Fl.png",a5="/events/sports/relay",a6="https://i.imgur.com/rZLYerc.png",a7="/events/sports/flag_football",a8="Flag Football",a9="https://i.imgur.com/mdC64lY.png",b0="/events/sports/chess",b1="https://i.imgur.com/lnmXe4T.png",b2="/events/sports/squash",b3="https://i.imgur.com/KfIJPdE.png",b4="/events/sports/swimming",b5="Swimming",b6=t.w,b7=A.a9(c1,o,b6).w,b8=t.p,b9=this.e,c0=this.r
+if(b7.gb4(b7)===B.bn){b6=A.dv(c1)
+b7=A.du(c1)
+return A.cE(b6,B.h,A.e9(A.aH(A.a([new A.C(B.r,A.a1(n,A.a0(o,o,B.e,o,o,o,o,o,b9,o,o,50,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o),o),A.f2(A.cT(A.cq(A.aH(A.a([A.aE(A.a([new A.a4(l,k,j,!0,o),new A.a4(i,h,g,!0,o)],b8),B.j,B.t,B.p),A.aE(A.a([new A.a4(f,e,"Hockey",!0,o),new A.a4(d,c,b,!0,o)],b8),B.j,B.t,B.p),A.aE(A.a([new A.a4(a,a0,"Tennis",!0,o),new A.a4(a1,a2,a3,!0,o)],b8),B.j,B.t,B.p),A.aE(A.a([new A.a4(a4,a5,"Relay",!0,o),new A.a4(a6,a7,a8,!0,o)],b8),B.j,B.t,B.p),A.aE(A.a([new A.a4(a9,b0,"Chess",!0,o),new A.a4(b1,b2,"Squash",!0,o)],b8),B.j,B.t,B.p),A.aE(A.a([new A.a4(b3,b4,b5,!0,o)],b8),B.j,B.t,B.p)],b8),B.j,B.o),c0,B.L),c0,B.O,o,o,A.c8(),B.n,o,o,10,new A.w(m),!0,B.Q,!0))],b8),B.j,B.o),o,o),b7,!1)}else{b7=A.dv(c1)
+s=A.du(c1)
+b9=A.a1(n,A.a0(o,o,B.e,o,o,o,o,o,b9,o,o,50,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o)
+r=A.aE(A.a([new A.a4(l,k,j,!0,o),new A.a4(i,h,g,!0,o),new A.a4(f,e,"Hockey",!0,o),new A.a4(d,c,b,!0,o)],b8),B.j,B.t,B.p)
+q=A.aE(A.a([new A.a4(a,a0,"Tennis",!0,o),new A.a4(a1,a2,a3,!0,o),new A.a4(a4,a5,"Relay",!0,o),new A.a4(a6,a7,a8,!0,o)],b8),B.j,B.t,B.p)
+p=A.aE(A.a([new A.a4(a9,b0,"Chess",!0,o),new A.a4(b1,b2,"Squash",!0,o),new A.a4(b3,b4,b5,!0,o)],b8),B.j,B.t,B.p)
+b6=A.a9(c1,o,b6).w
+return A.cE(b7,B.h,A.e9(A.aH(A.a([new A.C(B.r,b9,o),A.f2(A.cT(A.cq(A.aH(A.a([r,q,p,new A.C(new A.ab(0,20,0,0),o,o),A.ey(b6.gb4(b6)===B.A)],b8),B.j,B.o),c0,B.L),c0,B.O,o,o,A.c8(),B.n,o,o,10,new A.w(m),!0,B.Q,!0))],b8),B.j,B.o),o,o),s,!1)}}}
 A.a4.prototype={
 aa(){return new A.K_(A.dR().$0().d,null,null,B.m)}}
 A.K_.prototype={
