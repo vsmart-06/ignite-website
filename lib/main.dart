@@ -278,7 +278,7 @@ void main() {
               ["https://i.imgur.com/35HeWOx.jpg", "Adit Bakshi"],
               ["https://i.imgur.com/40vrju7.jpg", "Shreya Seshadri"]
             ],
-            logo: "https://i.imgur.com/utM2H4D.png",
+            logo: "https://i.imgur.com/mdC64lY.png",
             title: "Chess",
             about:
                 "\"Chess is a sea in which a gnat may drink and an elephant may swim\"\n\nThe nature of chess accommodates players of all skill levels.The  spirit of the game teaches us the virtues of patience, foresight and the art of calculated risk. Pertaining to strategy and driven by the perception of patterns it leaves no room for chance and emphasizes that the game is for everyone, where intelligence and creativity know no bounds.\n\nThe tournament for this year's edition of IGNITE has the following parameters: \n- 6 Rounds\n- Open \n- Swiss Format\n- Time control: 10+5\n- FIDE Regulations \n- Boys & Girls will compete in the same category.\n- Each school will be allowed to bring 4 players maximum, but they will play individually, not as a team.",
@@ -289,7 +289,7 @@ void main() {
               ["https://i.imgur.com/7pj0Ls9.jpg", "Nidhi Iyer"],
               ["https://i.imgur.com/mshbLGa.jpg", "Risha Reddy"]
             ],
-            logo: "https://i.imgur.com/5VuyhL2.png",
+            logo: "https://i.imgur.com/KfIJPdE.png",
             title: "Swimming",
             about:
                 "In the world of competitive swimming, athletes must master various strokes, each with its unique style and demands. Swimming, in all its forms, is a testament to the ability of the swimmers, and their synchrony with the water.\n\nEach team can have a minimum of 4 participants and a maximum of 6 participants.\n\nThe events conducted are: \n- 25 meter race for both boys and girls in the following categories: Breaststroke, butterfly, backstroke and freestyle. \n- The 50 meters individual boys and girls freestyle race. \n- Relay and medley will also be conducted. \n- A randomly chosen interactive game for the swimming event to conclude.\n\nPlease be aware that we will strictly be following FINA rules.",
