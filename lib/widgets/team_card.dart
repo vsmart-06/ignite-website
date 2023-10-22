@@ -3,16 +3,16 @@
 import "package:flutter/material.dart";
 import "package:google_fonts/google_fonts.dart";
 
-class Achievement extends StatefulWidget {
+class Team extends StatefulWidget {
   String? teamName;
   List<String>? members;
-  Achievement({super.key, required this.teamName, required this.members});
+  Team({super.key, required this.teamName, required this.members});
 
   @override
-  State<Achievement> createState() => _AchievementState();
+  State<Team> createState() => _TeamState();
 }
 
-class _AchievementState extends State<Achievement> with SingleTickerProviderStateMixin {
+class _TeamState extends State<Team> with SingleTickerProviderStateMixin {
   String? fontMain = GoogleFonts.ebGaramond().fontFamily;
   List<Widget> memberList = [];
 
