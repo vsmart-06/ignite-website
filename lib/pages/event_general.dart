@@ -168,7 +168,7 @@ class _EventGeneralState extends State<EventGeneral> {
                         )
                       : Container(),
                   footer(MediaQuery.of(context).orientation ==
-                      Orientation.landscape)
+                      Orientation.landscape, context)
                 ],
               ),
             ),
@@ -277,7 +277,7 @@ class _EventGeneralState extends State<EventGeneral> {
                             )
                           : Container(),
                       footer(MediaQuery.of(context).orientation ==
-                          Orientation.landscape)
+                          Orientation.landscape, context)
                     ],
                   ),
                 ),

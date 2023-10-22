@@ -42,13 +42,17 @@ class DICHome extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(75, 20, 75, 20),
-                    child:
-                        IFrame(link: "https://www.youtube.com/embed/dQw4w9WgXcQ", height: MediaQuery.of(context).orientation == Orientation.landscape ? 0.8 * MediaQuery.of(context).size.height : 0.4 * MediaQuery.of(context).size.height),
+                    child: IFrame(
+                        link: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                        height: MediaQuery.of(context).orientation ==
+                                Orientation.landscape
+                            ? 0.8 * MediaQuery.of(context).size.height
+                            : 0.4 * MediaQuery.of(context).size.height),
                   ),
                   Padding(
                       padding: EdgeInsets.fromLTRB(100, 20, 100, 20),
-                      child:
-                          Divider(color: Colors.white, height: 1, thickness: 1)),
+                      child: Divider(
+                          color: Colors.white, height: 1, thickness: 1)),
                   Padding(
                     padding: const EdgeInsets.all(10),
                     child: Text("Rules",
@@ -65,13 +69,12 @@ class DICHome extends StatelessWidget {
                           color: Colors.white,
                           fontFamily: fontMain,
                           fontSize: 25),
-                      textAlign: TextAlign.justify,
                     ),
                   ),
                   Padding(
                       padding: EdgeInsets.fromLTRB(100, 20, 100, 20),
-                      child:
-                          Divider(color: Colors.white, height: 1, thickness: 1)),
+                      child: Divider(
+                          color: Colors.white, height: 1, thickness: 1)),
                   Padding(
                     padding: const EdgeInsets.all(10),
                     child: Text("FAQs",
@@ -84,9 +87,10 @@ class DICHome extends StatelessWidget {
                     padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
                     child: ItemCard(
                       name: "What is Dyed in Crimson?",
-                      backside: "Dyed in Crimson is a murder mystery event wherein participants must explore the entirety of the GWH campus looking for clues. At the end, they will collate all the information they have found to try and unravel who the true culprit of the crime is.",
+                      backside:
+                          "Dyed in Crimson is a murder mystery event wherein participants must explore the entirety of the GWH campus looking for clues. At the end, they will collate all the information they have found to try and unravel who the true culprit of the crime is.",
                       width: width,
-                      height: 300,
+                      height: 500,
                       color: Color(0xFF8b0000),
                       back: false,
                     ),
@@ -95,9 +99,10 @@ class DICHome extends StatelessWidget {
                     padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
                     child: ItemCard(
                       name: "How do the clues work?",
-                      backside: "Clues will be scattered throughout the GWH IGCSE Campus. A QR code will be placed near every clue which participants can scan to access a digital copy of that clue to be used for future reference. Additionally, certain narrative elements will be revealed on the website under the \"Updates\" tab",
+                      backside:
+                          "Clues will be scattered throughout the GWH IGCSE Campus. A QR code will be placed near every clue which participants can scan to access a digital copy of that clue to be used for future reference. Additionally, certain narrative elements will be revealed on the website under the \"Updates\" tab",
                       width: width,
-                      height: 300,
+                      height: 500,
                       color: Color(0xFF8b0000),
                       back: false,
                     ),
@@ -106,9 +111,10 @@ class DICHome extends StatelessWidget {
                     padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
                     child: ItemCard(
                       name: "How do I find clues?",
-                      backside: "Exploration and critical thinking! You will be able to infer the location of certain clues from previous ones and stumble upon other clues as you explore the campus.",
+                      backside:
+                          "Exploration and critical thinking! You will be able to infer the location of certain clues from previous ones and stumble upon other clues as you explore the campus.",
                       width: width,
-                      height: 300,
+                      height: 500,
                       color: Color(0xFF8b0000),
                       back: false,
                     ),
@@ -117,9 +123,10 @@ class DICHome extends StatelessWidget {
                     padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
                     child: ItemCard(
                       name: "How do I submit my suspicions about the killer?",
-                      backside: "At the end of the event, the website will be updated to display another tab called \"Submissions\", which will allow participants to illustrate their suspicions as to who the murderer is.  Additionally, there will be space for participants to provide their rationale.",
+                      backside:
+                          "At the end of the event, the website will be updated to display another tab called \"Submissions\", which will allow participants to illustrate their suspicions as to who the murderer is.  Additionally, there will be space for participants to provide their rationale.",
                       width: width,
-                      height: 300,
+                      height: 500,
                       color: Color(0xFF8b0000),
                       back: false,
                     ),
@@ -128,9 +135,10 @@ class DICHome extends StatelessWidget {
                     padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
                     child: ItemCard(
                       name: "How is the winner decided?",
-                      backside: "The winner is decided based on how close they were to finding the true killer and the veracity and comprehensiveness of the rationale submitted in the form.",
+                      backside:
+                          "The winner is decided based on how close they were to finding the true killer and the veracity and comprehensiveness of the rationale submitted in the form.",
                       width: width,
-                      height: 300,
+                      height: 500,
                       color: Color(0xFF8b0000),
                       back: false,
                     ),
@@ -141,13 +149,13 @@ class DICHome extends StatelessWidget {
                       name: "What are the prizes for Dyed in Crimson?",
                       backside: "To be decided",
                       width: width,
-                      height: 300,
+                      height: 500,
                       color: Color(0xFF8b0000),
                       back: false,
                     ),
                   ),
-                  footer(
-                      MediaQuery.of(context).orientation == Orientation.landscape)
+                  footer(MediaQuery.of(context).orientation ==
+                      Orientation.landscape)
                 ],
               ),
             ),

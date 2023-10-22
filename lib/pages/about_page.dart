@@ -110,7 +110,7 @@ class _AboutState extends State<About> {
                         ],
                       )), */
                   footer(MediaQuery.of(context).orientation ==
-                      Orientation.landscape)
+                      Orientation.landscape, context)
                 ],
               ),
             ),
@@ -181,7 +181,7 @@ class _AboutState extends State<About> {
                 ),
               ),
               footer(
-                  MediaQuery.of(context).orientation == Orientation.landscape)
+                  MediaQuery.of(context).orientation == Orientation.landscape, context)
             ],
           ));
     }

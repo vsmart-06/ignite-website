@@ -20,12 +20,14 @@ class _TeamState extends State<Team> with SingleTickerProviderStateMixin {
   late Animation colorAnimation;
   late List<Animation> padAnimation;
 
+  bool isPressed = false;
+
 
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    animationController = AnimationController(vsync: this, duration: Duration(milliseconds: 150));
+    animationController = AnimationController(vsync: this, duration: Duration(milliseconds: 100));
     colorAnimation = ColorTween(begin: Colors.white, end: Colors.orange).animate(animationController);
     padAnimation = [Tween<double>(begin: 20, end: 15).animate(animationController), Tween<double>(begin: 20, end: 25).animate(animationController)];
     animationController.addListener(() {setState(() {});});
@@ -41,6 +43,7 @@ class _TeamState extends State<Team> with SingleTickerProviderStateMixin {
             fontSize: 30,
             fontStyle: FontStyle.italic
           ),
+          textAlign: TextAlign.center,
         )
       );
     }
@@ -66,30 +69,51 @@ class _TeamState extends State<Team> with SingleTickerProviderStateMixin {
               color: colorAnimation.value
             ))
             ),
-          onPressed: () {},
+          onPressed: () {
+            if (MediaQuery.of(context).orientation == Orientation.portrait) {
+              if (!isPressed) {
+                hoverAnimation(true);
+                setState(() {
+                  isPressed = true;     
+                });
+              }
+              else {
+                hoverAnimation(false);
+                setState(() {
+                  isPressed = false;   
+                });
+              }
+            }
+          },
           onHover: (hover) {
             hover ? hoverAnimation(true) : hoverAnimation(false);
           },
-          child: Padding(
-            padding: const EdgeInsets.all(10.0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(
-                  widget.teamName!,
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontFamily: fontMain,
-                    fontSize: 40,
+          child: Container(
+            width: MediaQuery.of(context).orientation == Orientation.landscape ? MediaQuery.of(context).size.width * 0.3 : MediaQuery.of(context).size.width * 0.6,
+            height: MediaQuery.of(context).orientation == Orientation.landscape ? MediaQuery.of(context).size.height * 0.45 : MediaQuery.of(context).size.height * 0.6,
+            child: Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Text(
+                    widget.teamName!,
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontFamily: fontMain,
+                      fontSize: 40,
+                      decoration: TextDecoration.underline,
+                    ),
                   ),
-                ),
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: memberList
-                )
-              ],
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: memberList
+                  )
+                ],
+              ),
             ),
           ),
         ),

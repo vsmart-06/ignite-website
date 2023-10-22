@@ -61,7 +61,7 @@ class RespawnRegs extends StatelessWidget {
                     ],
                   ),
                   footer(MediaQuery.of(context).orientation ==
-                      Orientation.landscape)
+                      Orientation.landscape, context)
                 ],
               ),
             ),
@@ -108,7 +108,7 @@ class RespawnRegs extends StatelessWidget {
                         name: "League of Legends",
                         link: "https://forms.gle/ffNJe6be5KGE4DfaA"),
                     footer(MediaQuery.of(context).orientation ==
-                        Orientation.landscape)
+                        Orientation.landscape, context)
                   ],
                 ),
               ),

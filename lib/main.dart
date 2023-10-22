@@ -2,6 +2,7 @@ import "package:flutter/material.dart";
 import "package:ignite_2023/pages/home_page.dart";
 import 'package:ignite_2023/pages/cultural_page.dart';
 import "package:ignite_2023/pages/events_choice.dart";
+import "package:ignite_2023/pages/oc_page.dart";
 import "package:ignite_2023/pages/rules_page.dart";
 import "package:ignite_2023/pages/sports_page.dart";
 import "package:ignite_2023/pages/event_general.dart";
@@ -24,8 +25,8 @@ void main() {
     "/registrations": (context) => RegistrationsCultural(),
     "/rules": (context) => const Rules(),
     "/about": (context) => const About(),
-    "/organizing_comittee": (context) => Placeholder(),
-    "/oc": (context) => Placeholder(),
+    "/organizing_comittee": (context) => OrganizingCommittee(),
+    "/oc": (context) => OrganizingCommittee(),
     "/events/cultural": (context) => Cultural(),
     "/events/sports": (context) => Sports(),
     "/registrations/sports": (context) => RegistrationsSports(),

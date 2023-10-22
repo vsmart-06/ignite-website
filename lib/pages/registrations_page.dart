@@ -70,7 +70,7 @@ class _RegChoiceState extends State<RegChoice> {
                       ),
                       Padding(padding: EdgeInsets.only(top: 20)),
                       footer(MediaQuery.of(context).orientation ==
-                          Orientation.landscape)
+                          Orientation.landscape, context)
                     ],
                   ),
                 ),

@@ -81,11 +81,10 @@ class _RulesState extends State<Rules> {
                         color: Colors.white,
                         fontSize: 30,
                         fontFamily: fontMain),
-                    textAlign: TextAlign.justify,
                   ),
                 ),
                 footer(
-                    MediaQuery.of(context).orientation == Orientation.landscape)
+                    MediaQuery.of(context).orientation == Orientation.landscape, context)
               ],
             ),
           ),

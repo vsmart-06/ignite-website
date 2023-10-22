@@ -4,7 +4,7 @@ import "package:flutter/material.dart";
 import "package:google_fonts/google_fonts.dart";
 import "dart:html";
 
-Widget footer(bool landscape) {
+Widget footer(bool landscape, BuildContext context) {
   String? fontMain = GoogleFonts.questrial().fontFamily;
   try{
   if(landscape) {
@@ -130,10 +130,15 @@ Widget footer(bool landscape) {
               ),
             ],
           ),
-          Image(
-            image: NetworkImage("https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1484114026/qr6mhllp8hd2amn4awaa.png"),
-            width: 200,
-            height: 200,
+          TextButton(
+            onPressed: () {
+              Navigator.pushNamed(context, "/organizing_comittee");
+            },
+            child: Image(
+              image: NetworkImage("https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1484114026/qr6mhllp8hd2amn4awaa.png"),
+              width: 200,
+              height: 200,
+            ),
           )
         ],
       )

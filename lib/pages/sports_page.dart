@@ -247,7 +247,7 @@ class _SportsState extends State<Sports> {
                         ),
                         Padding(padding: EdgeInsets.only(top: 20)),
                         footer(MediaQuery.of(context).orientation ==
-                            Orientation.landscape)
+                            Orientation.landscape, context)
                       ],
                     ),
                   ),

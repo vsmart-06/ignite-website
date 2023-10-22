@@ -143,7 +143,7 @@ class _SponsorsState extends State<Sponsors> {
                   ),
                 ),
                 footer(
-                    MediaQuery.of(context).orientation == Orientation.landscape)
+                    MediaQuery.of(context).orientation == Orientation.landscape, context)
               ],
             ),
           ),
@@ -248,7 +248,7 @@ class _SponsorsState extends State<Sponsors> {
                     color: Color(0xFFE1D9D1),
                     back: true),
                 footer(
-                    MediaQuery.of(context).orientation == Orientation.landscape)
+                    MediaQuery.of(context).orientation == Orientation.landscape, context)
               ],
             ),
           ),

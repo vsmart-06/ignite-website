@@ -394,7 +394,7 @@ class _HomeState extends State<Home> {
                     ),
                   ),
                   footer(MediaQuery.of(context).orientation ==
-                      Orientation.landscape),
+                      Orientation.landscape, context),
                 ],
               ),
             ),
@@ -712,7 +712,7 @@ class _HomeState extends State<Home> {
                     ),
                   ),
                   footer(MediaQuery.of(context).orientation ==
-                      Orientation.landscape),
+                      Orientation.landscape, context),
                 ],
               ),
             ),

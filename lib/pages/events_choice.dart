@@ -110,7 +110,7 @@ class _CultSportState extends State<CultSport> {
                             textAlign: TextAlign.center,
                           )),
                       footer(MediaQuery.of(context).orientation ==
-                          Orientation.landscape)
+                          Orientation.landscape, context)
                     ],
                   ),
                 ),

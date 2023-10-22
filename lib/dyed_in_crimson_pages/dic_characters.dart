@@ -130,7 +130,7 @@ class _DICCharactersState extends State<DICCharacters> {
                             image: "https://i.imgur.com/W2EcJsP.png",
                             name: "Sebastian\nAshford",
                             backside:
-                                "The older brother of Evelyn Ashford and first in line for the throne to the Ashford family. He's loyal to only two things: his never-ending hunger for power, and his dog  Charming, cunning and with amazing hair to match, this royal is as ambitious as he is handsome.",
+                                "The older brother of Evelyn Ashford and first in line for the throne to the Ashford family. He's loyal to only two things: his never-ending hunger for power, and his dog. Charming, cunning and with amazing hair to match, this royal is as ambitious as he is handsome.",
                             width: width * 0.22,
                             height: 500,
                             color: Color(0xFF8b0000),
@@ -272,7 +272,7 @@ class _DICCharactersState extends State<DICCharacters> {
                       image: "https://i.imgur.com/W2EcJsP.png",
                       name: "Sebastian\nAshford",
                       backside:
-                          "The older brother of Evelyn Ashford and first in line for the throne to the Ashford family. He's loyal to only two things: his never-ending hunger for power, and his dog  Charming, cunning and with amazing hair to match, this royal is as ambitious as he is handsome.",
+                          "The older brother of Evelyn Ashford and first in line for the throne to the Ashford family. He's loyal to only two things: his never-ending hunger for power, and his dog. Charming, cunning and with amazing hair to match, this royal is as ambitious as he is handsome.",
                       width: width * 0.9,
                       height: 500,
                       color: Color(0xFF8b0000),

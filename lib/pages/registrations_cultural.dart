@@ -65,7 +65,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                     ),
                   ),
                   footer(
-                      MediaQuery.of(context).orientation == Orientation.landscape)
+                      MediaQuery.of(context).orientation == Orientation.landscape, context)
                 ],
               ),
             ),
@@ -520,7 +520,7 @@ class _RegistrationsCulturalState extends State<RegistrationsCultural> {
                         ),
                         Padding(padding: EdgeInsets.only(top: 20)),
                         footer(MediaQuery.of(context).orientation ==
-                            Orientation.landscape)
+                            Orientation.landscape, context)
                       ],
                     ),
                   ),
