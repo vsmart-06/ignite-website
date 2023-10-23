@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:ignite_2023/pages/faqs_page.dart";
 import "package:ignite_2023/pages/home_page.dart";
 import 'package:ignite_2023/pages/cultural_page.dart';
 import "package:ignite_2023/pages/events_choice.dart";
@@ -22,6 +23,7 @@ void main() {
     "/": (context) => const Home(),
     "/events": (context) => CultSport(),
     "/sponsors": (context) => const Sponsors(),
+    "/faqs": (context) => const Faqs(),
     "/registrations": (context) => RegistrationsCultural(),
     "/rules": (context) => const Rules(),
     "/about": (context) => const About(),
