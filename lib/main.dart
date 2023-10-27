@@ -11,7 +11,7 @@ import "package:ignite_2023/pages/about_page.dart";
 //import "package:ignite_2023/pages/registrations_page.dart";
 import "package:ignite_2023/pages/registrations_cultural.dart";
 import "package:ignite_2023/pages/registrations_sports.dart";
-import 'package:ignite_2023/pages/sponsors_page.dart';
+import 'package:ignite_2023/pages/merch_page.dart';
 import "package:ignite_2023/dyed_in_crimson_pages/dic_home.dart";
 import "package:ignite_2023/dyed_in_crimson_pages/dic_characters.dart";
 import "package:ignite_2023/dyed_in_crimson_pages/dic_hourly.dart";
@@ -22,7 +22,7 @@ void main() {
   runApp(MaterialApp(title: "IGNITE 2023", routes: {
     "/": (context) => const Home(),
     "/events": (context) => CultSport(),
-    "/sponsors": (context) => const Sponsors(),
+    "/merchandise": (context) => const Merchandise(),
     "/faqs": (context) => const Faqs(),
     "/registrations": (context) => RegistrationsCultural(),
     "/rules": (context) => const Rules(),

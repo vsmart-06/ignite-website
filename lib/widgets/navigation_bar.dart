@@ -40,8 +40,8 @@ AppBar? getTopBar(BuildContext context) {
                 HeaderButton(name: "Home", navPath: "/"),
                 HeaderButton(name: "Events", navPath: "/events"),
                 HeaderButton(name: "Registrations", navPath: "/registrations"),
+                HeaderButton(name: "Merchandise", navPath: "/merchandise"),
                 HeaderButton(name: "Rules", navPath: "/rules"),
-                HeaderButton(name: "FAQs", navPath: "/faqs"), // TODO Temporary Change
               ],
             ),
           ),
@@ -120,22 +120,22 @@ Drawer getDrawer(BuildContext context) {
         ),
         ListTile(
           title: Text(
+            "Merchandise",
+            style:
+                TextStyle(color: Colors.white, fontFamily: font, fontSize: 20),
+          ),
+          onTap: () {
+            Navigator.popAndPushNamed(context, "/merchandise");
+          },
+        ),
+        ListTile(
+          title: Text(
             "Rules",
             style:
                 TextStyle(color: Colors.white, fontFamily: font, fontSize: 20),
           ),
           onTap: () {
             Navigator.popAndPushNamed(context, "/rules");
-          },
-        ),
-        ListTile(
-          title: Text(
-            "FAQs", // TODO Temporary Change
-            style:
-                TextStyle(color: Colors.white, fontFamily: font, fontSize: 20),
-          ),
-          onTap: () {
-            Navigator.popAndPushNamed(context, "/faqs");
           },
         ),
         Expanded(

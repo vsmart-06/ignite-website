@@ -4,14 +4,14 @@ import 'package:ignite_2023/widgets/navigation_bar.dart';
 import 'package:ignite_2023/widgets/item_card.dart';
 import "package:ignite_2023/widgets/footer.dart";
 
-class Sponsors extends StatefulWidget {
-  const Sponsors({super.key});
+class Merchandise extends StatefulWidget {
+  const Merchandise({super.key});
 
   @override
-  State<Sponsors> createState() => _SponsorsState();
+  State<Merchandise> createState() => _MerchandiseState();
 }
 
-class _SponsorsState extends State<Sponsors> {
+class _MerchandiseState extends State<Merchandise> {
   String? fontMain = GoogleFonts.ebGaramond().fontFamily;
   ScrollController scroller = ScrollController();
 
