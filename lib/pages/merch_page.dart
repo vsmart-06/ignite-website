@@ -239,14 +239,17 @@ class _MerchandiseState extends State<Merchandise> {
                     height: 350,
                     color: Color(0xFFE1D9D1),
                     back: true),
-                ItemCard(
-                    image: "https://i.imgur.com/RgU0waM.png",
-                    name: "Hoodie",
-                    backside: "https://i.imgur.com/6HNlc6c.png",
-                    width: 250,
-                    height: 350,
-                    color: Color(0xFFE1D9D1),
-                    back: true),
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 10.0),
+                  child: ItemCard(
+                      image: "https://i.imgur.com/RgU0waM.png",
+                      name: "Hoodie",
+                      backside: "https://i.imgur.com/6HNlc6c.png",
+                      width: 250,
+                      height: 350,
+                      color: Color(0xFFE1D9D1),
+                      back: true),
+                ),
                 footer(
                     MediaQuery.of(context).orientation == Orientation.landscape, context)
               ],

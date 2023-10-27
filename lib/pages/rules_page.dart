@@ -48,8 +48,10 @@ class _RulesState extends State<Rules> {
                 ),
                 Container(
                   width: MediaQuery.of(context).size.width * 0.75,
-                  child: Text(
-                    '''Guidelines for participants:
+                  child: Column(
+                    children: [
+                      Text(
+                        '''Guidelines for participants:
           
 → Attendees will be given a wrist band of different colors for easy identification. Attendees must wear the bands throughout the event. Anyone found without the band will be asked to leave the campus.
 
@@ -81,10 +83,23 @@ class _RulesState extends State<Rules> {
 
 → The IGNITE Organising Committee reserves the right to expel a participant from further participation in an event should the Organising Committee or any faculty, at their sole discretion, deem the participant's behavior inappropriate or offensive to other participants or staff. No refund of the registration fee will be given to a participant who has been expelled from the event.
                 ''',
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 30,
-                        fontFamily: fontMain),
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 30,
+                            fontFamily: fontMain),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(top: 10.0),
+                        child: Text(
+                          "Note: By registering for this event, you acknowledge to allow this institution and those working in it to freely use and distribute your information and data.",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
+                            fontFamily: fontMain
+                          )
+                        ),
+                      ),
+                    ],
                   ),
                 ),
                 Padding(
