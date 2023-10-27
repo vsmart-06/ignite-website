@@ -3,16 +3,15 @@
 import "package:flutter/material.dart";
 import "package:google_fonts/google_fonts.dart";
 
-class Team extends StatefulWidget {
-  String? teamName;
-  List<String>? members;
-  Team({super.key, required this.teamName, required this.members});
+class HourlyCard extends StatefulWidget {
+  String? clue;
+  HourlyCard({super.key, required this.clue});
 
   @override
-  State<Team> createState() => _TeamState();
+  State<HourlyCard> createState() => _HourlyCardState();
 }
 
-class _TeamState extends State<Team> with SingleTickerProviderStateMixin {
+class _HourlyCardState extends State<HourlyCard> with SingleTickerProviderStateMixin {
   String? fontMain = GoogleFonts.ebGaramond().fontFamily;
   List<Widget> memberList = [];
 
@@ -28,25 +27,9 @@ class _TeamState extends State<Team> with SingleTickerProviderStateMixin {
     // TODO: implement initState
     super.initState();
     animationController = AnimationController(vsync: this, duration: Duration(milliseconds: 100));
-    colorAnimation = ColorTween(begin: Colors.white, end: Colors.orange).animate(animationController);
+    colorAnimation = ColorTween(begin: Colors.white, end: Color(0xFF8b0000)).animate(animationController);
     padAnimation = [Tween<double>(begin: 20, end: 10).animate(animationController), Tween<double>(begin: 20, end: 30).animate(animationController)];
     animationController.addListener(() {setState(() {});});
-
-    memberList = [];
-    for (String member in widget.members!) {
-      memberList.add(
-        Text(
-          member,
-          style: TextStyle(
-            color: Colors.white,
-            fontFamily: fontMain,
-            fontSize: 30,
-            fontStyle: FontStyle.italic
-          ),
-          textAlign: TextAlign.center,
-        )
-      );
-    }
   }
 
   void hoverAnimation(bool hover) {
@@ -89,30 +72,19 @@ class _TeamState extends State<Team> with SingleTickerProviderStateMixin {
             hover ? hoverAnimation(true) : hoverAnimation(false);
           },
           child: Container(
-            width: MediaQuery.of(context).orientation == Orientation.landscape ? MediaQuery.of(context).size.width * 0.3 : MediaQuery.of(context).size.width * 0.6,
-            height: MediaQuery.of(context).orientation == Orientation.landscape ? MediaQuery.of(context).size.height * 0.45 : MediaQuery.of(context).size.height * 0.6,
-            child: Padding(
-              padding: const EdgeInsets.all(20.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Text(
-                    widget.teamName!,
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontFamily: fontMain,
-                      fontSize: 40,
-                      decoration: TextDecoration.underline,
-                    ),
-                  ),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: memberList
+            width: MediaQuery.of(context).size.width * 0.8,
+            height: MediaQuery.of(context).orientation == Orientation.landscape ? MediaQuery.of(context).size.height * 0.2 : MediaQuery.of(context).size.height * 0.6,
+            child: Center(
+              child: Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Text(
+                  widget.clue!,
+                  style: TextStyle(
+                    fontFamily: fontMain,
+                    fontSize: 30,
+                    color: Colors.white
                   )
-                ],
+                )
               ),
             ),
           ),
