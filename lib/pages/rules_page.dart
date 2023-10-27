@@ -59,7 +59,7 @@ class _RulesState extends State<Rules> {
 
 → Participants are not allowed to bring food, water, or any other drinks on campus. Empty water bottles may be brought which can be filled at water stations throughout the venue. Any lunch boxes brought will be confiscated
 
-→ Attendees are encouraged to bring money to purchase items from a selection of food trucks, stalls, and IGNITE Merchandise that will be available on campus during the event. 
+→ Attendees are encouraged to bring money to purchase items from a selection of food trucks and stalls that will be available on campus during the event. 
 
 → Attendees who need to bring their medicines must do so after sending a valid doctor's note containing the name of the medicine to the following mail: ignite@greenwoodhigh.edu.in by October 31st at the latest
 
