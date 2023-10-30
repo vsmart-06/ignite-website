@@ -104,42 +104,16 @@ class _MerchandiseState extends State<Merchandise> {
                     textAlign: TextAlign.center,
                   ),
                 ),
-                SingleChildScrollView(
-                  scrollDirection: Axis.horizontal,
-                  child: Padding(
-                    padding: const EdgeInsets.all(20.0),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        ItemCard(
-                          image: "https://i.imgur.com/kQxGKG1.png",
-                          name: "Cap",
-                          backside: "https://i.imgur.com/R28ya74.png",
-                          width: 250,
-                          height: 350,
-                          color: Color(0xFFE1D9D1),
-                          back: true,
-                        ),
-                        ItemCard(
-                          image: "https://i.imgur.com/c72hQKj.png",
-                          name: "Tote Bag",
-                          backside: "https://i.imgur.com/cFF9tC5.png",
-                          width: 250,
-                          height: 350,
-                          color: Color(0xFFE1D9D1),
-                          back: true,
-                        ),
-                        ItemCard(
-                          image: "https://i.imgur.com/RgU0waM.png",
-                          name: "Hoodie",
-                          backside: "https://i.imgur.com/6HNlc6c.png",
-                          width: 250,
-                          height: 350,
-                          color: Color(0xFFE1D9D1),
-                          back: true,
-                        ),
-                      ],
-                    ),
+                Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: ItemCard(
+                    image: "https://i.imgur.com/RgU0waM.png",
+                    name: "Hoodie",
+                    backside: "https://i.imgur.com/6HNlc6c.png",
+                    width: 250,
+                    height: 350,
+                    color: Color(0xFFE1D9D1),
+                    back: true,
                   ),
                 ),
                 footer(
@@ -223,22 +197,6 @@ class _MerchandiseState extends State<Merchandise> {
                     textAlign: TextAlign.center,
                   ),
                 ),
-                ItemCard(
-                    image: "https://i.imgur.com/kQxGKG1.png",
-                    name: "Cap",
-                    backside: "https://i.imgur.com/R28ya74.png",
-                    width: 250,
-                    height: 350,
-                    color: Color(0xFFE1D9D1),
-                    back: true),
-                ItemCard(
-                    image: "https://i.imgur.com/c72hQKj.png",
-                    name: "Tote Bag",
-                    backside: "https://i.imgur.com/cFF9tC5.png",
-                    width: 250,
-                    height: 350,
-                    color: Color(0xFFE1D9D1),
-                    back: true),
                 Padding(
                   padding: const EdgeInsets.only(bottom: 10.0),
                   child: ItemCard(

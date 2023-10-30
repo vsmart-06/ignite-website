@@ -81,7 +81,7 @@ void main() {
             eventHeads: const [
               ["https://i.imgur.com/53ove4U.jpg", "Isha Chawla"],
               ["https://i.imgur.com/UwF7yT5.jpg", "Dhriti Rao"],
-              ["https://i.imgur.com/7iQ7dVq.jpg", "Maayaan Hazra"]
+              ["https://i.imgur.com/7iQ7dVq.jpg", "Maayan Hazra"]
             ],
             logo: "https://i.imgur.com/xsVCfTa.png",
             title: "Silver Screen",
