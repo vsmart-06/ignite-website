@@ -21326,12 +21326,11 @@ a6S:function a6S(a){this.a=a},
 a6R:function a6R(a){this.a=a},
 a6P:function a6P(a){this.a=a},
 a6Q:function a6Q(a){this.a=a},
-mn:function mn(a,b,c,d,e){var _=this
+mn:function mn(a,b,c,d){var _=this
 _.c=a
 _.d=b
 _.e=c
-_.f=d
-_.a=e},
+_.a=d},
 KF:function KF(a,b){var _=this
 _.e=a
 _.f=$
@@ -66524,16 +66523,16 @@ k=A.az(!1,'At the end of the event, the website will be updated to display anoth
 j=A.az(!1,"The winner is decided based on how close they were to finding the true killer and the veracity and comprehensiveness of the rationale submitted in the form.",new A.w(g),500,h,"How is the winner decided?",c)
 i=A.az(!1,"To be decided",new A.w(g),500,h,"What are the prizes for Dyed in Crimson?",c)
 d=A.a3(a2,h,d).w
-return A.c3(b,B.h,A.ch(A.c5(new A.y(B.z4,A.ay(A.a([new A.y(B.r,a0,h),new A.y(B.zc,new A.mn(u.g,a1,h,h,h),h),new A.y(new A.ab(100,20,100,20),s,h),new A.y(B.r,r,h),new A.y(B.zb,q,h),new A.y(new A.ab(100,20,100,20),p,h),new A.y(B.r,o,h),new A.y(B.y,n,h),new A.y(B.y,m,h),new A.y(B.y,l,h),new A.y(B.y,k,h),new A.y(B.y,j,h),new A.y(B.y,i,h),A.abp(d.gaK(d)===B.z)],t.p),B.i,B.o),h),f),f,B.B,h,h,A.bS(),B.n,h,h,10,new A.w(4281413939),!0,B.G,!0),a,!1)}}
+return A.c3(b,B.h,A.ch(A.c5(new A.y(B.z4,A.ay(A.a([new A.y(B.r,a0,h),new A.y(B.zc,new A.mn(u.g,a1,h,h),h),new A.y(new A.ab(100,20,100,20),s,h),new A.y(B.r,r,h),new A.y(B.zb,q,h),new A.y(new A.ab(100,20,100,20),p,h),new A.y(B.r,o,h),new A.y(B.y,n,h),new A.y(B.y,m,h),new A.y(B.y,l,h),new A.y(B.y,k,h),new A.y(B.y,j,h),new A.y(B.y,i,h),A.abp(d.gaK(d)===B.z)],t.p),B.i,B.o),h),f),f,B.B,h,h,A.bS(),B.n,h,h,10,new A.w(4281413939),!0,B.G,!0),a,!1)}}
 A.ou.prototype={
 H(a){var s=null,r=u.e,q=A.dc().$0().d,p=A.dt(),o=A.AH(a),n=A.AG(a),m=A.a_("Updates",A.R(s,s,B.e,s,s,s,s,s,q,s,s,50,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s),l=A.a3(a,s,t.w).w
 return A.c3(o,B.h,A.ch(A.c5(A.ay(A.a([m,new A.mk("Clue 1",r,s),new A.mk("Clue 2",r,s),new A.mk("Clue 3",r,s),A.abp(l.gaK(l)===B.z)],t.p),B.i,B.o),p),p,B.B,s,s,A.bS(),B.n,s,s,10,new A.w(4281413939),!0,B.G,!0),n,!1)}}
 A.os.prototype={
 H(a){var s=A.AH(a),r=A.aeH(A.AG(a))
-return A.c3(s,B.h,A.dO(new A.mn("https://ruwix.com/online-puzzle-simulators/sliding-15-puzzle?scale=1&rept=1&scram=1&nums=1&pic=https%3A%2F%2Fi.postimg.cc%2FFHwXxRYp%2FOphelia-Threat-Letter.png",300,300,!1,null),null,null),r,!1)}}
+return A.c3(s,B.h,A.dO(new A.mn("https://ruwix.com/online-puzzle-simulators/sliding-15-puzzle?scale=1&rept=1&scram=1&nums=1&pic=https%3A%2F%2Fi.postimg.cc%2FFHwXxRYp%2FOphelia-Threat-Letter.png",300,300,null),null,null),r,!1)}}
 A.ot.prototype={
-H(a){var s=null,r=A.AH(a),q=A.aeH(A.AG(a))
-return A.c3(r,B.h,new A.mn(u.g,A.a3(a,s,t.w).w.a.b,s,s,s),q,!1)}}
+H(a){var s=A.AH(a),r=A.aeH(A.AG(a))
+return A.c3(s,B.h,new A.mn(u.g,A.a3(a,null,t.w).w.a.b,null,null),r,!1)}}
 A.abu.prototype={
 $0(){var s=window
 s.toString
@@ -66582,9 +66581,6 @@ o.src=q.a.c
 s=o.style
 s.border="none"
 o.height=A.h(q.a.d)
-s=q.a.f
-if(s!=null)if(!s){s=o.style
-s.overflow="hidden"}o.allowFullscreen=!0
 s=q.a.e
 if(s!=null)o.width=A.h(s)
 $.agF()
