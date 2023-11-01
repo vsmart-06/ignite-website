@@ -25,7 +25,7 @@ class _IFrameState extends State<IFrame> {
     iFrame.src = widget.link;
     iFrame.style.border = "none";
     iFrame.height = "${widget.height}";
-    iFrame.style.overflow = "null";
+    iFrame.style.overflow = "hidden";
     iFrame.allowFullscreen = true;
     if (widget.width != null) {
       iFrame.width = "${widget.width!}";
