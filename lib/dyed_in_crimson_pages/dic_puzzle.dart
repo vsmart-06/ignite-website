@@ -12,7 +12,7 @@ class DICPuzzle extends StatelessWidget {
       appBar: getTopBar(context),
       drawer: PointerInterceptor(child: getDrawer(context)),
       backgroundColor: Colors.black,
-      body: Center(child: IFrame(link: "https://ruwix.com/online-puzzle-simulators/sliding-15-puzzle?scale=1&rept=1&scram=1&nums=1&pic=https%3A%2F%2Fi.postimg.cc%2FFHwXxRYp%2FOphelia-Threat-Letter.png", height: 300, width: 300, scrollable: false,)),
+      body: Center(child: IFrame(link: "https://ruwix.com/online-puzzle-simulators/sliding-15-puzzle?scale=1&rept=1&scram=1&nums=1&pic=https%3A%2F%2Fi.postimg.cc%2FFHwXxRYp%2FOphelia-Threat-Letter.png", height: 300, width: 300)),
     );
   }
 }
