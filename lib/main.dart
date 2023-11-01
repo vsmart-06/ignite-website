@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:ignite_2023/dyed_in_crimson_pages/dic_puzzle.dart";
 import "package:ignite_2023/pages/faqs_page.dart";
 import "package:ignite_2023/pages/home_page.dart";
 import 'package:ignite_2023/pages/cultural_page.dart';
@@ -38,6 +39,7 @@ void main() {
     "/dyed_in_crimson/characters": (context) => DICCharacters(),
     "/dyed_in_crimson/updates": (context) => DICUpdates(),
     "/dyed_in_crimson/submissions": (context) => DICSubmissions(),
+    "/dyed_in_crimson/puzzle": (context) => DICPuzzle(),
     "/events/cultural/battle_of_the_bands": (context) => EventGeneral(
             eventHeads: const [
               ["https://i.imgur.com/lS03T8H.jpg", "Saishruthi Donthula"],

@@ -34,9 +34,9 @@ class DICUpdates extends StatelessWidget {
                   fontSize: 50
                 )
               ),
-              HourlyCard(clue: "Ayaan is dead"),
-              HourlyCard(clue: "Harihar is dead"),
-              HourlyCard(clue: "Anish is dead"),
+              HourlyCard(name: "Clue 1", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"),
+              HourlyCard(name: "Clue 2", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"),
+              HourlyCard(name: "Clue 3", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"),
               footer(MediaQuery.of(context).orientation == Orientation.landscape),
             ],
           ),

@@ -8,7 +8,8 @@ import "package:flutter/material.dart";
 class IFrame extends StatefulWidget {
   String link;
   double height;
-  IFrame({super.key, required this.link, required this.height});
+  double? width;
+  IFrame({super.key, required this.link, required this.height, this.width});
 
   @override
   State<IFrame> createState() => _IFrameState();
@@ -24,9 +25,18 @@ class _IFrameState extends State<IFrame> {
     iFrame.src = widget.link;
     iFrame.style.border = "none";
     iFrame.height = "${widget.height}";
-    platformViewRegistry
-        .registerViewFactory(widget.link, (int viewId) => iFrame);
+    iFrame.style.overflow = "null";
+    iFrame.allowFullscreen = true;
+    if (widget.width != null) {
+      iFrame.width = "${widget.width!}";
+    }
+    platformViewRegistry.registerViewFactory(widget.link, (int viewId) => iFrame);
     iFrameContainer = HtmlElementView(viewType: widget.link);
-    return Container(height: widget.height, child: iFrameContainer);
+    if (widget.width == null) {
+      return Container(height: widget.height, child: iFrameContainer);
+    }
+    else {
+      return Container(width: widget.width!, height: widget.height, child: iFrameContainer);
+    }
   }
 }
