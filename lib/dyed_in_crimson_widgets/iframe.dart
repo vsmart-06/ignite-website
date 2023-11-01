@@ -9,7 +9,8 @@ class IFrame extends StatefulWidget {
   String link;
   double height;
   double? width;
-  IFrame({super.key, required this.link, required this.height, this.width});
+  bool? scrollable;
+  IFrame({super.key, required this.link, required this.height, this.width, this.scrollable});
 
   @override
   State<IFrame> createState() => _IFrameState();
@@ -25,7 +26,11 @@ class _IFrameState extends State<IFrame> {
     iFrame.src = widget.link;
     iFrame.style.border = "none";
     iFrame.height = "${widget.height}";
-    iFrame.style.overflow = "hidden";
+    if (widget.scrollable != null) {
+      if (!widget.scrollable!) {
+        iFrame.style.overflow = "hidden";
+      }
+    }
     iFrame.allowFullscreen = true;
     if (widget.width != null) {
       iFrame.width = "${widget.width!}";
