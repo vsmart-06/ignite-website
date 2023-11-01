@@ -24,21 +24,24 @@ class DICUpdates extends StatelessWidget {
         controller: scroller,
         child: SingleChildScrollView(
           controller: scroller,
-          child: Column(
-            children: [
-              Text(
-                "Updates",
-                style: TextStyle(
-                  color: Colors.white,
-                  fontFamily: fontMain,
-                  fontSize: 50
-                )
-              ),
-              HourlyCard(name: "Clue 1", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"),
-              HourlyCard(name: "Clue 2", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"),
-              HourlyCard(name: "Clue 3", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"),
-              footer(MediaQuery.of(context).orientation == Orientation.landscape),
-            ],
+          child: Container(
+            width: MediaQuery.of(context).size.width,
+            child: Column(
+              children: [
+                Text(
+                  "Updates",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontFamily: fontMain,
+                    fontSize: 50
+                  )
+                ),
+                HourlyCard(name: "Clue 1", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"),
+                HourlyCard(name: "Clue 2", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"),
+                HourlyCard(name: "Clue 3", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"),
+                footer(MediaQuery.of(context).orientation == Orientation.landscape),
+              ],
+            ),
           ),
         ),
       ),
