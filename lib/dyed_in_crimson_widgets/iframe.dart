@@ -24,6 +24,8 @@ class _IFrameState extends State<IFrame> {
   Widget build(BuildContext context) {
     iFrame.src = widget.link;
     iFrame.style.border = "none";
+    iFrame.style.height = "100%";
+    iFrame.style.width = "100%";
     iFrame.height = "${widget.height}";
     if (widget.width != null) {
       iFrame.width = "${widget.width!}";
