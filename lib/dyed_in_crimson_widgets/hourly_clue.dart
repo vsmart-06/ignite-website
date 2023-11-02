@@ -8,8 +8,9 @@ class HourlyCard extends StatefulWidget {
   String? name;
   String? link;
   bool? isOpen;
+  DateTime? openTime;
   
-  HourlyCard({super.key, required this.name, required this.link, required this.isOpen});
+  HourlyCard({super.key, required this.name, required this.link, required this.isOpen, required this.openTime});
 
   @override
   State<HourlyCard> createState() => _HourlyCardState();
@@ -21,7 +22,7 @@ class _HourlyCardState extends State<HourlyCard> {
 
   @override
   Widget build(BuildContext context) {
-    if (widget.isOpen!) {
+    if (widget.isOpen! || (DateTime.now().isAfter(widget.openTime!))) {
       return Padding(
         padding: const EdgeInsets.all(20.0),
         child: TextButton(

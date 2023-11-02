@@ -43,6 +43,8 @@ AppBar? getTopBar(BuildContext context) {
                 HeaderButton(
                     name: "Updates", navPath: "/dyed_in_crimson/updates"),
                 HeaderButton(
+                    name: "Legend", navPath: "/dyed_in_crimson/legend"),
+                HeaderButton(
                     name: "Submissions", navPath: "/dyed_in_crimson/submissions"),
               ],
             ),
@@ -118,6 +120,16 @@ Drawer getDrawer(BuildContext context) {
           ),
           onTap: () {
             Navigator.popAndPushNamed(context, "/dyed_in_crimson/updates");
+          },
+        ),
+        ListTile(
+          title: Text(
+            "Legend",
+            style:
+                TextStyle(color: Colors.white, fontFamily: font, fontSize: 20),
+          ),
+          onTap: () {
+            Navigator.popAndPushNamed(context, "/dyed_in_crimson/legend");
           },
         ),
         ListTile(
