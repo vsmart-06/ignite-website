@@ -7,7 +7,9 @@ import "dart:html";
 class HourlyCard extends StatefulWidget {
   String? name;
   String? link;
-  HourlyCard({super.key, required this.name, required this.link});
+  bool? isOpen;
+  
+  HourlyCard({super.key, required this.name, required this.link, required this.isOpen});
 
   @override
   State<HourlyCard> createState() => _HourlyCardState();
@@ -19,41 +21,46 @@ class _HourlyCardState extends State<HourlyCard> {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(20.0),
-      child: TextButton(
-        style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.all<Color>(buttonColor),
-            side: MaterialStateProperty.all<BorderSide>(
-                BorderSide(color: Colors.white)),
-            shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(20))),
-            fixedSize: MaterialStateProperty.all<Size>(Size(MediaQuery.of(context).size.width * 0.8, 150))),
-        onPressed: () {
-          window.open(widget.link!, widget.name!);
-        },
-        onHover: (hover) {
-          hover
-              ? setState(() {
-                  buttonColor = Color(0xFF8B0000);
-                })
-              : setState(() {
-                  buttonColor = Colors.black;
-                });
-        },
-        child: Center(
-          child: Padding(
-            padding: const EdgeInsets.fromLTRB(20, 20, 20, 20),
-            child: Text(
-              widget.name!,
-              style: TextStyle(
-                  color: Colors.white, fontSize: 40, fontFamily: fontMain),
-              textAlign: TextAlign.center,
+    if (widget.isOpen!) {
+      return Padding(
+        padding: const EdgeInsets.all(20.0),
+        child: TextButton(
+          style: ButtonStyle(
+              backgroundColor: MaterialStateProperty.all<Color>(buttonColor),
+              side: MaterialStateProperty.all<BorderSide>(
+                  BorderSide(color: Colors.white)),
+              shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                  RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20))),
+              fixedSize: MaterialStateProperty.all<Size>(Size(MediaQuery.of(context).size.width * 0.8, 150))),
+          onPressed: () {
+            window.open(widget.link!, widget.name!);
+          },
+          onHover: (hover) {
+            hover
+                ? setState(() {
+                    buttonColor = Color(0xFF8B0000);
+                  })
+                : setState(() {
+                    buttonColor = Colors.black;
+                  });
+          },
+          child: Center(
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(20, 20, 20, 20),
+              child: Text(
+                widget.name!,
+                style: TextStyle(
+                    color: Colors.white, fontSize: 40, fontFamily: fontMain),
+                textAlign: TextAlign.center,
+              ),
             ),
           ),
         ),
-      ),
-    );
+      );
+    }
+    else {
+      return Container();
+    }
   }
 }

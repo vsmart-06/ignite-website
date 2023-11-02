@@ -36,9 +36,9 @@ class DICUpdates extends StatelessWidget {
                     fontSize: 50
                   )
                 ),
-                HourlyCard(name: "Clue 1", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"),
-                HourlyCard(name: "Clue 2", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"),
-                HourlyCard(name: "Clue 3", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"),
+                HourlyCard(name: "Clue 1", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", isOpen: true),
+                HourlyCard(name: "Clue 2", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", isOpen: false),
+                HourlyCard(name: "Clue 3", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", isOpen: false),
                 footer(MediaQuery.of(context).orientation == Orientation.landscape),
               ],
             ),

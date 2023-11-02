@@ -89,7 +89,7 @@ class _SportsState extends State<Sports> {
                                       });
                               },
                               onPressed: () {
-                                window.open("", "Sports Brochure");  
+                                window.open("https://drive.google.com/file/d/1g-EjvijGSQaxsFf7FU52gG_Cy7e8DWUt/view?usp=drive_link", "Sports Brochure");
                               }),
                         ),
                         Row(
