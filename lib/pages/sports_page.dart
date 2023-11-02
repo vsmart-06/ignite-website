@@ -3,6 +3,7 @@ import "package:google_fonts/google_fonts.dart";
 import 'package:ignite_2023/widgets/events_button.dart';
 import "package:ignite_2023/widgets/footer.dart";
 import "package:ignite_2023/widgets/navigation_bar.dart";
+import "dart:html";
 
 class Sports extends StatefulWidget {
   @override
@@ -11,7 +12,7 @@ class Sports extends StatefulWidget {
 
 class _SportsState extends State<Sports> {
   String? font = GoogleFonts.roboto().fontFamily;
-  String? titleFont = GoogleFonts.ebGaramond().fontFamily;
+  String? fontMain = GoogleFonts.ebGaramond().fontFamily;
 
   List<Color> cardColors = [
     Colors.black,
@@ -24,6 +25,8 @@ class _SportsState extends State<Sports> {
     Colors.black,
   ];
   ScrollController scroll = ScrollController();
+
+  Color buttonColor = Colors.black;
 
   @override
   Widget build(BuildContext context) {
@@ -40,7 +43,7 @@ class _SportsState extends State<Sports> {
                 child: Text(
                   "Sports Events",
                   style: TextStyle(
-                      color: Colors.white, fontSize: 50, fontFamily: titleFont),
+                      color: Colors.white, fontSize: 50, fontFamily: fontMain),
                 ),
               ),
               Expanded(
@@ -54,6 +57,41 @@ class _SportsState extends State<Sports> {
                     controller: scroll,
                     child: Column(
                       children: [
+                        Padding(
+                          padding: const EdgeInsets.all(10.0),
+                          child: TextButton(
+                              style: ButtonStyle(
+                                backgroundColor:
+                                    MaterialStateProperty.all<Color>(
+                                        buttonColor),
+                                side: MaterialStateProperty.all<BorderSide>(
+                                    BorderSide(color: Colors.white)),
+                                shape: MaterialStateProperty.all<
+                                        RoundedRectangleBorder>(
+                                    RoundedRectangleBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(20))),
+                              ),
+                              child: Padding(
+                                  padding: EdgeInsets.all(10.0),
+                                  child: Text("Sports Brochure",
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontFamily: fontMain,
+                                          fontSize: 30))),
+                              onHover: (hover) {
+                                hover
+                                    ? setState(() {
+                                        buttonColor = Colors.orange;
+                                      })
+                                    : setState(() {
+                                        buttonColor = Colors.black;
+                                      });
+                              },
+                              onPressed: () {
+                                window.open("", "Sports Brochure");  
+                              }),
+                        ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
@@ -161,7 +199,7 @@ class _SportsState extends State<Sports> {
                 child: Text(
                   "Sports Events",
                   style: TextStyle(
-                      color: Colors.white, fontSize: 50, fontFamily: titleFont),
+                      color: Colors.white, fontSize: 50, fontFamily: fontMain),
                 ),
               ),
               Expanded(

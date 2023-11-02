@@ -54,7 +54,7 @@ class _DICCharactersState extends State<DICCharacters> {
                         Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: ItemCard(
-                            image: "https://i.imgur.com/W2EcJsP.png",
+                            image: "https://i.imgur.com/A0nRNP7.png",
                             name: "Alexander\nYurei",
                             backside:
                                 "Patriarch of the Yurei family and father to William Yurei. He is known as an incredibly charming and kind-hearted man, but one not to cross. His benevolence, coupled with the ingenuity and iron will with which he built his family up from the ground has earned him the well deserved title of the \"Serene Sultan\".",
@@ -67,7 +67,7 @@ class _DICCharactersState extends State<DICCharacters> {
                         Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: ItemCard(
-                            image: "https://i.imgur.com/W2EcJsP.png",
+                            image: "https://i.imgur.com/9PqlTCH.png",
                             name: "Ophelia\nAshford",
                             backside:
                                 "Head of the Ashford family, and mother to Evelyn Ashford. Cold and ruthless, even the bravest of men falter under her dominating presence. Though she had been disadvantaged from being the second-born child of the Ashfords, her air of authority and ability to command respect naturally pushed her to the top, establishing her identity as a truly dangerous individual.",
@@ -80,7 +80,7 @@ class _DICCharactersState extends State<DICCharacters> {
                         Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: ItemCard(
-                            image: "https://i.imgur.com/W2EcJsP.png",
+                            image: "https://i.imgur.com/rBe7kiu.png",
                             name: "William\nYurei",
                             backside:
                                 "Next in line to inherit the crown of the Yurei family, and the soon to be husband of Evelyn Ashford. His charismatic and hard-working nature has quickly made him a popular figure in England's royal circles, especially amongst the ladies. Some may call his rigid sense of honour a flaw, but to many it has made him a respectable and trust-worthy individual.",
@@ -93,7 +93,7 @@ class _DICCharactersState extends State<DICCharacters> {
                         Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: ItemCard(
-                            image: "https://i.imgur.com/W2EcJsP.png",
+                            image: "https://i.imgur.com/V47xkWn.png",
                             name: "Evelyn\nAshford",
                             backside:
                                 "The graceful and captivating daughter of Ophelia Ashford has long been the desire of many men, yet only one has managed to win her heart. William Yurei's bride and the daughter of Ophelia Ashford, this to-be queen has become the bridge between the two distinct dynasties.",
@@ -114,7 +114,7 @@ class _DICCharactersState extends State<DICCharacters> {
                         Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: ItemCard(
-                            image: "https://i.imgur.com/W2EcJsP.png",
+                            image: "https://i.imgur.com/JtXpwR0.png",
                             name: "Viola\nYurei",
                             backside:
                                 "The younger sister of William Yurei and second-in-line to the throne of the Yurei family. Always being brought up in the shadow of her older brother has filled her with a insatiable drive to prove herself and has gifted her with an infallible work ethic. Nothing can stand between her and the power she wishes to gain.",
@@ -127,7 +127,7 @@ class _DICCharactersState extends State<DICCharacters> {
                         Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: ItemCard(
-                            image: "https://i.imgur.com/W2EcJsP.png",
+                            image: "https://i.imgur.com/GoHCw5z.png",
                             name: "Sebastian\nAshford",
                             backside:
                                 "The older brother of Evelyn Ashford and first in line for the throne to the Ashford family. He's loyal to only two things: his never-ending hunger for power, and his dog. Charming, cunning and with amazing hair to match, this royal is as ambitious as he is handsome.",
@@ -140,7 +140,7 @@ class _DICCharactersState extends State<DICCharacters> {
                         Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: ItemCard(
-                            image: "https://i.imgur.com/W2EcJsP.png",
+                            image: "https://i.imgur.com/DOnmf0q.png",
                             name: "Nikolai\nPetrov",
                             backside:
                                 "The multi-billionaire oligarch hailing from the land of the Slavs, his pharmaceutical empire as the CEO of Petrov Corp is built upon a long and hidden history that wise men know not to ask about. The darkest echelons of the Russian underground know him by another name - the Shadow.",
@@ -153,7 +153,7 @@ class _DICCharactersState extends State<DICCharacters> {
                         Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: ItemCard(
-                            image: "https://i.imgur.com/W2EcJsP.png",
+                            image: "https://i.imgur.com/QnydOoz.png",
                             name: "Elise\nBienne",
                             backside:
                                 "The ex-girlfriend of William Yurei, and the heir to the Norwegian Throne. She does not forgive easily, and is known for her love of cashmere coats and psychological warfare. Being forced to dance through cutthroat royal plots all her life has made her an expert at intrigue, with a sharp tongue and a sharper intellect to match.",
@@ -204,7 +204,7 @@ class _DICCharactersState extends State<DICCharacters> {
                   Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: ItemCard(
-                      image: "https://i.imgur.com/W2EcJsP.png",
+                      image: "https://i.imgur.com/A0nRNP7.png",
                       name: "Alexander\nYurei",
                       backside:
                           "Patriarch of the Yurei family and father to William Yurei. He is known as an incredibly charming and kind-hearted man, but one not to cross. His benevolence, coupled with the ingenuity and iron will with which he built his family up from the ground has earned him the well deserved title of the \"Serene Sultan\".",
@@ -217,7 +217,7 @@ class _DICCharactersState extends State<DICCharacters> {
                   Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: ItemCard(
-                      image: "https://i.imgur.com/W2EcJsP.png",
+                      image: "https://i.imgur.com/9PqlTCH.png",
                       name: "Ophelia\nAshford",
                       backside:
                           "Head of the Ashford family, and mother to Evelyn Ashford. Cold and ruthless, even the bravest of men falter under her dominating presence. Though she had been disadvantaged from being the second-born child of the Ashfords, her air of authority and ability to command respect naturally pushed her to the top, establishing her identity as a truly dangerous individual.",
@@ -230,7 +230,7 @@ class _DICCharactersState extends State<DICCharacters> {
                   Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: ItemCard(
-                      image: "https://i.imgur.com/W2EcJsP.png",
+                      image: "https://i.imgur.com/rBe7kiu.png",
                       name: "William\nYurei",
                       backside:
                           "Next in line to inherit the crown of the Yurei family, and the soon to be husband of Evelyn Ashford. His charismatic and hard-working nature has quickly made him a popular figure in England's royal circles, especially amongst the ladies. Some may call his rigid sense of honour a flaw, but to many it has made him a respectable and trust-worthy individual.",
@@ -243,7 +243,7 @@ class _DICCharactersState extends State<DICCharacters> {
                   Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: ItemCard(
-                      image: "https://i.imgur.com/W2EcJsP.png",
+                      image: "https://i.imgur.com/V47xkWn.png",
                       name: "Evelyn\nAshford",
                       backside:
                           "The graceful and captivating daughter of Ophelia Ashford has long been the desire of many men, yet only one has managed to win her heart. William Yurei's bride and the daughter of Ophelia Ashford, this to-be queen has become the bridge between the two distinct dynasties.",
@@ -256,7 +256,7 @@ class _DICCharactersState extends State<DICCharacters> {
                   Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: ItemCard(
-                      image: "https://i.imgur.com/W2EcJsP.png",
+                      image: "https://i.imgur.com/JtXpwR0.png",
                       name: "Viola\nYurei",
                       backside:
                           "The younger sister of William Yurei and second-in-line to the throne of the Yurei family. Always being brought up in the shadow of her older brother has filled her with a insatiable drive to prove herself and has gifted her with an infallible work ethic. Nothing can stand between her and the power she wishes to gain.",
@@ -269,7 +269,7 @@ class _DICCharactersState extends State<DICCharacters> {
                   Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: ItemCard(
-                      image: "https://i.imgur.com/W2EcJsP.png",
+                      image: "https://i.imgur.com/GoHCw5z.png",
                       name: "Sebastian\nAshford",
                       backside:
                           "The older brother of Evelyn Ashford and first in line for the throne to the Ashford family. He's loyal to only two things: his never-ending hunger for power, and his dog. Charming, cunning and with amazing hair to match, this royal is as ambitious as he is handsome.",
@@ -282,7 +282,7 @@ class _DICCharactersState extends State<DICCharacters> {
                   Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: ItemCard(
-                      image: "https://i.imgur.com/W2EcJsP.png",
+                      image: "https://i.imgur.com/DOnmf0q.png",
                       name: "Nikolai\nPetrov",
                       backside:
                           "The multi-billionaire oligarch hailing from the land of the Slavs, his pharmaceutical empire as the CEO of Petrov Corp is built upon a long and hidden history that wise men know not to ask about. The darkest echelons of the Russian underground know him by another name - the Shadow.",
@@ -295,7 +295,7 @@ class _DICCharactersState extends State<DICCharacters> {
                   Padding(
                     padding: const EdgeInsets.all(10.0),
                     child: ItemCard(
-                      image: "https://i.imgur.com/W2EcJsP.png",
+                      image: "https://i.imgur.com/QnydOoz.png",
                       name: "Elise\nBienne",
                       backside:
                           "The ex-girlfriend of William Yurei, and the heir to the Norwegian Throne. She does not forgive easily, and is known for her love of cashmere coats and psychological warfare. Being forced to dance through cutthroat royal plots all her life has made her an expert at intrigue, with a sharp tongue and a sharper intellect to match.",
