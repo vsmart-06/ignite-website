@@ -32,7 +32,6 @@ class _MerchandiseState extends State<Merchandise> {
             controller: scroller,
             child: Column(
               children: [
-                /* Remove Sponsors Until Sponsors Sponsor
                 Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Text(
@@ -50,26 +49,18 @@ class _MerchandiseState extends State<Merchandise> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         ItemCard(
-                            image: "https://i.imgur.com/5VuyhL2.png",
-                            name: "Name",
-                            description: "Hello World",
-                            width: 250,
+                            image: "https://i.imgur.com/8KMfaFu.jpg",
+                            name: "Athena Education",
+                            backside: "We are striving to transform the academic landscape through holistic education consulting. We help students navigate their journey to the top universities across the globe.",
+                            width: 300,
                             height: 350,
                             color: Colors.orange,
                             back: false),
                         ItemCard(
-                            image: "https://i.imgur.com/5VuyhL2.png",
-                            name: "Mr. Beast",
-                            description: "Hello World",
-                            width: 250,
-                            height: 350,
-                            color: Colors.orange,
-                            back: false),
-                        ItemCard(
-                            image: "https://i.imgur.com/5VuyhL2.png",
-                            name: "Pizza Hut",
-                            description: "Hello World",
-                            width: 250,
+                            image: "https://i.imgur.com/1Ic5HMM.png",
+                            name: "Quest For Success",
+                            backside: "Quest For Success offers comprehensive classroom preparation programs for tests such as PSAT | SAT | ACT | AP | UCAT | IB | IGCSE & we also help students with undergraduate admissions counselling.",
+                            width: 300,
                             height: 350,
                             color: Colors.orange,
                             back: false),
@@ -80,7 +71,6 @@ class _MerchandiseState extends State<Merchandise> {
                 Padding(
                     padding: EdgeInsets.fromLTRB(100, 20, 100, 20),
                     child: Divider(color: Colors.white, height: 1, thickness: 1)),
-                    */
                 Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Text(
@@ -138,7 +128,7 @@ class _MerchandiseState extends State<Merchandise> {
             controller: scroller,
             child: Column(
               children: [
-                /* Padding(
+                Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Text(
                     "IGNITE's Sponsors",
@@ -148,32 +138,24 @@ class _MerchandiseState extends State<Merchandise> {
                   ),
                 ),
                 ItemCard(
-                    image: "https://i.imgur.com/5VuyhL2.png",
-                    name: "Name",
-                    description: "Hello World",
-                    width: 250,
+                    image: "https://i.imgur.com/8KMfaFu.jpg",
+                    name: "Athena Education",
+                    backside: "We are striving to transform the academic landscape through holistic education consulting. We help students navigate their journey to the top universities across the globe.",
+                    width: 300,
                     height: 350,
                     color: Colors.orange,
                             back: false,),
                 ItemCard(
-                    image: "https://i.imgur.com/5VuyhL2.png",
-                    name: "Mr. Beast",
-                    description: "Hello World",
-                    width: 250,
-                    height: 350,
-                    color: Colors.orange,
-                            back: false,),
-                ItemCard(
-                    image: "https://i.imgur.com/5VuyhL2.png",
-                    name: "Pizza Hut",
-                    description: "Hello World",
-                    width: 250,
+                    image: "https://i.imgur.com/1Ic5HMM.png",
+                    name: "Quest For Success",
+                    backside: "Quest For Success offers comprehensive classroom preparation programs for tests such as PSAT | SAT | ACT | AP | UCAT | IB | IGCSE & we also help students with undergraduate admissions counselling.",
+                    width: 300,
                     height: 350,
                     color: Colors.orange,
                             back: false,),
                 Padding(
                     padding: EdgeInsets.fromLTRB(100, 20, 100, 20),
-                    child: Divider(color: Colors.white, height: 1, thickness: 1)), */
+                    child: Divider(color: Colors.white, height: 1, thickness: 1)),
                 Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Text(
