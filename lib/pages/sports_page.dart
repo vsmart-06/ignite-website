@@ -213,6 +213,41 @@ class _SportsState extends State<Sports> {
                     controller: scroll,
                     child: Column(
                       children: [
+                        Padding(
+                          padding: const EdgeInsets.all(10.0),
+                          child: TextButton(
+                              style: ButtonStyle(
+                                backgroundColor:
+                                    MaterialStateProperty.all<Color>(
+                                        buttonColor),
+                                side: MaterialStateProperty.all<BorderSide>(
+                                    BorderSide(color: Colors.white)),
+                                shape: MaterialStateProperty.all<
+                                        RoundedRectangleBorder>(
+                                    RoundedRectangleBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(20))),
+                              ),
+                              child: Padding(
+                                  padding: EdgeInsets.all(10.0),
+                                  child: Text("Sports Brochure",
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontFamily: fontMain,
+                                          fontSize: 30))),
+                              onHover: (hover) {
+                                hover
+                                    ? setState(() {
+                                        buttonColor = Colors.orange;
+                                      })
+                                    : setState(() {
+                                        buttonColor = Colors.black;
+                                      });
+                              },
+                              onPressed: () {
+                                window.open("https://drive.google.com/file/d/1g-EjvijGSQaxsFf7FU52gG_Cy7e8DWUt/view?usp=drive_link", "Sports Brochure");
+                              }),
+                        ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
