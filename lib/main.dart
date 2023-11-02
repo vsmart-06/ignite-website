@@ -23,7 +23,7 @@ void main() {
   runApp(MaterialApp(title: "IGNITE 2023", routes: {
     "/": (context) => const Home(),
     "/events": (context) => CultSport(),
-    "/merchandise": (context) => const Merchandise(),
+    "/sponsors": (context) => const Sponsors(),
     "/faqs": (context) => const Faqs(),
     "/registrations": (context) => RegistrationsCultural(),
     "/rules": (context) => const Rules(),
@@ -113,7 +113,8 @@ void main() {
             ],
             logo: "https://i.imgur.com/bhiMoTF.png",
             title: "Icons and Imitations",
-            about: "Strut the runway starring as the most legendary fashion icons of the 20th and 21st century. Each team will randomly be assigned an icon, from Bowie to Madonna, and must take inspiration for their looks from the fashion idol, with their own personal flair of creativity. The second round will feature outfits from various randomly assigned movies. Break a heel!\n\nRound 1: \nEach team of 4-6 people will be randomly assigned a fashion icon from the 20th or 21st century upon registration (through your registration confirmation email). You must recreate their most iconic looks (which looks you pick is your choice). Please note that it is not necessary to create the look exactly, we are looking for outfits that are inspired by them with your own touch of creativity\n\nRound 2: \nAfter elimination there will be a second round on the next day. Based on the points from the first round, teams will be able to choose one of the following movies for their recreations:\nGrease (1978)\nJodha Akbar (2013)\nAlice in Wonderland (2010)\nAladdin (2019)\nStar Wars (2002 to 2008)\nCleopatra (1963)\nThe Great Gatsby (2013)\nYou will also be given a location to get ready in prior to the start of the event. Good luck!\n\nRules: \n- Do not wear overly revealing clothes like cropped tops.\n- Avoid Sheer or see-through materials.\n- Do not wear excessively short skirts or dresses.\n\n\nTeam Size: 4-6 people",
+            about:
+                "Strut the runway starring as the most legendary fashion icons of the 20th and 21st century. Each team will randomly be assigned an icon, from Bowie to Madonna, and must take inspiration for their looks from the fashion idol, with their own personal flair of creativity. The second round will feature outfits from various randomly assigned movies. Break a heel!\n\nRound 1: \nEach team of 4-6 people will be randomly assigned a fashion icon from the 20th or 21st century upon registration (through your registration confirmation email). You must recreate their most iconic looks (which looks you pick is your choice). Please note that it is not necessary to create the look exactly, we are looking for outfits that are inspired by them with your own touch of creativity\n\nRound 2: \nAfter elimination there will be a second round on the next day. Based on the points from the first round, teams will be able to choose one of the following movies for their recreations:\nGrease (1978)\nJodha Akbar (2013)\nAlice in Wonderland (2010)\nAladdin (2019)\nStar Wars (2002 to 2008)\nCleopatra (1963)\nThe Great Gatsby (2013)\nYou will also be given a location to get ready in prior to the start of the event. Good luck!\n\nRules: \n- Do not wear overly revealing clothes like cropped tops.\n- Avoid Sheer or see-through materials.\n- Do not wear excessively short skirts or dresses.\n\n\nTeam Size: 4-6 people",
             location: "ICSE New Auditorium",
             registrations: "https://forms.gle/5KdTukPT5AyyfdvH9",
             inSite: false),

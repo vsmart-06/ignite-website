@@ -4,14 +4,14 @@ import 'package:ignite_2023/widgets/navigation_bar.dart';
 import 'package:ignite_2023/widgets/item_card.dart';
 import "package:ignite_2023/widgets/footer.dart";
 
-class Merchandise extends StatefulWidget {
-  const Merchandise({super.key});
+class Sponsors extends StatefulWidget {
+  const Sponsors({super.key});
 
   @override
-  State<Merchandise> createState() => _MerchandiseState();
+  State<Sponsors> createState() => _SponsorsState();
 }
 
-class _MerchandiseState extends State<Merchandise> {
+class _SponsorsState extends State<Sponsors> {
   String? fontMain = GoogleFonts.ebGaramond().fontFamily;
   ScrollController scroller = ScrollController();
 
@@ -37,7 +37,9 @@ class _MerchandiseState extends State<Merchandise> {
                   child: Text(
                     "IGNITE's Sponsors",
                     style: TextStyle(
-                        fontSize: 50, color: Colors.white, fontFamily: fontMain),
+                        fontSize: 50,
+                        color: Colors.white,
+                        fontFamily: fontMain),
                     textAlign: TextAlign.center,
                   ),
                 ),
@@ -51,7 +53,8 @@ class _MerchandiseState extends State<Merchandise> {
                         ItemCard(
                             image: "https://i.imgur.com/8KMfaFu.jpg",
                             name: "Athena Education",
-                            backside: "We are striving to transform the academic landscape through holistic education consulting. We help students navigate their journey to the top universities across the globe.",
+                            backside:
+                                "We are striving to transform the academic landscape through holistic education consulting. We help students navigate their journey to the top universities across the globe.",
                             width: 300,
                             height: 350,
                             color: Colors.orange,
@@ -59,7 +62,8 @@ class _MerchandiseState extends State<Merchandise> {
                         ItemCard(
                             image: "https://i.imgur.com/1Ic5HMM.png",
                             name: "Quest For Success",
-                            backside: "Quest For Success offers comprehensive classroom preparation programs for tests such as PSAT | SAT | ACT | AP | UCAT | IB | IGCSE & we also help students with undergraduate admissions counselling.",
+                            backside:
+                                "Quest For Success offers comprehensive classroom preparation programs for tests such as PSAT | SAT | ACT | AP | UCAT | IB | IGCSE & we also help students with undergraduate admissions counselling.",
                             width: 300,
                             height: 350,
                             color: Colors.orange,
@@ -70,7 +74,8 @@ class _MerchandiseState extends State<Merchandise> {
                 ),
                 Padding(
                     padding: EdgeInsets.fromLTRB(100, 20, 100, 20),
-                    child: Divider(color: Colors.white, height: 1, thickness: 1)),
+                    child:
+                        Divider(color: Colors.white, height: 1, thickness: 1)),
                 Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Text(
@@ -107,7 +112,8 @@ class _MerchandiseState extends State<Merchandise> {
                   ),
                 ),
                 footer(
-                    MediaQuery.of(context).orientation == Orientation.landscape, context)
+                    MediaQuery.of(context).orientation == Orientation.landscape,
+                    context)
               ],
             ),
           ),
@@ -133,29 +139,36 @@ class _MerchandiseState extends State<Merchandise> {
                   child: Text(
                     "IGNITE's Sponsors",
                     style: TextStyle(
-                        fontSize: 50, color: Colors.white, fontFamily: fontMain),
+                        fontSize: 50,
+                        color: Colors.white,
+                        fontFamily: fontMain),
                     textAlign: TextAlign.center,
                   ),
                 ),
                 ItemCard(
-                    image: "https://i.imgur.com/8KMfaFu.jpg",
-                    name: "Athena Education",
-                    backside: "We are striving to transform the academic landscape through holistic education consulting. We help students navigate their journey to the top universities across the globe.",
-                    width: 300,
-                    height: 350,
-                    color: Colors.orange,
-                            back: false,),
+                  image: "https://i.imgur.com/8KMfaFu.jpg",
+                  name: "Athena Education",
+                  backside:
+                      "We are striving to transform the academic landscape through holistic education consulting. We help students navigate their journey to the top universities across the globe.",
+                  width: 300,
+                  height: 350,
+                  color: Colors.orange,
+                  back: false,
+                ),
                 ItemCard(
-                    image: "https://i.imgur.com/1Ic5HMM.png",
-                    name: "Quest For Success",
-                    backside: "Quest For Success offers comprehensive classroom preparation programs for tests such as PSAT | SAT | ACT | AP | UCAT | IB | IGCSE & we also help students with undergraduate admissions counselling.",
-                    width: 300,
-                    height: 350,
-                    color: Colors.orange,
-                            back: false,),
+                  image: "https://i.imgur.com/1Ic5HMM.png",
+                  name: "Quest For Success",
+                  backside:
+                      "Quest For Success offers comprehensive classroom preparation programs for tests such as PSAT | SAT | ACT | AP | UCAT | IB | IGCSE & we also help students with undergraduate admissions counselling.",
+                  width: 300,
+                  height: 350,
+                  color: Colors.orange,
+                  back: false,
+                ),
                 Padding(
                     padding: EdgeInsets.fromLTRB(100, 20, 100, 20),
-                    child: Divider(color: Colors.white, height: 1, thickness: 1)),
+                    child:
+                        Divider(color: Colors.white, height: 1, thickness: 1)),
                 Padding(
                   padding: const EdgeInsets.all(20.0),
                   child: Text(
@@ -191,7 +204,8 @@ class _MerchandiseState extends State<Merchandise> {
                       back: true),
                 ),
                 footer(
-                    MediaQuery.of(context).orientation == Orientation.landscape, context)
+                    MediaQuery.of(context).orientation == Orientation.landscape,
+                    context)
               ],
             ),
           ),
