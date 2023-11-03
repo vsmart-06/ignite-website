@@ -10,7 +10,7 @@ class HourlyCard extends StatefulWidget {
   bool? isOpen;
   DateTime? openTime;
   
-  HourlyCard({super.key, required this.name, required this.link, required this.isOpen, required this.openTime});
+  HourlyCard({super.key, required this.name, this.link, required this.isOpen, required this.openTime});
 
   @override
   State<HourlyCard> createState() => _HourlyCardState();
@@ -33,10 +33,10 @@ class _HourlyCardState extends State<HourlyCard> {
               shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                   RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20))),
-              fixedSize: MaterialStateProperty.all<Size>(Size(MediaQuery.of(context).size.width * 0.8, 200))),
-          onPressed: () {
+              fixedSize: MaterialStateProperty.all<Size>(Size(MediaQuery.of(context).size.width * 0.8, 300))),
+          onPressed: (widget.link != null) ? () {
             window.open(widget.link!, widget.name!);
-          },
+          } : null,
           onHover: (hover) {
             hover
                 ? setState(() {
