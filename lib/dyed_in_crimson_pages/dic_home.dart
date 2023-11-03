@@ -64,7 +64,7 @@ class DICHome extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.fromLTRB(50, 10, 50, 20),
                     child: Text(
-                      "→ Participants have to register individually\n→ Participants are not to tamper with on site evidence\n→ Participants may not leak evidence to other participants\n→ Final suspect submission form opens at 2:00 p.m, Sunday (November 4th, 2023) and will close by 4:00 p.m on the same day",
+                      "→ Participants have to register individually\n→ Participants are not to tamper with on site evidence\n→ Participants may not leak evidence to other participants\n→ Final suspect submission form opens at 2:00 p.m, Saturday (November 4th, 2023) and will close by 4:00 p.m on the same day",
                       style: TextStyle(
                           color: Colors.white,
                           fontFamily: fontMain,

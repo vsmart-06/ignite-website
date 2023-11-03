@@ -37,7 +37,7 @@ class DICUpdates extends StatelessWidget {
                   )
                 ),
                 HourlyCard(name: "Threat Letter To William", link: "https://drive.google.com/file/d/1ZZI_Pv5YpgJ-9-zVPzp8Pp6Lx7laqTj4/view?usp=sharing", isOpen: true, openTime: DateTime(2023, 11, 3, 9, 30),),
-                HourlyCard(name: "Protected Text Conversations", link: "https://drive.google.com/drive/folders/1lnQ2JButt0DZf8irbDY_YK0TrhyGK6V0?usp=drive_link", isOpen: false, openTime: DateTime(2023, 11, 3, 10, 30),),
+                HourlyCard(name: "Protected Text Conversations", link: "https://drive.google.com/drive/folders/1lnQ2JButt0DZf8irbDY_YK0TrhyGK6V0?usp=drive_link", isOpen: true, openTime: DateTime(2023, 11, 3, 10, 30),),
                 HourlyCard(name: "Blood Vial Case Report", link: "https://drive.google.com/file/d/12XJZ55JOV1GEJqx8eukaHdrn69oWYDGo/view?usp=drive_link", isOpen: false, openTime: DateTime(2023, 11, 3, 12, 0),),
                 HourlyCard(name: "The Sorrow of The Families", link: "https://www.youtube.com/watch?v=r9ijT2uq57w", isOpen: false, openTime: DateTime(2023, 11, 3, 13, 30),),
                 HourlyCard(name: "Interview Question", link: "https://docs.google.com/forms/d/e/1FAIpQLSf9D2rPtFXkPixWq8hkxHucla9pKs7cL2lUUDHtd-muBEuM_g/viewform?usp=sharing", isOpen: false, openTime: DateTime(2023, 11, 3, 14, 45),),
