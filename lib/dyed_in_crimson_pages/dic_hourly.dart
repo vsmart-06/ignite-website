@@ -3,6 +3,7 @@ import "package:ignite_2023/dyed_in_crimson_widgets/hourly_clue.dart";
 import "package:ignite_2023/dyed_in_crimson_widgets/navigation_bar.dart";
 import "package:ignite_2023/dyed_in_crimson_widgets/footer.dart";
 import "package:google_fonts/google_fonts.dart";
+import "package:ignite_2023/widgets/item_card.dart";
 
 class DICUpdates extends StatelessWidget {
   const DICUpdates({super.key});
@@ -46,8 +47,30 @@ class DICUpdates extends StatelessWidget {
                 HourlyCard(name: "Sebastian's Interview", link: "https://drive.google.com/file/d/1frB3DudwpKmtk7GoQcuIIZGnPmPEzdI8/view?usp=drive_link", isOpen: false, openTime: DateTime(2023, 11, 4, 8, 30),),
                 HourlyCard(name: "Viola's Interview", link: "https://drive.google.com/file/d/1aqhZuG0xTHXp0YmzGBdfTa24yTkkAJVC/view?usp=drive_link", isOpen: false, openTime: DateTime(2023, 11, 4, 8, 30),),
                 HourlyCard(name: "Nikolai's Interview", link: "https://drive.google.com/file/d/16EKvFOXZQsnkEnMnxcZe2Cu_9s7O8E8M/view?usp=drive_link", isOpen: false, openTime: DateTime(2023, 11, 4, 8, 30),),
-                HourlyCard(name: "The clues for The Sorrow of The Families can be found at Westminster Abbey", isOpen: false, openTime: DateTime(2023, 11, 4, 8, 30),),
-                HourlyCard(name: "The password to the protected texts is the first name of the person of the file name's corresponding contact card", isOpen: false, openTime: DateTime(2023, 11, 4, 8, 30),),
+                Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: ItemCard(
+                      name: "Hint 1",
+                      backside:
+                          "The clues for The Sorrow of The Families can be found at Westminster Abbey",
+                      width: MediaQuery.of(context).size.width * 0.8,
+                      height: 500,
+                      color: Color(0xFF8B0000),
+                      back: false,
+                  )
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: ItemCard(
+                      name: "Hint 2",
+                      backside:
+                          "The password to the protected texts is the first name of the person of the file name's corresponding contact card",
+                      width: MediaQuery.of(context).size.width * 0.8,
+                      height: 500,
+                      color: Color(0xFF8B0000),
+                      back: false,
+                  )
+                ),
                 HourlyCard(name: "Blueprints In Ophelia's hand", link: "https://drive.google.com/file/d/1h31SM0Fir-dMsW4LeeYaujzMvkUjVZ6Q/view?usp=drive_link", isOpen: false, openTime: DateTime(2023, 11, 4, 10, 30),),
                 HourlyCard(name: "Blueprints Case File", link: "https://drive.google.com/file/d/1or0BoWR2uOwGF4QST35o5dRQ_aJcBgmr/view?usp=sharing", isOpen: false, openTime: DateTime(2023, 11, 4, 10, 30),),
                 HourlyCard(name: "Elise and Evelyn's Outing", link: "https://www.youtube.com/watch?v=ydRP-VdWf6I", isOpen: false, openTime: DateTime(2023, 11, 4, 12, 0),),

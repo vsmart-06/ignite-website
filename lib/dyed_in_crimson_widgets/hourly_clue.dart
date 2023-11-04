@@ -33,7 +33,7 @@ class _HourlyCardState extends State<HourlyCard> {
               shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                   RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20))),
-              fixedSize: MaterialStateProperty.all<Size>(Size(MediaQuery.of(context).size.width * 0.8, 300))),
+              fixedSize: MaterialStateProperty.all<Size>(Size(MediaQuery.of(context).size.width * 0.8, 500))),
           onPressed: (widget.link != null) ? () {
             window.open(widget.link!, widget.name!);
           } : null,
